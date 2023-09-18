@@ -46,7 +46,7 @@ function Body() {
                 ) : (
                   <li className={styles.nothing}>
                   </li>
-                )};
+                )}
 
 
 
@@ -84,6 +84,7 @@ function Body() {
                   <Image
                     className={styles.avatar_image_deo}
                     width={50}
+                    
                     height={50}
                     alt="avatar"
                     src="/Deo.jpg">
@@ -121,12 +122,12 @@ function Body() {
                 </li>
               </ul>
 
-              <li class={styles.name_and_emails_item}>
+              <li className={styles.name_and_emails_item}>
                 <div>
-                  <p class={styles.name}>Astrum Stellar</p>
+                  <p className={styles.name}>Astrum Stellar</p>
                 </div>
 
-                <div class={styles.emails}>
+                <div className={styles.emails}>
                   <p>deo_singiza@hotmail.com </p>
                   <p>astrumstellar@gmail.com </p>
                   <p>astrular@astrumstellar.com </p>
@@ -238,13 +239,13 @@ function Body() {
             </ul>
 
 
-            <ol class={styles.tabber}>
+            <ol className={styles.tabber}>
 
               <ul className={styles.tabber_wrapper}>
 
 
                 <li className={styles.description_item}>
-                  <p class={styles.description}>
+                  <p className={styles.description}>
                     I specialize in crafting immersive websites and applications that resonate with your target audience. Deliver cost-effective options that rival mainstream applications. Empower yourself with easy and affordable access to web services, apps, designs, and blueprints.
                   </p>
                 </li>
@@ -310,7 +311,7 @@ function Body() {
                   </li>
                 </ul>
                 <ul>
-                  <li class={styles.thank_you}>
+                  <li className={styles.thank_you}>
                     <p >Thank you for visiting astrumstellar.com!</p>
                   </li>
                 </ul>
@@ -600,12 +601,12 @@ function Body() {
 
                 <div className={styles.compare}>
                   <div className={styles.span_divider_parent}>
-                    <div class={styles.span_divider_wrapper}>
-                      <span class={styles.span_1}></span>
-                      <span class={styles.span_2}></span>
-                      <span class={styles.span_3}></span>
-                      <span class={styles.span_4}></span>
-                      <span class={styles.span_5}></span>
+                    <div className={styles.span_divider_wrapper}>
+                      <span className={styles.span_1}></span>
+                      <span className={styles.span_2}></span>
+                      <span className={styles.span_3}></span>
+                      <span className={styles.span_4}></span>
+                      <span className={styles.span_5}></span>
                     </div>
                   </div>
                   <div className={styles.we_offer}>
