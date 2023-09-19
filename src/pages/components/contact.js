@@ -19,7 +19,7 @@ const Posts = () => {
       message
     };
     
-    fetch('/php/send-email.php', {
+    fetch('/api/send-email', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

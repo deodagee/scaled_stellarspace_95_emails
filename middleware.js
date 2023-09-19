@@ -1,4 +1,4 @@
-import { withAuth } from 'next-auth/middleware';
+      import { withAuth } from 'next-auth/middleware';
 
 // Custom middleware for authentication
 const authMiddleware = withAuth({
