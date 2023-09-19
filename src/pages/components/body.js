@@ -20,6 +20,17 @@ function Body() {
     setDisplayUI('group_52374_2');
     setClickedButton('group_52374_2');
   };
+
+  const togglePopup = () => {
+    const popup = document.getElementById("popup");
+    if (popup.style.display === "block") {
+      popup.style.display = "none";
+    } else {
+      popup.style.display = "block";
+    }
+  }
+
+
   return (
     <>
 
@@ -80,16 +91,32 @@ function Body() {
                   </Image>
                   <p className={styles.avatar_image_list_item_paragraph} >HTML & CSS</p>
                 </li>
+                
+                <ul className={styles.avatar_image_list_item_and_name_and_emails_item}>
                 <li className={`${styles.avatar_image_list_item} ${styles.avatar_image_list_item_deo}`}>
                   <Image
                     className={styles.avatar_image_deo}
                     width={50}
-                    
+
                     height={50}
                     alt="avatar"
                     src="/Deo.jpg">
                   </Image>
                 </li>
+                <li className={styles.name_and_emails_item}>
+                <div>
+                  <p className={styles.name}>Astrum Stellar</p>
+                </div>
+
+                <div className={styles.emails}>
+                  <p>deo_singiza@hotmail.com </p>
+                  <p>astrumstellar@gmail.com </p>
+                  <p>astrular@astrumstellar.com </p>
+                  <p className={styles.phone_number}>(519)-965-9128</p>
+                </div>
+              </li>
+              </ul>
+                
                 <li className={styles.avatar_image_list_item}>
                   <Image
                     className={styles.avatar_image}
@@ -122,93 +149,152 @@ function Body() {
                 </li>
               </ul>
 
-              <li className={styles.name_and_emails_item}>
-                <div>
-                  <p className={styles.name}>Astrum Stellar</p>
-                </div>
 
-                <div className={styles.emails}>
-                  <p>deo_singiza@hotmail.com </p>
-                  <p>astrumstellar@gmail.com </p>
-                  <p>astrular@astrumstellar.com </p>
-                  <p className={styles.phone_number}>(519)-965-9128</p>
-                </div>
-              </li>
-
+              <ul className={styles.credentials}>
+                  <li className={styles.visualstudio_logo}>
+                    <Image
+                      className={styles.credentials_image}
+                      width={50}
+                      height={50}
+                      alt="logo"
+                      src="/visualstudio.jpg"
+                    >
+                    </Image>
+                  </li>
+                  <li className={styles.photoshop_logo}>
+                    <Image
+                      className={styles.credentials_image}
+                      width={50}
+                      height={50}
+                      alt="logo"
+                      src="/photoshop.jpg"
+                    >
+                    </Image>
+                  </li>
+                  <li className={styles.soundcloud_logo}>
+                    <Image
+                      className={styles.credentials_image}
+                      width={50}
+                      height={50}
+                      alt="logo"
+                      src="/soundcloud.jpg"
+                    >
+                    </Image>
+                  </li>
+                  <li className={styles.upwork_logo}>
+                    <Image
+                      className={styles.credentials_image}
+                      width={50}
+                      height={50}
+                      alt="logo"
+                      src="/upwork.jpg"
+                    >
+                    </Image>
+                  </li>
+                  <li className={styles.prisma_logo}>
+                    <Image
+                      className={styles.credentials_image}
+                      width={50}
+                      height={50}
+                      alt="logo"
+                      src="/prisma.jpg"
+                    >
+                    </Image>
+                  </li>
+                  <li className={styles.fl_studio_logo}>
+                    <Image
+                      className={styles.credentials_image}
+                      width={50}
+                      height={50}
+                      alt="logo"
+                      src="/flstudio.jpg"
+                    >
+                    </Image>
+                  </li>
+                  <li className={styles.sql_logo}>
+                    <Image
+                      className={styles.credentials_image}
+                      width={50}
+                      height={50}
+                      alt="logo"
+                      src="/sql.jpg"
+                    >
+                    </Image>
+                  </li>
+                </ul>
             </ul>
 
-            <ul className={styles.credentials}>
-              <li className={styles.visualstudio_logo}>
-                <Image
-                  className={styles.credentials_image}
-                  width={50}
-                  height={50}
-                  alt="logo"
-                  src="/visualstudio.jpg"
-                >
-                </Image>
-              </li>
-              <li className={styles.photoshop_logo}>
-                <Image
-                  className={styles.credentials_image}
-                  width={50}
-                  height={50}
-                  alt="logo"
-                  src="/photoshop.jpg"
-                >
-                </Image>
-              </li>
-              <li className={styles.soundcloud_logo}>
-                <Image
-                  className={styles.credentials_image}
-                  width={50}
-                  height={50}
-                  alt="logo"
-                  src="/soundcloud.jpg"
-                >
-                </Image>
-              </li>
-              <li className={styles.upwork_logo}>
-                <Image
-                  className={styles.credentials_image}
-                  width={50}
-                  height={50}
-                  alt="logo"
-                  src="/upwork.jpg"
-                >
-                </Image>
-              </li>
-              <li className={styles.prisma_logo}>
-                <Image
-                  className={styles.credentials_image}
-                  width={50}
-                  height={50}
-                  alt="logo"
-                  src="/prisma.jpg"
-                >
-                </Image>
-              </li>
-              <li className={styles.fl_studio_logo}>
-                <Image
-                  className={styles.credentials_image}
-                  width={50}
-                  height={50}
-                  alt="logo"
-                  src="/flstudio.jpg"
-                >
-                </Image>
-              </li>
-              <li className={styles.sql_logo}>
-                <Image
-                  className={styles.credentials_image}
-                  width={50}
-                  height={50}
-                  alt="logo"
-                  src="/sql.jpg"
-                >
-                </Image>
-              </li>
-            </ul>
+            <ol className={styles.top_main_header_and_paragraphs} >
+              <ul className={styles.top_main_header}>
+                <li>
+                  <h1 className={styles.top_main_header_header1}>Stellar Space Plans</h1>
+                </li>
+                <li>
+                  <h2 className={styles.top_main_header_header2}>Deals That Make Sense</h2>
+                </li>
+                <li>
+                  <Link className={styles.contact_page_link} href={'/contact'}><h2 className={styles.top_main_header_button}>Contact</h2></Link>
+                </li>
+              </ul>
+              <ul className={styles.top_main_paragraphs}>
+                <li>
+                  <Image
+                    className={styles.top_main_icons_target}
+                    width={50}
+                    height={50}
+                    alt="logo"
+                    src="/target.png"
+                  >
+                  </Image>
+                  <p className={styles.top_main_header_paragraph1}>Picking and Choosing</p>
+                  <p className={styles.top_main_header_paragraph2}>For Individuals and Businesses alike, if you need help picking a plan, send a request through the <Link className={styles.contact_page_link} href={"/contact"}>Contact</Link> page. Otherwise choose a plan, and click on &quot;Get Started&quot; to send me an order. This is not a payment gate; please allow  1-2 business days for a reply first, so we can get started.</p>
+                </li>
+                <li>
+                  <Image
+                    className={styles.top_main_icons_chip}
+                    width={50}
+                    height={50}
+                    alt="logo"
+                    src="/chip.png"
+                  >
+                  </Image>
+                  <p className={styles.top_main_header_paragraph1}>Payments</p>
+                  <p className={styles.top_main_header_paragraph2}>You don&apos;t pay anything until we&apos;ve got your plans sorted out. This means that until you have the rough design in your hands, you don&apos;t have to worry about spending a dime. Click <button onClick={togglePopup}> <p className={styles.contact_page_link}> Rough Designs</p></button> for more information.</p>
+                  
+                  <p id="popup" className={styles.popup}>
+                    <p className={styles.popupContent}>
+                    Rough Design: It consists of a visual blueprint, depicting the basic elements, design and layout of the project. With stellarspace, your rough design comes free of charge. You may request html, javascript , css, png, pdf, doc, .blend , .wav, mp3, type files and more. Please alow up to 3 business days for a rough design to be send out back to you.
+                    </p>
+                    <button  onClick={togglePopup}> <p className={styles.button_toggle_close_paragraph}>Close </p></button>
+                  </p>
+                </li>
+                <li>
+                  <Image
+                    className={styles.top_main_icons_mountain}
+                    width={50}
+                    height={50}
+                    alt="logo"
+                    src="/mountain.png"
+                  >
+                  </Image>
+                  <p className={styles.top_main_header_paragraph1}>Premium plans</p>
+                  <p className={styles.top_main_header_paragraph2}> <Link className={styles.contact_page_link} href={"/eplus"}> Premium </Link> plans for those that need more. Cover yourself with at least 8GB of ram space.</p>
+                </li>
+                <li>
+                  <Image
+                    className={styles.top_main_icons_features}
+                    width={50}
+                    height={50}
+                    alt="logo"
+                    src="/gears.png"
+                  >
+                  </Image>
+                  <p className={styles.top_main_header_paragraph1}>Features</p>
+                  <p className={styles.top_main_header_paragraph2}>Get all the features listed, and more. Please send any specian requests through the <Link className={styles.contact_page_link} href={"/contact"}>contact</Link> page</p>
+                </li>
+              </ul>
+
+            </ol>
 
 
             <ul className={styles.essentials_list}>
@@ -356,10 +442,10 @@ function Body() {
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
-                  alt="image"
+                    alt="image"
                     src={"/bgwhole1.jpg"}
-                    width={50}
-                    height={50}
+                    width={100}
+                    height={100}
                   ></Image>
                 </li>
 
@@ -367,9 +453,8 @@ function Body() {
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole2.jpg"}
                     alt="image"
-
-                    width={50}
-                    height={50}
+                    width={100}
+                    height={100}
                   ></Image>
                 </li>
 
@@ -377,35 +462,35 @@ function Body() {
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole3.jpg"}
                     alt="image"
-                    width={50}
-                    height={50}
+                    width={100}
+                    height={100}
                   ></Image>
                 </li>
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole4.jpg"}
-                    width={50}
                     alt="image"
-                    height={50}
+                    width={100}
+                    height={100}
                   ></Image>
                 </li>
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole5.jpg"}
-                    width={50}
                     alt="image"
-                    height={50}
+                    width={100}
+                    height={100}
                   ></Image>
                 </li>
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole6.jpg"}
-                    width={50}
                     alt="image"
-                    height={50}
+                    width={100}
+                    height={100}
                   ></Image>
                 </li>
 
@@ -421,35 +506,35 @@ function Body() {
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole8.jpg"}
-                    width={50}
                     alt="image"
-                    height={50}
+                    width={100}
+                    height={100}
                   ></Image>
                 </li>
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole9.jpg"}
-                    width={50}
                     alt="image"
-                    height={50}
+                    width={100}
+                    height={100}
                   ></Image>
                 </li>
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole10.jpg"}
-                    width={50}
                     alt="image"
-                    height={50}
+                    width={100}
+                    height={100}
                   ></Image>
                 </li>
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole11.jpg"}
-                    width={50}
-                    height={50}
+                    width={100}
+                    height={100}
                     alt="image"
                   ></Image>
                 </li>
@@ -457,12 +542,11 @@ function Body() {
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole12.jpg"}
-                    width={50}
-                    height={50}
+                    width={100}
+                    height={100}
                     alt="image"
                   ></Image>
                 </li>
-
               </ul>
             </ol>
 

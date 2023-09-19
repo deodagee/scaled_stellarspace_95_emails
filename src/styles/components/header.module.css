@@ -15,6 +15,8 @@
 /*  font-family: 'Teko', sans-serif;
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+
 .parent ul {
   list-style: none;
 }
@@ -126,23 +128,23 @@
   border-bottom: none;
   border-color: rgb(255, 255, 255);
   border-width: 2px;
-  gap: 8vw;
+  gap: 12vw;
   width: 100vw;
   display: flex;
-  font-size: 12px;
-  font-family: 'Teko', sans-serif;
-  font-weight: 600;
+  font-size: 9px;
+  font-family: 'Skranji', cursive;
+    font-weight: 600;
   flex-direction: row;
   white-space: nowrap;
   align-items: center;
   justify-content: center;
   transition: 0.1s;
-  background-color: rgb(246, 246, 246);
+  background-color: rgb(24, 24, 24);
   padding: 5px;
-  padding-top: 9px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin-bottom: -1px;
-  color: rgb(140, 140, 140);
+  color: rgb(238, 238, 238);
 }
 
 .first_menubar p:hover {
@@ -161,8 +163,8 @@
   gap: 12vw;
   width: 100vw;
   display: flex;
-  font-size: 14px;
-  font-family: 'Teko', sans-serif;
+  font-size: 12px;
+  font-family: 'Skranji', cursive;
   font-weight: 700;
   flex-direction: row;
   white-space: nowrap;
@@ -177,15 +179,15 @@
   border-left: none;
   border-right: none;
   border-color: rgb(212, 212, 212);
-  color: rgb(47, 57, 71);
+  color: rgb(14, 26, 31);
   border-width: 1px;
   box-shadow: rgb(184, 184, 184) 0px 0px 6px;
 }
 
 .second_menubar:hover {
   transition: 0.05s;
-  color: rgb(255, 255, 255);
-  background-color: rgb(17, 22, 24);
+  color: rgb(241, 241, 241);
+  background-color: rgb(31, 39, 44);
 }
 
 .second_menubar p {
