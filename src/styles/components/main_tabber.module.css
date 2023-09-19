@@ -1,0 +1,21 @@
+.main_whole { 
+    background-color: rgba(0, 0, 0, 0.057);
+
+}
+
+
+.main_header { 
+position: static;
+
+
+}
+
+.main_static { 
+    padding-top: 0vh;
+
+}
+
+.main_footer { 
+    margin-top: 0vh;
+
+}
