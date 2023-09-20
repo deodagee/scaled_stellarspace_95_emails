@@ -16,7 +16,10 @@
   list-style: none;
 }
 
+
+
 .whole {
+  background-color: rgb(17, 17, 17);
   align-items: center;
   justify-content: center;
   width: 100vw;
@@ -467,15 +470,15 @@
 
   0%,
   100% {
-    color: rgb(30, 41, 46);
+    color: rgb(251, 251, 251);
   }
 
   33% {
-    color: rgba(255, 255, 255, 0);
+    color: rgb(227, 227, 227);
   }
 
   66% {
-    color: rgb(44, 49, 60);
+    color: rgb(255, 255, 255);
   }
 }
 
@@ -507,7 +510,7 @@
   font-size: 10px;
   font-weight: 600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(50, 71, 82);
+  color: rgb(238, 238, 238);
   transition: 0.5s;
   border-color: rgb(0, 206, 178);
   border-width: 2px;
@@ -517,7 +520,7 @@
 .essentials_list2 p:hover {
   transform: scale(1.04);
   transition: 0.5s;
-  color: rgb(28, 43, 47);
+  color: rgb(255, 255, 255);
 }
 
 .essentials_list, .essentials_list2 {
@@ -612,7 +615,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 13px;
   font-weight: 800;
-  color: rgb(137, 64, 0);
+  color: rgb(212, 212, 212);
   padding: 10px;
 }
 
@@ -623,10 +626,10 @@
 .bio_item {
   display: flex;
   flex-direction: column;
-  background-color: rgba(255, 143, 160, 0.071);
+  background-color: rgba(228, 228, 228, 0.071);
   padding: 10px;
   border-radius: 0.15rem;
-  box-shadow: rgba(33, 0, 0, 0.52) 0px 0px 10px;
+  box-shadow: rgba(50, 50, 50, 0.52) 0px 0px 10px;
   transition: 0.5s;
 }
 
@@ -648,15 +651,14 @@ background-color: rgba(98, 98, 98, 0.307);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
   font-weight: 600;
-  color: rgb(7, 21, 30);
+  color: rgb(190, 190, 190);
   transition: 0.2s;
 }
 
 .bio_item span:hover {
   background-color: rgb(33, 33, 33);
-  color: rgb(255, 162, 0);
+  color: rgb(255, 255, 255);
   transition: 0.2s;
-  text-decoration: underline;
 }
 
 .bio_header {
@@ -683,12 +685,12 @@ background-color: rgba(98, 98, 98, 0.307);
   font-size: 10px;
   font-weight: 700;
   transition: 0.5s;
-  background-color: rgb(44, 44, 57);
+  background-color: rgb(226, 208, 0);
   text-decoration: underline;
   border-width: 0.5px;
   border-color: rgba(255, 255, 255, 0.322);
   border-radius: 45px;
-  color: rgb(255, 255, 255);
+  color: rgb(42, 42, 42);
   white-space: nowrap;
   padding: 3px;
   padding-left: 10px;
@@ -728,7 +730,7 @@ background-color: rgba(98, 98, 98, 0.307);
   font-size: 10px;
   font-weight: 600;
   color: rgb(233, 233, 233);
-  background: linear-gradient(to top, #0c0e14d9, #1b2031cd, #191e2aca);
+  background: linear-gradient(to top, #0c0e14, #000002, #232323f1);
   padding: 10px 20px;
   cursor: pointer;
   width: 110px;
@@ -3284,7 +3286,7 @@ transform: scale(0.3);
 
   .name_and_emails_wrapper {
     margin-top: 280px;
-    width: 90vw;
+    width: 95vw;
   }
 
   .avatar_image_list_item_deo {
@@ -3293,10 +3295,12 @@ transform: scale(0.3);
   }
 
   .avatar_image_items {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    gap: 50px;
+    gap: 0px;
+    margin-right: 0;
+    flex-direction: row;
+    margin-top: 25px;
   }
+
 
 
   .avatar_image_list_item_paragraph {
@@ -3526,9 +3530,7 @@ transform: scale(0.3);
     font-size: 8px;
     white-space: nowrap;
   }
-
 }
-
 
 
 @media (min-width: 900px) and (max-width: 1000px) {
@@ -3571,10 +3573,9 @@ transform: scale(0.3);
     transform: scale(0.7);
   }
 
-
   .name_and_emails_wrapper {
     margin-top: 280px;
-    width: 90vw;
+    width: 95vw;
   }
 
   .avatar_image_list_item_deo {
@@ -3583,9 +3584,10 @@ transform: scale(0.3);
   }
 
   .avatar_image_items {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    gap: 50px;
+    gap: 0px;
+    margin-right: 0;
+    flex-direction: row;
+    margin-top: 25px;
   }
 
 
@@ -3602,9 +3604,7 @@ transform: scale(0.3);
     padding-right: 10px;
     border-radius: 45px;
     transition: background-color 0.4s, color 0.4s;
-    /* Transition for background-color and color */
     animation: backgroundCycle 6s infinite;
-    /* Animation to cycle through colors */
   }
 
 
@@ -3644,7 +3644,6 @@ transform: scale(0.3);
     font-size: 10px;
     font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
   }
 
 
@@ -3873,7 +3872,7 @@ transform: scale(0.3);
 
   .name_and_emails_wrapper {
     margin-top: 280px;
-    width: 90vw;
+    width: 95vw;
   }
 
   .avatar_image_list_item_deo {
@@ -3882,10 +3881,12 @@ transform: scale(0.3);
   }
 
   .avatar_image_items {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    gap: 50px;
+    gap: 0px;
+    margin-right: 0;
+    flex-direction: row;
+    margin-top: 25px;
   }
+
 
 
   .avatar_image_list_item_paragraph {

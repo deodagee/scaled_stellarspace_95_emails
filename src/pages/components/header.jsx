@@ -35,7 +35,7 @@ function Header() {
                   alt="signature"
                   width={90}
                   height={90}
-                  src={"/signatureblack.png"}
+                  src={"/signaturewhite.png"}
                 >
                 </Image>
               </li>

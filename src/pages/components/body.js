@@ -446,6 +446,8 @@ function Body() {
                     src={"/bgwhole1.jpg"}
                     width={100}
                     height={100}
+                    quality={100}
+
                   ></Image>
                 </li>
 
@@ -455,6 +457,7 @@ function Body() {
                     alt="image"
                     width={100}
                     height={100}
+                    quality={100}
                   ></Image>
                 </li>
 
@@ -464,6 +467,7 @@ function Body() {
                     alt="image"
                     width={100}
                     height={100}
+                    quality={100}
                   ></Image>
                 </li>
 
@@ -473,6 +477,7 @@ function Body() {
                     alt="image"
                     width={100}
                     height={100}
+                    quality={100}
                   ></Image>
                 </li>
 
@@ -482,6 +487,7 @@ function Body() {
                     alt="image"
                     width={100}
                     height={100}
+                    quality={100}
                   ></Image>
                 </li>
 
@@ -491,6 +497,7 @@ function Body() {
                     alt="image"
                     width={100}
                     height={100}
+                    quality={100}
                   ></Image>
                 </li>
 
@@ -500,6 +507,7 @@ function Body() {
                     width={50}
                     alt="image"
                     height={50}
+                    quality={100}
                   ></Image>
                 </li>
 
@@ -509,6 +517,7 @@ function Body() {
                     alt="image"
                     width={100}
                     height={100}
+                    quality={100}
                   ></Image>
                 </li>
 
@@ -518,6 +527,7 @@ function Body() {
                     alt="image"
                     width={100}
                     height={100}
+                    quality={100}
                   ></Image>
                 </li>
 
@@ -527,6 +537,7 @@ function Body() {
                     alt="image"
                     width={100}
                     height={100}
+                    quality={100}
                   ></Image>
                 </li>
 
@@ -536,6 +547,7 @@ function Body() {
                     width={100}
                     height={100}
                     alt="image"
+                    quality={100}
                   ></Image>
                 </li>
 
@@ -545,6 +557,7 @@ function Body() {
                     width={100}
                     height={100}
                     alt="image"
+                    quality={100}
                   ></Image>
                 </li>
               </ul>
