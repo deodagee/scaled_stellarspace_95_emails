@@ -22,6 +22,7 @@
 
 
 .pricing_page {
+  background-color: rgb(225, 225, 225);
   margin-bottom: 100px;
   width: 100vw;
   display: flex;
@@ -55,8 +56,8 @@
   padding-left: 70px;
   padding-right: 70px;
   border-radius: 0.45rem;
-  box-shadow: rgb(217, 217, 217) 0px 0px 10px;
-  background-color: rgb(243, 243, 243);
+  box-shadow: rgb(0, 0, 0) 0px 0px 10px;
+  background-color: rgb(18, 18, 18);
   display: flex;
   flex-direction: row;
   width: 90vw;
@@ -70,6 +71,7 @@
 .top_main_header_and_paragraphs:hover {
   transition: 0.4s;
   box-shadow: rgb(211, 211, 211) 0px 0px 5px;
+  transform: scale(1.02);
 }
 
 .top_main_header {
@@ -83,20 +85,22 @@
 
 .top_main_header_header1 {
   white-space: nowrap;
-  color: rgb(38, 38, 38);
+  color: rgb(222, 222, 222);
   font-size: 23px;
   padding-left: 10px;
   padding-right: 10px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 700;
+  transition: 0.6s;
 }
 
 .top_main_header_header2 {
   white-space: nowrap;
-  color: rgb(78, 118, 138);
+  color: rgb(94, 137, 159);
   font-size: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
+  transition: 0.6s;
 }
 
 .top_main_header_button {
@@ -149,6 +153,11 @@
   transition: 0.4s;
 }
 
+.top_main_icons_arrow { 
+margin-bottom: 10px;
+}
+
+
 .top_main_icons_features {
   border-radius: none;
   margin-top: 5px;
@@ -181,7 +190,7 @@
   font-size: 15px;
   font-weight: 700;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(46, 46, 46);
+  color: rgb(228, 228, 228);
 }
 
 .top_main_header_paragraph2 {
@@ -189,12 +198,17 @@
   font-size: 11px;
   font-weight: 500;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(46, 46, 46);
+  color: rgb(189, 189, 189);
 }
 
+.top_main_header_paragraph1:hover, .top_main_header_paragraph2:hover, .top_main_header_header1:hover { 
+  transition: 0.6s;
+  color: rgb(255, 255, 255);
+  transition: 0.3s;
+} 
 
 .toggle_button {
-  color: teal;
+  color: rgb(0, 179, 179);
 }
 
 .popup {

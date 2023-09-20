@@ -79,7 +79,7 @@ function Pricing() {
                   
                   <p id="popup" className={styles.popup}>
                     <p className={styles.popupContent}>
-                    Rough Design: It consists of a visual blueprint, depicting the basic elements, design and layout of the project. With stellarspace, your rough design comes free of charge. You may request html, javascript , css, png, pdf, doc, .blend , .wav, mp3, type files and more. Please alow up to 3 business days for a rough design to be send out back to you.
+                    Rough Design: It consists of a visual blueprint, depicting the basic elements, design and layout of your project. Your rough design comes free of charge. You may request html, javascript , css, png, pdf, doc, .blend , .wav, mp3, type files and more. Please alow up to 3 business days for a rough design to be send out back to you.
                     </p>
                     <button  onClick={togglePopup}> <p className={styles.button_toggle_close_paragraph}>Close </p></button>
                   </p>
@@ -109,8 +109,69 @@ function Pricing() {
                   <p className={styles.top_main_header_paragraph2}>Get all the features listed, and more. Please send any specian requests through the <Link className={styles.contact_page_link} href={"/contact"}>contact</Link> page</p>
                 </li>
               </ul>
-
             </ol>
+
+            <ol className={styles.top_main_header_and_paragraphs} >
+              <ul className={styles.top_main_header}>
+                <li>
+                  <h1 className={styles.top_main_header_header1}>How It Works</h1>
+                </li>
+                <li>
+                  <h2 className={styles.top_main_header_header2}> Choosing</h2>
+                </li>
+              </ul>
+              <ul className={styles.top_main_paragraphs}>
+                <li>
+                  <Image
+                    className={styles.top_main_icons_arrow}
+                    width="30px"
+                    height="10px"
+                    alt="logo"
+                    src="/flyingarrow.png"
+                  >
+                  </Image>
+                  <p className={styles.top_main_header_paragraph1}>1. Domains </p>
+                  <p className={styles.top_main_header_paragraph2}>Pick a name for your your website, and if it is available, you can select it as your personal domain. Free unused domains are usually up for purchase for around 18 Dollars.</p>
+                </li>
+                <li>
+                  <Image
+                    className={styles.top_main_icons_arrow}
+                    width="30px"
+                    height="10px"
+                    alt="logo"
+                    src="/flyingarrow.png"
+                  >
+                  </Image>
+                  <p className={styles.top_main_header_paragraph1}>2. Type of website </p>
+                  <p className={styles.top_main_header_paragraph2}>Websites come in three main catagories: Static, Dynamic, and Ecommerce. They can be confusing at first to understand, but their differences play a major role in both pricing and actual web functionality. Click <Link className={styles.contact_page_link} href={'/websitetypes'}>&quot;Websites&quot;</Link> for more details. If you don&apos;t know which one your site falls under or is better for your needs. Alternatively you can mention this in the contact page with your request so that I can send you a small questionaire to fill out that will determine the type of website you may need.</p>
+                </li>
+                <li>
+                  <Image
+                    className={styles.top_main_icons_arrow}
+                    width="30px"
+                    height="10px"
+                    alt="logo"
+                    src="/flyingarrow.png"
+                  >
+                  </Image>
+                  <p className={styles.top_main_header_paragraph1}>3. Bandwith -Incoming & Outgoing </p>
+                  <p className={styles.top_main_header_paragraph2}>Determine the level of bandwidth you know your site will need. If you don&apos;t know the amount of usage you will need, I will test your website for one billing cycle to determine your average usage amount, then fit you on the proper plan. Click <Link className={styles.contact_page_link} href={"/pricing"} >&quot;Usage&quot;</Link> for more information.</p>
+                </li>
+                <li>
+                  <Image
+                    className={styles.top_main_icons_arrow}
+                    width="30px"
+                    height="10px"
+                    alt="logo"
+                    src="/flyingarrow.png"
+                  >
+                  </Image>
+                  <p className={styles.top_main_header_paragraph1}>Features</p>
+                  <p className={styles.top_main_header_paragraph2}>Get all the features listed, and more. Please send any specian requests through the <Link className={styles.contact_page_link} href={"/contact"}>contact</Link> page</p>
+                </li>
+              </ul>
+            </ol>
+
             <ul className={styles.offered_list}>
               <Link href={"/services"}>
                 <li className={styles.offered_item}>
