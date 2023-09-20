@@ -1,3 +1,13 @@
+
+
+@media (width: 414px) and (height: 736px) and (orientation: portrait) {
+  .pricing_headers_list_wrapper {
+    margin-top: 200px;
+  }
+}
+
+
+
 .whole ul {
   list-style: none;
 }
