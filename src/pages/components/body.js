@@ -50,7 +50,7 @@ function Body() {
                       <Link
                         href="/services"
                       >
-                        <p>Congratulations! You&apos;ve earned a higher rebate for signing in. Send promo code: <span className={styles.promo_code}>&quot;STELLAR19950202&quot; </span> with your request to get 70% off</p>
+                        <p>Congratulations! You&apos;ve earned a higher rebate for signing in. Mention promo code: <span className={styles.promo_code}>&quot;STELLAR19950202&quot; </span> when you send your request to get 70% off</p>
                       </Link>
                     </li>
                   </>
@@ -590,7 +590,7 @@ function Body() {
                         <Link
                           href="/services"
                         >
-                          <p>Apply promo code <span className={styles.promo_code}>&quot;STELLAR19950202&quot; </span> to get 50% OFF</p>
+                          <p>Mention promo code <span className={styles.promo_code}>&quot;STELLAR19950202&quot; </span> to get 50% OFF</p>
                         </Link>
                       </li>
                     </>

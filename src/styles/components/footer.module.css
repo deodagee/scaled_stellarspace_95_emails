@@ -238,7 +238,6 @@ transform: scale(1.2);
   }
   
   .sections {
-    width: max-content;
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -335,7 +334,7 @@ transform: scale(1.2);
 
 
 
-@media (min-width: 400px) and (max-width: 800px) and (orientation: portrait) {
+@media (min-width: 400px) and (max-width: 800px) {
 
 
 
