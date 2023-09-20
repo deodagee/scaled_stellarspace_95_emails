@@ -3,9 +3,27 @@ import xsmStyles from "../../styles/components/header_xsm_mobile.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { useSession, signIn, signOut } from "next-auth/react"
-
+import React, { useState, useEffect } from 'react';
 
 function Header() {
+
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        setIsVisible(false);
+      } else {
+        setIsVisible(true);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   const { data: session } = useSession()
 
@@ -13,8 +31,7 @@ function Header() {
     <>
     
       <div className={`${styles.parent} ${xsmStyles.parent_xsm}`}>
-        <div className={`${styles.parent_wrapper} ${xsmStyles.parent_wrapper_xsm}`}>
-
+      <div className={`${styles.parent_wrapper} ${xsmStyles.parent_wrapper_xsm} ${isVisible ? '' : styles.parent_wrapper_margin}`}>
           <ol className={`${styles.logo__signature_and_button_parent} ${xsmStyles.logo__signature_and_button_parent_xsm}`}>
 
 
@@ -72,8 +89,9 @@ function Header() {
           </ol>
           <ol className={styles.menu_bars_wrapper}>
 
-            <ul className={`${styles.first_menubar} ${xsmStyles.first_menubar_xsm}`}>
-              <li className={styles.first_menubar_item}>
+
+          <ul className={`${styles.first_menubar} ${xsmStyles.first_menubar_xsm}`} style={{ display: isVisible ? 'inline-flex' : 'none' }}>              
+          <li className={styles.first_menubar_item}>
                 <Link href={'/sources'}>
                   <p className={styles.promo1}>
                     Private Domains

@@ -53,6 +53,12 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  transition: 0.6s;
+}
+
+.parent_wrapper_margin {
+  transition: 0.6s;
+  margin-top: -38px;
 }
 
 .logo__signature_and_button_parent {
@@ -112,6 +118,10 @@
   transform: scale(1.1);
 }
 
+.hide {
+  display: none;
+}
+
 .menu_bars_wrapper {
   gap: 1px;
   display: flex;
@@ -120,6 +130,7 @@
   align-items: center;
   justify-content: center;
 }
+
 
 .first_menubar {
   box-shadow: rgb(201, 201, 201) 0px 0px 5px;
@@ -139,12 +150,12 @@
   align-items: center;
   justify-content: center;
   transition: 0.1s;
-  background-color: rgb(24, 24, 24);
+  background-color: rgb(20, 0, 37);
   padding: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
   margin-bottom: -1px;
-  color: rgb(238, 238, 238);
+  color: rgb(220, 220, 220);
 }
 
 .first_menubar p:hover {
@@ -163,7 +174,7 @@
   gap: 12vw;
   width: 100vw;
   display: flex;
-  font-size: 12px;
+  font-size: 10px;
   font-family: 'Skranji', cursive;
   font-weight: 700;
   flex-direction: row;
@@ -171,7 +182,7 @@
   align-items: center;
   justify-content: center;
   transition: 0.05s;
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(24, 24, 24);
   padding: 5px;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -179,7 +190,7 @@
   border-left: none;
   border-right: none;
   border-color: rgb(212, 212, 212);
-  color: rgb(14, 26, 31);
+  color: rgb(246, 246, 246);
   border-width: 1px;
   box-shadow: rgb(184, 184, 184) 0px 0px 6px;
 }
