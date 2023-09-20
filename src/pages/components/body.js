@@ -290,7 +290,7 @@ function Body() {
                   >
                   </Image>
                   <p className={styles.top_main_header_paragraph1}>Features</p>
-                  <p className={styles.top_main_header_paragraph2}>Get all the features listed, and more. Please send any specian requests through the <Link className={styles.contact_page_link} href={"/contact"}>contact</Link> page</p>
+                  <p className={styles.top_main_header_paragraph2}>Get all the features listed, and more. Please send any special requests through the <Link className={styles.contact_page_link} href={"/contact"}>contact</Link> page. Thank You kindly.</p>
                 </li>
               </ul>
 
