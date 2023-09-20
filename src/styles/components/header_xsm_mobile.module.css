@@ -1,56 +1,51 @@
 @media (min-width: 200px) and (max-width: 300px) {
 
-  .parent_xsm {
-    display: flex;
-            position: fixed;
-    align-items: center;
-    justify-content: center;
-    background-color: #0c1215;
-    color: white;
-    width: 100vw;
-    margin-top: 48px;
-  }
-  
-  .parent_wrapper_xsm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: max-content;
-  }
-  
 
-    .logo__signature_and_button_parent_xsm {
+
+    .parent_xsm {
+        margin-top: 45px;
+        position: fixed;
         display: flex;
-        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: #0c1215;
+        color: white;
+        width: 100vw;
+      }
+      
+      .parent_wrapper_xsm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: max-content;
-        justify-content: space-between;
-        margin-bottom: 0;
-        gap: 0;
-    }
-
-    .logo_and_signature_xsm { 
-        display: flex;
-        flex-direction: row;
-        width: min-content;
-    }
-
-    .logo_item_xsm { 
-        margin: 5px;
-        margin-top: 0px;
-    }
-
-    .header_logo_xsm {
-        margin-left: 30px;
-        margin-top: 0px;
-
-    }
-
-    .header_signature_xsm {
-        margin-right: 50px;
-        width: 60px;
-        margin-top: 0px;
-        transform: scale(0.9);
-    }
+        margin-top: -10px;
+      }
+    
+        .logo__signature_and_button_parent_xsm {
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            justify-content: space-between;
+            margin-bottom: 0vh;
+            padding-left: 0vw;
+        }
+    
+        .logo_item_xsm { 
+            transform: scale(0.7);
+            margin: 5px;
+            margin-top: 0px;
+        }
+    
+        .header_logo_xsm {
+            margin-left: 25px;
+            margin-top: 0;
+        }
+    
+        .header_signature_xsm {
+            margin-left: 20px;
+            margin-top: 0px;
+            transform: scale(0.8);
+        }
 
     
     .first_menubar_xsm {
@@ -103,7 +98,7 @@
 
 @media (min-width: 300px) and (max-width: 400px){
     .parent_xsm {
-        margin-top: 50px;
+        margin-top: 40px;
         position: fixed;
         display: flex;
         align-items: center;
@@ -111,6 +106,7 @@
         background-color: #0c1215;
         color: white;
         width: 100vw;
+        padding-top: 10px;
       }
       
       .parent_wrapper_xsm {
@@ -120,6 +116,10 @@
         width: max-content;
         
       }
+
+      .parent_wrapper_margin_xsm {
+        transition: 0.6s;
+      }
     
         .logo__signature_and_button_parent_xsm {
             display: flex;
@@ -128,11 +128,12 @@
             justify-content: space-between;
             margin-bottom: 0vh;
             padding-left: 0vw;
+            margin-top: 10px;
         }
     
         .logo_item_xsm { 
             margin: 5px;
-            margin-top: 0px;
+            transform: scale(0.7);
         }
     
         .header_logo_xsm {
@@ -142,7 +143,7 @@
     
         .header_signature_xsm {
             margin-left: 20px;
-            margin-top: 0px;
+            margin-top: 5px;
             transform: scale(0.9);
         }
     
@@ -171,7 +172,7 @@
         }
     
         .buttons_xsm {
-            margin-top: 5px;
+            margin-top: 10px;
             display: flex;
             font-size: 10px;
             flex-direction: row;
@@ -486,6 +487,9 @@
         align-items: center;
         width: 100vw;
       }
+
+  
+      
 
       
 

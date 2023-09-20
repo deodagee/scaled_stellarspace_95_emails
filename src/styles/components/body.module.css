@@ -3340,6 +3340,16 @@
     font-size: 30px;
   }
 
+  .promo_message_first {
+    margin-top: -35px;
+    transform: scale(0.5);
+  }
+
+  .promo_message_first p {
+    width: 900px;
+    display: block;
+  }
+
   .avatar_image_list_item_deo {
     margin-bottom: 50px;
     position: absolute;
@@ -3633,6 +3643,16 @@
 
   .name {
     font-size: 30px;
+  }
+
+    .promo_message_first {
+    margin-top: -35px;
+    transform: scale(0.5);
+  }
+
+  .promo_message_first p {
+    width: 900px;
+    display: block;
   }
 
   .avatar_image_list_item_deo {
@@ -3929,6 +3949,16 @@
     font-size: 30px;
   }
 
+  .promo_message_first {
+    margin-top: -20px;
+    transform: scale(0.5);
+  }
+
+  .promo_message_first p {
+    width: 1000px;
+    display: block;
+  }
+
   .avatar_image_list_item_deo {
     margin-bottom: 50px;
     position: absolute;
@@ -4215,11 +4245,18 @@
     margin-top: 0vh;
     transform: scale(0.7);
   }
-
-
-
   .name {
     font-size: 30px;
+  }
+
+  .promo_message_first {
+    margin-top: -20px;
+    transform: scale(0.5);
+  }
+
+  .promo_message_first p {
+    width: 1000px;
+    display: block;
   }
 
   .avatar_image_list_item_deo {
@@ -4510,10 +4547,18 @@
     transform: scale(0.7);
   }
 
-
-
   .name {
     font-size: 30px;
+  }
+
+  .promo_message_first {
+    margin-top: -5px;
+    transform: scale(0.6);
+  }
+
+  .promo_message_first p {
+    width: 1000px;
+    display: block;
   }
 
   .avatar_image_list_item_deo {
@@ -4804,10 +4849,18 @@
     transform: scale(0.7);
   }
 
-
-
   .name {
     font-size: 30px;
+  }
+
+  .promo_message_first {
+    margin-top: -5px;
+    transform: scale(0.6);
+  }
+
+  .promo_message_first p {
+    width: 1000px;
+    display: block;
   }
 
   .avatar_image_list_item_deo {
@@ -5103,6 +5156,17 @@
   .name_and_emails_item {
     margin-top: 0vh;
     transform: scale(0.7);
+  }
+
+  .promo_message_first {
+    margin-left: -100px;
+    margin-top: -150px;
+    transform: scale(0.6);
+  }
+
+  .promo_message_first p {
+    width: 1000px;
+    display: block;
   }
 
 
@@ -5404,6 +5468,19 @@
     margin-top: 0vh;
     transform: scale(0.7);
   }
+
+
+  .promo_message_first {
+    margin-left: -100px;
+    margin-top: -150px;
+    transform: scale(0.6);
+  }
+
+  .promo_message_first p {
+    width: 1000px;
+    display: block;
+  }
+
 
 
 
@@ -5710,6 +5787,19 @@
     width: 95vw;
   }
 
+    .promo_message_first {
+    margin-left: -50px;
+    margin-top: -150px;
+    transform: scale(0.6);
+  }
+
+  .promo_message_first p {
+    width: 1000px;
+    display: block;
+  }
+
+
+
   .avatar_image_list_item_deo {
     margin-bottom: 70px;
     position: absolute;
@@ -6003,6 +6093,17 @@
   .name_and_emails_wrapper {
     margin-top: 280px;
     width: 95vw;
+  }
+
+  .promo_message_first {
+    margin-left: -50px;
+    margin-top: -150px;
+    transform: scale(0.6);
+  }
+
+  .promo_message_first p {
+    width: 1000px;
+    display: block;
   }
 
   .avatar_image_list_item_deo {
@@ -6304,6 +6405,17 @@
     width: 95vw;
   }
 
+  .promo_message_first {
+    margin-left: -25px;
+    margin-top: -150px;
+    transform: scale(0.7);
+  }
+
+  .promo_message_first p {
+    width: 1000px;
+    display: block;
+  }
+
   .avatar_image_list_item_deo {
     margin-bottom: 70px;
     position: absolute;
@@ -6595,6 +6707,17 @@
     width: 95vw;
   }
 
+  .promo_message_first {
+    margin-left: -10px;
+    margin-top: -150px;
+    transform: scale(0.7);
+  }
+
+  .promo_message_first p {
+    width: 1000px;
+    display: block;
+  }
+
   .avatar_image_list_item_deo {
     margin-bottom: 70px;
     position: absolute;
@@ -6884,6 +7007,17 @@
     width: 90vw;
   }
 
+  .promo_message_first {
+    margin-left: 50px;
+    margin-top: -150px;
+    transform: scale(0.7);
+  }
+
+  .promo_message_first p {
+    width: 1000px;
+    display: block;
+  }
+
   .avatar_image_list_item_deo {
     margin-bottom: 70px;
     position: absolute;
@@ -7165,6 +7299,18 @@
     margin-top: 280px;
     width: 90vw;
   }
+
+  .promo_message_first {
+    margin-left: 50px;
+    margin-top: -150px;
+    transform: scale(0.7);
+  }
+
+  .promo_message_first p {
+    width: 1000px;
+    display: block;
+  }
+
 
   .avatar_image_list_item_deo {
     margin-bottom: 70px;
@@ -7449,6 +7595,18 @@
     width: 95vw;
   }
 
+  .promo_message_first {
+    margin-left: 75px;
+    margin-top: -150px;
+    transform: scale(0.7);
+  }
+
+  .promo_message_first p {
+    width: 1000px;
+    display: block;
+  }
+
+
   .avatar_image_list_item_deo {
     margin-bottom: 70px;
     position: absolute;
@@ -7732,6 +7890,17 @@
   .name_and_emails_wrapper {
     margin-top: 280px;
     width: 95vw;
+  }
+
+  .promo_message_first {
+    margin-left: 75px;
+    margin-top: -150px;
+    transform: scale(0.7);
+  }
+
+  .promo_message_first p {
+    width: 1000px;
+    display: block;
   }
 
   .avatar_image_list_item_deo {
@@ -8019,6 +8188,17 @@
     width: 90vw;
   }
 
+  .promo_message_first {
+    margin-left: -20px;
+    margin-top: -150px;
+    transform: scale(0.7);
+  }
+
+  .promo_message_first p {
+    width: 1400px;
+    display: block;
+  }
+
   .avatar_image_list_item_deo {
     margin-bottom: 70px;
     position: absolute;
@@ -8303,6 +8483,17 @@
   .name_and_emails_wrapper {
     margin-top: 280px;
     width: 90vw;
+  }
+
+  .promo_message_first {
+    margin-left: -20px;
+    margin-top: -150px;
+    transform: scale(0.7);
+  }
+
+  .promo_message_first p {
+    width: 1400px;
+    display: block;
   }
 
   .avatar_image_list_item_deo {
@@ -8592,6 +8783,17 @@
     width: 90vw;
   }
 
+  .promo_message_first {
+    margin-left: 25px;
+    margin-top: -150px;
+    transform: scale(0.7);
+  }
+
+  .promo_message_first p {
+    width: 1400px;
+    display: block;
+  }
+
   .avatar_image_list_item_deo {
     margin-bottom: 70px;
     position: absolute;
@@ -8878,6 +9080,17 @@
   .name_and_emails_wrapper {
     margin-top: 280px;
     width: 90vw;
+  }
+
+  .promo_message_first {
+    margin-left: 25px;
+    margin-top: -150px;
+    transform: scale(0.7);
+  }
+
+  .promo_message_first p {
+    width: 1400px;
+    display: block;
   }
 
   .avatar_image_list_item_deo {

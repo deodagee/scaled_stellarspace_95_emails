@@ -32,7 +32,7 @@ function Header() {
     
       <div className={`${styles.parent} ${xsmStyles.parent_xsm}`}>
       <div className={`${styles.parent_wrapper} ${xsmStyles.parent_wrapper_xsm} ${isVisible ? '' : styles.parent_wrapper_margin}`}>
-          <ol className={`${styles.logo__signature_and_button_parent} ${xsmStyles.logo__signature_and_button_parent_xsm}`}>
+                          <ol className={`${styles.logo__signature_and_button_parent} ${xsmStyles.logo__signature_and_button_parent_xsm}`}>
 
 
             <ul className={`${styles.logo_and_signature} ${xsmStyles.logo_and_signature_xsm}`}>

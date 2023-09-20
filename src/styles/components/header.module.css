@@ -17,6 +17,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
 
+
+
+
+
 .parent ul {
   list-style: none;
 }
@@ -54,12 +58,15 @@
   justify-content: space-between;
   align-items: center;
   transition: 0.6s;
+  margin-top: -10px;
 }
+
 
 .parent_wrapper_margin {
   transition: 0.6s;
-  margin-top: -0px;
+  margin-top: -50px;
 }
+
 
 .logo__signature_and_button_parent {
   animation: textColorCycle_name 6s infinite;
