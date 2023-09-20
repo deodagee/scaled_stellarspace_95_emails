@@ -341,13 +341,13 @@ function Body() {
                   <h1 className={styles.bio_header}>Bio & Skills</h1>
                   <h1 className={styles.bio_header2}>Skills</h1>
 
-                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>2017</p><span>Diploma - Network Admin | CCNA, CCNP, & NET+</span></h1>
-                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>JAVASCRIPT</p><span>JavaScript is a versatile scripting language primarily used for adding interactivity and dynamic behavior to websites.</span></h1>
-                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>HTML</p><span>HTML is the language for structuring web content. </span></h1>
-                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>CSS</p><span>CSS is used to style and design how that content looks.</span></h1>
-                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>NextJs</p><span>Next.js is a React-based framework that provides development experience for building server-rendered, statically generated, and dynamically serving web applications.</span></h1>
-                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>SQL</p><span>SQL (Structured Query Language) is a programming language used for managing and manipulating relational databases.</span></h1>
-                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>PHP</p><span>PHP is a server-side scripting language commonly used for web development to create dynamic and interactive web applications.</span></h1>
+                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>Diploma</p><span> 2017: Network Admin | CCNA, CCNP, & NET+</span></h1>
+                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>JAVASCRIPT</p><span>JavaScript; a versatile scripting language primarily used for adding interactivity and dynamic behavior to websites.</span></h1>
+                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>HTML</p><span>HTML; a language for structuring web content. </span></h1>
+                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>CSS</p><span>CSS; used to style and design how that content looks.</span></h1>
+                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>NextJs</p><span>Next.js; a React-based framework that provides development experience for building server-rendered, statically generated, and dynamically serving web applications.</span></h1>
+                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>SQL</p><span>SQL (Structured Query Language);  a programming language used for managing and manipulating relational databases.</span></h1>
+                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>PHP</p><span>PHP; a server-side scripting language commonly used for web development to create dynamic and interactive web applications.</span></h1>
                 </ul>
 
 

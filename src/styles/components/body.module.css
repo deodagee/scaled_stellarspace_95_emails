@@ -55,13 +55,14 @@
 
 .name_and_emails_wrapper {
   margin-top: 240px;
-  width: max-content;
+  width: 100vw;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   border-width: 1px;
-  border-radius: 0.45rem;
+  border-left: none;
+  border-right: none;
   border-color: rgb(0, 255, 213);
   box-shadow: rgb(0, 107, 107) 0px 0px 5px;
   background-image: url("/bgwhole15.jpg");
@@ -1503,7 +1504,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 200px;
-    width: 95vw;
   }
 
   .credentials {
@@ -1803,7 +1803,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 200px;
-    width: 95vw;
   }
 
   .credentials {
@@ -2107,7 +2106,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 200px;
-    width: 95vw;
   }
 
   .credentials {
@@ -2411,7 +2409,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 250px;
-    width: 95vw;
   }
 
   .credentials {
@@ -2717,7 +2714,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 250px;
-    width: 95vw;
   }
 
   .credentials {
@@ -3018,7 +3014,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 250px;
-    width: 95vw;
   }
 
   .credentials {
@@ -3320,7 +3315,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 250px;
-    width: 95vw;
   }
 
   .credentials {
@@ -3625,7 +3619,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 250px;
-    width: 95vw;
   }
 
   .credentials {
@@ -3929,7 +3922,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 290px;
-    width: 95vw;
   }
 
   .credentials {
@@ -4232,7 +4224,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 290px;
-    width: 95vw;
   }
 
   .credentials {
@@ -4533,7 +4524,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 290px;
-    width: 95vw;
   }
 
   .credentials {
@@ -4835,7 +4825,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 290px;
-    width: 95vw;
   }
 
   .credentials {
@@ -5174,7 +5163,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 280px;
-    width: 95vw;
   }
 
   .avatar_image_list_item_deo {
@@ -5487,7 +5475,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 280px;
-    width: 95vw;
   }
 
   .avatar_image_list_item_deo {
@@ -5784,7 +5771,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 280px;
-    width: 95vw;
   }
 
     .promo_message_first {
@@ -6092,7 +6078,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 280px;
-    width: 95vw;
   }
 
   .promo_message_first {
@@ -6402,7 +6387,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 280px;
-    width: 95vw;
   }
 
   .promo_message_first {
@@ -6704,7 +6688,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 280px;
-    width: 95vw;
   }
 
   .promo_message_first {
@@ -7004,7 +6987,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 280px;
-    width: 90vw;
   }
 
   .promo_message_first {
@@ -7297,7 +7279,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 280px;
-    width: 90vw;
   }
 
   .promo_message_first {
@@ -7592,7 +7573,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 280px;
-    width: 95vw;
   }
 
   .promo_message_first {
@@ -7889,7 +7869,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 280px;
-    width: 95vw;
   }
 
   .promo_message_first {
@@ -8185,7 +8164,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 280px;
-    width: 90vw;
   }
 
   .promo_message_first {
@@ -8482,7 +8460,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 280px;
-    width: 90vw;
   }
 
   .promo_message_first {
@@ -8780,7 +8757,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 280px;
-    width: 90vw;
   }
 
   .promo_message_first {
@@ -9079,7 +9055,6 @@
 
   .name_and_emails_wrapper {
     margin-top: 280px;
-    width: 90vw;
   }
 
   .promo_message_first {
