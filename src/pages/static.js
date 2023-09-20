@@ -9,18 +9,9 @@ const inter = Inter({ subsets: ['latin'] })
 function StaticPage() {
   return (
     <>
-    <div className={styles.main_whole}>
-    <div className={styles.main_header}>
       <Header></Header>
-      </div>
-      <div className={styles.main_static}>
       <Static></Static>
-      </div>
-      <div className={styles.main_footer}>
       <Footer></Footer>
-      </div>
-      </div>
-
     </>
   )
 }
