@@ -1312,10 +1312,21 @@ padding-right: 50px;
 
 
 @media (min-width: 400px) and (max-width: 500px) {
+  .cocacola {
+    border-radius: 50%;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    transform: scale(0.9);
+    transition: 0.4s;
+  }
+
 
   .video_background_tag {
     transform: scale(0.9);
+    margin-bottom: 5vh;
   }
+
+  
 
   .pricing_headers_list {
     gap: 0;
@@ -1362,6 +1373,7 @@ padding-right: 50px;
     grid-auto-flow: dense;
     grid-template-columns: repeat(1, 1fr);
   }
+
 
   .top_main_header_header1 {
     font-size: 20px;
