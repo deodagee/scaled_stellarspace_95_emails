@@ -170,50 +170,12 @@ function Pricing() {
                 </li>
               </ul>
             </ol>
-
-            <ol className={styles.top_main_header_and_paragraphs} >
-              <ul className={styles.top_main_header}>
-                <li>
-                  <h1 className={styles.top_main_header_header1}>Fuly Featured</h1>
-                </li>
-                <li>
-                  <h2 className={styles.top_main_header_header2}> Stats Viewer</h2>
-                </li>
-              </ul>
-              <ul className={styles.top_main_paragraphs}>
-                <li>
-                  <Image
-                    className={styles.top_main_icons_arrow}
-                    width="30px"
-                    height="10px"
-                    alt="logo"
-                    src="/flyingarrow.png"
-                  >
-                  </Image>
-                  <p className={styles.top_main_header_paragraph1}>1. Domains </p>
-                  <p className={styles.top_main_header_paragraph2}>Pick a name for your your website, and if it is available, you can select it as your personal domain. Free unused domains are usually up for purchase for around 18 Dollars.</p>
-                </li>
-                <li>
-                  <Image
-                    className={styles.top_main_icons_arrow}
-                    width="30px"
-                    height="10px"
-                    alt="logo"
-                    src="/flyingarrow.png"
-                  >
-                  </Image>
-                  <p className={styles.top_main_header_paragraph1}>2. Type of website </p>
-                  <p className={styles.top_main_header_paragraph2}>Websites come in three main catagories: Static, Dynamic, and Ecommerce. They can be confusing at first to understand, but their differences play a major role in both pricing and actual web functionality. Click <Link className={styles.contact_page_link} href={'/websitetypes'}>&quot;Websites&quot;</Link> for more details. If you don&apos;t know which one your site falls under or is better for your needs. Alternatively you can mention this in the contact page with your request so that I can send you a small questionaire to fill out that will determine the type of website you may need.</p>
-                </li>
-              </ul>
-            </ol>
-
-
+            
             <div className={styles.top_main_header_group}>
             <ol className={styles.top_main_header_and_paragraphs_squared} >
               <ul className={styles.top_main_header}>
                 <li>
-                  <h1 className={styles.top_main_header_header1}>Fuly Featured</h1>
+                  <h1 className={styles.top_main_header_header1}>Fully Featured</h1>
                 </li>
                 <li>
                   <h2 className={styles.top_main_header_header2}> Stats Viewer</h2>
