@@ -12,9 +12,9 @@ function Static () {
             <div className={styles.everything_wrapper}>
 
             <div className={styles.pricing_headers_list_wrapper}>
-            <ul className={styles.pricing_headers_list}>
-                <Link href={'/static'}>
-              <li className={styles.tab_1}>
+            <ol className={styles.pricing_headers_list}>
+            <Link href={'/static'}>
+              <li className={styles.tab_2}>
                 <p>Static</p>
               </li>
               </Link>
@@ -42,22 +42,22 @@ function Static () {
                 <p>E-Plus</p>
               </li>
               </Link>
-            </ul>
+            </ol>
           </div>
 
 <div className={styles.frame_wrapper}>
-  <div className={styles.frame_402}>
+  <ol className={styles.frame_402}>
 
-    <div className={styles.title}>
+    <li className={styles.title}>
       <Link
         href={"/static"}
       >
         <h1 className={styles.your_session_has_tim3_promo}>Static</h1>
       </Link>
-    </div>
+    </li>
     <ol className={styles.list_wrapper}>
       <ul className={styles.percent_disclaimer}>
-        <div className={styles.save_up_to}>*60% OFF</div>
+        <li className={styles.save_up_to}>*60% OFF</li>
       </ul>
 
       <ul className={styles.sites_list}>
@@ -106,12 +106,12 @@ function Static () {
       </ul>
 
     </ol>
-  </div>
+  </ol>
 
 
-  <div className={styles.frame_399}>
-    <div className={styles.frame_407}>
-      <div className={styles.frame_398}>
+  <ol className={styles.frame_399}>
+    <li className={styles.frame_407}>
+      <span className={styles.frame_398}>
         <svg
           className={styles.frame_397}
           width="11"
@@ -125,13 +125,13 @@ function Static () {
             fill="#ffffff"
           />
         </svg>
-      </div>
+      </span>
       <div className={styles.your_session_has_tim5}>200</div>
-    </div>
-    <div className={styles.component_6}>
+    </li>
+    <li className={styles.component_6}>
       <button className={styles.label}> <Link href={"/pricing"}>Get Started </Link> </button>
-    </div>
-  </div>
+    </li>
+  </ol>
 
 </div>
 </div>
