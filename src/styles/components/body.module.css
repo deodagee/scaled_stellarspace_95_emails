@@ -99,7 +99,7 @@
   transition: 0.5s;
   width: 90px;
   border-radius: 50px;
-  box-shadow: rgb(0, 0, 0) 0px 0px 10px;
+  box-shadow: rgb(255, 255, 255) 0px 0px 7px;
 }
 
 .avatar_image_deo:hover {
@@ -1533,8 +1533,12 @@
   }
 
   .avatar_image_list_item_deo {
+    margin-top: -70px;
     margin-bottom: 30px;
     position: absolute;
+    transform: scale(0.8);
+    width: 100%;
+    height: 100%;
   }
 
   .avatar_image_items {
@@ -1619,7 +1623,7 @@
   }
 
   .tabber_buttons_list {
-    transform: scale(0.3);
+    transform: scale(0.36);
   }
 
   .description {
@@ -2139,6 +2143,7 @@
   .avatar_image_list_item_deo {
     margin-bottom: 30px;
     position: absolute;
+    transform: scale(0.9);
   }
 
   .avatar_image_items {
@@ -2223,7 +2228,7 @@
   }
 
   .tabber_buttons_list {
-    transform: scale(0.3);
+    transform: scale(0.48);
   }
 
   .description {
@@ -2829,7 +2834,7 @@
   }
 
   .tabber_buttons_list {
-    transform: scale(0.3);
+    transform: scale(0.6);
   }
 
   .description {
