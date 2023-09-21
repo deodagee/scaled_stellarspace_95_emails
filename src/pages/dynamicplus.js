@@ -1,24 +1,15 @@
 import Header from './components/header'
 import Dynamicplus from "./components/dynamicplus"
 import Footer from "./components/footer"
-import styles from "../styles//components/main_tabber.module.css"
 
 
 function DynamicPlusPage() {
   return (
     <>
-    <div className={styles.main_whole}>
-    <div className={styles.main_header}>
-      <Header></Header>
-      </div>
-      <div className={styles.main_middle}>
-      <Dynamicplus></Dynamicplus>
-      </div>
-      <div className={styles.main_footer}>
-      <Footer></Footer>
-      </div>
-      </div>
 
+      <Header></Header>
+      <Dynamicplus></Dynamicplus>
+      <Footer></Footer>
     </>
   )
 }
