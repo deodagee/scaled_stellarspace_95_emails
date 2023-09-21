@@ -39,6 +39,25 @@ function Pricing() {
 
           <div className={styles.offered_list_and_top_main_header}>
 
+            <div>
+              <Image
+                className={styles.cocacola}
+                width={50}
+                height={50}
+                alt="logo"
+                src="/cocacola2.png"
+              >
+              </Image>
+            </div>
+
+
+            <div className={styles.top_video_background}>
+              <video autoPlay loop muted playsInline className={styles.video_background_tag}>
+                <source src="/bgvideo.mp4" type="video/mp4" />
+
+              </video>
+            </div>
+
             <ol className={styles.top_main_header_and_paragraphs} >
               <ul className={styles.top_main_header}>
                 <li>
@@ -75,12 +94,12 @@ function Pricing() {
                   </Image>
                   <p className={styles.top_main_header_paragraph1}>Payments</p>
                   <p className={styles.top_main_header_paragraph2}>You don&apos;t pay anything until we&apos;ve got your plans sorted out. This means that until you have the rough design in your hands, you don&apos;t have to worry about spending a dime. Click <button onClick={togglePopup}> <p className={styles.contact_page_link}> Rough Designs</p></button> for more information.</p>
-                  
+
                   <p id="popup" className={styles.popup}>
                     <p className={styles.popupContent}>
-                    Rough Design: It consists of a visual blueprint, depicting the basic elements, design and layout of your project. Your rough design comes free of charge. You may request html, javascript , css, png, pdf, doc, .blend , .wav, mp3, type files and more. Please alow up to 3 business days for a rough design to be send out back to you.
+                      Rough Design: It consists of a visual blueprint, depicting the basic elements, design and layout of your project. Your rough design comes free of charge. You may request html, javascript , css, png, pdf, doc, .blend , .wav, mp3, type files and more. Please alow up to 3 business days for a rough design to be send out back to you.
                     </p>
-                    <button  onClick={togglePopup}> <p className={styles.button_toggle_close_paragraph}>Close </p></button>
+                    <button onClick={togglePopup}> <p className={styles.button_toggle_close_paragraph}>Close </p></button>
                   </p>
                 </li>
                 <li>
@@ -110,81 +129,82 @@ function Pricing() {
               </ul>
             </ol>
 
-            
-            <div className={styles.top_main_header_group}>
-            <ol className={styles.top_main_header_and_paragraphs_squared} >
-              <ul className={styles.top_main_header}>
-                <li>
-                  <h1 className={styles.top_main_header_header1}>Fully Featured</h1>
-                </li>
-                <li>
-                  <h2 className={styles.top_main_header_header2}> Stats Viewer</h2>
-                </li>
-              </ul>
-              <ul className={styles.top_main_paragraphs}>
-                <li>
-                  <Image
-                    className={styles.top_main_icons_arrow}
-                    width="30px"
-                    height="30px"
-                    alt="logo"
-                    src="/forwardarrow.png"
-                  >
-                  </Image>
-                  <p className={styles.top_main_header_paragraph1}>Stats Viewer</p>
-                  <p className={styles.top_main_header_paragraph2}>See, your database usage, speed insights, and other metrics, inlcuding SEO score.</p>
-                </li>
-                <li>
-                  <Image
-                    className={styles.top_main_icons_arrow}
-                    width="30px"
-                    height="30px"
-                    alt="logo"
-                    src="/forwardarrow.png"
-                  >
-                  </Image>
-                  <p className={styles.top_main_header_paragraph1}>3-5 Day Turn-Around Time</p>
-                  <p className={styles.top_main_header_paragraph2}>Full Deployment details, and updates.</p>
-                </li>
-              </ul>
-            </ol>
 
-            <ol className={styles.top_main_header_and_paragraphs_squared} >
-              <ul className={styles.top_main_header}>
-                <li>
-                  <h1 className={styles.top_main_header_header1}>Multi Platform</h1>
-                </li>
-                <li>
-                  <h2 className={styles.top_main_header_header2}><Link className={styles.contact_page_link} href={"/vercel"}>VERCEL</Link> / <Link className={styles.contact_page_link} href={"/netlify"}>NETLIFY</Link></h2>
-                </li>
-              </ul>
-              <ul className={styles.top_main_paragraphs}>
-                <li>
-                  <Image
-                    className={styles.top_main_icons_arrow}
-                    width="30px"
-                    height="30px"
-                    alt="logo"
-                    src="/forwardarrow.png"
-                  >
-                  </Image>
-                  <p className={styles.top_main_header_paragraph1}>Take Your Pick</p>
-                  <p className={styles.top_main_header_paragraph2}>Pick a paltform you already know or get placed under Vercel or Netlify, which </p>
-                </li>
-                <li>
-                  <Image
-                    className={styles.top_main_icons_arrow}
-                    width="30px"
-                    height="30px"
-                    alt="logo"
-                    src="/forwardarrow.png"
-                  >
-                  </Image>
-                  <p className={styles.top_main_header_paragraph1}>24/7 </p>
-                  <p className={styles.top_main_header_paragraph2}>Dashboard Access </p>
-                </li>
-              </ul>
-            </ol>
+            <div className={styles.top_main_header_group}>
+
+              <ol className={styles.top_main_header_and_paragraphs_squared} >
+                <ul className={styles.top_main_header}>
+                  <li>
+                    <h1 className={styles.top_main_header_header1}>Fully Featured</h1>
+                  </li>
+                  <li>
+                    <h2 className={styles.top_main_header_header2}> Stats Viewer</h2>
+                  </li>
+                </ul>
+                <ul className={styles.top_main_paragraphs}>
+                  <li>
+                    <Image
+                      className={styles.top_main_icons_arrow}
+                      width="30px"
+                      height="30px"
+                      alt="logo"
+                      src="/forwardarrow.png"
+                    >
+                    </Image>
+                    <p className={styles.top_main_header_paragraph1}>Stats Viewer</p>
+                    <p className={styles.top_main_header_paragraph2}>See, your database usage, speed insights, and other metrics, inlcuding SEO score.</p>
+                  </li>
+                  <li>
+                    <Image
+                      className={styles.top_main_icons_arrow}
+                      width="30px"
+                      height="30px"
+                      alt="logo"
+                      src="/forwardarrow.png"
+                    >
+                    </Image>
+                    <p className={styles.top_main_header_paragraph1}>3-5 Day Turn-Around Time</p>
+                    <p className={styles.top_main_header_paragraph2}>Full Deployment details, and updates.</p>
+                  </li>
+                </ul>
+              </ol>
+
+              <ol className={styles.top_main_header_and_paragraphs_squared} >
+                <ul className={styles.top_main_header}>
+                  <li>
+                    <h1 className={styles.top_main_header_header1}>Multi Platform</h1>
+                  </li>
+                  <li>
+                    <h2 className={styles.top_main_header_header2}><Link className={styles.contact_page_link} href={"/vercel"}>VERCEL</Link> / <Link className={styles.contact_page_link} href={"/netlify"}>NETLIFY</Link></h2>
+                  </li>
+                </ul>
+                <ul className={styles.top_main_paragraphs}>
+                  <li>
+                    <Image
+                      className={styles.top_main_icons_arrow}
+                      width="30px"
+                      height="30px"
+                      alt="logo"
+                      src="/forwardarrow.png"
+                    >
+                    </Image>
+                    <p className={styles.top_main_header_paragraph1}>Take Your Pick</p>
+                    <p className={styles.top_main_header_paragraph2}>Pick a paltform you already know or get placed under Vercel or Netlify, which </p>
+                  </li>
+                  <li>
+                    <Image
+                      className={styles.top_main_icons_arrow}
+                      width="30px"
+                      height="30px"
+                      alt="logo"
+                      src="/forwardarrow.png"
+                    >
+                    </Image>
+                    <p className={styles.top_main_header_paragraph1}>24/7 </p>
+                    <p className={styles.top_main_header_paragraph2}>Dashboard Access </p>
+                  </li>
+                </ul>
+              </ol>
             </div>
 
             <ol className={styles.top_main_header_and_paragraphs} >
@@ -247,7 +267,7 @@ function Pricing() {
                 </li>
               </ul>
             </ol>
-            
+
 
             <ul className={styles.offered_list}>
               <Link href={"/services"}>
@@ -316,34 +336,34 @@ function Pricing() {
 
           <div className={styles.pricing_headers_list_wrapper}>
             <ul className={styles.pricing_headers_list}>
-                <Link href={'/static'}>
-              <li className={styles.tab_1}>
-                <p>Static</p>
-              </li>
+              <Link href={'/static'}>
+                <li className={styles.tab_1}>
+                  <p>Static</p>
+                </li>
               </Link>
               <span className={styles.seperator_line}></span>
               <Link href={'/dynamic'}>
-              <li className={styles.tab_2}>
-                <p>Dynamic</p>
-              </li>
+                <li className={styles.tab_2}>
+                  <p>Dynamic</p>
+                </li>
               </Link>
               <span className={styles.seperator_line}></span>
               <Link href={'/dynamicplus'}>
-              <li className={styles.tab_3}>
-                <p>Dynamic Plus</p>
-              </li>
+                <li className={styles.tab_3}>
+                  <p>Dynamic Plus</p>
+                </li>
               </Link>
               <span className={styles.seperator_line}></span>
               <Link href={'/ecommerce'}>
-              <li className={styles.tab_4}>
-                <p>Ecommerce</p>
-              </li>
+                <li className={styles.tab_4}>
+                  <p>Ecommerce</p>
+                </li>
               </Link>
               <span className={styles.seperator_line}></span>
               <Link href={'/eplus'}>
-              <li className={styles.tab_5}>
-                <p>E-Plus</p>
-              </li>
+                <li className={styles.tab_5}>
+                  <p>E-Plus</p>
+                </li>
               </Link>
             </ul>
           </div>
