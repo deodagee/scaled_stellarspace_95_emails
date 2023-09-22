@@ -53,7 +53,7 @@ function Pricing() {
 
             <div className={styles.top_video_background}>
               <video autoPlay loop muted playsInline className={styles.video_background_tag}>
-                <source src="/bgvideo.mp4" type="video/mp4" />
+                <source src="/logobox.mp4" type="video/mp4" />
 
               </video>
             </div>

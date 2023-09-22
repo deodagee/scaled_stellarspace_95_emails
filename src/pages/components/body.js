@@ -238,7 +238,7 @@ function Body() {
 
             <div className={styles.top_video_background}>
               <video autoPlay loop muted playsInline className={styles.video_background_tag}>
-                <source src="/logobox.mp4" type="video/mp4" />
+                <source src="/logogreytonetriple.mp4" type="video/mp4" />
 
               </video>
             </div>

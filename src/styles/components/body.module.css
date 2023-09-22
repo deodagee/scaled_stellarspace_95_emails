@@ -59,22 +59,25 @@
   width: 100vw;
   align-items: center;
   justify-content: center;
-  margin-bottom: -5vh;
+  margin-bottom: -25vh;
+  margin-top: -15vh;
 }
 
 .video_background_tag {
   box-shadow: white 0px 0px 7px;
   border-radius: 0.45rem;
-  transform: scale(0.5);
+  transform: scale(0.4);
   align-items: center;
   justify-content: center;
   display: flex;
   width: max-content;
+  transition: 0.5s;
 }
 
 .video_background_tag:hover {
 box-shadow: white 0px 0px 10px;
-transform: scale(0.6);
+transform: scale(0.45);
+transition: 0.5s;
 } 
 
 .avatar_image_list_item_and_name_and_emails_item {
