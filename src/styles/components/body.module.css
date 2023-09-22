@@ -44,6 +44,39 @@
   list-style: none;
 }
 
+
+.cocacola {
+  width: max-content;
+  border-radius: 0.45rem;
+  margin-top: 5vh;
+  margin-bottom: -5vh;
+  transform: scale(0.9);
+  transition: 0.4s;
+}
+
+.top_video_background{ 
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -5vh;
+}
+
+.video_background_tag {
+  box-shadow: white 0px 0px 7px;
+  border-radius: 0.45rem;
+  transform: scale(0.5);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: max-content;
+}
+
+.video_background_tag:hover {
+box-shadow: white 0px 0px 10px;
+transform: scale(0.6);
+} 
+
 .avatar_image_list_item_and_name_and_emails_item {
   display: flex;
   flex-direction: column;

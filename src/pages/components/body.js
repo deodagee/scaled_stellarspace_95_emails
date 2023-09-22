@@ -224,6 +224,26 @@ function Body() {
                 </ul>
             </ul>
 
+            <div>
+              <Image
+                className={styles.cocacola}
+                width={50}
+                height={50}
+                alt="logo"
+                src="/cocacola2.png"
+              >
+              </Image>
+            </div>
+
+
+            <div className={styles.top_video_background}>
+              <video autoPlay loop muted playsInline className={styles.video_background_tag}>
+                <source src="/logobox.mp4" type="video/mp4" />
+
+              </video>
+            </div>
+
+
             <ol className={styles.top_main_header_and_paragraphs} >
               <ul className={styles.top_main_header}>
                 <li>
