@@ -1557,6 +1557,31 @@ transition: 0.5s;
   .name {
     font-size: 30px;
   }
+  .top_video_background{ 
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -20vh;
+    margin-top: -0vh;
+  }
+  
+  .video_background_tag {
+    box-shadow: white 0px 0px 7px;
+    border-radius: 0.45rem;
+    transform: scale(0.4);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: max-content;
+    transition: 0.5s;
+  }
+  
+  .video_background_tag:hover {
+  box-shadow: white 0px 0px 10px;
+  transform: scale(0.45);
+  transition: 0.5s;
+  } 
 
   .promo_message_first {
     margin-top: -45px;
@@ -2145,6 +2170,8 @@ transition: 0.5s;
     padding: 0;
   }
 
+
+
   .name_and_emails_wrapper {
     margin-top: 200px;
   }
@@ -2161,10 +2188,35 @@ transition: 0.5s;
   }
 
 
-
   .name {
     font-size: 30px;
   }
+
+  .top_video_background{ 
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10vh;
+    margin-top: -0vh;
+  }
+  
+  .video_background_tag {
+    box-shadow: white 0px 0px 7px;
+    border-radius: 0.45rem;
+    transform: scale(0.4);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: max-content;
+    transition: 0.5s;
+  }
+  
+  .video_background_tag:hover {
+  box-shadow: white 0px 0px 10px;
+  transform: scale(0.45);
+  transition: 0.5s;
+  } 
 
   .promo_message_first {
     margin-top: -45px;
@@ -2470,6 +2522,8 @@ transition: 0.5s;
     font-size: 30px;
   }
 
+  
+
   .promo_message_first {
     margin-top: -45px;
     transform: scale(0.4);
@@ -2772,6 +2826,32 @@ transition: 0.5s;
   .name {
     font-size: 30px;
   }
+
+    .top_video_background{ 
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10vh;
+    margin-top: -0vh;
+  }
+  
+  .video_background_tag {
+    box-shadow: white 0px 0px 7px;
+    border-radius: 0.45rem;
+    transform: scale(0.4);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: max-content;
+    transition: 0.5s;
+  }
+  
+  .video_background_tag:hover {
+  box-shadow: white 0px 0px 10px;
+  transform: scale(0.45);
+  transition: 0.5s;
+  } 
 
   .promo_message_first {
     margin-top: -45px;
@@ -3377,7 +3457,31 @@ transition: 0.5s;
   .name {
     font-size: 30px;
   }
-
+  .top_video_background{ 
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10vh;
+    margin-top: -0vh;
+  }
+  
+  .video_background_tag {
+    box-shadow: white 0px 0px 7px;
+    border-radius: 0.45rem;
+    transform: scale(0.4);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: max-content;
+    transition: 0.5s;
+  }
+  
+  .video_background_tag:hover {
+  box-shadow: white 0px 0px 10px;
+  transform: scale(0.45);
+  transition: 0.5s;
+  } 
   .promo_message_first {
     margin-top: -35px;
     transform: scale(0.5);
@@ -3985,6 +4089,32 @@ transition: 0.5s;
     font-size: 30px;
   }
 
+  .top_video_background{ 
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10vh;
+    margin-top: -0vh;
+  }
+  
+  .video_background_tag {
+    box-shadow: white 0px 0px 7px;
+    border-radius: 0.45rem;
+    transform: scale(0.4);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: max-content;
+    transition: 0.5s;
+  }
+  
+  .video_background_tag:hover {
+  box-shadow: white 0px 0px 10px;
+  transform: scale(0.45);
+  transition: 0.5s;
+  } 
+
   .promo_message_first {
     margin-top: -20px;
     transform: scale(0.5);
@@ -4584,6 +4714,32 @@ transition: 0.5s;
   .name {
     font-size: 30px;
   }
+
+  .top_video_background{ 
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10vh;
+    margin-top: -0vh;
+  }
+  
+  .video_background_tag {
+    box-shadow: white 0px 0px 7px;
+    border-radius: 0.45rem;
+    transform: scale(0.4);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: max-content;
+    transition: 0.5s;
+  }
+  
+  .video_background_tag:hover {
+  box-shadow: white 0px 0px 10px;
+  transform: scale(0.45);
+  transition: 0.5s;
+  } 
 
   .promo_message_first {
     margin-top: -5px;
@@ -5808,6 +5964,32 @@ transition: 0.5s;
     margin-bottom: 0;
   }
 
+  .top_video_background{ 
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10vh;
+    margin-top: -0vh;
+  }
+  
+  .video_background_tag {
+    box-shadow: white 0px 0px 7px;
+    border-radius: 0.45rem;
+    transform: scale(0.4);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: max-content;
+    transition: 0.5s;
+  }
+  
+  .video_background_tag:hover {
+  box-shadow: white 0px 0px 10px;
+  transform: scale(0.45);
+  transition: 0.5s;
+  } 
+
   .name_and_emails_item {
     margin-top: 0vh;
     transform: scale(0.7);
@@ -5827,8 +6009,6 @@ transition: 0.5s;
     width: 1000px;
     display: block;
   }
-
-
 
   .avatar_image_list_item_deo {
     margin-bottom: 70px;
@@ -6422,6 +6602,31 @@ transition: 0.5s;
     gap: 0;
     margin-bottom: 0;
   }
+  .top_video_background{ 
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10vh;
+    margin-top: -0vh;
+  }
+  
+  .video_background_tag {
+    box-shadow: white 0px 0px 7px;
+    border-radius: 0.45rem;
+    transform: scale(0.4);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: max-content;
+    transition: 0.5s;
+  }
+  
+  .video_background_tag:hover {
+  box-shadow: white 0px 0px 10px;
+  transform: scale(0.45);
+  transition: 0.5s;
+  } 
 
   .name_and_emails_item {
     margin-top: 0vh;
@@ -6723,6 +6928,33 @@ transition: 0.5s;
     gap: 0;
     margin-bottom: 0;
   }
+
+
+  .top_video_background{ 
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -10vh;
+    margin-top: -0vh;
+  }
+  
+  .video_background_tag {
+    box-shadow: white 0px 0px 7px;
+    border-radius: 0.45rem;
+    transform: scale(0.4);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: max-content;
+    transition: 0.5s;
+  }
+  
+  .video_background_tag:hover {
+  box-shadow: white 0px 0px 10px;
+  transform: scale(0.45);
+  transition: 0.5s;
+  } 
 
   .name_and_emails_item {
     margin-top: 0vh;
