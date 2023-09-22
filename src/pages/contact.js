@@ -8,7 +8,7 @@ function Home() {
         <>
             <Header
             ></Header>
-                <Contact></Contact>
+            <Contact></Contact>
             <Footer></Footer>
         </>
     )
