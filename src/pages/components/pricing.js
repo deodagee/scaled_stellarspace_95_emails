@@ -1,10 +1,24 @@
-import React from "react";
+import React, { useEffect, useRef } from 'react';
 import { Image } from "@chakra-ui/react";
 import styles from "../../styles/components/pricing.module.css";
 import { useState } from "react";
 import Link from "next/link";
 
 function Pricing() {
+
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+
+    if (video) {
+      video.play().catch(error => {
+        // Handle autoplay error (e.g., user interaction required)
+        console.error('Autoplay error:', error);
+      });
+    }
+  }, []);
+
 
   const [displayUI, setDisplayUI] = useState('group_52374');
   const [clickedButton, setClickedButton] = useState("group_52374");
@@ -52,7 +66,7 @@ function Pricing() {
 
 
             <div className={styles.top_video_background}>
-              <video autoPlay loop muted playsInline className={styles.video_background_tag}>
+              <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_background_tag}>
                 <source src="/logobox.mp4" type="video/mp4" />
 
               </video>

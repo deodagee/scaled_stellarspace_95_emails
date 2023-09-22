@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from 'react';
 import Image from "next/image";
 import styles from "../../styles/components/body.module.css";
 import Link from "next/link";
@@ -6,6 +6,21 @@ import { useState } from "react";
 import { useSession } from "next-auth/react"
 
 function Body() {
+
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const video = videoRef.current;
+
+    if (video) {
+      video.play().catch(error => {
+        // Handle autoplay error (e.g., user interaction required)
+        console.error('Autoplay error:', error);
+      });
+    }
+  }, []);
+
+
 
   const { data: session } = useSession()
 
@@ -237,7 +252,7 @@ function Body() {
 
 
             <div className={styles.top_video_background}>
-              <video autoPlay loop muted playsInline className={styles.video_background_tag}>
+            <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_background_tag}>
                 <source src="/logogreytonetriple.mp4" type="video/mp4" />
 
               </video>
