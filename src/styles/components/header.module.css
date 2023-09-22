@@ -138,6 +138,10 @@
   justify-content: center;
 }
 
+.menuitem { 
+  cursor: pointer;
+}
+
 
 .first_menubar {
   box-shadow: rgb(201, 201, 201) 0px 0px 5px;
