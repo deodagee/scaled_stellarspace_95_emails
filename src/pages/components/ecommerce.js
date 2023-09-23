@@ -129,7 +129,7 @@ function Ecommerce() {
                                     <div className={styles.your_session_has_tim5}>400</div>
                                 </div>
                                 <div className={styles.component_6}>
-                                    <button className={styles.label}> <Link href={"/ecommerce"}>Get Started</Link> </button>
+                                    <button className={styles.label}> <Link href={"/contact"}>Get Started</Link> </button>
                                 </div>
                             </div>
                         </div>

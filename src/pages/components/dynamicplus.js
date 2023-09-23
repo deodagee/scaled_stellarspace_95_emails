@@ -132,7 +132,7 @@ function DynamicPlus() {
                                 </div>
                                 <div className={styles.dynamic_get_started}>
                                     <div className={styles.component_6}>
-                                        <button className={styles.label}> <Link href={"/dynamic"}>Get Started</Link> </button>
+                                        <button className={styles.label}> <Link href={"/contact"}>Get Started</Link> </button>
                                     </div>
                                 </div>
                             </div>

@@ -43,7 +43,7 @@ const Posts = () => {
         <Link rel="stylesheet" href={"/styles/components/contact.module.css"} />
       </Head>
       <div className={styles.contact_whole}>
-        <Layout >
+        <Layout  className={styles.contact_whole_wrapper}>
           <Container >
             <Heading as="h3" fontSize={20} mb={4}>
               Contact Me

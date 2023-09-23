@@ -128,7 +128,7 @@ function Eplus() {
                                 </div>
                                 <div className={styles.component_6}>
                                     <button>
-                                        <div className={styles.label}> <Link href={"/eplus"}>Get Started</Link> </div></button>
+                                        <div className={styles.label}> <Link href={"/contact"}>Get Started</Link> </div></button>
                                 </div>
                             </div>
                         </div>

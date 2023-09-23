@@ -134,7 +134,7 @@ function Static() {
                   <div className={styles.your_session_has_tim5}>200</div>
                 </li>
                 <li className={styles.component_6}>
-                  <button className={styles.label}> <Link href={"/pricing"}>Get Started </Link> </button>
+                  <button className={styles.label}> <Link href={"/contact"}>Get Started </Link> </button>
                 </li>
               </ol>
 
