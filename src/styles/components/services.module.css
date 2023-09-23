@@ -1,149 +1,95 @@
-.services_parent {
-    position: relative;
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+/* font-family: 'Major Mono Display', monospace; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Changa', sans-serif; */
+
+.services_page_whole ol {
+    list-style: none;
+}
+
+.services_page_whole {
+    background-color: rgb(21, 21, 21);
     width: 100vw;
-    display: contents;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .services_wrapper {
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    width: max-content;
-    margin-bottom: 100px;
-  }
-  
-  .black_box {
-    background-color: #0e121a;
-    border-radius: 30px;
-    padding: 30px;
-    box-shadow: 0 5px 10px rgb(9, 10, 21);
-    margin-top: 200px;
-    margin-bottom: 5vh;
-    transition: 0.5s;
-  }
-  .black_box:hover{
-    transition: 0.5s;
-transform: scale(1.005);  
-} 
-  
-  .black_box_list {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    list-style: none;
-  }
-  
-  .black_box_item_1 {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: #111418;
-    width: 200px;
-    border-width: 0.5px;
-    border-radius: 8px;
-    box-shadow: white 0px 0px 7px;
-    text-align: center;
-    padding: 10px;
-    transition: background-color 0.3s ease;
-  }
+}
 
-  .black_box_item_1:hover {
-    transition: 0.5s;
-    transform: scale(1.05);
-    box-shadow: rgb(0, 0, 0) 0px 0px 7px;
-  } 
-
-
-  .black_box_item_1:hover {
-    background-color: rgba(33, 33, 33, 0.89);
-  }
-  
-  .black_box_image_1 {
-    border-radius: 50px;
-    margin-bottom: 10px;
-  }
-  
-  .black_box_item_1 p {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 600;
-    margin: 0;
-  }
-
-  .displayed_items_div { 
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-    gap: 5vw;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
-  }
-
-  
-.essentials_list, .essentials_list2 { 
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 60px;
-    margin-top: 5vh;
-    width: 100vw;
-  }
-  
-  .essentials_list h1, .essentials_list2 h1 { 
-    font-size: 18px;
-    font-weight: 600;
-    color: rgb(14, 42, 50);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  .essentials_list p, .essentials_list2 p { 
-    font-size: 10px;
-    font-weight: 600;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(36, 94, 111);
-  } 
-  
-
-
-  .offered_list {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
+.services_page_wrapper {
     padding: 0;
-    gap:10px;
-  }
-  
-  .offered_item {
-    gap: 0.5vw;
+    margin: 0;
+    width: max-content;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.cocacola {
+    border-radius: 50%;
     margin-top: 20vh;
-    transform: scale(0.5);
-  }
-  
-  .logo_ssl_logo,
-  .private_domain_logo {
-    box-shadow: white 0px 0px 7px;
-    border-radius: 50px;
-    width: 50px;
-    height: 50px;
-    transition: 0.5s;
-  }
-  
-  .logo_ssl_logo:hover,
-  .private_domain_logo:hover {
-    box-shadow: white 0px 0px 15px;
-    transition: 0.5s;
-  transform: scale(1.05);
-  } 
-  
-  /* Add more styles as needed */
-  
+    margin-bottom: 0vh;
+    transform: scale(0.9);
+    transition: 0.4s;
+}
+
+.video_and_image {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_and_image_wrap li {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    font-family: 'Changa', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(237, 237, 237);
+}
+
+.title_wrap {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+
+.video_loop_tag {
+    box-shadow: rgb(231, 231, 231) 0px 0px 7px;
+    border-radius: 0.75rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 495px;
+    height: auto;
+    margin: 0;
+}
+
+.title_bottom_img_or_video {
+    width: 50vw;
+    margin: 0;
+
+
+}
+
+.deserteagle {
+    box-shadow: rgb(231, 231, 231) 0px 0px 7px;
+    border-radius: 0.75rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 50vw;
+    margin: 0;
+}

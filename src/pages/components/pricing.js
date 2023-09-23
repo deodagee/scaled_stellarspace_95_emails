@@ -49,10 +49,7 @@ function Pricing() {
 
       <div className={styles.pricing_page}>
         <div className={styles.pricing_page_wrapper}>
-
-
           <div className={styles.offered_list_and_top_main_header}>
-
             <div>
               <Image
                 className={styles.cocacola}
