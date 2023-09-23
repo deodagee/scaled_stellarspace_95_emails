@@ -77,8 +77,9 @@ const Posts = () => {
                     value={category}
                     onChange={(e) => setCategory(e.target.value)}
                   >
+                                        <option value=""></option>
+
                     <option value="graphic design">Graphic Design</option>
-                    <option value=""></option>
                     <option value="ui/ux">UI/UX</option>
                     <option value="quote">Quote</option>
                     <option value="audio">Audio</option>
