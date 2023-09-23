@@ -31,7 +31,7 @@
 
 .cocacola {
     border-radius: 50%;
-    margin-top: 20vh;
+    margin-top: -2vh;
     margin-bottom: 0vh;
     transform: scale(0.9);
     transition: 0.4s;
@@ -43,6 +43,15 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.title_and_image_wrap {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
 }
 
 .title_and_image_wrap li {
@@ -78,18 +87,104 @@
 }
 
 .title_bottom_img_or_video {
+    height: 400px;
     width: 50vw;
     margin: 0;
-
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+.desert_eagle_div { 
+}
 .deserteagle {
-    box-shadow: rgb(231, 231, 231) 0px 0px 7px;
-    border-radius: 0.75rem;
+    box-shadow: rgb(231, 231, 231) 0px 0px 1px;
+    border-radius: 0.15rem;
     align-items: center;
     justify-content: center;
     display: flex;
-    width: 50vw;
-    margin: 0;
+    width: max-content;
+    transform: scale(5);
 }
+
+
+@media (min-width: 200px) and (max-width: 300px) and (orientation:portrait) {
+    .services_page_whole {
+    padding-bottom: 150vh;
+    } 
+    .cocacola {
+    margin-top: 180vh;
+}
+
+
+    .video_and_image {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+
+    .title_and_image_wrap {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .title_and_image_wrap li {
+        font-size: 10px;
+    }
+
+
+    .title_bottom_img_or_video {
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .video_loop_tag {
+        width: max-content;
+
+    }
+.desert_eagle_div { 
+    margin-top: -40px;
+    width:100vw;
+}
+.deserteagle { 
+transform: scale(0.5);
+    margin-top: 0;
+}
+
+}
+
+
+@media (min-width: 300px) and (max-width: 400px) and (orientation:portrait) {
+} 
+@media (min-width: 400px) and (max-width: 500px) and (orientation:portrait) {
+} 
+
+@media (min-width: 500px) and (max-width: 600px) and (orientation:portrait) {
+} 
+@media (min-width: 500px) and (max-width: 600px) and (orientation:landscape) {
+} 
+
+@media (min-width: 600px) and (max-width: 700px) and (orientation:portrait) {
+} 
+@media (min-width: 600px) and (max-width: 700px) and (orientation:landscape) {
+} 
+
+@media (min-width: 800px) and (max-width: 900px) and (orientation:portrait) {
+} 
+@media (min-width: 800px) and (max-width: 900px) and (orientation:landscape) {
+} 
+
+ @media (min-width: 1000px) and (max-width: 1200px) and (orientation:portrait) {
+}
+@media (min-width: 1000px) and (max-width: 1200px) and (orientation:landscape) {
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) and (orientation:portrait) {
+}
+@media (min-width: 1200px) and (max-width: 1400px) and (orientation:landscape) {
+}
+

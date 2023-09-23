@@ -58,15 +58,18 @@ function Services() {
                                 <p>To High Def Renders</p>
                             </li>
                             <li className={styles.title_bottom_img_or_video}>
+
+                            <div className={styles.desert_eagle_div}>
                                 <Image
                                     className={styles.deserteagle}
-                                    width={495}
-                                    height={270}
+                                    width={100}
+                                    height={50}
                                     quality={100}
                                     alt="logo"
                                     src="/deserteagle.png"
                                 >
                                 </Image>
+                                </div>
                             </li>
                         </ol>
 
