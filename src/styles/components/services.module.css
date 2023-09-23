@@ -20,7 +20,7 @@
 }
 
 .services_page_wrapper {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     width: max-content;
     height: max-content;
     display: flex;
@@ -47,6 +47,7 @@
     align-items: center;
     justify-content: center;
     transition: 0.5s;
+    margin-top: 30px;
 }
 
 .video_and_image:hover {

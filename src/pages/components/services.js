@@ -100,7 +100,7 @@ function Services() {
 
 <ol className={styles.title_and_image_wrap}>
     <li className={styles.title_wrap}>
-        <p>Product Design Specialist</p>
+        <p>For Product Designs And More</p>
     </li>
     <li className={styles.title_bottom_img_or_video}>
 
