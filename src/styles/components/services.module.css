@@ -113,6 +113,11 @@
     box-shadow: rgb(255, 140, 0) 0px 0px 7px;
 
 }
+.video_loop_tag2:hover {
+    box-shadow: rgb(255, 140, 0) 0px 0px 7px;
+
+}
+
 
 .title_bottom_img_or_video {
     height: 400px;
@@ -193,6 +198,7 @@
 
     .video_loop_tag2 {
         transform: scale(1.3);
+        border-radius: 0.35rem;
     }
 
 
@@ -252,6 +258,7 @@
 
     .video_loop_tag2 {
         transform: scale(1.3);
+        border-radius: 0.35rem;
     }
 
     .desert_eagle_div {
@@ -310,6 +317,7 @@
 
     .video_loop_tag2 {
         transform: scale(1.3);
+        border-radius: 0.35rem;
     }
 
     .desert_eagle_div {
@@ -367,6 +375,7 @@
 
     .video_loop_tag2 {
         transform: scale(1.3);
+        border-radius: 0.35rem;
     }
 
 
@@ -428,6 +437,7 @@
 
     .video_loop_tag2 {
         transform: scale(1.5);
+        border-radius: 0.35rem;
     }
 
 
@@ -487,6 +497,7 @@
 
     .video_loop_tag2 {
         transform: scale(1.5);
+        border-radius: 0.35rem;
     }
 
 
@@ -549,6 +560,7 @@
         margin-top: 30px;
         margin-bottom: 30px;
         transform: scale(1.1);
+        border-radius: 0.35rem;
     }
 
 
@@ -610,6 +622,7 @@
         margin-top: 30px;
         margin-bottom: 30px;
         transform: scale(1.3);
+        border-radius: 0.35rem;
     }
 
     .desert_eagle_div {
@@ -672,6 +685,7 @@
         margin-top: 30px;
         margin-bottom: 30px;
         transform: scale(1);
+        border-radius: 0.35rem;
     }
 
     .desert_eagle_div {
@@ -734,6 +748,7 @@
         margin-top: 30px;
         margin-bottom: 30px;
         transform: scale(1);
+        border-radius: 0.35rem;
     }
 
     .desert_eagle_div {
@@ -905,6 +920,7 @@
 
         transform: scale(0.7);
         margin-bottom: 20px;
+        border-radius: 0.35rem;
     }
 
     .desert_eagle_div {
@@ -967,6 +983,7 @@
 
         transform: scale(0.7);
         margin-bottom: 20px;
+        border-radius: 0.35rem;
     }
 
     .desert_eagle_div {
@@ -1020,6 +1037,7 @@
     }
     .video_loop_tag {
         transform: scale(0.6);
+        border-radius: 0.35rem;
     }
 
     
@@ -1027,6 +1045,7 @@
 margin-top: 30px;
         transform: scale(0.6);
         margin-bottom: 20px;
+        border-radius: 0.35rem;
     }
 
     .desert_eagle_div {
@@ -1085,6 +1104,7 @@ margin-top: 30px;
 
     .video_loop_tag {
         transform: scale(0.6);
+        border-radius: 0.35rem;
     }
 
 
@@ -1093,6 +1113,7 @@ margin-top: 30px;
         margin-top: 30px;
                 transform: scale(0.6);
                 margin-bottom: 20px;
+                border-radius: 0.35rem;
             }
 
             
@@ -1155,11 +1176,13 @@ margin-top: 30px;
 
     .video_loop_tag {
         transform: scale(0.6);
+        border-radius: 0.35rem;
     }
 
         
     .video_loop_tag2 {
                 transform: scale(0.5);
+                border-radius: 0.35rem;
             }
 
             
@@ -1220,10 +1243,13 @@ margin-top: 30px;
 
     .video_loop_tag {
         transform: scale(0.6);
+        border-radius: 0.35rem;
     }
 
     .video_loop_tag2 {
         transform: scale(0.5);
+        border-radius: 0.35rem;
+
     }
 
 
@@ -1283,10 +1309,12 @@ margin-top: 30px;
 
     .video_loop_tag {
         transform: scale(0.6);
+        border-radius: 0.35rem;
     }
 
     .video_loop_tag2 {
         transform: scale(0.7);
+        border-radius: 0.35rem;
     }
 
 
@@ -1347,10 +1375,12 @@ margin-top: 30px;
 
     .video_loop_tag {
         transform: scale(0.75);
+        border-radius: 0.35rem;
     }
 
     .video_loop_tag2 {
         transform: scale(0.7);
+        border-radius: 0.35rem;
     }
 
 
