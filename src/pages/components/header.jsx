@@ -67,7 +67,6 @@ const handleImageLoad = () => {
                   height={90}
                   src={"/signaturewhite.png"}
                   onLoad={handleImageLoad}
-
                 >
                 </Image>
               </li>
