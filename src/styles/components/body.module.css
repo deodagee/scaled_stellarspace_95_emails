@@ -17,16 +17,13 @@
 }
 
 
-
 .whole {
-  background-color: rgb(17, 17, 17);
+  background: linear-gradient(to right, #080808, #050505f1, #090909);
   align-items: center;
   justify-content: center;
   width: 100vw;
   font-family: Teko, sans-serif;
 }
-
-
 
 .parent_wrapper {
   width: max-content;
@@ -43,7 +40,6 @@
   flex-direction: column;
   list-style: none;
 }
-
 
 .cocacola {
   width: max-content;
@@ -64,6 +60,8 @@
 }
 
 .video_background_tag {
+  border-width: 2px;
+  border-color: rgb(0, 209, 237);
   box-shadow: white 0px 0px 7px;
   border-radius: 0.45rem;
   transform: scale(0.4);
@@ -2229,9 +2227,10 @@ transition: 0.5s;
   }
 
   .avatar_image_list_item_deo {
-    margin-bottom: 30px;
+    margin-top: -100px;
+    margin-bottom: 0;
     position: absolute;
-    transform: scale(0.9);
+    transform: scale(0.7);
   }
 
   .avatar_image_items {
@@ -3797,8 +3796,9 @@ transition: 0.5s;
   }
 
   .avatar_image_list_item_deo {
-    margin-bottom: 50px;
+    margin-top: -120px;
     position: absolute;
+    transform: scale(0.8);
   }
 
   .avatar_image_items {
@@ -5366,8 +5366,9 @@ transition: 0.5s;
   }
 
   .avatar_image_list_item_deo {
+    margin-top: -30px;
     margin-bottom: 70px;
-    position: absolute;
+    transform: scale(0.8);
   }
 
   .avatar_image_items {
@@ -5678,8 +5679,9 @@ transition: 0.5s;
   }
 
   .avatar_image_list_item_deo {
-    margin-bottom: 70px;
+    margin-top: -170px;
     position: absolute;
+    transform: scale(0.7);
   }
 
   .avatar_image_items {
