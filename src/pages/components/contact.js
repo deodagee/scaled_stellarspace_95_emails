@@ -4,7 +4,7 @@ import Layout from './layouts/main';
 import Section from './section';
 import styles from "../../styles/components/contact.module.css"
 import Head from 'next/head';
-
+import Link from 'next/link';
 
 const Posts = () => {
   const [name, setName] = useState('');
@@ -40,7 +40,7 @@ const Posts = () => {
 
     <>
       <Head>
-        <link rel="stylesheet" href={"/styles/components/contact.module.css"} />
+        <Link rel="stylesheet" href={"/styles/components/contact.module.css"} />
       </Head>
       <div className={styles.contact_whole}>
         <Layout >
@@ -77,8 +77,7 @@ const Posts = () => {
                     value={category}
                     onChange={(e) => setCategory(e.target.value)}
                   >
-                                        <option value=""></option>
-
+                    <option value=""></option>
                     <option value="graphic design">Graphic Design</option>
                     <option value="ui/ux">UI/UX</option>
                     <option value="quote">Quote</option>

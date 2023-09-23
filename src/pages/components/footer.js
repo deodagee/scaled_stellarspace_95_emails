@@ -3,11 +3,18 @@ import Image from "next/image";
 import styles from "../../styles/components/footer.module.css";
 import Link from "next/link";
 import Head from 'next/head';
+import { useState } from "react";
+
 
 
 function Footer() {
-  return (
 
+  const [imageLoaded, setImageLoaded] = useState(false);
+const handleImageLoad = () => {
+    setImageLoaded(true);
+};
+
+  return (
 
 
     <>
@@ -30,6 +37,7 @@ function Footer() {
                     width={44}
                     height={44}
                     src={"/logored.png"}
+                    onLoad={handleImageLoad}
                   />
                   <p className={styles.astrumBottomName}>Astrum Stellar</p>
                   <button className={styles.contactButton}>
@@ -94,6 +102,8 @@ function Footer() {
                 width={44}
                 height={44}
                 src={"/upwork.jpg"}
+                onLoad={handleImageLoad}
+
               />
               <Image
                 alt="Dribbble"
@@ -101,6 +111,8 @@ function Footer() {
                 width={44}
                 height={44}
                 src={"/dribble.jpg"}
+                onLoad={handleImageLoad}
+
               />
               <Image
                 alt="Indeed"
@@ -108,6 +120,8 @@ function Footer() {
                 width={44}
                 height={44}
                 src={"/indeed.jpg"}
+                onLoad={handleImageLoad}
+
               />
               <Image
                 alt="SoundCloud"
@@ -115,6 +129,8 @@ function Footer() {
                 width={44}
                 height={44}
                 src={"/soundcloud.jpg"}
+                onLoad={handleImageLoad}
+
               />
             </li>
             <li className={styles.copyRight}>

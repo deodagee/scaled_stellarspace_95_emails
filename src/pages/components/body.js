@@ -12,7 +12,12 @@ function Body() {
 
   const [videoLoaded, setVideoLoaded] = useState(false);
   const handleVideoLoad = () => {
-      setVideoLoaded(true);
+    setVideoLoaded(true);
+  };
+
+  const [imageLoaded, setImageLoaded] = useState(false);
+  const handleImageLoad = () => {
+    setImageLoaded(true);
   };
 
   useEffect(() => {
@@ -88,7 +93,10 @@ function Body() {
                     width={50}
                     height={50}
                     alt=""
-                    src="/greencheck.png">
+                    src="/greencheck.png"
+                    onLoad={handleImageLoad}
+                  >
+
                   </Image>
                   <p className={styles.avatar_image_list_item_paragraph} >JAVASCRIPT</p>
                 </li>
@@ -98,7 +106,9 @@ function Body() {
                     width={50}
                     height={50}
                     alt=""
-                    src="/greencheck.png">
+                    src="/greencheck.png"
+                    onLoad={handleImageLoad}
+                  >
                   </Image>
                   <p className={styles.avatar_image_list_item_paragraph} >NEXT JS</p>
                 </li>
@@ -108,43 +118,49 @@ function Body() {
                     width={50}
                     height={50}
                     alt=""
-                    src="/greencheck.png">
+                    src="/greencheck.png"
+                    onLoad={handleImageLoad}
+                  >
                   </Image>
                   <p className={styles.avatar_image_list_item_paragraph} >HTML & CSS</p>
                 </li>
-                
+
                 <ul className={styles.avatar_image_list_item_and_name_and_emails_item}>
-                <li className={`${styles.avatar_image_list_item} ${styles.avatar_image_list_item_deo}`}>
-                  <Image
-                    className={styles.avatar_image_deo}
-                    width={50}
+                  <li className={`${styles.avatar_image_list_item} ${styles.avatar_image_list_item_deo}`}>
+                    <Image
+                      className={styles.avatar_image_deo}
+                      width={50}
 
-                    height={50}
-                    alt=""
-                    src="/Deo.jpg">
-                  </Image>
-                </li>
-                <li className={styles.name_and_emails_item}>
-                <div>
-                  <p className={styles.name}>Astrum Stellar</p>
-                </div>
+                      height={50}
+                      alt=""
+                      src="/Deo.jpg"
+                      onLoad={handleImageLoad}
+                    >
+                    </Image>
+                  </li>
+                  <li className={styles.name_and_emails_item}>
+                    <div>
+                      <p className={styles.name}>Astrum Stellar</p>
+                    </div>
 
-                <div className={styles.emails}>
-                  <p>deo_singiza@hotmail.com </p>
-                  <p>astrumstellar@gmail.com </p>
-                  <p>astrular@astrumstellar.com </p>
-                  <p className={styles.phone_number}>(519)-965-9128</p>
-                </div>
-              </li>
-              </ul>
-                
+                    <div className={styles.emails}>
+                      <p>deo_singiza@hotmail.com </p>
+                      <p>astrumstellar@gmail.com </p>
+                      <p>astrular@astrumstellar.com </p>
+                      <p className={styles.phone_number}>(519)-965-9128</p>
+                    </div>
+                  </li>
+                </ul>
+
                 <li className={styles.avatar_image_list_item}>
                   <Image
                     className={styles.avatar_image}
                     width={50}
                     height={50}
                     alt=""
-                    src="/greencheck.png">
+                    src="/greencheck.png"
+                    onLoad={handleImageLoad}
+                  >
                   </Image>
                   <p className={styles.avatar_image_list_item_paragraph} >PHP</p>
                 </li>
@@ -154,7 +170,9 @@ function Body() {
                     width={50}
                     height={50}
                     alt=""
-                    src="/greencheck.png">
+                    src="/greencheck.png"
+                    onLoad={handleImageLoad}
+                  >
                   </Image>
                   <p className={styles.avatar_image_list_item_paragraph} >TYPESCRIPT</p>
                 </li>
@@ -164,7 +182,9 @@ function Body() {
                     width={50}
                     height={50}
                     alt=""
-                    src="/greencheck.png">
+                    src="/greencheck.png"
+                    onLoad={handleImageLoad}
+                  >
                   </Image>
                   <p className={styles.avatar_image_list_item_paragraph} >SQL, MONGODB</p>
                 </li>
@@ -172,77 +192,84 @@ function Body() {
 
 
               <ul className={styles.credentials}>
-                  <li className={styles.visualstudio_logo}>
-                    <Image
-                      className={styles.credentials_image}
-                      width={50}
-                      height={50}
-                      alt=""
-                      src="/visualstudio.jpg"
-                    >
-                    </Image>
-                  </li>
-                  <li className={styles.photoshop_logo}>
-                    <Image
-                      className={styles.credentials_image}
-                      width={50}
-                      height={50}
-                      alt=""
-                      src="/photoshop.jpg"
-                    >
-                    </Image>
-                  </li>
-                  <li className={styles.soundcloud_logo}>
-                    <Image
-                      className={styles.credentials_image}
-                      width={50}
-                      height={50}
-                      alt=""
-                      src="/soundcloud.jpg"
-                    >
-                    </Image>
-                  </li>
-                  <li className={styles.upwork_logo}>
-                    <Image
-                      className={styles.credentials_image}
-                      width={50}
-                      height={50}
-                      alt=""
-                      src="/upwork.jpg"
-                    >
-                    </Image>
-                  </li>
-                  <li className={styles.prisma_logo}>
-                    <Image
-                      className={styles.credentials_image}
-                      width={50}
-                      height={50}
-                      alt=""
-                      src="/prisma.jpg"
-                    >
-                    </Image>
-                  </li>
-                  <li className={styles.fl_studio_logo}>
-                    <Image
-                      className={styles.credentials_image}
-                      width={50}
-                      height={50}
-                      alt=""
-                      src="/flstudio.jpg"
-                    >
-                    </Image>
-                  </li>
-                  <li className={styles.sql_logo}>
-                    <Image
-                      className={styles.credentials_image}
-                      width={50}
-                      height={50}
-                      alt=""
-                      src="/sql.jpg"
-                    >
-                    </Image>
-                  </li>
-                </ul>
+                <li className={styles.visualstudio_logo}>
+                  <Image
+                    className={styles.credentials_image}
+                    width={50}
+                    height={50}
+                    alt=""
+                    src="/visualstudio.jpg"
+                    onLoad={handleImageLoad}
+                  >
+                  </Image>
+                </li>
+                <li className={styles.photoshop_logo}>
+                  <Image
+                    className={styles.credentials_image}
+                    width={50}
+                    height={50}
+                    alt=""
+                    src="/photoshop.jpg"
+                    onLoad={handleImageLoad}
+                  >
+                  </Image>
+                </li>
+                <li className={styles.soundcloud_logo}>
+                  <Image
+                    className={styles.credentials_image}
+                    width={50}
+                    height={50}
+                    alt=""
+                    src="/soundcloud.jpg"
+                    onLoad={handleImageLoad}
+                  >
+                  </Image>
+                </li>
+                <li className={styles.upwork_logo}>
+                  <Image
+                    className={styles.credentials_image}
+                    width={50}
+                    height={50}
+                    alt=""
+                    src="/upwork.jpg"
+                    onLoad={handleImageLoad}
+                  >
+                  </Image>
+                </li>
+                <li className={styles.prisma_logo}>
+                  <Image
+                    className={styles.credentials_image}
+                    width={50}
+                    height={50}
+                    alt=""
+                    src="/prisma.jpg"
+                    onLoad={handleImageLoad}
+                  >
+                  </Image>
+                </li>
+                <li className={styles.fl_studio_logo}>
+                  <Image
+                    className={styles.credentials_image}
+                    width={50}
+                    height={50}
+                    alt=""
+                    src="/flstudio.jpg"
+                    onLoad={handleImageLoad}
+                  >
+                  </Image>
+                </li>
+                <li className={styles.sql_logo}>
+                  <Image
+                    className={styles.credentials_image}
+                    width={50}
+                    height={50}
+                    alt=""
+                    src="/sql.jpg"
+                    onLoad={handleImageLoad}
+                  >
+                  </Image>
+                </li>
+              </ul>
             </ul>
 
             <div>
@@ -252,13 +279,14 @@ function Body() {
                 height={50}
                 alt=""
                 src="/cocacola2.png"
+                onLoad={handleImageLoad}
               >
               </Image>
             </div>
 
 
             <div className={styles.top_video_background}>
-            <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_background_tag} onLoad={handleVideoLoad}>
+              <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_background_tag} onLoad={handleVideoLoad}>
                 <source src="/logogreytonetriple.mp4" type="video/mp4" />
 
               </video>
@@ -285,6 +313,7 @@ function Body() {
                     height={50}
                     alt=""
                     src="/target.png"
+                    onLoad={handleImageLoad}
                   >
                   </Image>
                   <p className={styles.top_main_header_paragraph1}>Picking and Choosing</p>
@@ -297,16 +326,17 @@ function Body() {
                     height={50}
                     alt=""
                     src="/chip.png"
+                    onLoad={handleImageLoad}
                   >
                   </Image>
                   <p className={styles.top_main_header_paragraph1}>Payments</p>
                   <p className={styles.top_main_header_paragraph2}>You don&apos;t pay anything until we&apos;ve got your plans sorted out. This means that until you have the rough design in your hands, you don&apos;t have to worry about spending a dime. Click <button onClick={togglePopup}> <p className={styles.contact_page_link}> Rough Designs</p></button> for more information.</p>
-                  
+
                   <p id="popup" className={styles.popup}>
                     <p className={styles.popupContent}>
-                    Rough Design: It consists of a visual blueprint, depicting the basic elements, design and layout of the project. With stellarspace, your rough design comes free of charge. You may request html, javascript , css, png, pdf, doc, .blend , .wav, mp3, type files and more. Please alow up to 3 business days for a rough design to be send out back to you.
+                      Rough Design: It consists of a visual blueprint, depicting the basic elements, design and layout of the project. With stellarspace, your rough design comes free of charge. You may request html, javascript , css, png, pdf, doc, .blend , .wav, mp3, type files and more. Please alow up to 3 business days for a rough design to be send out back to you.
                     </p>
-                    <button  onClick={togglePopup}> <p className={styles.button_toggle_close_paragraph}>Close </p></button>
+                    <button onClick={togglePopup}> <p className={styles.button_toggle_close_paragraph}>Close </p></button>
                   </p>
                 </li>
                 <li>
@@ -316,6 +346,7 @@ function Body() {
                     height={50}
                     alt=""
                     src="/mountain.png"
+                    onLoad={handleImageLoad}
                   >
                   </Image>
                   <p className={styles.top_main_header_paragraph1}>Premium plans</p>
@@ -328,6 +359,7 @@ function Body() {
                     height={50}
                     alt=""
                     src="/gears.png"
+                    onLoad={handleImageLoad}
                   >
                   </Image>
                   <p className={styles.top_main_header_paragraph1}>Features</p>
@@ -488,6 +520,7 @@ function Body() {
                     width={100}
                     height={100}
                     quality={100}
+                    onLoad={handleImageLoad}
 
                   ></Image>
                 </li>
@@ -499,6 +532,7 @@ function Body() {
                     width={100}
                     height={100}
                     quality={100}
+                    onLoad={handleImageLoad}
                   ></Image>
                 </li>
 
@@ -509,6 +543,7 @@ function Body() {
                     width={100}
                     height={100}
                     quality={100}
+                    onLoad={handleImageLoad}
                   ></Image>
                 </li>
 
@@ -519,6 +554,7 @@ function Body() {
                     width={100}
                     height={100}
                     quality={100}
+                    onLoad={handleImageLoad}
                   ></Image>
                 </li>
 
@@ -529,6 +565,7 @@ function Body() {
                     width={100}
                     height={100}
                     quality={100}
+                    onLoad={handleImageLoad}
                   ></Image>
                 </li>
 
@@ -539,6 +576,7 @@ function Body() {
                     width={100}
                     height={100}
                     quality={100}
+                    onLoad={handleImageLoad}
                   ></Image>
                 </li>
 
@@ -549,6 +587,7 @@ function Body() {
                     alt=""
                     height={50}
                     quality={100}
+                    onLoad={handleImageLoad}
                   ></Image>
                 </li>
 
@@ -559,6 +598,7 @@ function Body() {
                     width={100}
                     height={100}
                     quality={100}
+                    onLoad={handleImageLoad}
                   ></Image>
                 </li>
 
@@ -569,6 +609,7 @@ function Body() {
                     width={100}
                     height={100}
                     quality={100}
+                    onLoad={handleImageLoad}
                   ></Image>
                 </li>
 
@@ -579,6 +620,7 @@ function Body() {
                     width={100}
                     height={100}
                     quality={100}
+                    onLoad={handleImageLoad}
                   ></Image>
                 </li>
 
@@ -589,6 +631,7 @@ function Body() {
                     height={100}
                     alt=""
                     quality={100}
+                    onLoad={handleImageLoad}
                   ></Image>
                 </li>
 
@@ -599,6 +642,7 @@ function Body() {
                     height={100}
                     alt=""
                     quality={100}
+                    onLoad={handleImageLoad}
                   ></Image>
                 </li>
               </ul>
@@ -653,6 +697,7 @@ function Body() {
                           height={50}
                           alt=""
                           src="/bgwhole12.jpg"
+                          onLoad={handleImageLoad}
                         >
                         </Image>
                       </Link>
@@ -670,6 +715,7 @@ function Body() {
                           height={50}
                           alt=""
                           src="/bgwhole12.jpg"
+                          onLoad={handleImageLoad}
                         >
                         </Image>
                       </Link>
@@ -686,6 +732,7 @@ function Body() {
                           height={50}
                           alt=""
                           src="/bgwhole12.jpg"
+                          onLoad={handleImageLoad}
                         >
                         </Image>
                       </Link>

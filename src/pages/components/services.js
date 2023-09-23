@@ -15,6 +15,10 @@ function Services() {
     const handleVideoLoad = () => {
         setVideoLoaded(true);
     };
+    const [imageLoaded, setImageLoaded] = useState(false);
+    const handleImageLoad = () => {
+        setImageLoaded(true);
+    };
 
     useEffect(() => {
         const video = videoRef.current;
@@ -31,7 +35,7 @@ function Services() {
     return (
         <>
                 <Head>
-          <link rel="stylesheet" href={"/styles/components/services.module.css"} />
+          <Link rel="stylesheet" href={"/styles/components/services.module.css"} />
         </Head>
             <div className={styles.services_page_whole}>
                 <div className={styles.services_page_wrapper}>
@@ -43,6 +47,7 @@ function Services() {
                             quality={100}
                             alt=""
                             src="/cocacola2.png"
+                            onLoad={handleImageLoad}
                         >
                         </Image>
                     </div>
@@ -76,6 +81,7 @@ function Services() {
                                     quality={100}
                                     alt=""
                                     src="/deserteagle.png"
+                                    onLoad={handleImageLoad}
                                 >
                                 </Image>
                                 </div>
@@ -112,6 +118,7 @@ function Services() {
             quality={100}
             alt=""
             src="/blackbox.png"
+            onLoad={handleImageLoad}
         >
         </Image>
         </div>

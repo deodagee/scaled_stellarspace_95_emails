@@ -9,6 +9,11 @@ import Head from 'next/head';
 
 function Header() {
 
+  const [imageLoaded, setImageLoaded] = useState(false);
+const handleImageLoad = () => {
+    setImageLoaded(true);
+};
+
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
@@ -49,6 +54,7 @@ function Header() {
                   width={50}
                   height={50}
                   src={"/logored.png"}
+                  onLoad={handleImageLoad}
                 >
                 </Image>
               </li>
@@ -60,6 +66,8 @@ function Header() {
                   width={90}
                   height={90}
                   src={"/signaturewhite.png"}
+                  onLoad={handleImageLoad}
+
                 >
                 </Image>
               </li>
