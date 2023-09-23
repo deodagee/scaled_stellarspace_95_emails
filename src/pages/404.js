@@ -37,7 +37,7 @@ const NotFound = () => {
 
           <ul className={styles.pink_and_four_four}>
           <li className={styles.sorry_message_item}>
-            <p className={styles.sorry_message_p}>Aww sorry, pretty sure this page is still under construction, it might work next time!</p>
+            <p className={styles.sorry_message_p}>Aww sorry, pretty sure this page is still under construction, it might work next time! - <span className={styles.sorry_message_p_span}>Deo Singiza | Site Developer</span></p>
           </li>
           <li className={styles.four_oh_four_errors_item}>
             <p className={styles.four_oh_four_errors_item_p}>404 Error</p>

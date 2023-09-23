@@ -118,6 +118,10 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: 0.6s;
  } 
 
+ .sorry_message_p_span { 
+    font-size: 8px;
+ }
+
 .four_oh_four_errors_item_p {
     white-space: nowrap;
     color: rgb(234, 234, 234);
