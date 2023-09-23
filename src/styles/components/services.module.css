@@ -10,7 +10,7 @@
 }
 
 .services_page_whole {
-    background-color: rgb(21, 21, 21);
+    background-color: rgb(19, 19, 19);
     width: 100vw;
     height: max-content;
     display: flex;
@@ -32,17 +32,26 @@
 .cocacola {
     border-radius: 50%;
     margin-top: 20vh;
-    margin-bottom: 0vh;
+    margin-bottom: 1vh;
     transform: scale(0.9);
     transition: 0.4s;
 }
 
 .video_and_image {
+
+    box-shadow:  white 0px 0px 2px;
+    background: linear-gradient(to top, rgb(14, 14, 14), rgb(17, 17, 17), rgb(22, 22, 22));
     width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
+}
+.video_and_image:hover{
+    transition: 0.5s;
+    box-shadow:  rgb(252, 151, 0) 0px 0px 4px;
+
 }
 
 .title_and_image_wrap {
@@ -71,6 +80,7 @@
     align-items: center;
     justify-content: center;
     height: 60px;
+    margin-bottom: -50px;
 }
 
 
@@ -83,6 +93,11 @@
     width: 495px;
     height: auto;
     margin: 0;
+}
+
+.video_loop_tag:hover{
+    box-shadow: rgb(255, 140, 0) 0px 0px 7px;
+
 }
 
 .title_bottom_img_or_video {
@@ -108,6 +123,9 @@
     justify-content: center;
     display: flex;
     transform: scale(5);
+}
+.deserteagle:hover{
+    box-shadow: rgb(255, 140, 0) 0px 0px 2px;
 }
 
 
