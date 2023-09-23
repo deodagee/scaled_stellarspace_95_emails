@@ -367,7 +367,7 @@ function Body() {
 
                 <li className={styles.description_item}>
                   <p className={styles.description}>
-                    I specialize in crafting immersive websites and applications that resonate with your target audience. Deliver cost-effective options that rival mainstream applications. Empower yourself with easy and affordable access to web services, apps, designs, and blueprints.
+                    I specialize in crafting immersive websites and applications that resonate with your target audience. I deliver cost-effective options that rival mainstream applications. Empower yourself with easy and affordable access to web services, apps, designs, and blueprints.
                   </p>
                 </li>
 
