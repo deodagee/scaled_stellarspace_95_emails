@@ -12,7 +12,7 @@
         rgb(9, 14, 22),
         rgb(16, 19, 26)
     );
-    background-image: url("/bgwhole13.jpg");
+    background-image: url("/bgwhole3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,7 +165,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-width: 1px;
     width: max-content;
     white-space: nowrap;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 700;
     color: rgb(16, 21, 84);
     position: relative;
