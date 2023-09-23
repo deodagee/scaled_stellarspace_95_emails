@@ -87,7 +87,7 @@ function Body() {
                     className={styles.avatar_image}
                     width={50}
                     height={50}
-                    alt="avatar"
+                    alt=""
                     src="/greencheck.png">
                   </Image>
                   <p className={styles.avatar_image_list_item_paragraph} >JAVASCRIPT</p>
@@ -97,7 +97,7 @@ function Body() {
                     className={styles.avatar_image}
                     width={50}
                     height={50}
-                    alt="avatar"
+                    alt=""
                     src="/greencheck.png">
                   </Image>
                   <p className={styles.avatar_image_list_item_paragraph} >NEXT JS</p>
@@ -107,7 +107,7 @@ function Body() {
                     className={styles.avatar_image}
                     width={50}
                     height={50}
-                    alt="avatar"
+                    alt=""
                     src="/greencheck.png">
                   </Image>
                   <p className={styles.avatar_image_list_item_paragraph} >HTML & CSS</p>
@@ -283,7 +283,7 @@ function Body() {
                     className={styles.top_main_icons_target}
                     width={50}
                     height={50}
-                    alt="logo"
+                    alt=""
                     src="/target.png"
                   >
                   </Image>

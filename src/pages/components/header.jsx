@@ -44,7 +44,8 @@ function Header() {
             <ul className={`${styles.logo_and_signature} ${xsmStyles.logo_and_signature_xsm}`}>
               <li className={`${styles.logo_item} ${xsmStyles.logo_item_xsm}`}>
                 <Image
-                  className={`${styles.header_logo} ${xsmStyles.header_logo_xsm}`} alt="logo"
+                  className={`${styles.header_logo} ${xsmStyles.header_logo_xsm}`} 
+                  alt=""
                   width={50}
                   height={50}
                   src={"/logored.png"}
@@ -55,7 +56,7 @@ function Header() {
               <li className={styles.signature_item}>
                 <Image
                   className={`${styles.header_signature} ${xsmStyles.header_signature_xsm}`} aria-label="signature"
-                  alt="signature"
+                  alt=""
                   width={90}
                   height={90}
                   src={"/signaturewhite.png"}

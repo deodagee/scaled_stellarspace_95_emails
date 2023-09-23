@@ -41,7 +41,7 @@ function Services() {
                             width={50}
                             height={50}
                             quality={100}
-                            alt="logo"
+                            alt=""
                             src="/cocacola2.png"
                         >
                         </Image>
@@ -74,7 +74,7 @@ function Services() {
                                     width={100}
                                     height={50}
                                     quality={100}
-                                    alt="logo"
+                                    alt=""
                                     src="/deserteagle.png"
                                 >
                                 </Image>
@@ -83,6 +83,42 @@ function Services() {
                         </ol>
 
                     </div>
+                    <div className={styles.video_and_image}>
+
+<ol className={styles.title_and_image_wrap}>
+    <li className={styles.title_wrap}>
+        <p>3D In Depth Modeling</p>
+    </li>
+    
+    <li className={styles.title_bottom_img_or_video}>
+        <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_loop_tag} onLoad={handleVideoLoad}>
+
+            <source src="/boxbuild.mp4" type="video/mp4" />
+        </video>
+    </li>
+</ol>
+
+<ol className={styles.title_and_image_wrap}>
+    <li className={styles.title_wrap}>
+        <p>Product Design Specialist</p>
+    </li>
+    <li className={styles.title_bottom_img_or_video}>
+
+    <div className={styles.desert_eagle_div}>
+        <Image
+            className={styles.deserteagle}
+            width={100}
+            height={50}
+            quality={100}
+            alt=""
+            src="/blackbox.png"
+        >
+        </Image>
+        </div>
+    </li>
+</ol>
+
+</div>
                 </div>
             </div>
         </>
