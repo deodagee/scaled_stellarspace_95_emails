@@ -69,7 +69,7 @@
 
 
 .logo__signature_and_button_parent {
-  animation: textColorCycle_name 6s infinite;
+  background: linear-gradient(to top, #0a0a0a, #0e0e0e, #232323f1);
   margin-top: 0;
   display: flex;
   width: 100vw;

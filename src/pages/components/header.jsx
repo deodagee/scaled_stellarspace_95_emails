@@ -105,30 +105,30 @@ function Header() {
                 </Link>
               </li>
               <li className={styles.first_menubar_item}>
-                <Link href={'/sources'}>
+                <Link href={'/components/info/aplicationinterfaces'}>
                   <p className={styles.promo2}>
-                    Dall-E Engines
+                    Application Interfaces
                   </p>
                 </Link>
               </li>
               <li className={styles.first_menubar_item}>
-              <Link href={'/sources'}>
+              <Link href={'/components/info/3drenders'}>
                 <p className={styles.promo3}>
                   3D Renders
                 </p>
                 </Link>
               </li>
               <li className={styles.first_menubar_item}>
-              <Link href={'/sources'}>
+              <Link href={'/components/info/vercel'}>
                 <p className={styles.promo4}>
-                  Wix?
+                  Vercel?
                 </p>
                 </Link>
               </li>
               <li className={styles.first_menubar_item}>
-              <Link href={'/sources'}>
+              <Link href={'/components/info/hostgator'}>
                 <p className={styles.promo4}>
-                  Hostgator?
+                  Hostgator/Bluehost?
                 </p>
                 </Link>
               </li>
