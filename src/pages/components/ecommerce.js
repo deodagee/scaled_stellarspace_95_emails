@@ -126,7 +126,7 @@ function Ecommerce() {
                                             />
                                         </svg>
                                     </div>
-                                    <div className={styles.your_session_has_tim5}>400</div>
+                                    <div className={styles.your_session_has_tim5}>600</div>
                                 </div>
                                 <div className={styles.component_6}>
                                     <button className={styles.label}> <Link href={"/contact"}>Get Started</Link> </button>

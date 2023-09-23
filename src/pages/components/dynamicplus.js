@@ -128,7 +128,7 @@ function DynamicPlus() {
                                             />
                                         </svg>
                                     </div>
-                                    <div className={styles.your_session_has_tim5}>350</div>
+                                    <div className={styles.your_session_has_tim5}>550</div>
                                 </div>
                                 <div className={styles.dynamic_get_started}>
                                     <div className={styles.component_6}>

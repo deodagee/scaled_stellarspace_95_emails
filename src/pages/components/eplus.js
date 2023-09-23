@@ -124,7 +124,7 @@ function Eplus() {
                                             />
                                         </svg>
                                     </div>
-                                    <div className={styles.your_session_has_tim5}>Quote</div>
+                                    <div className={styles.your_session_has_tim5}><Link href={'/contact'}>Quote</Link></div>
                                 </div>
                                 <div className={styles.component_6}>
                                     <button>

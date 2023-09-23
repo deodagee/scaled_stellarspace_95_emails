@@ -529,7 +529,7 @@ function Pricing() {
                                     />
                                   </svg>
                                 </div>
-                                <div className={styles.your_session_has_tim5}>200</div>
+                                <div className={styles.your_session_has_tim5}>300</div>
                               </div>
                               <div className={styles.component_6}>
                                 <button className={styles.label}> <Link href={"/pricing"}>Get Started </Link> </button>
@@ -620,7 +620,7 @@ function Pricing() {
                                   />
                                 </svg>
                               </div>
-                              <div className={styles.your_session_has_tim5}>300</div>
+                              <div className={styles.your_session_has_tim5}>450</div>
                             </div>
 
                             <div className={styles.dynamic_get_started}>
@@ -710,7 +710,7 @@ function Pricing() {
                                   />
                                 </svg>
                               </div>
-                              <div className={styles.your_session_has_tim5}>350</div>
+                              <div className={styles.your_session_has_tim5}>550</div>
                             </div>
                             <div className={styles.dynamic_get_started}>
                               <div className={styles.component_6}>
@@ -799,7 +799,7 @@ function Pricing() {
                                   />
                                 </svg>
                               </div>
-                              <div className={styles.your_session_has_tim5}>400</div>
+                              <div className={styles.your_session_has_tim5}>600</div>
                             </div>
                             <div className={styles.component_6}>
                               <button className={styles.label}> <Link href={"/ecommerce"}>Get Started</Link> </button>
@@ -990,7 +990,7 @@ function Pricing() {
                                     />
                                   </svg>
                                 </div>
-                                <div className={styles.your_session_has_tim5}>650</div>
+                                <div className={styles.your_session_has_tim5}>500</div>
                               </div>
                               <div className={styles.component_6}>
                                 <button className={styles.label}> <Link href={"/pricing"}>Get Started </Link> </button>
@@ -1083,7 +1083,7 @@ function Pricing() {
                                   />
                                 </svg>
                               </div>
-                              <div className={styles.your_session_has_tim5}>500</div>
+                              <div className={styles.your_session_has_tim5}>750</div>
                             </div>
 
                             <div className={styles.dynamic_get_started}>
@@ -1174,7 +1174,7 @@ function Pricing() {
                                   />
                                 </svg>
                               </div>
-                              <div className={styles.your_session_has_tim5}>550</div>
+                              <div className={styles.your_session_has_tim5}>917</div>
                             </div>
                             <div className={styles.dynamic_get_started}>
                               <div className={styles.component_6}>
@@ -1263,7 +1263,7 @@ function Pricing() {
                                   />
                                 </svg>
                               </div>
-                              <div className={styles.your_session_has_tim5}>600</div>
+                              <div className={styles.your_session_has_tim5}>1,000</div>
                             </div>
                             <div className={styles.component_6}>
                               <button className={styles.label}> <Link href={"/ecommerce"}>Get Started</Link> </button>
