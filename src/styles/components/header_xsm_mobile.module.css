@@ -80,7 +80,6 @@
         transform: scale(0.6);
     }
     .login_button_xsm {
-        width: 80px;
         padding: 5px;
         padding-top: 5px;
         padding-bottom: 4px;
@@ -88,7 +87,6 @@
     }
 
     .register_button_xsm {
-        width: 70px;
         padding: 5px;
         padding-top: 5px;
         padding-bottom: 4px;
@@ -179,7 +177,6 @@
             transform: scale(0.7);
         }
         .login_button_xsm {
-            width: 90px;
             padding: 5px;
             padding-top: 5px;
             padding-bottom: 4px;
@@ -187,7 +184,6 @@
         }
     
         .register_button_xsm {
-            width: 80px;
             padding: 5px;
             padding-top: 5px;
             padding-bottom: 4px;
@@ -270,14 +266,12 @@
     }
 
     .register_button_xsm {
-        width: 90px;
         padding: 5px;
         padding-top: 5px;
         padding-bottom: 4px;
     }
 
     .login_button_xsm {
-        width: 90px;
         padding: 5px;
         padding-top: 5px;
         padding-bottom: 4px;
@@ -359,14 +353,12 @@
     }
 
     .register_button_xsm {
-        width: 80px;
         padding: 5px;
         padding-top: 5px;
         padding-bottom: 4px;
     }
 
     .login_button_xsm {
-        width: 80px;
         padding: 5px;
         padding-top: 5px;
         padding-bottom: 4px;
@@ -450,14 +442,12 @@
     }
 
     .register_button_xsm {
-        width: 60px;
         padding: 5px;
         padding-top: 5px;
         padding-bottom: 6px;
     }
 
     .login_button_xsm {
-        width: 60px;
         padding: 5px;
         padding-top: 5px;
         padding-bottom: 6px;
@@ -545,14 +535,12 @@
     }
 
     .register_button_xsm {
-        width: 60px;
         padding: 5px;
         padding-top: 5px;
         padding-bottom: 6px;
     }
 
     .login_button_xsm {
-        width: 60px;
         padding: 5px;
         padding-top: 5px;
         padding-bottom: 6px;
