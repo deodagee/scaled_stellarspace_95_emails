@@ -3,6 +3,8 @@ import { Image } from "@chakra-ui/react";
 import styles from "../../styles/components/pricing.module.css";
 import { useState } from "react";
 import Link from "next/link";
+import Head from 'next/head';
+
 
 function Pricing() {
 
@@ -46,6 +48,10 @@ function Pricing() {
   return (
 
     <>
+
+      <Head>
+        <link rel="stylesheet" href={"/styles/components/pricing.module.css"} />
+      </Head>
 
       <div className={styles.pricing_page}>
         <div className={styles.pricing_page_wrapper}>

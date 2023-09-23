@@ -3,6 +3,8 @@ import { Image } from "@chakra-ui/react";
 import styles from "../../styles/components/services.module.css";
 import { useState } from "react";
 import Link from "next/link";
+import Head from 'next/head';
+
 
 
 function Services() {
@@ -24,6 +26,9 @@ function Services() {
 
     return (
         <>
+                <Head>
+          <link rel="stylesheet" href={"/styles/components/services.module.css"} />
+        </Head>
             <div className={styles.services_page_whole}>
                 <div className={styles.services_page_wrapper}>
                     <div>
@@ -46,7 +51,7 @@ function Services() {
                             </li>
                             
                             <li className={styles.title_bottom_img_or_video}>
-                                <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_loop_tag}>
+                                <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_loop_tag} onLoad={handleVideoLoad}>
 
                                     <source src="/stitchvideo4.mp4" type="video/mp4" />
                                 </video>

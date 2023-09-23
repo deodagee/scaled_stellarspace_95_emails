@@ -1,11 +1,16 @@
 import React from "react";
 import styles from "../../styles/components/tabber.module.css"
 import Link from "next/link";
+import Head from 'next/head';
+
 
 function Dynamic() {
 
     return (
         <>
+                <Head>
+    <link rel="stylesheet" href={"/styles/components/tabber.module.css"} />
+  </Head>
             <div className={styles.whole}>
                 <div className={styles.parent_wrapper}>
 

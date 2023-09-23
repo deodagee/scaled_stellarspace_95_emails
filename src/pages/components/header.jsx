@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useSession, signIn, signOut } from "next-auth/react"
 import React, { useState, useEffect } from 'react';
+import Head from 'next/head';
+
 
 function Header() {
 
@@ -29,6 +31,10 @@ function Header() {
 
   return (
     <>
+          <Head>
+        <link rel="stylesheet" href={"/styles/components/header.module.css"} />
+        <link rel="stylesheet" href={"/styles/components/header_xsm_mobile.module.css"} />
+      </Head>
     
       <div className={`${styles.parent} ${xsmStyles.parent_xsm}`}>
       <div className={`${styles.parent_wrapper} ${xsmStyles.parent_wrapper_xsm} ${isVisible ? '' : styles.parent_wrapper_margin}`}>
