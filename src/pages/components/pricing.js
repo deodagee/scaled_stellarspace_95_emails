@@ -10,6 +10,11 @@ function Pricing() {
 
   const videoRef = useRef(null);
 
+  const [videoLoaded, setVideoLoaded] = useState(false);
+  const handleVideoLoad = () => {
+      setVideoLoaded(true);
+  };
+
   useEffect(() => {
     const video = videoRef.current;
 
@@ -69,7 +74,7 @@ function Pricing() {
 
 
             <div className={styles.top_video_background}>
-              <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_background_tag}>
+              <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_background_tag} onLoad={handleVideoLoad}>
                 <source src="/logobox.mp4" type="video/mp4" />
 
               </video>

@@ -5,9 +5,15 @@ import Link from "next/link";
 import { useState } from "react";
 import { useSession } from "next-auth/react"
 
+
 function Body() {
 
   const videoRef = useRef(null);
+
+  const [videoLoaded, setVideoLoaded] = useState(false);
+  const handleVideoLoad = () => {
+      setVideoLoaded(true);
+  };
 
   useEffect(() => {
     const video = videoRef.current;
@@ -252,7 +258,7 @@ function Body() {
 
 
             <div className={styles.top_video_background}>
-            <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_background_tag}>
+            <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_background_tag} onLoad={handleVideoLoad}>
                 <source src="/logogreytonetriple.mp4" type="video/mp4" />
 
               </video>

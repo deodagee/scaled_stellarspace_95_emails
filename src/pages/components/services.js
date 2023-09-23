@@ -12,7 +12,10 @@ function Services() {
 
     const videoRef = useRef(null);
     const [videoLoaded, setVideoLoaded] = useState(false);
-    
+    const handleVideoLoad = () => {
+        setVideoLoaded(true);
+    };
+
     useEffect(() => {
         const video = videoRef.current;
 
