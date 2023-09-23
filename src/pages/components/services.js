@@ -91,7 +91,7 @@ function Services() {
     </li>
     
     <li className={styles.title_bottom_img_or_video}>
-        <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_loop_tag} onLoad={handleVideoLoad}>
+        <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_loop_tag2} onLoad={handleVideoLoad}>
 
             <source src="/boxbuild.mp4" type="video/mp4" />
         </video>

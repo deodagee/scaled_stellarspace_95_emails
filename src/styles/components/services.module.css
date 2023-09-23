@@ -96,6 +96,16 @@
     height: auto;
     margin: 0;
 }
+.video_loop_tag2 {
+    box-shadow: rgb(231, 231, 231) 0px 0px 7px;
+    border-radius: 0.75rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 405px;
+    height: auto;
+    margin: 0;
+}
 
 .video_loop_tag:hover {
     box-shadow: rgb(255, 140, 0) 0px 0px 7px;
