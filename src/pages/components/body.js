@@ -120,7 +120,7 @@ function Body() {
                     width={50}
 
                     height={50}
-                    alt="avatar"
+                    alt=""
                     src="/Deo.jpg">
                   </Image>
                 </li>
@@ -143,7 +143,7 @@ function Body() {
                     className={styles.avatar_image}
                     width={50}
                     height={50}
-                    alt="avatar"
+                    alt=""
                     src="/greencheck.png">
                   </Image>
                   <p className={styles.avatar_image_list_item_paragraph} >PHP</p>
@@ -153,7 +153,7 @@ function Body() {
                     className={styles.avatar_image}
                     width={50}
                     height={50}
-                    alt="avatar"
+                    alt=""
                     src="/greencheck.png">
                   </Image>
                   <p className={styles.avatar_image_list_item_paragraph} >TYPESCRIPT</p>
@@ -163,7 +163,7 @@ function Body() {
                     className={styles.avatar_image}
                     width={50}
                     height={50}
-                    alt="avatar"
+                    alt=""
                     src="/greencheck.png">
                   </Image>
                   <p className={styles.avatar_image_list_item_paragraph} >SQL, MONGODB</p>
@@ -177,7 +177,7 @@ function Body() {
                       className={styles.credentials_image}
                       width={50}
                       height={50}
-                      alt="logo"
+                      alt=""
                       src="/visualstudio.jpg"
                     >
                     </Image>
@@ -187,7 +187,7 @@ function Body() {
                       className={styles.credentials_image}
                       width={50}
                       height={50}
-                      alt="logo"
+                      alt=""
                       src="/photoshop.jpg"
                     >
                     </Image>
@@ -197,7 +197,7 @@ function Body() {
                       className={styles.credentials_image}
                       width={50}
                       height={50}
-                      alt="logo"
+                      alt=""
                       src="/soundcloud.jpg"
                     >
                     </Image>
@@ -207,7 +207,7 @@ function Body() {
                       className={styles.credentials_image}
                       width={50}
                       height={50}
-                      alt="logo"
+                      alt=""
                       src="/upwork.jpg"
                     >
                     </Image>
@@ -217,7 +217,7 @@ function Body() {
                       className={styles.credentials_image}
                       width={50}
                       height={50}
-                      alt="logo"
+                      alt=""
                       src="/prisma.jpg"
                     >
                     </Image>
@@ -227,7 +227,7 @@ function Body() {
                       className={styles.credentials_image}
                       width={50}
                       height={50}
-                      alt="logo"
+                      alt=""
                       src="/flstudio.jpg"
                     >
                     </Image>
@@ -237,7 +237,7 @@ function Body() {
                       className={styles.credentials_image}
                       width={50}
                       height={50}
-                      alt="logo"
+                      alt=""
                       src="/sql.jpg"
                     >
                     </Image>
@@ -250,7 +250,7 @@ function Body() {
                 className={styles.cocacola}
                 width={50}
                 height={50}
-                alt="logo"
+                alt=""
                 src="/cocacola2.png"
               >
               </Image>
@@ -295,7 +295,7 @@ function Body() {
                     className={styles.top_main_icons_chip}
                     width={50}
                     height={50}
-                    alt="logo"
+                    alt=""
                     src="/chip.png"
                   >
                   </Image>
@@ -314,7 +314,7 @@ function Body() {
                     className={styles.top_main_icons_mountain}
                     width={50}
                     height={50}
-                    alt="logo"
+                    alt=""
                     src="/mountain.png"
                   >
                   </Image>
@@ -326,7 +326,7 @@ function Body() {
                     className={styles.top_main_icons_features}
                     width={50}
                     height={50}
-                    alt="logo"
+                    alt=""
                     src="/gears.png"
                   >
                   </Image>
@@ -483,7 +483,7 @@ function Body() {
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
-                    alt="image"
+                    alt=""
                     src={"/bgwhole1.jpg"}
                     width={100}
                     height={100}
@@ -495,7 +495,7 @@ function Body() {
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole2.jpg"}
-                    alt="image"
+                    alt=""
                     width={100}
                     height={100}
                     quality={100}
@@ -505,7 +505,7 @@ function Body() {
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole3.jpg"}
-                    alt="image"
+                    alt=""
                     width={100}
                     height={100}
                     quality={100}
@@ -515,7 +515,7 @@ function Body() {
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole4.jpg"}
-                    alt="image"
+                    alt=""
                     width={100}
                     height={100}
                     quality={100}
@@ -525,7 +525,7 @@ function Body() {
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole5.jpg"}
-                    alt="image"
+                    alt=""
                     width={100}
                     height={100}
                     quality={100}
@@ -535,7 +535,7 @@ function Body() {
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole6.jpg"}
-                    alt="image"
+                    alt=""
                     width={100}
                     height={100}
                     quality={100}
@@ -546,7 +546,7 @@ function Body() {
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole7.jpg"}
                     width={50}
-                    alt="image"
+                    alt=""
                     height={50}
                     quality={100}
                   ></Image>
@@ -555,7 +555,7 @@ function Body() {
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole8.jpg"}
-                    alt="image"
+                    alt=""
                     width={100}
                     height={100}
                     quality={100}
@@ -565,7 +565,7 @@ function Body() {
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole9.jpg"}
-                    alt="image"
+                    alt=""
                     width={100}
                     height={100}
                     quality={100}
@@ -575,7 +575,7 @@ function Body() {
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
                     src={"/bgwhole10.jpg"}
-                    alt="image"
+                    alt=""
                     width={100}
                     height={100}
                     quality={100}
@@ -587,7 +587,7 @@ function Body() {
                     src={"/bgwhole11.jpg"}
                     width={100}
                     height={100}
-                    alt="image"
+                    alt=""
                     quality={100}
                   ></Image>
                 </li>
@@ -597,7 +597,7 @@ function Body() {
                     src={"/bgwhole12.jpg"}
                     width={100}
                     height={100}
-                    alt="image"
+                    alt=""
                     quality={100}
                   ></Image>
                 </li>
@@ -651,7 +651,7 @@ function Body() {
                           className={styles.logo_ssl_logo}
                           width={50}
                           height={50}
-                          alt="logo"
+                          alt=""
                           src="/bgwhole12.jpg"
                         >
                         </Image>
@@ -668,7 +668,7 @@ function Body() {
                           className={styles.logo_ssl_logo}
                           width={50}
                           height={50}
-                          alt="logo"
+                          alt=""
                           src="/bgwhole12.jpg"
                         >
                         </Image>
@@ -684,7 +684,7 @@ function Body() {
                           className={styles.logo_ssl_logo}
                           width={50}
                           height={50}
-                          alt="logo"
+                          alt=""
                           src="/bgwhole12.jpg"
                         >
                         </Image>
