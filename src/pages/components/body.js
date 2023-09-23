@@ -272,6 +272,7 @@ function Body() {
               </ul>
             </ul>
 
+<div className={styles.image_and_video}>
             <div>
               <Image
                 className={styles.cocacola}
@@ -290,6 +291,7 @@ function Body() {
                 <source src="/logogreytonetriple.mp4" type="video/mp4" />
 
               </video>
+            </div>
             </div>
 
 

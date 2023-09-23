@@ -49,6 +49,17 @@
   transform: scale(0.9);
   transition: 0.4s;
 }
+.image_and_video  { 
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("/lens.png");
+  background-size: contain;
+background-position-x: 55px;
+  background-repeat: no-repeat;
+}
 
 .top_video_background{ 
   display: flex;
