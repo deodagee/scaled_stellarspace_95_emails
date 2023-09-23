@@ -59,10 +59,14 @@ function Footer() {
                 <div className={styles.pagesLinksServices}>
                   <div className={styles.sectionTitle}>Page Links</div>
                   <ul className={styles.list}>
-                    <li className={styles.item}>Home</li>
-                    <li className={styles.item}>Contact</li>
-                    <li className={styles.item}>Pricing</li>
-                    <li className={styles.item}>Source Code</li>
+                  <Link href={"/index"}>
+                    <li className={styles.item}>Home</li></Link>
+                    <Link href={"/contact"}>
+                    <li className={styles.item}>Contact</li></Link>
+                    <Link href={"/pricing"}>
+                    <li className={styles.item}>Pricing</li></Link>
+                    <Link href={"https://github.com/deodagee/scaled_stellarspace_95_emails"}>
+                    <li className={styles.item}>Source Code</li></Link>
                   </ul>
                 </div>
               </li>
