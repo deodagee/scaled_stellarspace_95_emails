@@ -1,18 +1,31 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { render } from "@react-email/render";
-import WelcomeTemplate from "../emails/WelcomeTemplate";
 import { sendEmail } from "../../lib/email";
-import React from "react"; // Import React
 
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  const emailTemplate = <WelcomeTemplate /> as React.ReactElement; // Explicitly type as ReactElement
+  // Extract form data from the request body
+  const { name, reason, category, message } = req.body;
+
+  // Create an HTML email template using the form data
+  const emailTemplate = `
+    <html>
+      <body>
+        <h1>Contact Form Submission</h1>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Inquiry:</strong> ${reason}</p>
+        <p><strong>Request Category:</strong> ${category}</p>
+        <p><strong>Message:</strong> ${message}</p>
+      </body>
+    </html>
+  `;
+
+  // Send the email
   await sendEmail({
     to: "deestringz@gmail.com",
-    subject: "StellarSpace Requests",
-    html: render(emailTemplate), // Pass the JSX element to render
+    subject: "StellarSpace Contact Form Submission",
+    html: emailTemplate,
   });
 
   return res.status(200).json({ message: "Email sent successfully" });
