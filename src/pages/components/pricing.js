@@ -103,7 +103,7 @@ function Pricing() {
                   >
                   </Image>
                   <p className={styles.top_main_header_paragraph1}>Picking and Choosing</p>
-                  <p className={styles.top_main_header_paragraph2}>For Individuals and Businesses alike, if you need help picking a plan, send a request through the <Link className={styles.contact_page_link} href={"/contact"}>Contact</Link> page. Otherwise choose a plan, and click on &quot;Get Started&quot; to send me an order. This is not a payment gate; please allow  1-2 business days for a reply first, so we can get started.</p>
+                  <p className={styles.top_main_header_paragraph2}>For Individuals and Businesses alike, if you need help picking a plan, send a request through the <Link className={styles.contact_page_link} href={"/contact"}>Contact</Link> page. Otherwise choose a plan, and click on &quot;Get Started&quot; to send me an order. This is not a payment gate; so please allow  1-2 business days for a reply first, before we can get started.</p>
                 </li>
                 <li>
                   <Image
@@ -261,7 +261,7 @@ function Pricing() {
                   >
                   </Image>
                   <p className={styles.top_main_header_paragraph1}>2. Type of website </p>
-                  <p className={styles.top_main_header_paragraph2}>Websites come in three main catagories: Static, Dynamic, and Ecommerce. They can be confusing at first to understand, but their differences play a major role in both pricing and actual web functionality. Click <Link className={styles.contact_page_link} href={'/websitetypes'}>&quot;Websites&quot;</Link> for more details. If you don&apos;t know which one your site falls under or is better for your needs. Alternatively you can mention this in the contact page with your request so that I can send you a small questionaire to fill out that will determine the type of website you may need.</p>
+                  <p className={styles.top_main_header_paragraph2}>Websites come in three main catagories: Static, Dynamic, and Ecommerce. They can be confusing at first to understand, but their differences play a major role in both pricing and actual web functionality. Click <Link className={styles.contact_page_link} href={'/websitetypes'}>&quot;Websites&quot;</Link> for more details. If you don&apos;t know which one your site falls under or is better for your needs, go to the <Link className={styles.list_component} href={'/contact'}>Contact Page.</Link> Alternatively you can mention this in the contact page with your request so that I can send you a small questionaire to fill out that will determine the type of website you may need.</p>
                 </li>
                 <li>
                   <Image

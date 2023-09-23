@@ -228,11 +228,13 @@
 }
 
 .top_main_header_paragraph2 {
+  white-space: wrap;
   text-align: left;
   font-size: 11px;
   font-weight: 500;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: rgb(189, 189, 189);
+  word-break: break-all;
 }
 
 .top_main_header_paragraph1:hover,
