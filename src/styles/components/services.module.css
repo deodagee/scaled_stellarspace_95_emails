@@ -12,7 +12,7 @@
 .services_page_whole {
     background-color: rgb(21, 21, 21);
     width: 100vw;
-    height: 100vh;
+    height: max-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,6 +23,7 @@
     padding: 0;
     margin: 0;
     width: max-content;
+    height: max-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,6 +96,10 @@
     justify-content: center;
 }
 .desert_eagle_div { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
 }
 .deserteagle {
     box-shadow: rgb(231, 231, 231) 0px 0px 1px;
@@ -102,69 +107,184 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    width: max-content;
     transform: scale(5);
 }
 
 
 @media (min-width: 200px) and (max-width: 300px) and (orientation:portrait) {
-    .services_page_whole {
-    padding-bottom: 150vh;
-    } 
+
     .cocacola {
-    margin-top: 180vh;
-}
-
-
-    .video_and_image {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        padding: 0;
-        margin: 0;
+        border-radius: 50%;
+        margin-top: 30vh;
+        margin-bottom: 0vh;
+        transform: scale(0.7);
+        transition: 0.4s;
     }
 
-    .title_and_image_wrap {
+    .video_and_image {
+        width: 100vw;
         display: flex;
         flex-direction: column;
-        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title_wrap { 
+        margin-bottom: -30px;
     }
 
     .title_and_image_wrap li {
-        font-size: 10px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        font-family: 'Changa', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: rgb(237, 237, 237);
     }
 
 
     .title_bottom_img_or_video {
-        width: 250px;
+        height: 200px;
+        width: 50vw;
+        margin: 0;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .video_loop_tag {
-        width: max-content;
-
+    .video_loop_tag { 
+        transform: scale(0.9);
     }
-.desert_eagle_div { 
-    margin-top: -40px;
-    width:100vw;
-}
-.deserteagle { 
-transform: scale(0.5);
-    margin-top: 0;
+
+    .desert_eagle_div { 
+        transform: scale(0.43);
+    }
+
 }
 
+@media (min-width: 200px) and (max-width: 300px) and (orientation:landscape) {
 }
 
 
 @media (min-width: 300px) and (max-width: 400px) and (orientation:portrait) {
+    .cocacola {
+        border-radius: 50%;
+        margin-top: 23vh;
+        margin-bottom: 0vh;
+        transform: scale(0.7);
+        transition: 0.4s;
+    }
+
+    .video_and_image {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title_wrap { 
+        margin-bottom: -30px;
+    }
+
+    .title_and_image_wrap li {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        font-family: 'Changa', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: rgb(237, 237, 237);
+    }
+
+
+    .title_bottom_img_or_video {
+        height: 200px;
+        width: 50vw;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .video_loop_tag { 
+        transform: scale(0.85);
+    }
+
+    .desert_eagle_div { 
+        transform: scale(0.55);
+    }
 } 
+
+@media (min-width: 300px) and (max-width: 400px) and (orientation:landscape) {
+}
+
+
+
 @media (min-width: 400px) and (max-width: 500px) and (orientation:portrait) {
+    .cocacola {
+        border-radius: 50%;
+        margin-top: 16vh;
+        margin-bottom: 0vh;
+        transform: scale(0.7);
+        transition: 0.4s;
+    }
+
+    .video_and_image {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title_wrap { 
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .title_and_image_wrap li {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        font-family: 'Changa', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        color: rgb(237, 237, 237);
+    }
+
+
+    .title_bottom_img_or_video {
+        height: 200px;
+        width: 50vw;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .video_loop_tag { 
+        transform: scale(0.85);
+    }
+
+    .desert_eagle_div { 
+        transform: scale(0.7);
+    }
+} 
+
+@media (min-width: 400px) and (max-width: 500px) and (orientation:landscape) {
 } 
 
 @media (min-width: 500px) and (max-width: 600px) and (orientation:portrait) {
 } 
+
 @media (min-width: 500px) and (max-width: 600px) and (orientation:landscape) {
 } 
 
@@ -173,10 +293,21 @@ transform: scale(0.5);
 @media (min-width: 600px) and (max-width: 700px) and (orientation:landscape) {
 } 
 
+@media (min-width: 700px) and (max-width: 800px) and (orientation:portrait) {
+} 
+@media (min-width: 700px) and (max-width: 800px) and (orientation:landscape) {
+} 
+
 @media (min-width: 800px) and (max-width: 900px) and (orientation:portrait) {
 } 
 @media (min-width: 800px) and (max-width: 900px) and (orientation:landscape) {
 } 
+
+@media (min-width: 900px) and (max-width: 1000px) and (orientation:portrait) {
+} 
+@media (min-width: 900px) and (max-width: 1000px) and (orientation:landscape) {
+} 
+
 
  @media (min-width: 1000px) and (max-width: 1200px) and (orientation:portrait) {
 }

@@ -6,9 +6,15 @@ import Services from "./components/services"
 function ServicesPage () {
   return (
     <>
+    <div>
     <Header></Header>
+    </div>
+    <div>
     <Services></Services>
+    </div>
+    <div>
     <Footer></Footer>
+    </div>
     </>
     )
 }
