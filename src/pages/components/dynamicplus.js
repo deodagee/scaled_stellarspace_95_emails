@@ -8,47 +8,47 @@ function DynamicPlus() {
 
     return (
         <>
-        <Head>
-    <link rel="stylesheet" href={"/styles/components/tabber.module.css"} />
-  </Head>
+            <Head>
+                <link rel="stylesheet" href={"/styles/components/tabber.module.css"} />
+            </Head>
             <div className={styles.whole}>
                 <div className={styles.parent_wrapper}>
 
                     <div className={styles.everything_wrapper}>
 
-                    <div className={styles.pricing_headers_list_wrapper}>
-            <ul className={styles.pricing_headers_list}>
-                <Link href={'/static'}>
-              <li className={styles.tab_1}>
-                <p>Static</p>
-              </li>
-              </Link>
-              <span className={styles.seperator_line}></span>
-              <Link href={'/dynamic'}>
-              <li className={styles.tab_2}>
-                <p>Dynamic</p>
-              </li>
-              </Link>
-              <span className={styles.seperator_line}></span>
-              <Link href={'/dynamicplus'}>
-              <li className={styles.tab_3}>
-                <p>Dynamic Plus</p>
-              </li>
-              </Link>
-              <span className={styles.seperator_line}></span>
-              <Link href={'/ecommerce'}>
-              <li className={styles.tab_4}>
-                <p>Ecommerce</p>
-              </li>
-              </Link>
-              <span className={styles.seperator_line}></span>
-              <Link href={'/eplus'}>
-              <li className={styles.tab_5}>
-                <p>E-Plus</p>
-              </li>
-              </Link>
-            </ul>
-          </div>
+                        <div className={styles.pricing_headers_list_wrapper}>
+                            <ul className={styles.pricing_headers_list}>
+                                <Link href={'/static'}>
+                                    <li className={styles.tab_1}>
+                                        <p>Static</p>
+                                    </li>
+                                </Link>
+                                <span className={styles.seperator_line}></span>
+                                <Link href={'/dynamic'}>
+                                    <li className={styles.tab_2}>
+                                        <p>Dynamic</p>
+                                    </li>
+                                </Link>
+                                <span className={styles.seperator_line}></span>
+                                <Link href={'/dynamicplus'}>
+                                    <li className={styles.tab_3}>
+                                        <p>Dynamic Plus</p>
+                                    </li>
+                                </Link>
+                                <span className={styles.seperator_line}></span>
+                                <Link href={'/ecommerce'}>
+                                    <li className={styles.tab_4}>
+                                        <p>Ecommerce</p>
+                                    </li>
+                                </Link>
+                                <span className={styles.seperator_line}></span>
+                                <Link href={'/eplus'}>
+                                    <li className={styles.tab_5}>
+                                        <p>E-Plus</p>
+                                    </li>
+                                </Link>
+                            </ul>
+                        </div>
 
                         <div className={styles.frame_wrapper}>
                             <div className={styles.frame_402}>
