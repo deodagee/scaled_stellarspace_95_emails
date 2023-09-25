@@ -7,22 +7,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 /*  font-family: 'Oxygen', sans-serif; */
 
-.list_div ol { 
+.list_div ol {
     list-style: none;
 }
 
-.projects_page_whole { 
+.projects_page_whole {
     width: 100vw;
     background-color: rgb(22, 22, 22);
 }
 
-.projects_page_wrapper { 
+.projects_page_wrapper {
     display: flex;
     width: 100vw;
     height: max-content;
 }
 
-.list_div { 
+.list_div {
     width: 100vw;
     margin-top: 200px;
     display: flex;
@@ -33,7 +33,7 @@
 }
 
 
-.title_and_title_description { 
+.title_and_title_description {
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -42,20 +42,20 @@
     justify-content: center;
 }
 
-.title { 
+.title {
     display: flex;
     flex-direction: row;
     color: rgb(226, 226, 226);
     font-size: 20px;
-    font-family: Teko , sans-serif;
+    font-family: Teko, sans-serif;
     font-weight: 900;
 }
 
-.title_brother { 
+.title_brother {
     color: orange;
 }
 
-.description_list_element { 
+.description_list_element {
     text-align: center;
     width: 75vw;
     font-size: 10px;
@@ -64,7 +64,7 @@
     color: rgb(144, 144, 144);
 }
 
-.buttons_list_element{ 
+.buttons_list_element {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -73,7 +73,7 @@
     grid-auto-flow: dense;
 }
 
-.contact_button { 
+.contact_button {
     background-color: rgb(90, 96, 255);
     font-size: 12px;
     padding: 4px;
@@ -82,29 +82,29 @@
     color: white;
 }
 
-.see_more_button { 
-background: linear-gradient( to top, rgb(52, 52, 52), rgb(50, 50, 50), rgb(49, 49, 49));
-font-size: 12px;
-padding: 4px;
-border-radius: 0.15rem;
-box-shadow: white 0px 0px 2px;
-color: white;
+.see_more_button {
+    background: linear-gradient(to top, rgb(52, 52, 52), rgb(50, 50, 50), rgb(49, 49, 49));
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 0.15rem;
+    box-shadow: white 0px 0px 2px;
+    color: white;
 }
 
 
-.list2 { 
+.list2 {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100vw;
 }
 
-.video_list_element { 
+.video_list_element {
     display: flex;
     background-color: rgb(22, 22, 22);
 }
 
-.video_tag { 
+.video_tag {
     width: 600px;
     margin-top: -50px;
     border-radius: 0.15rem;
@@ -113,14 +113,14 @@ color: white;
     transition: 0.5s;
 }
 
-.video_tag:hover{
+.video_tag:hover {
     transform: scale(0.55);
     box-shadow: orange 0px 0px 7px;
     transition: 0.5s;
 }
 
 
-.list3 { 
+.list3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -128,7 +128,7 @@ color: white;
     flex-direction: column;
 }
 
-.list4 { 
+.list4 {
     border-width: 1px;
     border-left: none;
     border-right: none;
@@ -147,11 +147,11 @@ color: white;
     justify-content: space-evenly;
     margin-top: 50px;
     margin-bottom: 20px;
-    grid-template-columns:  repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 
 }
 
-.list4_list_item { 
+.list4_list_item {
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -159,32 +159,42 @@ color: white;
     justify-content: center;
 }
 
-.teallogo { 
-    width:30px;
+.teallogo {
+    width: 30px;
     margin-bottom: 10px;
     transition: 0.5s;
 }
 
-.teallogo:hover { 
+.teallogo:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
 
-.branding_logo, .front_end_logo, .uiux, .modeling_logo, .audio_logo, .sony_alpha_logo{ 
+.branding_logo,
+.front_end_logo,
+.uiux,
+.modeling_logo,
+.audio_logo,
+.sony_alpha_logo {
     border-radius: 0.45rem;
-    margin-top:5px;
+    margin-top: 5px;
     width: 350px;
     transition: 0.5s;
     margin-bottom: 0px;
 }
 
-.branding_logo:hover, .front_end_logo:hover, .uiux:hover , .modeling_logo:hover , .audio_logo:hover, .sony_alpha_logo:hover{ 
+.branding_logo:hover,
+.front_end_logo:hover,
+.uiux:hover,
+.modeling_logo:hover,
+.audio_logo:hover,
+.sony_alpha_logo:hover {
     transition: 0.5s;
     transform: scale(1.03);
 }
 
 
-.list4_title { 
+.list4_title {
     width: 300px;
     align-items: center;
     justify-content: center;
@@ -192,7 +202,7 @@ color: white;
     font-size: 13px;
     font-family: Teko;
     color: rgb(193, 193, 193);
-    background-color:rgb(38, 38, 38);
+    background-color: rgb(38, 38, 38);
     padding: 2px;
     padding-left: 5px;
     padding-right: 5px;
@@ -201,13 +211,13 @@ color: white;
     transition: 0.5s;
 }
 
-.list4_title:hover { 
+.list4_title:hover {
     background-color: rgb(225, 225, 225);
     color: rgb(24, 24, 24);
     transition: 0.5s;
 }
 
-.list4_title_paragraph { 
+.list4_title_paragraph {
     width: 400px;
     height: 150px;
     font-size: 8px;
@@ -221,11 +231,11 @@ color: white;
     padding-top: 20px;
     border-width: 0.5px;
     border-color: rgb(107, 107, 107);
-transition: 0.5s;
-margin-bottom: 50px;
+    transition: 0.5s;
+    margin-bottom: 50px;
 }
 
-.list4_title_paragraph:hover{ 
+.list4_title_paragraph:hover {
     transition: 0.5s;
     background-color: rgba(26, 26, 26, 0.9);
     color: rgb(224, 224, 224);
@@ -233,9 +243,12 @@ margin-bottom: 50px;
 }
 
 
-@media (min-width: 200px) and (max-width: 500px) and (orientation: landscape) {
+@media (min-width: 200px) and (max-width: 500px) and (orientation: portrait) {
+    .video_list_element {
+        margin-top: 50px;
+    }
 
-    .list4 { 
+    .list4 {
         display: grid;
         flex-direction: column;
         align-items: center;
@@ -243,19 +256,26 @@ margin-bottom: 50px;
         width: 100vw;
         margin-top: 50px;
         margin-bottom: 20px;
-        grid-template-columns:  repeat(2, 1fr);
-    
+        grid-template-columns: repeat(1, 1fr);
+
     }
 
-    .list4_list_item { 
+    .list4_list_item {
         display: flex;
         flex-direction: column;
-        width: 50vw;
+        width: 100vw;
         padding: 10px;
         align-items: center;
         justify-content: center;
     }
 
-} 
-
-
+    .list4_title { 
+        width: 200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .list4_title_paragraph {
+        width: 75vw;
+        height: max-content;
+    }
+}
