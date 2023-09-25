@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+/*  font-family: 'Akronim', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+/*  font-family: 'Teko', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+/*  font-family: 'Oxygen', sans-serif; */
+
+.list_div ol { 
+    list-style: none;
+
+}
+
+.projects_page_whole { 
+    width: 100vw;
+    background-color: rgb(22, 22, 22);
+}
+
+.projects_page_wrapper { 
+    width: 100vw;
+    height: 100vh;
+}
+
+.list_div { 
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.title_and_title_description { 
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.title { 
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    color: rgb(226, 226, 226);
+    font-size: 20px;
+    font-family: Teko , sans-serif;
+}
+
+.title_brother { 
+    color: orange;
+}
+
+.description_list_element { 
+    font-size: 10px;
+    padding: 10px;
+    margin: 20px;
+    color: rgb(144, 144, 144);
+}
+
+.buttons_list_element{ 
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    grid-auto-flow: dense;
+}
+
+.contact_button { 
+    background-color: rgb(90, 96, 255);
+    font-size: 13px;
+    padding: 4px;
+    border-radius: 0.15rem;
+    box-shadow: white 0px 0px 2px;
+
+}
+
+.see_more_button { 
+background: linear-gradient( to top, rgb(52, 52, 52), rgb(50, 50, 50), rgb(49, 49, 49));
+font-size: 13px;
+padding: 4px;
+border-radius: 0.15rem;
+box-shadow: white 0px 0px 2px;
+}
+
+
+.list2 { 
+    display: flex;
+}
+
+.video_list_element { 
+    display: flex;
+    background-color: rgb(22, 22, 22);
+}
+
+.video_tag { 
+    border-radius: 0.45rem;
+    box-shadow: white 0px 0px 6px;
+    transform: scale(0.7);
+}
+
+.video_tag:hover{
+    transform: scale(0.75);
+    box-shadow: orange 0px 0px 7px;
+}
