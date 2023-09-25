@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
+/*  font-family: 'Cabin', sans-serif */
+
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+/*  font-family: 'Akronim', sans-serif; */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+/*  font-family: 'Teko', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+/*  font-family: 'Oxygen', sans-serif; */
+
 .website_types_whole ol {
     list-style: none;
     width: 100vw;
@@ -21,6 +34,7 @@
 }
 
 .list_wrapper_first {
+    width: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,24 +44,27 @@
 }
 
 .title_element {
-    color: white;
+    color: rgb(212, 212, 212);
+    padding:10px;
+    font-size: 30px;
+    font-family: 'Teko', sans-serif;
 }
 
 .description {
+    padding: 15px;
     color: orange;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Akronim', sans-serif;
+    
 }
 
-.list_wrapper_second {
+.list_wrapper {
     background-color: rgb(11, 11, 11);
     box-shadow: rgb(232, 232, 232) 0px 0px 5px;
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-
-.list_wrapper_second {
-    display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
     width: 100vw;
 }
@@ -58,21 +75,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: rgb(185, 185, 185)px;
+    background-color: rgb(37, 37, 37);
 }
 
-.mini_titles h2 {
-    color: rgb(230, 230, 230);
 
-}
-
-.mini_titles h1 {
-    text-align: left;
-    color: rgb(192, 192, 192);
-
-}
 
 .list_element_third p {
-    color: teal;
+    border-radius: 0.35rem;
+    margin: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+    padding-right:10px;
+    color: rgb(197, 197, 197);
+    background-color: rgb(16, 16, 16);
+    box-shadow: rgb(119, 119, 119) 0px 0px 7px;
+
 }
 
 .list_wrapper_third {
@@ -85,7 +104,6 @@
 }
 
 .list_wrapper_third li {
-    white-space: nowrap;
     font-size: 10px;
     color: white;
 }
