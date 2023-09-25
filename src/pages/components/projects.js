@@ -249,29 +249,6 @@ function Projects() {
 
                         </ol>
 
-                        <ol className={styles.list3}>
-                            <li className={styles.title}>
-                                <h1>
-                                    1080 to 4k Rendering
-                                </h1>
-                            </li>
-                            <li className={styles.description_list_element}>
-                                <p>Uitilzing Unreal Engine&apos;s rendering capabalities through Blender for professionals toolkit.</p>
-                            </li>
-
-                        </ol>
-
-                        <ol className={styles.list3}>
-                            <li className={styles.title}>
-                                <h1>
-                                    1080 to 4k Rendering
-                                </h1>
-                            </li>
-                            <li className={styles.description_list_element}>
-                                <p>Uitilzing Unreal Engine&apos;s rendering capabalities through Blender for professionals toolkit.</p>
-                            </li>
-
-                        </ol>
 
                         <ol className={styles.list3}>
                         </ol>
