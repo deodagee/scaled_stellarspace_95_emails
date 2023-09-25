@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../../../styles/components/websitetypes.module.css"
 import Image from "next/image";
+import Link from "next/link";
 
 function WebsiteTypes() {
 
@@ -28,7 +29,7 @@ function WebsiteTypes() {
 
                     <ol className={styles.list_wrapper}>
                         <li className={styles.list_element_second}>
-                            <h2 className={styles.name}>Static Websites</h2>
+                            <h2 className={styles.name}><Link href={"/static"}>Static Websites</Link></h2>
                         </li>
 
                         <ol className={styles.descriptions_list_wrapper}>
@@ -41,7 +42,9 @@ function WebsiteTypes() {
 
                     <ol className={styles.list_wrapper}>
                         <li className={styles.list_element_second}>
-                            <h2 className={styles.name}>Dynamic Websites</h2>
+                            <h2 className={styles.name}><Link
+                            href={"/dynamic"}
+                            >Dynamic Websites</Link></h2>
                         </li>
 
                         <ol className={styles.descriptions_list_wrapper}>
@@ -54,7 +57,9 @@ function WebsiteTypes() {
 
                     <ol className={styles.list_wrapper}>
                         <li className={styles.list_element_second}>
-                            <h2 className={styles.name}>Ecommerce Websites</h2>
+                            <h2 className={styles.name}><Link
+                            href={"/ecommerce"}
+                            >Ecommerce Websites</Link></h2>
                         </li>
 
                         <ol className={styles.descriptions_list_wrapper}>
