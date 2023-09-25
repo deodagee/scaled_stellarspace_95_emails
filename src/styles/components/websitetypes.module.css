@@ -95,8 +95,8 @@
 
 .list_element_third {
     width: 100vw;
-    height: 200px;
-    padding: 5px;
+    height: max-content;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,15 +112,15 @@ transition: 0.5s;
 
 
 .list_element_third p {
+    text-align: center;
     transition: 0.5s;
     width: 90vw;
-    height: 90px;
     border-radius: 0.35rem;
     margin: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: rgb(197, 197, 197);
     background-color: rgb(16, 16, 16);
     box-shadow: rgb(0, 0, 0) 0px 0px 10px;
@@ -140,3 +140,14 @@ transition: 0.5s;
     font-size: 10px;
     color: white;
 }
+
+@media (min-width: 200px) and (max-width: 500px) and (orientation: portrait) {
+
+
+    .list_element_third { 
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+} 
