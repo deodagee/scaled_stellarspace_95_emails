@@ -32,15 +32,7 @@ function Projects() {
 
 
 
-
-
-
-
-
     return (
-
-
-
 
         <>
 
@@ -97,12 +89,12 @@ function Projects() {
                             <span><Image
                                 className={styles.arrow}
                                 alt=""
-                                width={100}
-                                height={100}
+                                width={15}
+                                height={15}
                                 src={"/forwardarrow.png"}></Image></span> 
                             </li>
                         </ol>
-                        
+
                         <ol className={styles.list3}>
                             <li className={styles.title}>
                                 <h1>
@@ -137,4 +129,3 @@ function Projects() {
 }
 
 export default Projects 
-

@@ -140,8 +140,8 @@ function Services() {
                             <span><Image
                                 className={styles.arrow}
                                 alt=""
-                                width={100}
-                                height={100}
+                                width={15}
+                                height={15}
                                 src={"/forwardarrow.png"}></Image></span> 
                             </li>
                         </ol>
@@ -181,8 +181,8 @@ function Services() {
                                     href={'/branding'}><Image
                                         className={styles.arrow2}
                                         alt=""
-                                        width={100}
-                                        height={100}
+                                        width={15}
+                                        height={15}
                                         src={"/forwardarrow.png"}></Image></Link></span> </span>
                             </span>
 
@@ -219,8 +219,8 @@ function Services() {
                                     href={'/branding'}><Image
                                         className={styles.arrow2}
                                         alt=""
-                                        width={100}
-                                        height={100}
+                                        width={15}
+                                        height={15}
                                         src={"/forwardarrow.png"}></Image></Link></span> </span>
                             </span>
 
@@ -257,8 +257,8 @@ function Services() {
                                     href={'/branding'}><Image
                                         className={styles.arrow2}
                                         alt=""
-                                        width={100}
-                                        height={100}
+                                        width={15}
+                                        height={15}
                                         src={"/forwardarrow.png"}></Image></Link></span> </span>
                             </span>
 
@@ -295,8 +295,8 @@ function Services() {
                                     href={'/branding'}><Image
                                         className={styles.arrow2}
                                         alt=""
-                                        width={100}
-                                        height={100}
+                                        width={15}
+                                        height={15}
                                         src={"/forwardarrow.png"}></Image></Link></span> </span>
                             </span>
 
@@ -337,8 +337,8 @@ function Services() {
                                     href={'/branding'}><Image
                                         className={styles.arrow2}
                                         alt=""
-                                        width={100}
-                                        height={100}
+                                        width={15}
+                                        height={15}
                                         src={"/forwardarrow.png"}></Image></Link></span> </span>
                             </span>
 
@@ -375,8 +375,8 @@ function Services() {
                                     href={'/branding'}><Image
                                         className={styles.arrow2}
                                         alt=""
-                                        width={100}
-                                        height={100}
+                                        width={15}
+                                        height={15}
                                         src={"/forwardarrow.png"}></Image></Link></span> </span>
                             </span>
                         </li>
