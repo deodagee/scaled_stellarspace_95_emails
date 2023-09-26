@@ -135,9 +135,8 @@
     border-color: rgb(82, 82, 82);
     padding-top: 40px;
     padding-bottom: 40px;
-    width: 100vw;
+    width: max-content;
     background: linear-gradient(to right, rgb(10, 10, 10), rgb(11, 11, 11), rgb(9, 9, 9));
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -147,20 +146,22 @@
     justify-content: space-evenly;
     margin-top: 50px;
     margin-bottom: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 
 }
 
 .list4_list_item {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 10px;
+    gap: 6vw;
+    width: 95vw;
     align-items: center;
     justify-content: center;
 }
 
 .teallogo {
-    width: 30px;
+    width: 40px;
     margin-bottom: 10px;
     transition: 0.5s;
 }
@@ -178,7 +179,7 @@
 .sony_alpha_logo {
     border-radius: 0.45rem;
     margin-top: 5px;
-    width: 350px;
+    width: 110px;
     transition: 0.5s;
     margin-bottom: 0px;
 }
@@ -193,19 +194,29 @@
     transform: scale(1.03);
 }
 
-
-.list4_title {
-    width: 300px;
+.title_and_image { 
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 13px;
+    flex-direction: column;
+    width: max-content;
+}
+
+
+.list4_title {
+    width: 200px;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
     font-family: Teko;
-    color: rgb(193, 193, 193);
-    background-color: rgb(38, 38, 38);
+    color: rgb(222, 222, 222);
     padding: 2px;
     padding-left: 5px;
     padding-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 0.35rem;
     box-shadow: white 0px 0px 6px;
     transition: 0.5s;
@@ -225,14 +236,16 @@
     font-weight: 500;
     color: rgb(239, 239, 239);
     margin-top: 20px;
-    background-color: rgba(24, 24, 24, 0.7);
     border-radius: 0.45rem;
     padding: 10px;
-    padding-top: 20px;
     border-width: 0.5px;
     border-color: rgb(107, 107, 107);
     transition: 0.5s;
     margin-bottom: 50px;
+    margin-left: 8vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .list4_title_paragraph:hover {
@@ -277,5 +290,7 @@
     .list4_title_paragraph {
         width: 75vw;
         height: max-content;
+        margin-left: 0;
+
     }
 }
