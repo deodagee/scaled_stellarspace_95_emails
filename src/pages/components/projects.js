@@ -111,7 +111,7 @@ function Projects() {
                                 <span>
                                     <p className={styles.list4_title_paragraph}>
                                         Branding as a service (BaaS) is a strategic offering that provides businesses with comprehensive solutions to establish, enhance, and maintain their brand identity. This service encompasses a range of creative and marketing expertise, including logo design, brand messaging, visual identity development, and brand strategy. BaaS providers collaborate closely with clients to ensure their brand conveys a compelling story, resonates with their target audience, and maintains consistency across all touchpoints, from websites and social media to physical materials. By offering a holistic approach to branding, BaaS empowers businesses to build strong, memorable, and authentic brand identities that differentiate them in competitive markets.
-                                    </p>                   
+                                    </p>
                                 </span>
 
                             </li>
@@ -124,8 +124,8 @@ function Projects() {
                                     height={100}></Image>
                             </span>
                                 <span className={styles.list4_title}>
-                                    <h1><Link href={"/front_end_back_end_service"}>Front End/Back End Dev</Link></h1></span>  
-                                    <span>
+                                    <h1><Link href={"/front_end_back_end_service"}>Front End/Back End Dev</Link></h1></span>
+                                <span>
                                     <Image
                                         className={styles.front_end_logo}
                                         src="/frontend.png"
@@ -147,7 +147,7 @@ function Projects() {
                                     width={100}
                                     height={100}></Image>
                             </span>
-                                <span className={styles.list4_title}><h1><Link href={'/ui_ux_service'}>Ui/Ux (User Interface/Experience)</Link></h1></span> 
+                                <span className={styles.list4_title}><h1><Link href={'/ui_ux_service'}>Ui/Ux (User Interface/Experience)</Link></h1></span>
                                 <span>
                                     <Image
                                         className={styles.uiux}
@@ -156,7 +156,7 @@ function Projects() {
                                         width={100}
                                         height={100}></Image>
                                 </span>
-                                       <span>
+                                <span>
                                     <p className={styles.list4_title_paragraph}>
                                         User Interface and Experience as a Service is a specialized offering in the realm of design and development. It provides businesses with access to expert designers and developers who craft seamless and engaging digital experiences for their customers. UI/UX focuses on creating visually appealing interfaces that prioritize user-friendliness and accessibility. It also delves into user research and testing to ensure that the design aligns with user preferences and needs. By taking advantage of UI/UX services, businesses can enhance their digital products, optimize customer satisfaction, and ultimately boost their competitive edge in the digital landscape. This service streamlines the design process, making it easier for companies to deliver exceptional user experiences across websites, applications, and other digital platforms.
                                     </p>
@@ -171,7 +171,7 @@ function Projects() {
                                     width={100}
                                     height={100}></Image>
                             </span>
-                                <span className={styles.list4_title}><h1><Link href={"/modeling_service"}>Advanced 3D modeling</Link></h1></span>    
+                                <span className={styles.list4_title}><h1><Link href={"/modeling_service"}>Advanced 3D modeling</Link></h1></span>
                                 <span>
                                     <Image
                                         className={styles.modeling_logo}
@@ -181,7 +181,7 @@ function Projects() {
                                         height={100}></Image>
                                 </span>     <span>
                                     <p className={styles.list4_title_paragraph}>
-                                    Advanced 3D modeling leverages cutting-edge techniques and specialized software, often harnessing the power of Unreal Engine. Unreal Engine, a leading game engine developed by Epic Games, is integral to achieving stunning levels of realism and interactivity in 3D models. It enables the creation of highly detailed and visually captivating environments, characters, and assets for a wide range of applications. Through the integration of Unreal Engine, advanced 3D modelers can harness real-time rendering, physics simulations, and dynamic lighting to bring their creations to life, whether it&apos;s for gaming, architectural visualization, virtual reality experiences, or immersive simulations. This combination of advanced 3D modeling techniques and the capabilities of Unreal Engine leads to the development of visually stunning and interactive 3D content that pushes the boundaries of digital artistry and immersion.
+                                        Advanced 3D modeling leverages cutting-edge techniques and specialized software, often harnessing the power of Unreal Engine. Unreal Engine, a leading game engine developed by Epic Games, is integral to achieving stunning levels of realism and interactivity in 3D models. It enables the creation of highly detailed and visually captivating environments, characters, and assets for a wide range of applications. Through the integration of Unreal Engine, advanced 3D modelers can harness real-time rendering, physics simulations, and dynamic lighting to bring their creations to life, whether it&apos;s for gaming, architectural visualization, virtual reality experiences, or immersive simulations. This combination of advanced 3D modeling techniques and the capabilities of Unreal Engine leads to the development of visually stunning and interactive 3D content that pushes the boundaries of digital artistry and immersion.
                                     </p>
                                 </span>
 
@@ -194,7 +194,7 @@ function Projects() {
                                     width={100}
                                     height={100}></Image>
                             </span>
-                                <span className={styles.list4_title}><h1><Link href={"/audio_service"}>Audio | Coprights | Mixing | Mastering</Link></h1></span>   
+                                <span className={styles.list4_title}><h1><Link href={"/audio_service"}>Audio | Coprights | Mixing | Mastering</Link></h1></span>
                                 <span>
                                     <Image
                                         className={styles.audio_logo}
@@ -202,13 +202,16 @@ function Projects() {
                                         alt=''
                                         width={100}
                                         height={100}></Image>
-                                </span>     <span>
-                                    <p className={styles.list4_title_paragraph}>Audio Copyrighting involves legally protecting musical works, granting creators exclusive rights and safeguarding their intellectual property.
+                                </span>    <span>
+                                    <p className={styles.list4_title_paragraph}>
+                                        Audio Copyrighting involves legally protecting musical works, granting creators exclusive rights and safeguarding their intellectual property.
                                         Composing is the creative process of crafting original music or soundtracks for various media, enhancing storytelling through melodies and arrangements.
                                         Mixing is the technical and artistic blending of audio tracks to create a polished and balanced sound.
                                         Mastering is the final step in audio production, optimizing sound quality and ensuring consistency for distribution on different platforms.
-                                        Note:You can negotiate copyright credits with me on any project, I aim to be fair, not to take your credits. This is a priviledge I offer all my clients, you are free to choose to take all credits under your name for a higher fee, or choose to split royalties with me. Prices disclosed at the <Link href={"/audiopricing.js"}>Audio Pricing</Link> Page.</p>
+                                        Note: You can negotiate copyright credits with me on any project, I aim to be fair, not to take your credits. This is a privilege I offer all my clients, you are free to choose to take all credits under your name for a higher fee, or choose to split royalties with me. Prices disclosed at the <Link href={"/audiopricing.js"}>Audio Pricing</Link> Page.
+                                    </p>
                                 </span>
+
 
                             </li>
                             <li className={styles.list4_list_item}><span>
