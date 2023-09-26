@@ -83,7 +83,7 @@ function Pricing() {
             <ol className={styles.top_main_header_and_paragraphs} >
               <ul className={styles.top_main_header}>
                 <li>
-                  <h1 className={styles.top_main_header_header1}>Stellar Space Plans</h1>
+                  <h1 className={styles.top_main_header_header1}>Web Dev Pricing Guide</h1>
                 </li>
                 <li>
                   <h2 className={styles.top_main_header_header2}>Deals That Make Sense</h2>
@@ -211,7 +211,7 @@ function Pricing() {
                     >
                     </Image>
                     <p className={styles.top_main_header_paragraph1}>Take Your Pick</p>
-                    <p className={styles.top_main_header_paragraph2}>Pick a paltform you already know or get placed under Vercel or Netlify, which </p>
+                    <p className={styles.top_main_header_paragraph2}>Pick a paltform you already know or get placed under Vercel, Netlify, or any platform you may already know or use.</p>
                   </li>
                   <li>
                     <Image
@@ -222,8 +222,8 @@ function Pricing() {
                       src="/forwardarrow.png"
                     >
                     </Image>
-                    <p className={styles.top_main_header_paragraph1}>24/7 </p>
-                    <p className={styles.top_main_header_paragraph2}>Dashboard Access </p>
+                    <p className={styles.top_main_header_paragraph1}>24/7 Stats Viewer</p>
+                    <p className={styles.top_main_header_paragraph2}>Dashboard Access any time. View your website details such as usage on: Bandwith, Postgres Storage, Function execution data, user data, and much more.</p>
                   </li>
                 </ul>
               </ol>
