@@ -163,8 +163,8 @@ function Services() {
                                     className={styles.branding_logo}
                                     src="/branding.png"
                                     alt=''
-                                    width={100}
-                                    height={100}></Image>
+                                    width={150}
+                                    height={20}></Image>
                             </span>
 
                             <span className={styles.paragraph_and_link}>
@@ -202,8 +202,8 @@ function Services() {
                                     className={styles.front_end_logo}
                                     src="/frontend.png"
                                     alt=''
-                                    width={100}
-                                    height={100}></Image>
+                                    width={150}
+                                    height={20}></Image>
                             </span>
                             <span className={styles.paragraph_and_link}>
                                 <span>
@@ -240,8 +240,8 @@ function Services() {
                                     className={styles.uiux}
                                     src="/uiux.png"
                                     alt=''
-                                    width={100}
-                                    height={100}></Image>
+                                    width={150}
+                                    height={20}></Image>
                             </span>
                             <span className={styles.paragraph_and_link}>
                                 <span>
@@ -278,8 +278,8 @@ function Services() {
                                     className={styles.modeling_logo}
                                     src="/modeling.png"
                                     alt=''
-                                    width={100}
-                                    height={100}></Image>
+                                    width={150}
+                                    height={20}></Image>
                             </span>
                             <span className={styles.paragraph_and_link}>
                                 <span>
@@ -316,8 +316,8 @@ function Services() {
                                     className={styles.audio_logo}
                                     src="/audio.png"
                                     alt=''
-                                    width={100}
-                                    height={100}></Image>
+                                    width={150}
+                                    height={20}></Image>
                             </span>
                             <span className={styles.paragraph_and_link}>
                                 <span>
@@ -359,8 +359,8 @@ function Services() {
                                     className={styles.sony_alpha_logo}
                                     src="/sonyalph.png"
                                     alt=''
-                                    width={100}
-                                    height={100}></Image>
+                                    width={150}
+                                    height={20}></Image>
                             </span>
 
                             <span className={styles.paragraph_and_link}>
