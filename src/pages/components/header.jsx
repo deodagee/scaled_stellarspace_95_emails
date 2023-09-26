@@ -37,6 +37,7 @@ const handleImageLoad = () => {
   return (
     <>
           <Head>
+          <link rel="icon" href="/logoblack.ico" type="image/x-icon"/>
         <link rel="stylesheet" href={"/styles/components/header.module.css"} />
         <link rel="stylesheet" href={"/styles/components/header_xsm_mobile.module.css"} />
       </Head>

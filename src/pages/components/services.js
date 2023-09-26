@@ -154,8 +154,8 @@ function Services() {
                                     className={styles.teallogo}
                                     src="/teallogo.png"
                                     alt=''
-                                    width={100}
-                                    height={100}></Image>
+                                    width={30}
+                                    height={25}></Image>
                             </span>
                             <span className={styles.list4_title}><h1><Link href={"/branding_service"}>Branding and Business</Link></h1></span>
                             <span>
@@ -192,8 +192,8 @@ function Services() {
                                 className={styles.teallogo}
                                 src="/teallogo.png"
                                 alt=''
-                                width={100}
-                                height={100}></Image>
+                                width={30}
+                                height={25}></Image>
                         </span>
                             <span className={styles.list4_title}>
                                 <h1><Link href={"/front_end_back_end_service"}>Front End/Back End Dev</Link></h1></span>
@@ -231,8 +231,8 @@ function Services() {
                                 className={styles.teallogo}
                                 src="/teallogo.png"
                                 alt=''
-                                width={100}
-                                height={100}></Image>
+                                width={30}
+                                height={25}></Image>
                         </span>
                             <span className={styles.list4_title}><h1><Link href={'/ui_ux_service'}>Ui/Ux (User Interface/Experience)</Link></h1></span>
                             <span>
@@ -269,8 +269,8 @@ function Services() {
                                 className={styles.teallogo}
                                 src="/teallogo.png"
                                 alt=''
-                                width={100}
-                                height={100}></Image>
+                                width={30}
+                                height={25}></Image>
                         </span>
                             <span className={styles.list4_title}><h1><Link href={"/modeling_service"}>Advanced 3D modeling</Link></h1></span>
                             <span>
@@ -307,8 +307,8 @@ function Services() {
                                 className={styles.teallogo}
                                 src="/teallogo.png"
                                 alt=''
-                                width={100}
-                                height={100}></Image>
+                                width={30}
+                                height={25}></Image>
                         </span>
                             <span className={styles.list4_title}><h1><Link href={"/audio_service"}>Audio | Coprights | Mixing | Mastering</Link></h1></span>
                             <span>
@@ -350,8 +350,8 @@ function Services() {
                                 className={styles.teallogo}
                                 src="/teallogo.png"
                                 alt=''
-                                width={100}
-                                height={100}></Image>
+                                width={30}
+                                height={25}></Image>
                         </span>
                             <span className={styles.list4_title}><h1><Link href={"/video_editing_service"}>Video Compositing | Editing</Link></h1></span>
                             <span>
