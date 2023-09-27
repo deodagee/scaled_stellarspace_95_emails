@@ -861,49 +861,41 @@ function Body() {
                                       </ul>
 
                                       <ul className={styles.sites_list}>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Original Js Code:</span>
-                                          <span className={styles.list_description}>Price Included </span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Storage Space:</span>
-                                          <span className={styles.list_description}>40 GB</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Ram Space:</span>
-                                          <span className={styles.list_description}>1.3 GB</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Bandwith:</span>
-                                          <span className={styles.list_description}>Unmetered</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Ip:</span>
-                                          <span className={styles.list_description}>Dedicated Ip</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*CDN:</span>
-                                          <span className={styles.list_description}>Cloudflare</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Deployment Sytem:</span>
-                                          <span className={styles.list_description}>Node.Js</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*HOSTING:</span>
-                                          <span className={styles.list_description}>Fully Redundant VPS Network</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*CMS:</span>
-                                          <span className={styles.list_description}>No Integrated CMS, 1 form per page</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Page Links (Local):</span>
-                                          <span className={styles.list_description}> 3 Pages Min At No Extra Cost</span>
-                                        </li>
-                                        <li className={styles.list_component2}>
-                                        </li>
-                                      </ul>
+                              <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Monthly Running Fee:</span>
+                                  <span className={styles.list_description}>$Free - $20.00</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Original Js Code:</span>
+                                  <span className={styles.list_description}>Price Included </span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Storage Space:</span>
+                                  <span className={styles.list_description}>Contact For Details</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Data Cache:</span>
+                                  <span className={styles.list_description}>128 MB (Not to be confused with RAM)</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Bandwith:</span>
+                                  <span className={styles.list_description}>100 GB</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Deployment Sytem:</span>
+                                  <span className={styles.list_description}>Node.Js</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*CMS:</span>
+                                  <span className={styles.list_description}>CMS Included, Customizable</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Page Links:</span>
+                                  <span className={styles.list_description}>5 Pages, then $50.00/Xtra Page</span>
+                                </li>
+                                <li className={styles.list_component2}>
+                                </li>
+                              </ul>
 
                                     </ol>
                                   </div>
@@ -959,49 +951,41 @@ function Body() {
                                       </li>
                                     </ul>
                                     <ul className={styles.sites_list}>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Original Js Code:</span>
-                                        <span className={styles.list_description}>Price Included </span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Storage Space:</span>
-                                        <span className={styles.list_description}>40 GB</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Ram Space:</span>
-                                        <span className={styles.list_description}>1.3 GB</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Bandwith:</span>
-                                        <span className={styles.list_description}>Unmetered</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Ip:</span>
-                                        <span className={styles.list_description}>Dedicated Ip</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*CDN:</span>
-                                        <span className={styles.list_description}>Cloudflare</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Deployment Sytem:</span>
-                                        <span className={styles.list_description}>Node.Js</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*HOSTING:</span>
-                                        <span className={styles.list_description}>Fully Redundant VPS Network</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*CMS:</span>
-                                        <span className={styles.list_description}>No Integrated CMS, 1 form per page</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Page Links (Local):</span>
-                                        <span className={styles.list_description}> 3 Pages Min At No Extra Cost</span>
-                                      </li>
-                                      <li className={styles.list_component2}>
-                                      </li>
-                                    </ul>
+                              <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Monthly Running Fee:</span>
+                                  <span className={styles.list_description}>$20.00</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Original Js Code:</span>
+                                  <span className={styles.list_description}>Price Included </span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Storage Space:</span>
+                                  <span className={styles.list_description}>Contact For Details</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Data Cache:</span>
+                                  <span className={styles.list_description}>128 MB (Not to be confused with RAM)</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Bandwith:</span>
+                                  <span className={styles.list_description}>1TB</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Deployment Sytem:</span>
+                                  <span className={styles.list_description}>Node.Js</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*CMS:</span>
+                                  <span className={styles.list_description}>CMS Included, Customizable</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Page Links:</span>
+                                  <span className={styles.list_description}>10 Pages, then $50.00/Xtra Page</span>
+                                </li>
+                                <li className={styles.list_component2}>
+                                </li>
+                              </ul>
 
                                   </ol>
                                 </div>
@@ -1049,49 +1033,49 @@ function Body() {
                                       </li>
                                     </ul>
                                     <ul className={styles.sites_list}>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Original Js Code:</span>
-                                        <span className={styles.list_description}>Price Included </span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Storage Space:</span>
-                                        <span className={styles.list_description}>240 GB</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Ram Space:</span>
-                                        <span className={styles.list_description}>Up to 8 GB</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Bandwith:</span>
-                                        <span className={styles.list_description}>Unmetered</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Ip:</span>
-                                        <span className={styles.list_description}>Dedicated Ip</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*CDN:</span>
-                                        <span className={styles.list_description}>Cloudflare</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Deployment Sytem:</span>
-                                        <span className={styles.list_description}>Node.Js</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*HOSTING:</span>
-                                        <span className={styles.list_description}>Fully Redundant VPS Network</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*CMS:</span>
-                                        <span className={styles.list_description}>No Integrated CMS, 1 form per page</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Page Links (Local):</span>
-                                        <span className={styles.list_description}>7 Pages Min At No Extra Cost</span>
-                                      </li>
-                                      <li className={styles.list_component2}>
-                                      </li>
-                                    </ul>
+                              <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Monthly Running Fee:</span>
+                                  <span className={styles.list_description}>$78.00</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Original Js Code:</span>
+                                  <span className={styles.list_description}>Price Included </span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Storage Space:</span>
+                                  <span className={styles.list_description}>120 GB SSD</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Ram Space:</span>
+                                  <span className={styles.list_description}>4GB</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Bandwith:</span>
+                                  <span className={styles.list_description}>Unmetered</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Dedicated IP:</span>
+                                  <span className={styles.list_description}>2 IPs</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Deployment Sytem:</span>
+                                  <span className={styles.list_description}>Node.Js</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*HOSTING:</span>
+                                  <span className={styles.list_description}>Fully Redundant VPS Network</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*CMS:</span>
+                                  <span className={styles.list_description}>CMS Included, Customizable</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Page Links (Local):</span>
+                                  <span className={styles.list_description}>Unlimited</span>
+                                </li>
+                                <li className={styles.list_component2}>
+                                </li>
+                              </ul>
                                   </ol>
                                 </div>
 
@@ -1139,49 +1123,49 @@ function Body() {
                                       </li>
                                     </ul>
                                     <ul className={styles.sites_list}>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Original Js Code:</span>
-                                        <span className={styles.list_description}>Price Included </span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Storage Space:</span>
-                                        <span className={styles.list_description}>80 GB</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Ram Space:</span>
-                                        <span className={styles.list_description}>2.6 GB</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Bandwith:</span>
-                                        <span className={styles.list_description}>Unmetered</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Ip:</span>
-                                        <span className={styles.list_description}>Dedicated Ip</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*CDN:</span>
-                                        <span className={styles.list_description}>Cloudflare</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Deployment Sytem:</span>
-                                        <span className={styles.list_description}>Node.Js</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*HOSTING:</span>
-                                        <span className={styles.list_description}>Fully Redundant VPS Network</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*CMS:</span>
-                                        <span className={styles.list_description}>No Integrated CMS, 1 form per page</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Page Links (Local):</span>
-                                        <span className={styles.list_description}> 5 Pages Min At No Extra Cost</span>
-                                      </li>
-                                      <li className={styles.list_component2}>
-                                      </li>
-                                    </ul>
+                              <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Monthly Running Fee:</span>
+                                  <span className={styles.list_description}>$78.00</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Original Js Code:</span>
+                                  <span className={styles.list_description}>Price Included </span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Storage Space:</span>
+                                  <span className={styles.list_description}>120 GB SSD</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Ram Space:</span>
+                                  <span className={styles.list_description}>4GB</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Bandwith:</span>
+                                  <span className={styles.list_description}>Unmetered</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Dedicated IP:</span>
+                                  <span className={styles.list_description}>2 IPs</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Deployment Sytem:</span>
+                                  <span className={styles.list_description}>Node.Js</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*HOSTING:</span>
+                                  <span className={styles.list_description}>Fully Redundant VPS Network</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*CMS:</span>
+                                  <span className={styles.list_description}>CMS Included, Customizable</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Page Links (Local):</span>
+                                  <span className={styles.list_description}>Unlimited</span>
+                                </li>
+                                <li className={styles.list_component2}>
+                                </li>
+                              </ul>
                                   </ol>
                                 </div>
                                 <div className={styles.frame_399}>
@@ -1225,49 +1209,49 @@ function Body() {
                                       </li>
                                     </ul>
                                     <ul className={styles.sites_list}>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Original Js Code:</span>
-                                        <span className={styles.list_description}>Price Included </span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Storage Space:</span>
-                                        <span className={styles.list_description}>Up to 240 GB</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Ram Space:</span>
-                                        <span className={styles.list_description}>1up to 8GB</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Bandwith:</span>
-                                        <span className={styles.list_description}>Unmetered</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Ip:</span>
-                                        <span className={styles.list_description}>Dedicated Ip</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*CDN:</span>
-                                        <span className={styles.list_description}>Cloudflare</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Deployment Sytem:</span>
-                                        <span className={styles.list_description}>Node.Js</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*HOSTING:</span>
-                                        <span className={styles.list_description}>Fully Redundant VPS Network</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*CMS:</span>
-                                        <span className={styles.list_description}>No Integrated CMS, 1 form per page</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Page Links (Local):</span>
-                                        <span className={styles.list_description}>7 Pages Min At No Extra Cost</span>
-                                      </li>
-                                      <li className={styles.list_component2}>
-                                      </li>
-                                    </ul>
+                              <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Monthly Running Fee:</span>
+                                  <span className={styles.list_description}>$78.00</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Original Js Code:</span>
+                                  <span className={styles.list_description}>Price Included </span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Storage Space:</span>
+                                  <span className={styles.list_description}>120 GB SSD</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Ram Space:</span>
+                                  <span className={styles.list_description}>4GB</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Bandwith:</span>
+                                  <span className={styles.list_description}>Unmetered</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Dedicated IP:</span>
+                                  <span className={styles.list_description}>2 IPs</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Deployment Sytem:</span>
+                                  <span className={styles.list_description}>Node.Js</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*HOSTING:</span>
+                                  <span className={styles.list_description}>Fully Redundant VPS Network</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*CMS:</span>
+                                  <span className={styles.list_description}>CMS Included, Customizable</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Page Links (Local):</span>
+                                  <span className={styles.list_description}>Unlimited</span>
+                                </li>
+                                <li className={styles.list_component2}>
+                                </li>
+                              </ul>
                                   </ol>
                                 </div>
                                 <div className={styles.frame_399}>
@@ -1330,49 +1314,41 @@ function Body() {
                                       </ul>
 
                                       <ul className={styles.sites_list}>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Original Js Code:</span>
-                                          <span className={styles.list_description}>Price Included </span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Storage Space:</span>
-                                          <span className={styles.list_description}>40 GB</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Ram Space:</span>
-                                          <span className={styles.list_description}>1.3 GB</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Bandwith:</span>
-                                          <span className={styles.list_description}>Unmetered</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Ip:</span>
-                                          <span className={styles.list_description}>Dedicated Ip</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*CDN:</span>
-                                          <span className={styles.list_description}>Cloudflare</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Deployment Sytem:</span>
-                                          <span className={styles.list_description}>Node.Js</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*HOSTING:</span>
-                                          <span className={styles.list_description}>Fully Redundant VPS Network</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*CMS:</span>
-                                          <span className={styles.list_description}>No Integrated CMS, 1 form per page</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Page Links (Local):</span>
-                                          <span className={styles.list_description}> 3 Pages Min At No Extra Cost</span>
-                                        </li>
-                                        <li className={styles.list_component2}>
-                                        </li>
-                                      </ul>
+                              <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Monthly Running Fee:</span>
+                                  <span className={styles.list_description}>$20.00</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Original Js Code:</span>
+                                  <span className={styles.list_description}>Price Included </span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Storage Space:</span>
+                                  <span className={styles.list_description}>Contact For Details</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Data Cache:</span>
+                                  <span className={styles.list_description}>128 MB (Not to be confused with RAM)</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Bandwith:</span>
+                                  <span className={styles.list_description}>100 GB</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Deployment Sytem:</span>
+                                  <span className={styles.list_description}>Node.Js</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*CMS:</span>
+                                  <span className={styles.list_description}>CMS Included, Customizable</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Page Links:</span>
+                                  <span className={styles.list_description}>5, then $50.00/Xtra Page</span>
+                                </li>
+                                <li className={styles.list_component2}>
+                                </li>
+                              </ul>
 
                                     </ol>
                                   </div>
@@ -1425,49 +1401,41 @@ function Body() {
 
 
                                     <ul className={styles.sites_list}>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Original Js Code:</span>
-                                        <span className={styles.list_description}>Price Included </span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Storage Space:</span>
-                                        <span className={styles.list_description}>40 GB</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Ram Space:</span>
-                                        <span className={styles.list_description}>1.3 GB</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Bandwith:</span>
-                                        <span className={styles.list_description}>Unmetered</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Ip:</span>
-                                        <span className={styles.list_description}>Dedicated Ip</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*CDN:</span>
-                                        <span className={styles.list_description}>Cloudflare</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Deployment Sytem:</span>
-                                        <span className={styles.list_description}>Node.Js</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*HOSTING:</span>
-                                        <span className={styles.list_description}>Fully Redundant VPS Network</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*CMS:</span>
-                                        <span className={styles.list_description}>No Integrated CMS, 1 form per page</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Page Links (Local):</span>
-                                        <span className={styles.list_description}> 3 Pages Min At No Extra Cost</span>
-                                      </li>
-                                      <li className={styles.list_component2}>
-                                      </li>
-                                    </ul>
+                              <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Monthly Running Fee:</span>
+                                  <span className={styles.list_description}>$20.00</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Original Js Code:</span>
+                                  <span className={styles.list_description}>Price Included </span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Storage Space:</span>
+                                  <span className={styles.list_description}>Contact For Details</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Data Cache:</span>
+                                  <span className={styles.list_description}>128 MB (Not to be confused with RAM)</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Bandwith:</span>
+                                  <span className={styles.list_description}>1TB</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Deployment Sytem:</span>
+                                  <span className={styles.list_description}>Node.Js</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*CMS:</span>
+                                  <span className={styles.list_description}>CMS Included, Customizable</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Page Links:</span>
+                                  <span className={styles.list_description}>10 Pages, then $50.00/Xtra Page</span>
+                                </li>
+                                <li className={styles.list_component2}>
+                                </li>
+                              </ul>
 
                                   </ol>
                                 </div>
@@ -1516,49 +1484,49 @@ function Body() {
                                       </li>
                                     </ul>
                                     <ul className={styles.sites_list}>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Original Js Code:</span>
-                                        <span className={styles.list_description}>Price Included </span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Storage Space:</span>
-                                        <span className={styles.list_description}>240 GB</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Ram Space:</span>
-                                        <span className={styles.list_description}>Up to 8 GB</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Bandwith:</span>
-                                        <span className={styles.list_description}>Unmetered</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Ip:</span>
-                                        <span className={styles.list_description}>Dedicated Ip</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*CDN:</span>
-                                        <span className={styles.list_description}>Cloudflare</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Deployment Sytem:</span>
-                                        <span className={styles.list_description}>Node.Js</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*HOSTING:</span>
-                                        <span className={styles.list_description}>Fully Redundant VPS Network</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*CMS:</span>
-                                        <span className={styles.list_description}>No Integrated CMS, 1 form per page</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Page Links (Local):</span>
-                                        <span className={styles.list_description}>7 Pages Min At No Extra Cost</span>
-                                      </li>
-                                      <li className={styles.list_component2}>
-                                      </li>
-                                    </ul>
+                              <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Monthly Running Fee:</span>
+                                  <span className={styles.list_description}>$50.00 </span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Original Js Code:</span>
+                                  <span className={styles.list_description}>Price Included </span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Storage Space:</span>
+                                  <span className={styles.list_description}>80 GB</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Ram Space:</span>
+                                  <span className={styles.list_description}>2.6 GB</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Bandwith:</span>
+                                  <span className={styles.list_description}>Unmetered</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Dedicated IP:</span>
+                                  <span className={styles.list_description}>2 IPs</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Deployment Sytem:</span>
+                                  <span className={styles.list_description}>Node.Js</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*HOSTING:</span>
+                                  <span className={styles.list_description}>Fully Redundant VPS Network</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*CMS:</span>
+                                  <span className={styles.list_description}>CMS included, Customizable</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Page Links (Local):</span>
+                                  <span className={styles.list_description}>Unlimited</span>
+                                </li>
+                                <li className={styles.list_component2}>
+                                </li>
+                              </ul>
                                   </ol>
                                 </div>
 
@@ -1606,49 +1574,49 @@ function Body() {
                                       </li>
                                     </ul>
                                     <ul className={styles.sites_list}>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Original Js Code:</span>
-                                        <span className={styles.list_description}>Price Included </span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Storage Space:</span>
-                                        <span className={styles.list_description}>80 GB</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Ram Space:</span>
-                                        <span className={styles.list_description}>2.6 GB</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Bandwith:</span>
-                                        <span className={styles.list_description}>Unmetered</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Ip:</span>
-                                        <span className={styles.list_description}>Dedicated Ip</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*CDN:</span>
-                                        <span className={styles.list_description}>Cloudflare</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Deployment Sytem:</span>
-                                        <span className={styles.list_description}>Node.Js</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*HOSTING:</span>
-                                        <span className={styles.list_description}>Fully Redundant VPS Network</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*CMS:</span>
-                                        <span className={styles.list_description}>No Integrated CMS, 1 form per page</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Page Links (Local):</span>
-                                        <span className={styles.list_description}> 5 Pages Min At No Extra Cost</span>
-                                      </li>
-                                      <li className={styles.list_component2}>
-                                      </li>
-                                    </ul>
+                              <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Monthly Running Fee:</span>
+                                  <span className={styles.list_description}>$78.00</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Original Js Code:</span>
+                                  <span className={styles.list_description}>Price Included </span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Storage Space:</span>
+                                  <span className={styles.list_description}>120 GB SSD</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Ram Space:</span>
+                                  <span className={styles.list_description}>4GB</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Bandwith:</span>
+                                  <span className={styles.list_description}>Unmetered</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Dedicated IP:</span>
+                                  <span className={styles.list_description}>2 IPs</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Deployment Sytem:</span>
+                                  <span className={styles.list_description}>Node.Js</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*HOSTING:</span>
+                                  <span className={styles.list_description}>Fully Redundant VPS Network</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*CMS:</span>
+                                  <span className={styles.list_description}>CMS Included, Customizable</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Page Links (Local):</span>
+                                  <span className={styles.list_description}>Unlimited</span>
+                                </li>
+                                <li className={styles.list_component2}>
+                                </li>
+                              </ul>
                                   </ol>
                                 </div>
                                 <div className={styles.frame_399}>
@@ -1693,49 +1661,49 @@ function Body() {
                                       </li>
                                     </ul>
                                     <ul className={styles.sites_list}>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Original Js Code:</span>
-                                        <span className={styles.list_description}>Price Included </span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Storage Space:</span>
-                                        <span className={styles.list_description}>Up to 240 GB</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Ram Space:</span>
-                                        <span className={styles.list_description}>1up to 8GB</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Bandwith:</span>
-                                        <span className={styles.list_description}>Unmetered</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Ip:</span>
-                                        <span className={styles.list_description}>Dedicated Ip</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*CDN:</span>
-                                        <span className={styles.list_description}>Cloudflare</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Deployment Sytem:</span>
-                                        <span className={styles.list_description}>Node.Js</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*HOSTING:</span>
-                                        <span className={styles.list_description}>Fully Redundant VPS Network</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*CMS:</span>
-                                        <span className={styles.list_description}>No Integrated CMS, 1 form per page</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Page Links (Local):</span>
-                                        <span className={styles.list_description}>7 Pages Min At No Extra Cost</span>
-                                      </li>
-                                      <li className={styles.list_component2}>
-                                      </li>
-                                    </ul>
+                              <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Monthly Running Fee:</span>
+                                  <span className={styles.list_description}>$78.00</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Original Js Code:</span>
+                                  <span className={styles.list_description}>Price Included </span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Storage Space:</span>
+                                  <span className={styles.list_description}>120 GB SSD</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Ram Space:</span>
+                                  <span className={styles.list_description}>4GB</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Bandwith:</span>
+                                  <span className={styles.list_description}>Unmetered</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Dedicated IP:</span>
+                                  <span className={styles.list_description}>2 IPs</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Deployment Sytem:</span>
+                                  <span className={styles.list_description}>Node.Js</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*HOSTING:</span>
+                                  <span className={styles.list_description}>Fully Redundant VPS Network</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*CMS:</span>
+                                  <span className={styles.list_description}>CMS Included, Customizable</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Page Links (Local):</span>
+                                  <span className={styles.list_description}>Unlimited</span>
+                                </li>
+                                <li className={styles.list_component2}>
+                                </li>
+                              </ul>
                                   </ol>
                                 </div>
                                 <div className={styles.frame_399}>
@@ -1778,17 +1746,9 @@ function Body() {
               </div>
             </div>
 
-
-
-
-
-
-
-
           </ol>
+          
         </div>
-
-
       </div>
     </>
 
