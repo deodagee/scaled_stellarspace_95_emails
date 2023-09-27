@@ -224,7 +224,63 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
 
+@media (min-width: 200px) and (max-width: 300px) and (orientation: landscape) {
+
+
+
+    .sorry_message_p {
+        text-align: center;
+        margin-top: 40px;
+        width:80vw;
+        font-size: 7px;
+    }
+
+    .four_oh_four_errors_item_p {
+        margin-top: 0vh;
+        font-size: 25px;
+    }
+
+    .bottom {
+        margin-top: 0vh;
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .bottom_list li {
+        font-size: 8px;
+    }
+
+    .return_button{ 
+        width:80px;
+        font-size: 8px;
+    }
+}
+
 @media (min-width: 300px) and (max-width: 350px) and (orientation: portrait) {
+
+
+
+    .sorry_message_p {
+        width: 80vw;
+        font-size: 7px;
+    }
+
+    .four_oh_four_errors_item_p {
+        margin-top: 0vh;
+        font-size: 25px;
+    }
+
+    .bottom {
+        margin-top: 0vh;
+    }
+
+    .bottom_list li {
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 350px) and (orientation: landscape) {
 
 
 
@@ -271,8 +327,55 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
 
+@media (min-width: 350px) and (max-width: 400px) and (orientation: landscape) {
+
+
+
+    .sorry_message_p {
+        width: 80vw;
+        font-size: 7px;
+    }
+
+    .four_oh_four_errors_item_p {
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+        font-size: 25px;
+    }
+
+    .bottom {
+        margin-top:0vh;
+    }
+
+    .bottom_list li {
+        font-size: 8px;
+    }
+}
+
 
 @media (min-width: 400px) and (max-width: 450px) and (orientation: portrait) {
+
+    .sorry_message_p {
+        width: 80vw;
+        font-size: 7px;
+    }
+
+    .four_oh_four_errors_item_p {
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+        font-size: 30px;
+    }
+
+    .bottom {
+        margin-top: 0vh;
+    }
+
+    .bottom_list li {
+        font-size: 8px;
+    }
+}
+
+
+@media (min-width: 400px) and (max-width: 450px) and (orientation: landscape) {
 
     .sorry_message_p {
         width: 80vw;
@@ -316,6 +419,30 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
 
+
+@media (min-width: 450px) and (max-width: 500px) and (orientation: landscape) {
+
+
+    .sorry_message_p {
+        width: 80vw;
+        font-size: 7px;
+    }
+
+    .four_oh_four_errors_item_p {
+        margin-top: 0vh;
+        font-size: 30px;
+    }
+
+    .bottom {
+        margin-top: 0vh;
+    }
+
+    .bottom_list li {
+        font-size: 8px;
+    }
+}
+
+
 @media (min-width: 500px) and (max-width: 800px) and (orientation: portrait) {
 
     .sorry_message_p {
@@ -337,7 +464,52 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
 
+
+@media (min-width: 500px) and (max-width: 800px) and (orientation: landscape) {
+
+    .sorry_message_p {
+        width: 80vw;
+        font-size: 7px;
+    }
+
+    .four_oh_four_errors_item_p {
+        margin-top: 0vh;
+        font-size: 30px;
+    }
+
+    .bottom {
+        margin-top: 0vh;
+    }
+
+    .bottom_list li {
+        font-size: 8px;
+    }
+}
+
 @media (min-width: 800px) and (max-width: 1000px) and (orientation: portrait) {
+
+
+    .sorry_message_p {
+        width: 80vw;
+        font-size: 7px;
+    }
+
+    .four_oh_four_errors_item_p {
+        margin-top: 0vh;
+        font-size: 30px;
+    }
+
+    .bottom {
+        margin-top: 0vh;
+    }
+
+    .bottom_list li {
+        font-size: 8px;
+    }
+}
+
+
+@media (min-width: 800px) and (max-width: 1000px) and (orientation: landscape) {
 
 
     .sorry_message_p {
