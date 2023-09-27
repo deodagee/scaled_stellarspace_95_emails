@@ -83,7 +83,7 @@ function Pricing() {
             <ol className={styles.top_main_header_and_paragraphs} >
               <ul className={styles.top_main_header}>
                 <li>
-                  <h1 className={styles.top_main_header_header1}>Web Dev Pricing Guide</h1>
+                  <h1 className={styles.top_main_header_header1}>Web Dev Pricing</h1>
                 </li>
                 <li>
                   <h2 className={styles.top_main_header_header2}>Deals That Make Sense</h2>
@@ -164,7 +164,8 @@ function Pricing() {
                   </li>
                 </ul>
                 <ul className={styles.top_main_paragraphs}>
-                  <li>
+                  <li className={styles.arrow_and_title_and_paragraph}>
+                    <span className={styles.arrow_and_title}>
                     <Image
                       className={styles.top_main_icons_arrow}
                       width="30px"
@@ -174,9 +175,11 @@ function Pricing() {
                     >
                     </Image>
                     <p className={styles.top_main_header_paragraph1}>Stats Viewer</p>
+                    </span>
                     <p className={styles.top_main_header_paragraph2}>See, your database usage, speed insights, and other metrics, inlcuding SEO score.</p>
                   </li>
-                  <li>
+                  <li className={styles.arrow_and_title_and_paragraph}>
+                  <span className={styles.arrow_and_title}>
                     <Image
                       className={styles.top_main_icons_arrow}
                       width="30px"
@@ -186,6 +189,7 @@ function Pricing() {
                     >
                     </Image>
                     <p className={styles.top_main_header_paragraph1}>3-5 Day Turn-Around Time</p>
+                    </span>
                     <p className={styles.top_main_header_paragraph2}>Full Deployment details, and updates.</p>
                   </li>
                 </ul>
@@ -202,6 +206,7 @@ function Pricing() {
                 </ul>
                 <ul className={styles.top_main_paragraphs}>
                   <li>
+                  <span className={styles.arrow_and_title}>
                     <Image
                       className={styles.top_main_icons_arrow}
                       width="30px"
@@ -211,9 +216,11 @@ function Pricing() {
                     >
                     </Image>
                     <p className={styles.top_main_header_paragraph1}>Take Your Pick</p>
+                    </span>
                     <p className={styles.top_main_header_paragraph2}>Pick a paltform you already know or get placed under Vercel, Netlify, or any platform you may already know or use.</p>
                   </li>
                   <li>
+                  <span className={styles.arrow_and_title}>
                     <Image
                       className={styles.top_main_icons_arrow}
                       width="30px"
@@ -223,6 +230,8 @@ function Pricing() {
                     >
                     </Image>
                     <p className={styles.top_main_header_paragraph1}>24/7 Stats Viewer</p>
+                    </span>
+
                     <p className={styles.top_main_header_paragraph2}>Dashboard Access any time. View your website details such as usage on: Bandwith, Postgres Storage, Function execution data, user data, and much more.</p>
                   </li>
                 </ul>
