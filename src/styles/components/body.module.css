@@ -33,7 +33,6 @@
 }
 
 .everything_wrapper {
-  width: max-content;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -1561,12 +1560,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1889,12 +1886,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2192,12 +2187,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2524,12 +2517,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2831,12 +2822,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3157,12 +3146,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3460,12 +3447,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3788,12 +3773,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -4092,12 +4075,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -4420,12 +4401,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -4720,12 +4699,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -5047,12 +5024,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -5349,12 +5324,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -5362,7 +5335,6 @@ transition: 0.5s;
   }
 
   .everything_wrapper {
-    width: 100vw;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -5660,12 +5632,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -5673,7 +5643,6 @@ transition: 0.5s;
   }
 
   .everything_wrapper {
-    width: 100vw;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -5973,12 +5942,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -5986,7 +5953,6 @@ transition: 0.5s;
   }
 
   .everything_wrapper {
-    width: 100vw;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -6304,12 +6270,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6317,7 +6281,6 @@ transition: 0.5s;
   }
 
   .everything_wrapper {
-    width: 100vw;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -6612,12 +6575,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6625,7 +6586,6 @@ transition: 0.5s;
   }
 
   .everything_wrapper {
-    width: 100vw;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -6938,12 +6898,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6951,7 +6909,6 @@ transition: 0.5s;
   }
 
   .everything_wrapper {
-    width: 100vw;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -7264,12 +7221,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7277,7 +7232,6 @@ transition: 0.5s;
   }
 
   .everything_wrapper {
-    width: 100vw;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -7556,12 +7510,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7569,7 +7521,6 @@ transition: 0.5s;
   }
 
   .everything_wrapper {
-    width: 100vw;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -7850,12 +7801,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7863,7 +7812,6 @@ transition: 0.5s;
   }
 
   .everything_wrapper {
-    width: 100vw;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -8146,12 +8094,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8159,7 +8105,6 @@ transition: 0.5s;
   }
 
   .everything_wrapper {
-    width: 100vw;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -8441,12 +8386,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8454,7 +8397,6 @@ transition: 0.5s;
   }
 
   .everything_wrapper {
-    width: 100vw;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -8737,12 +8679,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8750,7 +8690,6 @@ transition: 0.5s;
   }
 
   .everything_wrapper {
-    width: 100vw;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -9034,12 +8973,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9047,7 +8984,6 @@ transition: 0.5s;
   }
 
   .everything_wrapper {
-    width: 100vw;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -9332,12 +9268,10 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .parent_wrapper {
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9345,7 +9279,6 @@ transition: 0.5s;
   }
 
   .everything_wrapper {
-    width: 100vw;
     align-items: center;
     display: flex;
     flex-direction: column;
