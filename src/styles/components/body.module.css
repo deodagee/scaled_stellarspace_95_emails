@@ -98,8 +98,8 @@ transition: 0.5s;
 }
 
 .name_and_emails_wrapper {
-  margin-top: 240px;
-  width: 100vw;
+  margin-top: 300px;
+  width: 90vw;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -109,7 +109,7 @@ transition: 0.5s;
   border-right: none;
   border-color: rgb(0, 255, 213);
   box-shadow: rgb(0, 107, 107) 0px 0px 5px;
-  background-image: url("/bgwhole19.jpg");
+  background-image: url("/bgwhole3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -140,15 +140,15 @@ transition: 0.5s;
 
 .avatar_image_deo {
   margin-top: -250px;
+  margin-bottom: 20px;
   transition: 0.5s;
-  width: 90px;
+  width: max-content;
   border-radius: 50px;
   box-shadow: rgb(255, 255, 255) 0px 0px 7px;
 }
 
 .avatar_image_deo:hover {
   transition: 0.5s;
-  transform: scale(1.05);
   box-shadow: rgb(0, 0, 0) 0px 0px 5px;
 }
 
@@ -4105,7 +4105,7 @@ transition: 0.5s;
   }
 
   .name_and_emails_wrapper {
-    margin-top: 290px;
+    margin-top: 300px;
   }
 
   .credentials {
@@ -4433,7 +4433,7 @@ transition: 0.5s;
   }
 
   .name_and_emails_wrapper {
-    margin-top: 290px;
+    margin-top: 300px;
   }
 
   .credentials {
@@ -4733,7 +4733,7 @@ transition: 0.5s;
   }
 
   .name_and_emails_wrapper {
-    margin-top: 290px;
+    margin-top: 300px;
   }
 
   .credentials {
@@ -5060,7 +5060,7 @@ transition: 0.5s;
   }
 
   .name_and_emails_wrapper {
-    margin-top: 290px;
+    margin-top: 300px;
   }
 
   .credentials {
@@ -5398,7 +5398,7 @@ transition: 0.5s;
 
 
   .name_and_emails_wrapper {
-    margin-top: 280px;
+    margin-top: 300px;
   }
 
   .avatar_image_list_item_deo {
@@ -5711,7 +5711,7 @@ transition: 0.5s;
 
 
   .name_and_emails_wrapper {
-    margin-top: 280px;
+    margin-top: 300px;
   }
 
   .avatar_image_list_item_deo {
@@ -6034,7 +6034,7 @@ transition: 0.5s;
   }
 
   .name_and_emails_wrapper {
-    margin-top: 280px;
+    margin-top: 300px;
   }
 
     .promo_message_first {
@@ -6339,7 +6339,7 @@ transition: 0.5s;
   }
 
   .name_and_emails_wrapper {
-    margin-top: 280px;
+    margin-top: 300px;
   }
 
   .promo_message_first {
@@ -6673,7 +6673,7 @@ transition: 0.5s;
 
 
   .name_and_emails_wrapper {
-    margin-top: 280px;
+    margin-top: 300px;
   }
 
   .promo_message_first {
@@ -7001,7 +7001,7 @@ transition: 0.5s;
 
 
   .name_and_emails_wrapper {
-    margin-top: 280px;
+    margin-top: 300px;
   }
 
   .promo_message_first {
@@ -7300,7 +7300,7 @@ transition: 0.5s;
 
 
   .name_and_emails_wrapper {
-    margin-top: 280px;
+    margin-top: 300px;
   }
 
   .promo_message_first {
@@ -7592,7 +7592,7 @@ transition: 0.5s;
 
 
   .name_and_emails_wrapper {
-    margin-top: 280px;
+    margin-top: 300px;
   }
 
   .promo_message_first {
@@ -7886,7 +7886,7 @@ transition: 0.5s;
 
 
   .name_and_emails_wrapper {
-    margin-top: 280px;
+    margin-top: 300px;
   }
 
   .promo_message_first {
@@ -8182,7 +8182,7 @@ transition: 0.5s;
 
 
   .name_and_emails_wrapper {
-    margin-top: 280px;
+    margin-top: 300px;
   }
 
   .promo_message_first {
@@ -8477,7 +8477,7 @@ transition: 0.5s;
 
 
   .name_and_emails_wrapper {
-    margin-top: 280px;
+    margin-top: 300px;
   }
 
   .promo_message_first {
@@ -8773,7 +8773,7 @@ transition: 0.5s;
 
 
   .name_and_emails_wrapper {
-    margin-top: 280px;
+    margin-top: 300px;
   }
 
   .promo_message_first {
@@ -9070,7 +9070,7 @@ transition: 0.5s;
 
 
   .name_and_emails_wrapper {
-    margin-top: 280px;
+    margin-top: 300px;
   }
 
   .promo_message_first {
@@ -9368,7 +9368,7 @@ transition: 0.5s;
 
 
   .name_and_emails_wrapper {
-    margin-top: 280px;
+    margin-top: 300px;
   }
 
   .promo_message_first {
