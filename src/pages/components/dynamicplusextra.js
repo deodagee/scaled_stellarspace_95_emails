@@ -4,77 +4,70 @@ import Link from "next/link";
 import Head from 'next/head';
 
 
-function Dynamic() {
+function DynamicPlusExtra() {
 
     return (
         <>
-                <Head>
+
+<Head>
     <link rel="stylesheet" href={"/styles/components/tabber.module.css"} />
   </Head>
             <div className={styles.whole}>
                 <div className={styles.parent_wrapper}>
-
                     <div className={styles.everything_wrapper}>
 
                     <div className={styles.pricing_headers_list_wrapper}>
             <ul className={styles.pricing_headers_list}>
-            <Link href={'/static'}>
-                  <li className={styles.tab_2}>
-                    <p>Static</p>
-                  </li>
-                </Link>
-                <span className={styles.seperator_line}></span>
-                <Link href={'/dynamic'}>
-                  <li className={styles.tab_2}>
-                    <p>Dynamic</p>
-                  </li>
-                </Link>
-                <span className={styles.seperator_line}></span>
-                <Link href={'/dynamicplus'}>
-                  <li className={styles.tab_3}>
-                    <p>Dynamic Plus</p>
-                  </li>
-                </Link>
-                <span className={styles.seperator_line}></span>
-                <Link href={'/dynamicplusextra'}>
-                  <li className={styles.tab_4}>
-                    <p>Dynamic Plus Extra</p>
-                  </li>
-                </Link>
-                <span className={styles.seperator_line}></span>
-                <Link href={'/eplus'}>
-                  <li className={styles.tab_5}>
-                    <p>Entreprise</p>
-                  </li>
-                </Link>
+                <Link href={'/static'}>
+              <li className={styles.tab_1}>
+                <p>Static</p>
+              </li>
+              </Link>
+              <span className={styles.seperator_line}></span>
+              <Link href={'/dynamic'}>
+              <li className={styles.tab_2}>
+                <p>Dynamic</p>
+              </li>
+              </Link>
+              <span className={styles.seperator_line}></span>
+              <Link href={'/dynamicplus'}>
+              <li className={styles.tab_3}>
+                <p>Dynamic Plus</p>
+              </li>
+              </Link>
+              <span className={styles.seperator_line}></span>
+              <Link href={'/dynamicplusextra'}>
+              <li className={styles.tab_4}>
+                <p>Dynamic Plus Extra</p>
+              </li>
+              </Link>
+              <span className={styles.seperator_line}></span>
+              <Link href={'/entreprise'}>
+              <li className={styles.tab_5}>
+                <p>Entreprise</p>
+              </li>
+              </Link>
             </ul>
           </div>
 
                         <div className={styles.frame_wrapper}>
                             <div className={styles.frame_402}>
                                 <div className={styles.title}>
-                                    <div className={styles.recommended_div}>
-                                        <div className={styles.your_session_has_tim8}>Recommended</div>
-                                    </div>
                                     <Link
-                                        href={"/dynamic"}
+                                        href={"/dynamicplusextra"}
                                     >
-                                        <h1 className={styles.your_session_has_tim3_promo}>Dynamic</h1>
-                                    </Link>                              
-                                    </div>
-
-                                    <div className={styles.plan_description}>
-                                      <p>Great For Small to Medium size websites that may require the use of more ram and storage space. Full server side website features available.</p>
+                                        <h1 className={styles.your_session_has_tim3_promo}>Dynamic Plus Extra</h1>
+                                    </Link>
+                                </div>
+                                <div className={styles.plan_description}>
+                                      <p>Great For Large sized websites and ecommerce sites that may require the use of extra ram and storage space. Full server side website features available.</p>
                                     </div>
                                 <ol className={styles.list_wrapper}>
                                     <ul className={styles.percent_disclaimer}>
                                         <div className={styles.save_up_to}>*60% OFF!</div>
-                                        <li className={styles.list_component2}>
-                                        </li>
                                     </ul>
 
-
-
+                                    
                                     <ul className={styles.sites_list}>
                                         <li className={styles.list_component}>
                                           <span className={styles.list_description}>Running on a Top Tier Hostinger VPS</span>
@@ -89,7 +82,7 @@ function Dynamic() {
                                         </li>
                                         <li className={styles.list_component}>
                                           <span className={styles.list_title}>*Monthly Running Fee:</span>
-                                          <span className={styles.list_description}>$26.00</span>
+                                          <span className={styles.list_description}>$72.00</span>
                                         </li>
                                         <li className={styles.list_component}>
                                           <span className={styles.list_title}>*Original Js Code:</span>
@@ -97,15 +90,15 @@ function Dynamic() {
                                         </li>
                                         <li className={styles.list_component}>
                                           <span className={styles.list_title}>*Storage:</span>
-                                          <span className={styles.list_description}>100GB NVMe</span>
+                                          <span className={styles.list_description}>400GB NVMe</span>
                                         </li>
                                         <li className={styles.list_component}>
                                           <span className={styles.list_title}>*Ram Size:</span>
-                                          <span className={styles.list_description}>8GB</span>
+                                          <span className={styles.list_description}>32GB</span>
                                         </li>
                                         <li className={styles.list_component}>
                                           <span className={styles.list_title}>*Bandwith:</span>
-                                          <span className={styles.list_description}>2TB</span>
+                                          <span className={styles.list_description}>8TB</span>
                                         </li>
                                         <li className={styles.list_component}>
                                           <span className={styles.list_title}>*Dedicated IP</span>
@@ -113,7 +106,7 @@ function Dynamic() {
                                         </li>
                                         <li className={styles.list_component}>
                                           <span className={styles.list_title}>*Server Cores</span>
-                                          <span className={styles.list_description}>2VCPU</span>
+                                          <span className={styles.list_description}>8vCPU</span>
                                         </li>
                                         <li className={styles.list_component}>
                                           <span className={styles.list_title}>*Server Speed</span>
@@ -150,13 +143,10 @@ function Dynamic() {
                                             />
                                         </svg>
                                     </div>
-                                    <div className={styles.your_session_has_tim5}>450</div>
+                                    <div className={styles.your_session_has_tim5}>600</div>
                                 </div>
-
-                                <div className={styles.dynamic_get_started}>
-                                    <div className={styles.component_6}>
-                                        <button className={styles.label}> <Link href={"/contact"}>Get Started</Link> </button>
-                                    </div>
+                                <div className={styles.component_6}>
+                                    <button className={styles.label}> <Link href={"/contact"}>Get Started</Link> </button>
                                 </div>
                             </div>
                         </div>
@@ -164,10 +154,9 @@ function Dynamic() {
                 </div>
             </div>
 
-
         </>
     )
 }
 
 
-export default Dynamic;
+export default DynamicPlusExtra;

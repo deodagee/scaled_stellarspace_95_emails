@@ -4,21 +4,19 @@ import Link from "next/link";
 import Head from 'next/head';
 
 
-function Dynamic() {
+function Entreprise() {
 
     return (
         <>
-                <Head>
-    <link rel="stylesheet" href={"/styles/components/tabber.module.css"} />
-  </Head>
+            <Head>
+                <link rel="stylesheet" href={"/styles/components/tabber.module.css"} />
+            </Head>
             <div className={styles.whole}>
                 <div className={styles.parent_wrapper}>
-
                     <div className={styles.everything_wrapper}>
-
-                    <div className={styles.pricing_headers_list_wrapper}>
-            <ul className={styles.pricing_headers_list}>
-            <Link href={'/static'}>
+                        <div className={styles.pricing_headers_list_wrapper}>
+                            <ul className={styles.pricing_headers_list}>
+                            <Link href={'/static'}>
                   <li className={styles.tab_2}>
                     <p>Static</p>
                   </li>
@@ -47,24 +45,18 @@ function Dynamic() {
                     <p>Entreprise</p>
                   </li>
                 </Link>
-            </ul>
-          </div>
+                            </ul>
+                        </div>
 
                         <div className={styles.frame_wrapper}>
                             <div className={styles.frame_402}>
                                 <div className={styles.title}>
-                                    <div className={styles.recommended_div}>
-                                        <div className={styles.your_session_has_tim8}>Recommended</div>
-                                    </div>
-                                    <Link
-                                        href={"/dynamic"}
-                                    >
-                                        <h1 className={styles.your_session_has_tim3_promo}>Dynamic</h1>
-                                    </Link>                              
-                                    </div>
-
-                                    <div className={styles.plan_description}>
-                                      <p>Great For Small to Medium size websites that may require the use of more ram and storage space. Full server side website features available.</p>
+                                    <Link href={"/entreprise"}>
+                                        <h1 className={styles.your_session_has_tim3_promo}>Entreprise</h1>
+                                    </Link>
+                                </div>
+                                <div className={styles.plan_description}>
+                                      <p>This plan is for those which some of the specs do not match what is offered already. Please contact for a custom plan tailored just for you.</p>
                                     </div>
                                 <ol className={styles.list_wrapper}>
                                     <ul className={styles.percent_disclaimer}>
@@ -73,64 +65,54 @@ function Dynamic() {
                                         </li>
                                     </ul>
 
-
-
                                     <ul className={styles.sites_list}>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_description}>Running on a Top Tier Hostinger VPS</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Deployment Sytem:</span>
-                                          <span className={styles.list_description}>Node.Js</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Domain Purchase:</span>
-                                          <span className={styles.list_description}>$20.00</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Monthly Running Fee:</span>
-                                          <span className={styles.list_description}>$26.00</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Original Js Code:</span>
-                                          <span className={styles.list_description}>Price Included</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Storage:</span>
-                                          <span className={styles.list_description}>100GB NVMe</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Ram Size:</span>
-                                          <span className={styles.list_description}>8GB</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Bandwith:</span>
-                                          <span className={styles.list_description}>2TB</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Dedicated IP</span>
-                                          <span className={styles.list_description}>Yes (Single Ip)</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Server Cores</span>
-                                          <span className={styles.list_description}>2VCPU</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Server Speed</span>
-                                          <span className={styles.list_description}>300 Mps</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*CMS:</span>
-                                          <span className={styles.list_description}>Basic CMS/ Price Included</span>
-                                        </li>
-                                        <li className={styles.list_component}>
-                                          <span className={styles.list_title}>*Page Links:</span>
-                                          <span className={styles.list_description}>7, then $50.00/Xtra Page</span>
-                                        </li>
-                                        <li className={styles.list_component2}>
-                                        </li>
-                                      </ul>
-
+                                      <li className={styles.list_component}>
+                                        <span className={styles.list_description}>Running On HostGator</span>
+                                      </li>
+                                      <li className={styles.list_component}>
+                                        <span className={styles.list_title}>*Monthly Running Fee:</span>
+                                        <span className={styles.list_description}>$78.00</span>
+                                      </li>
+                                      <li className={styles.list_component}>
+                                        <span className={styles.list_title}>*Original Js Code:</span>
+                                        <span className={styles.list_description}>Price Included </span>
+                                      </li>
+                                      <li className={styles.list_component}>
+                                        <span className={styles.list_title}>*Storage Space:</span>
+                                        <span className={styles.list_description}>120 GB SSD</span>
+                                      </li>
+                                      <li className={styles.list_component}>
+                                        <span className={styles.list_title}>*Ram Space:</span>
+                                        <span className={styles.list_description}>4GB</span>
+                                      </li>
+                                      <li className={styles.list_component}>
+                                        <span className={styles.list_title}>*Bandwith:</span>
+                                        <span className={styles.list_description}>Unmetered</span>
+                                      </li>
+                                      <li className={styles.list_component}>
+                                        <span className={styles.list_title}>*Dedicated IP:</span>
+                                        <span className={styles.list_description}>2 IPs</span>
+                                      </li>
+                                      <li className={styles.list_component}>
+                                        <span className={styles.list_title}>*Deployment Sytem:</span>
+                                        <span className={styles.list_description}>Node.Js</span>
+                                      </li>
+                                      <li className={styles.list_component}>
+                                        <span className={styles.list_title}>*HOSTING:</span>
+                                        <span className={styles.list_description}>Fully Redundant VPS Network</span>
+                                      </li>
+                                      <li className={styles.list_component}>
+                                        <span className={styles.list_title}>*CMS:</span>
+                                        <span className={styles.list_description}>CMS Included, Customizable</span>
+                                      </li>
+                                      <li className={styles.list_component}>
+                                        <span className={styles.list_title}>*Page Links (Local):</span>
+                                        <span className={styles.list_description}>15, then $75.00/Xtra Page</span>
+                                      </li>
+                                      <li className={styles.list_component2}>
+                                      </li>
+                                    </ul>
+                                    
                                 </ol>
                             </div>
                             <div className={styles.frame_399}>
@@ -150,24 +132,22 @@ function Dynamic() {
                                             />
                                         </svg>
                                     </div>
-                                    <div className={styles.your_session_has_tim5}>450</div>
+                                    <div className={styles.your_session_has_tim5}><Link href={'/contact'}>Quote</Link></div>
                                 </div>
-
-                                <div className={styles.dynamic_get_started}>
-                                    <div className={styles.component_6}>
-                                        <button className={styles.label}> <Link href={"/contact"}>Get Started</Link> </button>
-                                    </div>
+                                <div className={styles.component_6}>
+                                    <button>
+                                        <div className={styles.label}> <Link href={"/contact"}>Get Started</Link> </div></button>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
-
 
         </>
     )
 }
 
 
-export default Dynamic;
+export default Entreprise;
