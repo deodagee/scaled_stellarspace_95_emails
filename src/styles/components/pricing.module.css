@@ -660,7 +660,6 @@
 .promo_regular_wrapper:hover {
   box-shadow: rgb(141, 141, 141) 0px 0px 15px;
   transition: 0.6s;
-  transform: scale(1.01);
 }
 
 .promo_price,
@@ -872,6 +871,19 @@
   box-shadow: rgba(255, 255, 255, 0.455) 0px 0px 15px;
   text-decoration: underline;
 }
+
+
+.plan_description { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 7px;
+  width: 200px;
+}
+
+
 
 .sites_list {
   position: relative;
@@ -1147,7 +1159,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 85vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1371,7 +1383,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 85vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1592,7 +1604,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 85vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1807,7 +1819,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 85vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -2026,7 +2038,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 70vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -2242,7 +2254,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 70vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -2461,7 +2473,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 70vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -2679,7 +2691,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 70vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -2898,7 +2910,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 50vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3116,7 +3128,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 50vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3335,7 +3347,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 40vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3556,7 +3568,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 40vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3774,7 +3786,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 40vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3994,7 +4006,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 40vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -4213,7 +4225,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 30vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -4432,7 +4444,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 30vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -4652,7 +4664,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 30vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -4870,7 +4882,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 30vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -5091,7 +5103,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 25vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -5312,7 +5324,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 25vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -5535,7 +5547,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 25vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -5755,7 +5767,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 25vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -5973,7 +5985,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 25vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -6191,7 +6203,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 25vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -6415,7 +6427,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 25vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -6634,7 +6646,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 25vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -6852,7 +6864,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 25vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -7073,7 +7085,7 @@ margin: 10px;
   .frame_wrapper {
     padding: 20px;
     width: 25vw;
-    height: 500px;
+    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;

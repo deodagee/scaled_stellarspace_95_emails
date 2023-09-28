@@ -118,14 +118,14 @@
   border-top-right-radius: 0.25rem;
   border-top-left-radius: 0.25rem;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 20px;
   width: 300px;
-  height: 550px;
+  height: max-content;
   color: rgb(212, 212, 212);
   font-size: 12px;
   transition: 0.5s;
@@ -228,6 +228,21 @@
   transform: scale(1.03);
   color: rgb(30, 30, 30);
   box-shadow: white 0px 0px 10px;
+}
+
+
+.plan_description { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 8px;
+  width: 200px;
+  color: rgb(84, 84, 84);
+  background-color: rgb(213, 213, 213);
+  border-radius: 0.35rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .sites_list {
