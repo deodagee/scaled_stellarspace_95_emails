@@ -387,7 +387,7 @@ transition: 0.3s;
 
     .cocacola {
         border-radius: 50%;
-        margin-top: 35vh;
+        margin-top: 340px;
         margin-bottom: 5vh;
         transform: scale(0.8);
         transition: 0.4s;
@@ -485,7 +485,7 @@ font-size: 8px;
 @media (min-width: 200px) and (max-width: 300px) and (orientation:landscape) {
     .cocacola {
         border-radius: 50%;
-        margin-top: 50vh;
+        margin-top: 270px;
         margin-bottom: 0vh;
         transform: scale(1);
         transition: 0.4s;
@@ -584,7 +584,7 @@ font-size: 8px;
 @media (min-width: 300px) and (max-width: 400px) and (orientation:portrait) {
     .cocacola {
         border-radius: 50%;
-        margin-top: 23vh;
+        margin-top: 200px;
         margin-bottom: 7vh;
         transform: scale(1);
         transition: 0.4s;
@@ -682,7 +682,7 @@ font-size: 8px;
 @media (min-width: 300px) and (max-width: 400px) and (orientation:landscape) {
     .cocacola {
         border-radius: 50%;
-        margin-top: 53vh;
+        margin-top: 200px;
         margin-bottom: 5vh;
         transform: scale(0.8);
         transition: 0.4s;
@@ -783,7 +783,7 @@ font-size: 8px;
 @media (min-width: 400px) and (max-width: 500px) and (orientation:portrait) {
     .cocacola {
         border-radius: 50%;
-        margin-top: 20vh;
+        margin-top: 200px;
         margin-bottom: 5vh;
         transform: scale(1);
         transition: 0.4s;
@@ -883,7 +883,7 @@ font-size: 8px;
 @media (min-width: 400px) and (max-width: 500px) and (orientation:landscape) {
     .cocacola {
         border-radius: 50%;
-        margin-top: 16vh;
+        margin-top: 200px;
         margin-bottom: 0vh;
         transform: scale(1);
         transition: 0.4s;
@@ -983,7 +983,7 @@ font-size: 8px;
 @media (min-width: 500px) and (max-width: 600px) and (orientation:portrait) {
     .cocacola {
         border-radius: 50%;
-        margin-top: 20vh;
+        margin-top: 200px;
         margin-bottom: 5vh;
         transform: scale(1);
         transition: 0.4s;
@@ -1086,7 +1086,7 @@ font-size: 8px;
 @media (min-width: 500px) and (max-width: 600px) and (orientation:landscape) {
     .cocacola {
         border-radius: 50%;
-        margin-top: 40vh;
+        margin-top: 200px;
         margin-bottom: 0vh;
         transform: scale(1);
         transition: 0.4s;
@@ -1187,7 +1187,7 @@ font-size: 8px;
 @media (min-width: 600px) and (max-width: 700px) and (orientation:portrait) {
     .cocacola {
         border-radius: 50%;
-        margin-top: 20vh;
+        margin-top: 200px;
         margin-bottom: 5vh;
         transform: scale(1);
         transition: 0.4s;
@@ -1290,7 +1290,7 @@ font-size: 8px;
 @media (min-width: 600px) and (max-width: 700px) and (orientation:landscape) {
     .cocacola {
         border-radius: 50%;
-        margin-top: 45vh;
+        margin-top: 200px;
         margin-bottom: 0vh;
         transform: scale(1);
         transition: 0.4s;
@@ -1393,7 +1393,7 @@ font-size: 8px;
 @media (min-width: 700px) and (max-width: 800px) and (orientation:portrait) {
     .cocacola {
         border-radius: 50%;
-        margin-top: 20vh;
+        margin-top: 200px;
         margin-bottom: 5vh;
         transform: scale(1);
         transition: 0.4s;
@@ -1488,7 +1488,7 @@ font-size: 8px;
 @media (min-width: 700px) and (max-width: 800px) and (orientation:landscape) {
     .cocacola {
         border-radius: 50%;
-        margin-top: 45vh;
+        margin-top: 200px;
         margin-bottom: 10vh;
         transform: scale(1);
         transition: 0.4s;
@@ -1583,7 +1583,7 @@ font-size: 8px;
 @media (min-width: 800px) and (max-width: 900px) and (orientation:portrait) {
     .cocacola {
         border-radius: 50%;
-        margin-top: 20vh;
+        margin-top: 200px;
         margin-bottom: 5vh;
         transform: scale(1);
         transition: 0.4s;
@@ -1685,7 +1685,7 @@ font-size: 8px;
 @media (min-width: 800px) and (max-width: 900px) and (orientation:landscape) {
     .cocacola {
         border-radius: 50%;
-        margin-top: 33vh;
+        margin-top: 200px;
         margin-bottom: 10vh;
         transform: scale(1);
         transition: 0.4s;
@@ -1789,7 +1789,7 @@ font-size: 8px;
 
     .cocacola {
         border-radius: 50%;
-        margin-top: 15vh;
+        margin-top: 200px;
         margin-bottom: 5vh;
         transform: scale(1);
         transition: 0.4s;
@@ -1889,7 +1889,7 @@ margin-top: 30px;
 
     .cocacola {
         border-radius: 50%;
-        margin-top: 20vh;
+        margin-top: 200px;
         margin-bottom: 5vh;
         transform: scale(1);
         transition: 0.4s;
@@ -1997,7 +1997,7 @@ margin-top: 30px;
 
     .cocacola {
         border-radius: 50%;
-        margin-top: 20vh;
+        margin-top: 200px;
         margin-bottom: 10vh;
         transform: scale(1);
         transition: 0.4s;
@@ -2065,7 +2065,7 @@ margin-top: 30px;
 
     .cocacola {
         border-radius: 50%;
-        margin-top: 40vh;
+        margin-top: 200px;
         margin-bottom: 5vh;
         transform: scale(1);
         transition: 0.4s;
@@ -2131,7 +2131,7 @@ margin-top: 30px;
 @media (min-width: 1200px) and (max-width: 1400px) and (orientation:portrait) {
     .cocacola {
         border-radius: 50%;
-        margin-top: 15vh;
+        margin-top: 200px;
         margin-bottom: 5vh;
         transform: scale(1);
         transition: 0.4s;
@@ -2198,7 +2198,7 @@ margin-top: 30px;
 
     .cocacola {
         border-radius: 50%;
-        margin-top: 25vh;
+        margin-top: 200px;
         margin-bottom: 5vh;
         transform: scale(1);
         transition: 0.4s;

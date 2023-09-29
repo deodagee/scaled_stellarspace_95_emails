@@ -233,7 +233,7 @@
         align-items: center;
         width: max-content;
         margin-top: -30px;
-        padding-top: 17px;
+        padding-top: 0;
       }
 
 
@@ -244,9 +244,8 @@
             flex-direction: row;
             width: 100vw;
             justify-content: space-between;
-            margin-bottom: 0vh;
             padding-left: 0vw;
-            margin-top: 10px;
+            padding-top: 50px;
         }
     
         .logo_item_xsm { 
