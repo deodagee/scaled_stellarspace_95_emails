@@ -354,33 +354,63 @@ function Body() {
             </div>
 
 
-
-            <ul className={styles.essentials_list}>
-
-              <li className={styles.essentials_list_item} >
-                <div className={styles.essentials_list_item_wrapper} >
-                  <h1>Layouts</h1>
+            <div className={styles.lists}>
+              <ol className={styles.list3}>
+                <li className={styles.title}>
+                  <h1>
+                    Layouts
+                  </h1>
+                </li>
+                <li className={styles.description_list_element}>
                   <p>Choose from thousands of template styles</p>
-
-                </div>
-              </li>
-
-              <li className={styles.essentials_list_item} >
-                <div className={styles.essentials_list_item_wrapper} >
-                  <h1>Free Domains</h1>
+                </li>
+                <li>
+                  <span><Image
+                    className={styles.arrow}
+                    alt=""
+                    width={15}
+                    height={15}
+                    src={"/forwardarrow.png"}></Image></span>
+                </li>
+              </ol>
+              <ol className={styles.list3}>
+                <li className={styles.title}>
+                  <h1>
+                    Free Domains
+                  </h1>
+                </li>
+                <li className={styles.description_list_element}>
                   <p>Get a free domain with various options and hosts</p>
-                </div>
-              </li>
-
-
-              <li className={styles.essentials_list_item} >
-                <div className={styles.essentials_list_item_wrapper} >
-                  <h1>Paid Domains</h1>
+                </li>
+                <li>
+                  <span><Image
+                    className={styles.arrow}
+                    alt=""
+                    width={15}
+                    height={15}
+                    src={"/forwardarrow.png"}></Image></span>
+                </li>
+              </ol>
+              <ol className={styles.list3}>
+                <li className={styles.title}>
+                  <h1>
+                    Paid Domains
+                  </h1>
+                </li>
+                <li className={styles.description_list_element}>
                   <p>Purchased on a yearly basis, for as low as 19.00$ CAD</p>
-                </div>
-              </li>
+                </li>
+                <li>
+                  <span><Image
+                    className={styles.arrow}
+                    alt=""
+                    width={15}
+                    height={15}
+                    src={"/forwardarrow.png"}></Image></span>
+                </li>
+              </ol>
+            </div>
 
-            </ul>
 
 
             <ol className={styles.tabber}>
@@ -465,33 +495,65 @@ function Body() {
             </ol>
 
 
-            <ul className={styles.essentials_list2}>
-
-              <div className={styles.essentials_list_item_wrapper} >
-                <li className={styles.essentials_list_item} >
-                  <h1>Figma</h1>
+            <div className={styles.lists}>
+              <ol className={styles.list3}>
+                <li className={styles.title}>
+                  <h1>
+                    Figma
+                  </h1>
+                </li>
+                <li className={styles.description_list_element}>
                   <p><Link className={styles.link}
                     href={"https://www.figma.com/"}
                   >Figma&apos;s</Link> ready to go templates</p>
                 </li>
-              </div>
-
-              <div className={styles.essentials_list_item_wrapper} >
-                <li className={styles.essentials_list_item} >
-                  <h1>Artist Impressions</h1>
+                <li>
+                  <span><Image
+                    className={styles.arrow}
+                    alt=""
+                    width={15}
+                    height={15}
+                    src={"/forwardarrow.png"}></Image></span>
+                </li>
+              </ol>
+              <ol className={styles.list3}>
+                <li className={styles.title}>
+                  <h1>
+                    Artist Impressions
+                  </h1>
+                </li>
+                <li className={styles.description_list_element}>
                   <p>Check out <Link className={styles.link} href={"https://dribbble.com/tags/ui"}>Dribble&apos;s</Link> ui examples </p>
                 </li>
-              </div>
-
-              <div className={styles.essentials_list_item_wrapper} >
-                <li className={styles.essentials_list_item} >
-                  <h1>SSL</h1>
-                  <p>Automatic ssl protection with a paid domain </p>
+                <li>
+                  <span><Image
+                    className={styles.arrow}
+                    alt=""
+                    width={15}
+                    height={15}
+                    src={"/forwardarrow.png"}></Image></span>
                 </li>
-              </div>
+              </ol>
+              <ol className={styles.list3}>
+                <li className={styles.title}>
+                  <h1>
+                  SSL PROTECTION
+                  </h1>
+                </li>
+                <li className={styles.description_list_element}>
+                <p>Automatic ssl protection with a paid domain </p>
+                </li>
+                <li>
+                  <span><Image
+                    className={styles.arrow}
+                    alt=""
+                    width={15}
+                    height={15}
+                    src={"/forwardarrow.png"}></Image></span>
+                </li>
+              </ol>
+            </div>
 
-
-            </ul>
 
 
 
@@ -929,7 +991,7 @@ function Body() {
                                     </div>
                                     <div className={styles.component_6}>
                                       <button className={styles.label}> <Link href={"/static"}>Get Started </Link>
-                                      <p className={styles.label_header}>Click For More Details</p> </button>
+                                        <p className={styles.label_header}>Click For More Details</p> </button>
                                     </div>
                                   </div>
                                 </div>
@@ -937,7 +999,7 @@ function Body() {
 
 
                               <div className={styles.frame_wrapper}>
-                                
+
                                 <div className={styles.frame_402}>
 
                                   <div className={styles.title}>
@@ -947,8 +1009,8 @@ function Body() {
                                       <h1 className={styles.your_session_has_tim3_promo}>Dynamic</h1>
 
                                       <div className={styles.recommended_div}>
-                                      <div className={styles.your_session_has_tim8}>Recommended</div>
-                                    </div>                                    </Link>
+                                        <div className={styles.your_session_has_tim8}>Recommended</div>
+                                      </div>                                    </Link>
                                   </div>
                                   <div className={styles.plan_description}>
                                     <p>Great For Small to Medium size websites that may require the use of more ram and storage space. Full server side website features available.</p>
@@ -1039,9 +1101,9 @@ function Body() {
                                   </div>
 
                                   <div className={styles.dynamic_get_started}>
-                                  <div className={styles.component_6}>
+                                    <div className={styles.component_6}>
                                       <button className={styles.label}> <Link href={"/dynamic"}>Get Started </Link>
-                                      <p className={styles.label_header}>Click For More Details</p> </button>
+                                        <p className={styles.label_header}>Click For More Details</p> </button>
                                     </div>
                                   </div>
                                 </div>
@@ -1148,9 +1210,9 @@ function Body() {
                                     <div className={styles.your_session_has_tim5}>550</div>
                                   </div>
                                   <div className={styles.dynamic_get_started}>
-                                  <div className={styles.component_6}>
+                                    <div className={styles.component_6}>
                                       <button className={styles.label}> <Link href={"/dynamicplus"}>Get Started </Link>
-                                      <p className={styles.label_header}>Click For More Details</p> </button>
+                                        <p className={styles.label_header}>Click For More Details</p> </button>
                                     </div>
                                   </div>
                                 </div>
@@ -1158,7 +1220,7 @@ function Body() {
                               </div>
 
 
-                              
+
 
 
                               <div className={styles.frame_wrapper}>
@@ -1262,9 +1324,9 @@ function Body() {
                                     <div className={styles.your_session_has_tim5}>600</div>
                                   </div>
                                   <div className={styles.component_6}>
-                                      <button className={styles.label}> <Link href={"/dynamicplusextra"}>Get Started </Link>
+                                    <button className={styles.label}> <Link href={"/dynamicplusextra"}>Get Started </Link>
                                       <p className={styles.label_header}>Click For More Details</p> </button>
-                                    </div>
+                                  </div>
                                 </div>
                               </div>
 
@@ -1355,9 +1417,9 @@ function Body() {
                                     <div className={styles.your_session_has_tim5}>Quote</div>
                                   </div>
                                   <div className={styles.component_6}>
-                                      <button className={styles.label}> <Link href={"/entreprise"}>Get Started </Link>
+                                    <button className={styles.label}> <Link href={"/entreprise"}>Get Started </Link>
                                       <p className={styles.label_header}>Click For More Details</p> </button>
-                                    </div>
+                                  </div>
                                 </div>
                               </div>
 
@@ -1478,7 +1540,7 @@ function Body() {
                                     </div>
                                     <div className={styles.component_6}>
                                       <button className={styles.label}> <Link href={"/static"}>Get Started </Link>
-                                      <p className={styles.label_header}>Click For More Details</p> </button>
+                                        <p className={styles.label_header}>Click For More Details</p> </button>
                                     </div>
                                   </div>
 
@@ -1586,9 +1648,9 @@ function Body() {
                                   </div>
 
                                   <div className={styles.dynamic_get_started}>
-                                  <div className={styles.component_6}>
+                                    <div className={styles.component_6}>
                                       <button className={styles.label}> <Link href={"/dynamic"}>Get Started </Link>
-                                      <p className={styles.label_header}>Click For More Details</p> </button>
+                                        <p className={styles.label_header}>Click For More Details</p> </button>
                                     </div>
                                   </div>
                                 </div>
@@ -1695,9 +1757,9 @@ function Body() {
                                     <div className={styles.your_session_has_tim5}>917</div>
                                   </div>
                                   <div className={styles.component_6}>
-                                      <button className={styles.label}> <Link href={"/dynamicplus"}>Get Started </Link>
+                                    <button className={styles.label}> <Link href={"/dynamicplus"}>Get Started </Link>
                                       <p className={styles.label_header}>Click For More Details</p> </button>
-                                    </div>
+                                  </div>
                                 </div>
 
                               </div>
@@ -1802,9 +1864,9 @@ function Body() {
                                     <div className={styles.your_session_has_tim5}>1,000</div>
                                   </div>
                                   <div className={styles.component_6}>
-                                      <button className={styles.label}> <Link href={"/dynamicplusextra"}>Get Started </Link>
+                                    <button className={styles.label}> <Link href={"/dynamicplusextra"}>Get Started </Link>
                                       <p className={styles.label_header}>Click For More Details</p> </button>
-                                    </div>
+                                  </div>
                                 </div>
                               </div>
 
@@ -1894,9 +1956,9 @@ function Body() {
                                     <div className={styles.your_session_has_tim5}>Quote</div>
                                   </div>
                                   <div className={styles.component_6}>
-                                      <button className={styles.label}> <Link href={"/entreprise"}>Get Started </Link>
+                                    <button className={styles.label}> <Link href={"/entreprise"}>Get Started </Link>
                                       <p className={styles.label_header}>Click For More Details</p> </button>
-                                    </div>
+                                  </div>
                                 </div>
                               </div>
 
