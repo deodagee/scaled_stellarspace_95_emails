@@ -138,7 +138,7 @@ transition: 0.5s;
 }
 
 .avatar_image_deo {
-  margin-top: -250px;
+  margin-top: -220px;
   margin-bottom: 20px;
   transition: 0.5s;
   width: max-content;
@@ -1581,7 +1581,7 @@ transition: 0.5s;
   }
 
   .name_and_emails_wrapper {
-    margin-top: 200px;
+    margin-top: 260px;
   }
 
   .credentials {
@@ -1594,6 +1594,10 @@ transition: 0.5s;
     margin-top: 0vh;
     transform: scale(0.7);
   }
+
+  .avatar_image_deo {
+    margin-top: -210px;
+  } 
 
   .name {
     font-size: 30px;
@@ -1886,7 +1890,7 @@ transition: 0.5s;
   }
 
   .name_and_emails_wrapper {
-    margin-top: 200px;
+    margin-top: 260px;
   }
 
   .credentials {
@@ -2166,7 +2170,7 @@ transition: 0.5s;
 
 
   .name_and_emails_wrapper {
-    margin-top: 200px;
+    margin-top: 250px;
   }
 
   .credentials {
@@ -2470,6 +2474,7 @@ transition: 0.5s;
     padding: 0;
   }
 
+
   .name_and_emails_wrapper {
     margin-top: 250px;
   }
@@ -2752,6 +2757,7 @@ transition: 0.5s;
     align-items: center;
     padding: 0;
   }
+
 
   .name_and_emails_wrapper {
     margin-top: 250px;
