@@ -101,13 +101,18 @@ function Entreprise() {
                                         </li>
                                     </ul>
 
+
                                     <ul className={styles.sites_list}>
                                       <li className={styles.list_component}>
-                                        <span className={styles.list_description}>Running On HostGator</span>
+                                        <span className={styles.list_description}>Running on a Top Tier Hostinger VPS</span>
+                                      </li>
+                                      <li className={styles.list_component}>
+                                        <span className={styles.list_title}>*Domain Name:</span>
+                                        <span className={styles.list_description}>$20.00</span>
                                       </li>
                                       <li className={styles.list_component}>
                                         <span className={styles.list_title}>*Monthly Running Fee:</span>
-                                        <span className={styles.list_description}>$78.00</span>
+                                        <span className={styles.list_description}>Contact</span>
                                       </li>
                                       <li className={styles.list_component}>
                                         <span className={styles.list_title}>*Original Js Code:</span>
@@ -115,27 +120,19 @@ function Entreprise() {
                                       </li>
                                       <li className={styles.list_component}>
                                         <span className={styles.list_title}>*Storage Space:</span>
-                                        <span className={styles.list_description}>120 GB SSD</span>
+                                        <span className={styles.list_description}>Contact</span>
                                       </li>
                                       <li className={styles.list_component}>
                                         <span className={styles.list_title}>*Ram Space:</span>
-                                        <span className={styles.list_description}>4GB</span>
+                                        <span className={styles.list_description}>Contact</span>
                                       </li>
                                       <li className={styles.list_component}>
                                         <span className={styles.list_title}>*Bandwith:</span>
-                                        <span className={styles.list_description}>Unmetered</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Dedicated IP:</span>
-                                        <span className={styles.list_description}>2 IPs</span>
+                                        <span className={styles.list_description}>Contact</span>
                                       </li>
                                       <li className={styles.list_component}>
                                         <span className={styles.list_title}>*Deployment Sytem:</span>
                                         <span className={styles.list_description}>Node.Js</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*HOSTING:</span>
-                                        <span className={styles.list_description}>Fully Redundant VPS Network</span>
                                       </li>
                                       <li className={styles.list_component}>
                                         <span className={styles.list_title}>*CMS:</span>
