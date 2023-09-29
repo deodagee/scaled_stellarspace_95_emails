@@ -47,8 +47,8 @@ function Services() {
                             quality={100}
                             alt=""
                             src="/cocacola2.png"
-                            onLoad={handleImageLoad}
-                        >
+
+>
                         </Image>
                     </div>
 
@@ -81,7 +81,6 @@ function Services() {
                                         quality={100}
                                         alt=""
                                         src="/deserteagle.png"
-                                        onLoad={handleImageLoad}
                                     >
                                     </Image>
                                 </div>
