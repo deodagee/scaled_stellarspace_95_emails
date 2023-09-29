@@ -71,6 +71,11 @@
         padding: 0px;
     }
 
+    .promo_message_first{ 
+        font-size: 8px;
+      }
+      
+
     .buttons_xsm {
         margin-right: 0px;
         margin-top: 8px;
@@ -176,6 +181,11 @@
             flex-direction: row;
             transform: scale(0.7);
         }
+
+        .promo_message_first{ 
+            font-size: 8px;
+          }
+          
         .login_button_xsm {
             padding: 5px;
             padding-top: 5px;
@@ -265,6 +275,11 @@
         transform: scale(0.8);
     }
 
+    .promo_message_first{ 
+        font-size: 9px;
+      }
+      
+
     .register_button_xsm {
         padding: 5px;
         padding-top: 5px;
@@ -351,6 +366,11 @@
         margin-left: auto;
         transform: scale(0.8);
     }
+
+    .promo_message_first{ 
+        font-size: 9px;
+      }
+      
 
     .register_button_xsm {
         padding: 5px;
@@ -440,6 +460,11 @@
         margin-left: auto;
         transform: scale(1.1);
     }
+
+    .promo_message_first{ 
+        font-size: 10px;
+      }
+      
 
     .register_button_xsm {
         padding: 5px;
@@ -533,6 +558,11 @@
         margin-left: auto;
         transform: scale(1.1);
     }
+
+    .promo_message_first{ 
+        font-size: 10px;
+      }
+      
 
     .register_button_xsm {
         padding: 5px;

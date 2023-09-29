@@ -241,6 +241,25 @@
   flex-direction: row;
 }
 
+.promo_message_first{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(35, 35, 35);
+  width: 100vw;
+  padding: 10px;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.promo_code { 
+  color: rgb(237, 197, 52);
+}
+
+
+
 .register_button {
   color: rgb(61, 61, 61);
   white-space: nowrap;
