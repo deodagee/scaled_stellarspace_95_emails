@@ -48,8 +48,46 @@ function Services() {
                             alt=""
                             src="/cocacola2.png"
 
->
+                        >
                         </Image>
+                    </div>
+
+
+                    <div className={styles.video_and_image}>
+
+                        <ol className={styles.title_and_image_wrap}>
+                            <li className={styles.title_wrap}>
+                                <p>Personalized 3d Models</p>
+                            </li>
+
+                            <li className={styles.title_bottom_img_or_video}>
+                                <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_loop_tag}>
+
+                                    <source src="/headphones.mp4" type="video/mp4" />
+                                </video>
+                            </li>
+                        </ol>
+
+                        <ol className={styles.title_and_image_wrap}>
+                            <li className={styles.title_wrap}>
+                                <p>With The Cycles Render Engine</p>
+                            </li>
+                            <li className={styles.title_bottom_img_or_video}>
+
+                                <div className={styles.desert_eagle_div}>
+                                    <Image
+                                        className={styles.deserteagle}
+                                        width={100}
+                                        height={50}
+                                        quality={100}
+                                        alt=""
+                                        src="/headphones.png"
+                                    >
+                                    </Image>
+                                </div>
+                            </li>
+                        </ol>
+
                     </div>
 
                     <div className={styles.video_and_image}>
@@ -86,8 +124,46 @@ function Services() {
                                 </div>
                             </li>
                         </ol>
+                        </div>
 
-                    </div>
+
+                        <div className={styles.video_and_image}>
+
+                            <ol className={styles.title_and_image_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>Advanced Lighting and Texturing</p>
+                                </li>
+
+                                <li className={styles.title_bottom_img_or_video}>
+                                    <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_loop_tag}>
+
+                                        <source src="/signbricks.mp4" type="video/mp4" />
+                                    </video>
+                                </li>
+                            </ol>
+
+                            <ol className={styles.title_and_image_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>For Stunning Results</p>
+                                </li>
+                                <li className={styles.title_bottom_img_or_video}>
+
+                                    <div className={styles.desert_eagle_div}>
+                                        <Image
+                                            className={styles.deserteagle}
+                                            width={100}
+                                            height={50}
+                                            quality={100}
+                                            alt=""
+                                            src="/signbricks.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                </li>
+                            </ol>
+
+                        </div>
+
                     <div className={styles.video_and_image}>
 
                         <ol className={styles.title_and_image_wrap}>
@@ -96,7 +172,7 @@ function Services() {
                             </li>
 
                             <li className={styles.title_bottom_img_or_video}>
-                                <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_loop_tag2} >
+                                <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_loop_tag} >
 
                                     <source src="/boxbuild.mp4" type="video/mp4" />
                                 </video>
@@ -126,23 +202,23 @@ function Services() {
                     </div>
 
                     <ol className={styles.list3}>
-                            <li className={styles.title}>
-                                <h1>
-                                    Main Services
-                                </h1>
-                            </li>
-                            <li className={styles.description_list_element}>
-                                <p>A comprehensive list of all services offered here at Stellarspace</p>
-                            </li>
-                            <li>
+                        <li className={styles.title}>
+                            <h1>
+                                Main Services
+                            </h1>
+                        </li>
+                        <li className={styles.description_list_element}>
+                            <p>A comprehensive list of all services offered here at Stellarspace</p>
+                        </li>
+                        <li>
                             <span><Image
                                 className={styles.arrow}
                                 alt=""
                                 width={15}
                                 height={15}
-                                src={"/forwardarrow.png"}></Image></span> 
-                            </li>
-                        </ol>
+                                src={"/forwardarrow.png"}></Image></span>
+                        </li>
+                    </ol>
 
                     <ol className={styles.list4}>
 
