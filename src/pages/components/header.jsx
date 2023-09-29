@@ -207,10 +207,6 @@ function Header() {
               <div className={styles.nothing}>
               </div>
             )}
-
-<div className={`${styles.promo_message_first} ${xsmStyles.promo_message_first_xsm}`}>
-                  <p>Congratulations! You&apos;ve earned a higher rebate for signing in. Mention promo code: <span className={styles.promo_code}>&quot;STELLAR19950202&quot; </span> when you send your request to get 70% off</p>
-                </div>
           </ol>
 
         </div>
