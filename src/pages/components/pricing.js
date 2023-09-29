@@ -555,8 +555,9 @@ function Pricing() {
                                 <div className={styles.your_session_has_tim5}>300</div>
                               </div>
                               <div className={styles.component_6}>
-                                <button className={styles.label}> <Link href={"/static"}>Get Started </Link> </button>
-                              </div>
+                                      <button className={styles.label}> <Link href={"/static"}>Get Started </Link>
+                                      <p className={styles.label_header}>Click For More Details</p> </button>
+                                    </div>
                             </div>
 
                           </div>
@@ -664,7 +665,7 @@ function Pricing() {
 
                             <div className={styles.dynamic_get_started}>
                               <div className={styles.component_6}>
-                                <button className={styles.label}> <Link href={"/dynamic"}>Get Started</Link> </button>
+                                <button className={styles.label}> <Link href={"/dynamic"}>Get Started</Link> <p className={styles.label_header}>Click For More Details</p> </button>
                               </div>
                             </div>
                           </div>
@@ -772,7 +773,7 @@ function Pricing() {
                             </div>
                             <div className={styles.dynamic_get_started}>
                               <div className={styles.component_6}>
-                                <button className={styles.label}> <Link href={"/dynamicplus"}>Get Started</Link> </button>
+                                <button className={styles.label}> <Link href={"/dynamicplus"}>Get Started</Link><p className={styles.label_header}>Click For More Details</p>  </button>
                               </div>
                             </div>
                           </div>
@@ -878,7 +879,7 @@ function Pricing() {
                               <div className={styles.your_session_has_tim5}>600</div>
                             </div>
                             <div className={styles.component_6}>
-                              <button className={styles.label}> <Link href={"/dynamicplusextra"}>Get Started</Link> </button>
+                              <button className={styles.label}> <Link href={"/dynamicplusextra"}>Get Started</Link><p className={styles.label_header}>Click For More Details</p>  </button>
                             </div>
                           </div>
                         </div>
@@ -903,48 +904,48 @@ function Pricing() {
                               </ul>
 
                               <ul className={styles.sites_list}>
-                                      <li className={styles.list_component}>
-                                      <span className={styles.list_description}>Running on a Top Tier Hostinger VPS</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Domain Name:</span>
-                                        <span className={styles.list_description}>$20.00</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Monthly Running Fee:</span>
-                                        <span className={styles.list_description}>Contact</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Original Js Code:</span>
-                                        <span className={styles.list_description}>Price Included </span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Storage Space:</span>
-                                        <span className={styles.list_description}>Contact</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Ram Space:</span>
-                                        <span className={styles.list_description}>Contact</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Bandwith:</span>
-                                        <span className={styles.list_description}>Contact</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Deployment Sytem:</span>
-                                        <span className={styles.list_description}>Node.Js</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*CMS:</span>
-                                        <span className={styles.list_description}>CMS Included, Customizable</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Page Links (Local):</span>
-                                        <span className={styles.list_description}>15, then $75.00/Xtra Page</span>
-                                      </li>
-                                      <li className={styles.list_component2}>
-                                      </li>
-                                    </ul>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_description}>Running on a Top Tier Hostinger VPS</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Domain Name:</span>
+                                  <span className={styles.list_description}>$20.00</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Monthly Running Fee:</span>
+                                  <span className={styles.list_description}>Contact</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Original Js Code:</span>
+                                  <span className={styles.list_description}>Price Included </span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Storage Space:</span>
+                                  <span className={styles.list_description}>Contact</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Ram Space:</span>
+                                  <span className={styles.list_description}>Contact</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Bandwith:</span>
+                                  <span className={styles.list_description}>Contact</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Deployment Sytem:</span>
+                                  <span className={styles.list_description}>Node.Js</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*CMS:</span>
+                                  <span className={styles.list_description}>CMS Included, Customizable</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Page Links (Local):</span>
+                                  <span className={styles.list_description}>15, then $75.00/Xtra Page</span>
+                                </li>
+                                <li className={styles.list_component2}>
+                                </li>
+                              </ul>
 
 
                             </ol>
@@ -970,7 +971,7 @@ function Pricing() {
                             </div>
                             <div className={styles.component_6}>
                               <button>
-                                <div className={styles.label}> <Link href={"/entreprise"}>Get Started</Link> </div></button>
+                                <div className={styles.label}> <Link href={"/entreprise"}>Get Started</Link> </div><p className={styles.label_header}>Click For More Details</p> </button>
                             </div>
                           </div>
                         </div>
@@ -1091,7 +1092,7 @@ function Pricing() {
                                 <div className={styles.your_session_has_tim5}>500</div>
                               </div>
                               <div className={styles.component_6}>
-                                <button className={styles.label}> <Link href={"/static"}>Get Started </Link> </button>
+                                <button className={styles.label}> <Link href={"/static"}>Get Started </Link> <p className={styles.label_header}>Click For More Details</p> </button>
                               </div>
                             </div>
 
@@ -1200,7 +1201,7 @@ function Pricing() {
 
                             <div className={styles.dynamic_get_started}>
                               <div className={styles.component_6}>
-                                <button className={styles.label}> <Link href={"/dynamic"}>Get Started</Link> </button>
+                                <button className={styles.label}> <Link href={"/dynamic"}>Get Started</Link><p className={styles.label_header}>Click For More Details</p>  </button>
                               </div>
                             </div>
                           </div>
@@ -1309,7 +1310,7 @@ function Pricing() {
                             </div>
                             <div className={styles.dynamic_get_started}>
                               <div className={styles.component_6}>
-                                <button className={styles.label}> <Link href={"/dynamicplus"}>Get Started</Link> </button>
+                                <button className={styles.label}> <Link href={"/dynamicplus"}>Get Started</Link><p className={styles.label_header}>Click For More Details</p>  </button>
                               </div>
                             </div>
                           </div>
@@ -1414,7 +1415,7 @@ function Pricing() {
                               <div className={styles.your_session_has_tim5}>1,000</div>
                             </div>
                             <div className={styles.component_6}>
-                              <button className={styles.label}> <Link href={"/dynamicplusextra"}>Get Started</Link> </button>
+                              <button className={styles.label}> <Link href={"/dynamicplusextra"}>Get Started</Link><p className={styles.label_header}>Click For More Details</p>  </button>
                             </div>
                           </div>
                         </div>
@@ -1424,13 +1425,13 @@ function Pricing() {
                         <div className={styles.frame_wrapper}>
                           <div className={styles.frame_402}>
                             <div className={styles.title}>
-                            <Link href={"/entreprise"}>
-                                      <h1 className={styles.your_session_has_tim3_promo}>Entreprise</h1>
-                                    </Link>                          
-                                      </div>
-                                      <div className={styles.plan_description}>
-                                      <p>This plan is for those which some of the specs do not match what is offered already. Please contact for a custom plan tailored just for you.</p>
-                                    </div>
+                              <Link href={"/entreprise"}>
+                                <h1 className={styles.your_session_has_tim3_promo}>Entreprise</h1>
+                              </Link>
+                            </div>
+                            <div className={styles.plan_description}>
+                              <p>This plan is for those which some of the specs do not match what is offered already. Please contact for a custom plan tailored just for you.</p>
+                            </div>
                             <ol className={styles.list_wrapper}>
                               <ul className={styles.regular_disclaimer}>
                                 <div className={styles.save_up_to}>*Regular Price</div>
@@ -1439,48 +1440,48 @@ function Pricing() {
                               </ul>
 
                               <ul className={styles.sites_list}>
-                                      <li className={styles.list_component}>
-                                      <span className={styles.list_description}>Running on a Top Tier Hostinger VPS</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Domain Name:</span>
-                                        <span className={styles.list_description}>$20.00</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Monthly Running Fee:</span>
-                                        <span className={styles.list_description}>Contact</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Original Js Code:</span>
-                                        <span className={styles.list_description}>Price Included </span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Storage Space:</span>
-                                        <span className={styles.list_description}>Contact</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Ram Space:</span>
-                                        <span className={styles.list_description}>Contact</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Bandwith:</span>
-                                        <span className={styles.list_description}>Contact</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Deployment Sytem:</span>
-                                        <span className={styles.list_description}>Node.Js</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*CMS:</span>
-                                        <span className={styles.list_description}>CMS Included, Customizable</span>
-                                      </li>
-                                      <li className={styles.list_component}>
-                                        <span className={styles.list_title}>*Page Links (Local):</span>
-                                        <span className={styles.list_description}>15, then $75.00/Xtra Page</span>
-                                      </li>
-                                      <li className={styles.list_component2}>
-                                      </li>
-                                    </ul>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_description}>Running on a Top Tier Hostinger VPS</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Domain Name:</span>
+                                  <span className={styles.list_description}>$20.00</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Monthly Running Fee:</span>
+                                  <span className={styles.list_description}>Contact</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Original Js Code:</span>
+                                  <span className={styles.list_description}>Price Included </span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Storage Space:</span>
+                                  <span className={styles.list_description}>Contact</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Ram Space:</span>
+                                  <span className={styles.list_description}>Contact</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Bandwith:</span>
+                                  <span className={styles.list_description}>Contact</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Deployment Sytem:</span>
+                                  <span className={styles.list_description}>Node.Js</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*CMS:</span>
+                                  <span className={styles.list_description}>CMS Included, Customizable</span>
+                                </li>
+                                <li className={styles.list_component}>
+                                  <span className={styles.list_title}>*Page Links (Local):</span>
+                                  <span className={styles.list_description}>15, then $75.00/Xtra Page</span>
+                                </li>
+                                <li className={styles.list_component2}>
+                                </li>
+                              </ul>
 
                             </ol>
                           </div>
@@ -1505,7 +1506,7 @@ function Pricing() {
                             </div>
                             <div className={styles.component_6}>
                               <button>
-                                <div className={styles.label}> <Link href={"/entreprise"}>Get Started</Link> </div></button>
+                                <div className={styles.label}> <Link href={"/entreprise"}>Get Started</Link> <p className={styles.label_header}>Click For More Details</p> </div></button>
                             </div>
                           </div>
                         </div>

@@ -944,8 +944,8 @@ function Body() {
                                       <div className={styles.your_session_has_tim5}>300</div>
                                     </div>
                                     <div className={styles.component_6}>
-                                      <button className={styles.label}> <Link href={"/static"}>Get Started </Link>                                      <p className={styles.label_header}>Click For More Details</p>
-                                      </button>
+                                      <button className={styles.label}> <Link href={"/static"}>Get Started </Link>
+                                      <p className={styles.label_header}>Click For More Details</p> </button>
                                     </div>
                                   </div>
                                 </div>
@@ -1055,10 +1055,9 @@ function Body() {
                                   </div>
 
                                   <div className={styles.dynamic_get_started}>
-                                    <div className={styles.component_6}>
-                                      <button className={styles.label}> <Link href={"/dynamic"}>Get Started</Link>
-                                        <p className={styles.label_header}>Click For More Details</p>
-                                      </button>
+                                  <div className={styles.component_6}>
+                                      <button className={styles.label}> <Link href={"/dynamic"}>Get Started </Link>
+                                      <p className={styles.label_header}>Click For More Details</p> </button>
                                     </div>
                                   </div>
                                 </div>
@@ -1165,10 +1164,9 @@ function Body() {
                                     <div className={styles.your_session_has_tim5}>550</div>
                                   </div>
                                   <div className={styles.dynamic_get_started}>
-                                    <div className={styles.component_6}>
-                                      <button className={styles.label}> <Link href={"/dynamicplus"}>Get Started</Link>
-                                        <p className={styles.label_header}>Click For More Details</p>
-                                      </button>
+                                  <div className={styles.component_6}>
+                                      <button className={styles.label}> <Link href={"/dynamicplus"}>Get Started </Link>
+                                      <p className={styles.label_header}>Click For More Details</p> </button>
                                     </div>
                                   </div>
                                 </div>
@@ -1280,9 +1278,9 @@ function Body() {
                                     <div className={styles.your_session_has_tim5}>600</div>
                                   </div>
                                   <div className={styles.component_6}>
-                                    <button className={styles.label}> <Link href={"/dynamicplusextra"}>Get Started</Link> 
-                                    <p className={styles.label_header}>Click For More Details</p></button>
-                                  </div>
+                                      <button className={styles.label}> <Link href={"/dynamicplusextra"}>Get Started </Link>
+                                      <p className={styles.label_header}>Click For More Details</p> </button>
+                                    </div>
                                 </div>
                               </div>
 
@@ -1373,10 +1371,9 @@ function Body() {
                                     <div className={styles.your_session_has_tim5}>Quote</div>
                                   </div>
                                   <div className={styles.component_6}>
-                                    <button>
-                                      <div className={styles.label}> <Link href={"/entreprise"}>Get Started</Link> </div>
-                                      <p className={styles.label_header}>Click For More Details</p></button>
-                                  </div>
+                                      <button className={styles.label}> <Link href={"/entreprise"}>Get Started </Link>
+                                      <p className={styles.label_header}>Click For More Details</p> </button>
+                                    </div>
                                 </div>
                               </div>
 
@@ -1605,9 +1602,9 @@ function Body() {
                                   </div>
 
                                   <div className={styles.dynamic_get_started}>
-                                    <div className={styles.component_6}>
-                                      <button className={styles.label}> <Link href={"/dynamic"}>Get Started</Link> 
-                                      <p className={styles.label_header}>Click For More Details</p></button>
+                                  <div className={styles.component_6}>
+                                      <button className={styles.label}> <Link href={"/dynamic"}>Get Started </Link>
+                                      <p className={styles.label_header}>Click For More Details</p> </button>
                                     </div>
                                   </div>
                                 </div>
@@ -1713,12 +1710,10 @@ function Body() {
                                     </div>
                                     <div className={styles.your_session_has_tim5}>917</div>
                                   </div>
-                                  <div className={styles.dynamic_get_started}>
-                                    <div className={styles.component_6}>
-                                      <button className={styles.label}> <Link href={"/dynamic"}>Get Started</Link>
+                                  <div className={styles.component_6}>
+                                      <button className={styles.label}> <Link href={"/dynamicplus"}>Get Started </Link>
                                       <p className={styles.label_header}>Click For More Details</p> </button>
                                     </div>
-                                  </div>
                                 </div>
 
                               </div>
@@ -1823,9 +1818,9 @@ function Body() {
                                     <div className={styles.your_session_has_tim5}>1,000</div>
                                   </div>
                                   <div className={styles.component_6}>
-                                    <button className={styles.label}> <Link href={"/dynamicplusextra"}>Get Started</Link> 
-                                    <p className={styles.label_header}>Click For More Details</p></button>
-                                  </div>
+                                      <button className={styles.label}> <Link href={"/dynamicplusextra"}>Get Started </Link>
+                                      <p className={styles.label_header}>Click For More Details</p> </button>
+                                    </div>
                                 </div>
                               </div>
 
@@ -1915,10 +1910,9 @@ function Body() {
                                     <div className={styles.your_session_has_tim5}>Quote</div>
                                   </div>
                                   <div className={styles.component_6}>
-                                    <button>
-                                      <div className={styles.label}> <Link href={"/entreprise"}>Get Started</Link> </div>
-                                      <p className={styles.label_header}>Click For More Details</p></button>
-                                  </div>
+                                      <button className={styles.label}> <Link href={"/entreprise"}>Get Started </Link>
+                                      <p className={styles.label_header}>Click For More Details</p> </button>
+                                    </div>
                                 </div>
                               </div>
 
