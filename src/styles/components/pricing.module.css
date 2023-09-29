@@ -261,8 +261,10 @@
   padding-right: 2vw;
   margin: 5px;
   height: 150px;
+  min-width: 180px;
+  max-width: 60vw;
   display: block;
-  text-align: left;
+  text-align: center;
   font-size: 11px;
   font-weight: 500;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
