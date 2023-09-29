@@ -2,9 +2,19 @@ import React from "react";
 import styles from "../../styles/components/tabber.module.css"
 import Link from "next/link";
 import Head from 'next/head';
-
+import Image from "next/image"
 
 function Static() {
+
+
+  const togglePopup = () => {
+    const popup = document.getElementById("popup");
+    if (popup.style.display === "block") {
+      popup.style.display = "none";
+    } else {
+      popup.style.display = "block";
+    }
+  }
 
   return (
     <>
@@ -42,13 +52,38 @@ function Static() {
                   </li>
                 </Link>
                 <span className={styles.seperator_line}></span>
-                <Link href={'/eplus'}>
+                <Link href={'/entreprise'}>
                   <li className={styles.tab_5}>
                     <p>Entreprise</p>
                   </li>
                 </Link>
               </ol>
             </div>
+
+            <div className={styles.frame_wrapper_and_popup}>
+            <div id="popup" className={styles.popup}>
+                      <span className={styles.popupTitle}>
+                        DESIGN FEE:
+                      </span>
+                      <span className={styles.popupContent}>
+                        <span className={styles.popupContent_paragraph1}> 
+                        When purchasing a website you must decide wether you need a web developer or designer to get the site up and running. If you&apos;ve already got a site ready to go, I can get it deployed for you for a lesser fee, depending on the scope and size of the project. However, in the case that you need the site built from the ground ip, you can get this service anywhere, but the fee is usually in the astronomical ranges of $800 and $3000 in the general market. However with Astrum Stellar the price to develop and deploy a website from scratch is quite low compared to that. If you manage to find a better price anywhere, let me know and I will make sure to match it or give you a lower price. GUARANTEED. 
+                        </span>
+                        <span className={styles.popupContent_paragraph2}> 
+                       <p className={styles.popupContent_paragraph2_title_servicesoffered}> The Design Fee Includes:</p>
+                        <span className={styles.popup_details}> <p className={styles.popup_details_title}>Original Code:</p><p>All Code Customized and written in HTML, CSS, JAVASCRIPT, TYPESCRIPT</p></span>
+                        <span className={styles.popup_details}> <p className={styles.popup_details_title}>Site Content And Building:</p><p>Usually the Images, the written content, and the logic for the website is thought out by the client before reaching out to a designer. A rough sketch is created, and deployed on a testing platform to be viewed. I can get all that sorted for you if you don&apos;t know where to start. CLick <Link className={styles.link_color} href={"/designdetails"}>Here</Link>  for more information on how to start building your website with me from the ground up.</p></span>
+                        <span className={styles.popup_details}> <p className={styles.popup_details_title}>Testing:</p><p>Before deployment, your website will be in testing mode, and I will provide you a live link that will be your live site, in testing mode. All changes can be viewed live, and you will be able to request any changes.</p></span>
+                        <span className={styles.popup_details}> <p className={styles.popup_details_title}>Deployment:</p><p>Upon Completion of your website, it will be deployed for you, on a trsusted VPS, owned by Hostinger, along with your personal domain name that you&apos;ve purchased for it.</p></span>
+                        </span>
+                        <span className={styles.popupContent_paragraph3}>
+                        <Link href={"/contact"}>
+                           <p>Contact Page</p>
+                          </Link>
+                        </span>
+                      </span>
+                      <button onClick={togglePopup}> <p className={styles.button_toggle_close_paragraph}>Close </p></button>
+                    </div>
 
             <div className={styles.frame_wrapper}>
               <ol className={styles.frame_402}>
@@ -57,7 +92,7 @@ function Static() {
                   <Link
                     href={"/static"}
                   >
-                    <h1 className={styles.your_session_has_tim3_regular}>Static</h1>
+                    <h1 className={styles.your_session_has_tim3_promo}>Static Plan</h1>
                   </Link>
                 </div>
                 <div className={styles.plan_description}>
@@ -129,8 +164,20 @@ function Static() {
                 </ol>
               </ol>
 
-
               <ol className={styles.frame_399}>
+              <button onClick={togglePopup}>
+                <li className={styles.full_design_fee_list_item}>
+                 <p className={styles.full_design_fee_details}>Click For Details</p>
+
+                <Image
+                        className={styles.top_main_icons_arrow}
+                        width={20}
+                        height={20}
+                        alt="logo"
+                        src="/forwardarrow.png"
+                      >
+                      </Image>
+                  <p className={styles.full_design_fee_title}>Full Design Fee:</p>
                 <li className={styles.frame_407}>
                   <span className={styles.frame_398}>
                     <svg
@@ -148,12 +195,16 @@ function Static() {
                     </svg>
                   </span>
                   <div className={styles.your_session_has_tim5}>300</div>
+                  </li>
                 </li>
-                <li className={styles.component_6}>
-                  <button className={styles.label}> <Link href={"/contact"}>Get Started </Link> </button>
-                </li>
+                </button>
               </ol>
 
+              <li className={styles.component_6}>
+                  <button className={styles.label}> <Link href={"/contact"}>Get Started </Link> </button>
+                </li>
+
+            </div>
             </div>
           </div>
         </div>
