@@ -718,13 +718,6 @@ function Body() {
                     </li>
                   ) : (
                     <>
-                      <li className={styles.promo_message2}>
-                        <Link
-                          href="/services"
-                        >
-                          <p>Mention promo code <span className={styles.promo_code}>&quot;STELLAR19950202&quot; </span> to get 50% OFF</p>
-                        </Link>
-                      </li>
                     </>
                   )}
                 </ul>
