@@ -825,7 +825,7 @@
     .parent_xsm {
         transition: 0.5s;
         margin-top: 70px;
-        padding-top: 20px;
+        padding-top: 15px;
         position: fixed;
         display: flex;
         align-items: center;
@@ -842,15 +842,19 @@
         align-items: center;
         width: max-content;
         margin-top: -55px;
-        padding-top: 17px;
+        padding-top: 0px;
       }
 
 
+      
+
     .logo__signature_and_button_parent_xsm {
+        padding-top: 50px;
         display: flex;
         flex-direction: row;
         gap: 35vw;
     }
+
 
     .header_logo_xsm {
         margin-left: 2vw;
@@ -924,7 +928,7 @@
     .parent_xsm {
         transition: 0.5s;
         margin-top: 70px;
-        padding-top: 20px;
+        padding-top: 15px;
         position: fixed;
         display: flex;
         align-items: center;
@@ -941,13 +945,14 @@
         align-items: center;
         width: max-content;
         margin-top: -55px;
-        padding-top: 17px;
+        padding-top: 0px;
       }
 
 
       
 
     .logo__signature_and_button_parent_xsm {
+        padding-top: 50px;
         display: flex;
         flex-direction: row;
         gap: 35vw;
