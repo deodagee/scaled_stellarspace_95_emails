@@ -663,7 +663,7 @@ gap: 20px;
 
   .pricing_headers_list {
     width: 90vw;
-    gap: 10px;
+    gap: 4px;
   }
 
  .pricing_headers_list p { 
@@ -700,7 +700,7 @@ gap: 20px;
 
   .pricing_headers_list {
     width: 90vw;
-    gap: 10px;
+    gap: 5px;
   }
 
  .pricing_headers_list p { 
@@ -1469,7 +1469,7 @@ gap: 20px;
  .pricing_headers_list p { 
   font-size: 10px;
  }
- 
+
   .everything_wrapper { 
     width: 100vw;
   }
