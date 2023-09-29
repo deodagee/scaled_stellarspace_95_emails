@@ -990,9 +990,12 @@
 
 .component_6 {
   background: linear-gradient(to right, rgb(113, 130, 0), rgb(0, 214, 89));
-  padding: 10px;
-  border-radius: 50px;
-  width: min-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0.45rem;
+  width: max-content;
   box-shadow: white 0px 0px 5px;
   transition: 0.6s;
   border-width: 1px;
@@ -1003,7 +1006,6 @@
   transform: scale(1.04);
   transition: 0.6s;
 }
-
 
 
 
@@ -1172,6 +1174,13 @@ margin: 10px;
     gap: 10px;
     grid-template-columns: repeat(1, 1fr);
   }
+
+  
+  .label_header{ 
+    font-size: 9px;
+    color:black;
+  }
+  
 
 
   .label {
