@@ -1293,6 +1293,11 @@ transition: 0.5s;
   grid-template-columns: repeat(3, 1fr);
 }
 
+.label_header{ 
+  font-size: 9px;
+  color:black;
+}
+
 
 
 .frame_wrapper {
@@ -1317,7 +1322,7 @@ transition: 0.5s;
   flex-direction: row;
   gap: 0;
   width: 400px;
-  height: 450px;
+  height: 550px;
   color: rgb(212, 212, 212);
   font-size: 12px;
   transition: 0.5s;
@@ -1352,12 +1357,12 @@ transition: 0.5s;
 
 
 .recommended_div {
+  position: relative;
   width: max-content;
   background: linear-gradient(to right, rgb(43, 153, 0), rgb(78, 180, 37), rgb(0, 183, 122));
   padding: 2px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 20px;
   border-radius: 0.45rem;
   border-width: 1px;
   transition: 0.6s;
@@ -1545,6 +1550,7 @@ transition: 0.5s;
   box-shadow: white 0px 0px 5px;
   transition: 0.6s;
   border-width: 1px;
+  
 }
 
 .component_6:hover {
@@ -1823,7 +1829,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 85vw;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -2121,7 +2126,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 85vw;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -2452,7 +2456,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 85vw;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -2756,7 +2759,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 250px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3082,7 +3084,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 85vw;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3380,7 +3381,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 85vw;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3707,7 +3707,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 240px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -4010,7 +4009,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 240px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -4337,7 +4335,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 240px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -4634,7 +4631,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 240px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -4959,7 +4955,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 210px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -5258,7 +5253,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 210px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -5564,7 +5558,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 300px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -5874,7 +5867,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 300px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -6201,7 +6193,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 290px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -6503,7 +6494,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 290px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -6828,7 +6818,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 300px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -7153,7 +7142,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 300px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -7442,7 +7430,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 300px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -7732,7 +7719,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 300px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -8025,7 +8011,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 300px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -8317,7 +8302,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 300px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -8610,7 +8594,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: max-content;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -8903,7 +8886,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: max-content;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -9198,7 +9180,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 300px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -9493,7 +9474,6 @@ transition: 0.5s;
   .frame_wrapper {
     padding: 20px;
     width: 300px;
-    height: 530px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
