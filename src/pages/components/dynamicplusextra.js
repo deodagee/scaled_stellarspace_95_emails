@@ -66,14 +66,14 @@ function DynamicPlusExtra() {
                       </span>
                       <span className={styles.popupContent}>
                         <span className={styles.popupContent_paragraph1}> 
-                        When purchasing a website you must decide wether you need a web developer or designer to get the site up and running. If you&apos;ve already got a site ready to go, I can get it deployed for you for a lesser fee, depending on the scope and size of the project. However, in the case that you need the site built from the ground up, you can get this service anywhere, but the fee is usually in the astronomical ranges of $800 and $3000 in the general market. However with Astrum Stellar the price to develop and deploy a website from scratch is quite low compared to that. If you manage to find a better price anywhere, let me know and I will make sure to match it or give you a lower price. GUARANTEED. 
+                        When purchasing a website you must decide wether you need a web developer or designer to get the site up and running. If you&apos;ve already got a site ready to go, I can get it deployed for you for a lesser fee, depending on the scope and size of the project. However, in the case that you need the site built from the ground up, you can get this service, (Note: the fee is usually in the astronomical ranges of $800 and $3000 in the general market) with Astrum Stellar at StellarSpace for a price much lower than market competition. In fact, If you manage to find a better price anywhere for the same quality of work, let me know and I will make sure to match it or give you a lower price. No Boast, GUARANTEED. 
                         </span>
                         <span className={styles.popupContent_paragraph2}> 
                        <p className={styles.popupContent_paragraph2_title_servicesoffered}> The Design Fee Includes:</p>
                         <span className={styles.popup_details}> <p className={styles.popup_details_title}>Original Code:</p><p>All Code Customized and written in HTML, CSS, JAVASCRIPT, TYPESCRIPT</p></span>
                         <span className={styles.popup_details}> <p className={styles.popup_details_title}>Site Content And Building:</p><p>Usually the Images, the written content, and the logic for the website is thought out by the client before reaching out to a designer. A rough sketch is created, and deployed on a testing platform to be viewed. I can get all that sorted for you if you don&apos;t know where to start. CLick <Link className={styles.link_color} href={"/designdetails"}>Here</Link>  for more information on how to start building your website with me from the ground up.</p></span>
                         <span className={styles.popup_details}> <p className={styles.popup_details_title}>Testing:</p><p>Before deployment, your website will be in testing mode, and I will provide you a live link that will be your live site, in testing mode. All changes can be viewed live, and you will be able to request any changes.</p></span>
-                        <span className={styles.popup_details}> <p className={styles.popup_details_title}>Deployment:</p><p>Upon Completion of your website, it will be deployed for you, on a trsusted VPS, owned by Hostinger, along with your personal domain name that you&apos;ve purchased for it.</p></span>
+                        <span className={styles.popup_details}> <p className={styles.popup_details_title}>Deployment:</p><p>Upon Completion of your website, it will be deployed for you, on a trusted VPS, owned by Hostinger, along with the personal domain name that you&apos;ve purchased for it.</p></span>
                         </span>
                         <span className={styles.popupContent_paragraph3}>
                         <Link href={"/contact"}>
@@ -92,10 +92,11 @@ function DynamicPlusExtra() {
                                     >
                                         <h1 className={styles.your_session_has_tim3_promo}>Dynamic Plus Extra</h1>
                                     </Link>
-                                </div>
-                                <div className={styles.plan_description}>
+                                    <div className={styles.plan_description}>
                                       <p>Great For Large sized websites and ecommerce sites that may require the use of extra ram and storage space. Full server side website features available.</p>
                                     </div>
+                                </div>
+
                                 <ol className={styles.list_wrapper}>
                                     <ul className={styles.percent_disclaimer}>
                                         <div className={styles.save_up_to}>*60% OFF!</div>
