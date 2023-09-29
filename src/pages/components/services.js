@@ -117,7 +117,6 @@ function Services() {
                                         quality={100}
                                         alt=""
                                         src="/blackbox.png"
-                                        onLoad={handleImageLoad}
                                     >
                                     </Image>
                                 </div>
