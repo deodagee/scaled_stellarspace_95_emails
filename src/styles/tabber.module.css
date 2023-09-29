@@ -514,9 +514,17 @@ gap: 0;
     width: 100vw;
   }
 
-  .frame_wrapper { 
+  .frame_wrapper_and_popup { 
+    flex-direction: column;
+  }
+  .frame_wrapper{ 
+    flex-direction: column;
     margin-top: -50px;
     transform: scale(0.7);
+  }
+
+  .frame_402 { 
+    flex-direction: column;
   }
 
 }
@@ -544,9 +552,18 @@ gap: 10px;
     width: 100vw;
   }
 
+  .frame_wrapper_and_popup { 
+    flex-direction: column;
+  }
+
   .frame_wrapper { 
-    margin-top: 0px;
+    flex-direction: column;
+        margin-top: 0px;
     transform: scale(0.9);
+  }
+
+  .frame_402 { 
+    flex-direction: column;
   }
 
 }
@@ -570,9 +587,18 @@ gap: 15px;
     width: 100vw;
   }
 
+  .frame_wrapper_and_popup { 
+    flex-direction: column;
+  }
+
   .frame_wrapper { 
-    margin-top: 50px;
+    flex-direction: column;
+        margin-top: 50px;
     margin-bottom: 20px;
+  }
+
+  .frame_402 { 
+    flex-direction: column;
   }
 
 }
@@ -596,10 +622,19 @@ gap: 20px;
     width: 100vw;
   }
 
+  .frame_wrapper_and_popup { 
+    flex-direction: column;
+  }
+
   .frame_wrapper { 
-    width: 470px;
+    flex-direction: column;
+        width: 470px;
     margin-top: 50px;
     margin-bottom: 20px;
+  }
+
+  .frame_402 { 
+    flex-direction: column;
   }
 
 }
@@ -623,10 +658,19 @@ gap: 25px;
     width: 100vw;
   }
 
+  .frame_wrapper_and_popup { 
+    flex-direction: column;
+  }
+
   .frame_wrapper { 
-    width: 470px;
+    flex-direction: column;
+        width: 470px;
     margin-top: 50px;
     margin-bottom: 20px;
+  }
+
+  .frame_402 { 
+    flex-direction: column;
   }
 
 }
@@ -650,10 +694,19 @@ gap: 30px;
     width: 100vw;
   }
 
+  .frame_wrapper_and_popup { 
+    flex-direction: column;
+  }
+
   .frame_wrapper { 
-    width: 470px;
+    flex-direction: column;
+        width: 470px;
     margin-top: 50px;
     margin-bottom: 20px;
+  }
+
+  .frame_402 { 
+    flex-direction: column;
   }
 
 }
@@ -679,12 +732,21 @@ gap: 35px;
     width: 100vw;
   }
 
+
+  .frame_wrapper_and_popup { 
+    flex-direction: column;
+  }
+
   .frame_wrapper { 
-    width: 470px;
+    flex-direction: column;
+        width: 470px;
     margin-top: 50px;
     margin-bottom: 20px;
   }
 
+  .frame_402 { 
+    flex-direction: column;
+  }
 }
 
 
@@ -708,12 +770,22 @@ gap: 40px;
     width: 100vw;
   }
 
+
+  .frame_wrapper_and_popup { 
+    flex-direction: row;
+  }
+
   .frame_wrapper { 
-    width: 470px;
+    flex-direction: row;
+        width: 470px;
     margin-top: 50px;
     margin-bottom: 20px;
   }
 
+
+  .frame_402 { 
+    flex-direction: row;
+  }
 }
 
 
@@ -738,10 +810,19 @@ gap: 0;
     width: 100vw;
   }
 
+  .frame_wrapper_and_popup { 
+    flex-direction: row;
+  }
+
   .frame_wrapper { 
-    width: 470px;
+    flex-direction: row;
+        width: 470px;
     margin-top: 50px;
     margin-bottom: 20px;
+  }
+
+  .frame_402 { 
+    flex-direction: row;
   }
 
 }
@@ -768,10 +849,21 @@ gap: 0;
     width: 100vw;
   }
 
+
+  .frame_wrapper_and_popup { 
+    flex-direction: row;
+  }
+
+
   .frame_wrapper { 
-    width: 470px;
+    flex-direction: row;
+        width: 470px;
     margin-top: 50px;
     margin-bottom: 20px;
+  }
+
+  .frame_402 { 
+    flex-direction: row;
   }
 
 }
@@ -798,10 +890,19 @@ gap: 0;
     width: 100vw;
   }
 
+  .frame_wrapper_and_popup { 
+    flex-direction: row;
+  }
+
   .frame_wrapper { 
-    width: 470px;
+    flex-direction: row;
+        width: 470px;
     margin-top: 50px;
     margin-bottom: 20px;
+  }
+
+  .frame_402 { 
+    flex-direction: row;
   }
 
 }
@@ -828,12 +929,22 @@ gap: 0;
     width: 100vw;
   }
 
+
+  .frame_wrapper_and_popup { 
+    flex-direction: row;
+  }
+
   .frame_wrapper { 
-    width: 470px;
+    flex-direction: row;
+        width: 470px;
     margin-top: 50px;
     margin-bottom: 20px;
   }
 
+
+  .frame_402 { 
+    flex-direction: row;
+  }
 }
 
 
@@ -860,10 +971,19 @@ gap: 0;
     width: 100vw;
   }
 
+  .frame_wrapper_and_popup { 
+    flex-direction: row;
+  }
+
   .frame_wrapper { 
-    width: 470px;
+    flex-direction: row;
+        width: 470px;
     margin-top: 50px;
     margin-bottom: 20px;
+  }
+
+  .frame_402 { 
+    flex-direction: row;
   }
 
 }
