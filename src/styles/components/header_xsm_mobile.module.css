@@ -1,11 +1,10 @@
-@media (min-width: 200px) and (max-width: 300px) {
-
+@media (min-width: 200px) and (max-width: 300px) and (orientation:portrait) {
 
 
     .parent_xsm {
         transition: 0.5s;
-        margin-top: 30px;
-        padding-top: 0px;
+        margin-top: 70px;
+        padding-top: 10px;
         position: fixed;
         display: flex;
         align-items: center;
@@ -21,9 +20,118 @@
         flex-direction: column;
         align-items: center;
         width: max-content;
-        margin-top: -5px;
+        margin-top: -30px;
         padding-top: 17px;
       }
+
+
+
+    
+        .logo__signature_and_button_parent_xsm {
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            justify-content: space-between;
+            margin-bottom: 0vh;
+            padding-left: 0vw;
+        }
+    
+        .logo_item_xsm { 
+            transform: scale(0.7);
+            margin: 5px;
+            margin-top: 0px;
+        }
+    
+        .header_logo_xsm {
+            margin-left: 25px;
+            margin-top: 0;
+        }
+    
+        .header_signature_xsm {
+            margin-left: 20px;
+            margin-top: 0px;
+            transform: scale(0.8);
+        }
+
+    
+    .first_menubar_xsm {
+        gap:6px;
+        padding: 5px;
+        font-size: 5px;
+        width: 100vw;
+    }
+
+    .first_menubar_xsm p {
+        padding: 0px;
+    }
+
+    .second_menubar_xsm {
+        gap: 15px;
+        padding: 5px;
+        width: 100vw;
+        margin-bottom: 0px;
+        font-size: 5px;
+    }
+
+    .second_menubar_xsm p {
+        padding: 0px;
+    }
+
+    .promo_message_first{ 
+        font-size: 8px;
+      }
+      
+
+    .buttons_xsm {
+        margin-right: 0px;
+        margin-top: 8px;
+        display: flex;
+        font-size: 10px;
+        flex-direction: row;
+        transform: scale(0.6);
+    }
+    .login_button_xsm {
+        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 4px;
+        margin-bottom: 5px;
+    }
+
+    .register_button_xsm {
+        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 4px;
+    }
+
+}
+
+@media (min-width: 200px) and (max-width: 300px) and (orientation:landscape) {
+
+
+
+    .parent_xsm {
+        transition: 0.5s;
+        margin-top: 70px;
+        padding-top: 10px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0c1215;
+        color: white;
+        width: 100vw;
+      }
+      
+      .parent_wrapper_xsm {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: max-content;
+        margin-top: -30px;
+        padding-top: 17px;
+      }
+
 
     
         .logo__signature_and_button_parent_xsm {
@@ -107,7 +215,7 @@
 @media (min-width: 300px) and (max-width: 400px) and (orientation:portrait){
     .parent_xsm {
         transition: 0.5s;
-        margin-top: 30px;
+        margin-top: 70px;
         padding-top: 0px;
         position: fixed;
         display: flex;
@@ -124,7 +232,7 @@
         flex-direction: column;
         align-items: center;
         width: max-content;
-        margin-top: -5px;
+        margin-top: -30px;
         padding-top: 17px;
       }
 
@@ -209,11 +317,11 @@
 
 }
 
-@media (min-width: 400px) and (max-width: 600px) {
 
+@media (min-width: 300px) and (max-width: 400px) and (orientation:landscape){
     .parent_xsm {
         transition: 0.5s;
-        margin-top: 30px;
+        margin-top: 70px;
         padding-top: 0px;
         position: fixed;
         display: flex;
@@ -230,12 +338,217 @@
         flex-direction: column;
         align-items: center;
         width: max-content;
-        margin-top: -5px;
+        margin-top: -30px;
         padding-top: 17px;
       }
 
 
- 
+
+    
+        .logo__signature_and_button_parent_xsm {
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            justify-content: space-between;
+            margin-bottom: 0vh;
+            padding-left: 0vw;
+            margin-top: 10px;
+        }
+    
+        .logo_item_xsm { 
+            margin: 5px;
+            transform: scale(0.7);
+        }
+    
+        .header_logo_xsm {
+            margin-left: 25px;
+            margin-top: 0;
+        }
+    
+        .header_signature_xsm {
+            margin-left: 20px;
+            margin-top: 5px;
+            transform: scale(0.9);
+        }
+    
+        .first_menubar_xsm {
+            gap: 7px;
+            padding: 5px;
+            width: 100vw;
+        }
+    
+        .first_menubar_xsm p {
+            font-size: 6px;
+            padding: 0px;
+        }
+    
+        .second_menubar_xsm {
+            gap: 15px;
+            padding: 8px;
+            width: 100vw;
+            margin-bottom: 0px;
+            font-size: 9px;
+        }
+    
+        .second_menubar_xsm p {
+            font-size: 7px;
+            padding: 0px;
+        }
+    
+        .buttons_xsm {
+            margin-top: 10px;
+            display: flex;
+            font-size: 10px;
+            flex-direction: row;
+            transform: scale(0.7);
+        }
+
+        .promo_message_first{ 
+            font-size: 8px;
+          }
+          
+        .login_button_xsm {
+            padding: 5px;
+            padding-top: 5px;
+            padding-bottom: 4px;
+            margin-bottom: 5px;
+        }
+    
+        .register_button_xsm {
+            padding: 5px;
+            padding-top: 5px;
+            padding-bottom: 4px;
+        }
+        
+
+}
+
+
+@media (min-width: 400px) and (max-width: 600px) and (orientation:portrait) {
+
+    .parent_xsm {
+        transition: 0.5s;
+        margin-top: 70px;
+        padding-top: 0px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0c1215;
+        color: white;
+        width: 100vw;
+      }
+      
+      .parent_wrapper_xsm {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: max-content;
+        margin-top: -30px;
+        padding-top: 17px;
+      }
+
+
+    .logo__signature_and_button_parent_xsm {
+        display: flex;
+        flex-direction: row;
+        gap: 0vw;
+        width: 100vw;
+        margin-top: 0;
+        padding-top: 40px;
+    }
+
+    .header_logo_xsm {
+        margin-top: 0px;
+        margin-left: 15px;
+    }
+
+    .header_signature_xsm {
+        margin-left: 10vw;
+        margin-top: 0px;
+        transform: scale(0.95);
+    }
+
+    .first_menubar_xsm {
+        gap: 15px;
+        margin-top: 0px;
+        margin-bottom: -0px;
+        font-size: 6px;
+    }
+
+    .first_menubar_xsm p {
+        padding: 0px;
+    }
+
+    .second_menubar_xsm {
+        gap: 20px;
+        margin-bottom: 0px;
+        font-size: 7.5px;
+    }
+
+    .second_menubar_xsm p {
+        padding: 4px;
+    }
+
+    .buttons_xsm {
+        gap: 10px;
+        display: flex;
+        margin: 5px;
+        margin-top: 0px;
+        margin-right: 5vw;
+        font-size: 15px;
+        flex-direction: row;
+        margin-left: auto;
+        transform: scale(0.8);
+    }
+
+    .promo_message_first{ 
+        font-size: 9px;
+      }
+      
+
+    .register_button_xsm {
+        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 4px;
+    }
+
+    .login_button_xsm {
+        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 4px;
+    }
+
+}
+
+
+@media (min-width: 400px) and (max-width: 600px) and (orientation:landscape) {
+
+    .parent_xsm {
+        transition: 0.5s;
+        margin-top: 70px;
+        padding-top: 0px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0c1215;
+        color: white;
+        width: 100vw;
+      }
+      
+      .parent_wrapper_xsm {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: max-content;
+        margin-top: -30px;
+        padding-top: 17px;
+      }
+
+
     .logo__signature_and_button_parent_xsm {
         display: flex;
         flex-direction: row;
@@ -313,7 +626,7 @@
 
     .parent_xsm {
         transition: 0.5s;
-        margin-top: 30px;
+        margin-top: 90px;
         padding-top: 0px;
         position: fixed;
         display: flex;
@@ -330,7 +643,7 @@
         flex-direction: column;
         align-items: center;
         width: max-content;
-        margin-top: -5px;
+        margin-top: -45px;
         padding-top: 17px;
       }
 
@@ -510,7 +823,309 @@
 
 
 
-@media (min-width: 1000px) and (max-width: 1200px) {
+@media (min-width: 600px) and (max-width: 800px) and (orientation:portrait) {
+
+    .parent_xsm {
+        transition: 0.5s;
+        margin-top: 90px;
+        padding-top: 0px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0c1215;
+        color: white;
+        width: 100vw;
+      }
+      
+      .parent_wrapper_xsm {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: max-content;
+        margin-top: -45px;
+        padding-top: 17px;
+      }
+
+
+    .logo__signature_and_button_parent_xsm {
+        display: flex;
+        flex-direction: row;
+        gap: 0vw;
+        width: 100vw;
+        margin-top: 5px;
+    }
+
+    .header_logo_xsm {
+        margin-left: 20px;
+        transform: scale(1);
+    }
+
+    .header_signature_xsm {
+        margin-left: 20vw;
+        margin-top: 0;
+        transform: scale(0.95);
+    }
+
+    .first_menubar_xsm {
+        gap: 25px;
+        margin-top: 0px;
+        margin-bottom: 0;
+        font-size: 6px;
+    }
+
+    .first_menubar_xsm p {
+        padding: 6px;
+    }
+
+    .second_menubar_xsm {
+        gap: 35px;
+        margin-bottom: 0px;
+        font-size: 7px;
+    }
+
+    .second_menubar_xsm p {
+        padding: 6px;
+    }
+
+    .buttons_xsm {
+        gap: 10px;
+        display: flex;
+        margin: 5px;
+        margin-top: 14px;
+        margin-right: 5vw;
+        font-size: 15px;
+        flex-direction: row;
+        margin-left: auto;
+        transform: scale(0.8);
+    }
+
+    .promo_message_first{ 
+        font-size: 9px;
+      }
+      
+
+    .register_button_xsm {
+        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 4px;
+    }
+
+    .login_button_xsm {
+        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 4px;
+    }
+
+}
+
+
+
+
+@media (min-width: 800px) and (max-width: 1000px) and (orientation:landscape) {
+
+    .parent_xsm {
+        transition: 0.5s;
+        margin-top: 30px;
+        padding-top: 0px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0c1215;
+        color: white;
+        width: 100vw;
+      }
+      
+      .parent_wrapper_xsm {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: max-content;
+        margin-top: -5px;
+        padding-top: 17px;
+      }
+
+      
+
+    .logo__signature_and_button_parent_xsm {
+        display: flex;
+        flex-direction: row;
+        gap: 35vw;
+    }
+
+    .header_logo_xsm {
+        margin-left: 2vw;
+        transform: scale(0.9);
+    }
+
+    .header_signature_xsm {
+        margin-left:15vw;
+        margin-right: 0px;
+        margin-top: 0px;
+        transform: scale(0.9);
+    }
+
+    .first_menubar_xsm {
+        gap: 40px;
+        margin-top: 0px;
+        margin-bottom: -3px;
+        font-size: 7px;
+    }
+
+    .first_menubar_xsm p {
+        padding: 6px;
+    }
+
+    .second_menubar_xsm {
+        gap:60px;
+        margin-bottom: 0px;
+        font-size: 7.5px;
+    }
+
+    .second_menubar_xsm p {
+        padding: 6px;
+    }
+
+    .buttons_xsm {
+        gap: 10px;
+        display: flex;
+        margin: 5px;
+        margin-top: 17px;
+        margin-right: 5vw;
+        font-size: 10px;
+        flex-direction: row;
+        margin-left: auto;
+        transform: scale(1.1);
+    }
+
+    .promo_message_first{ 
+        font-size: 10px;
+      }
+      
+
+    .register_button_xsm {
+        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 6px;
+    }
+
+    .login_button_xsm {
+        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 6px;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 1000px) and (max-width: 1200px) and (orientation:portrait) {
+
+    .parent_xsm {
+        transition: 0.5s;
+        margin-top: 30px;
+        padding-top: 0px;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0c1215;
+        color: white;
+        width: 100vw;
+      }
+      
+      .parent_wrapper_xsm {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: max-content;
+        margin-top: -5px;
+        padding-top: 17px;
+      }
+
+
+    .logo__signature_and_button_parent_xsm {
+        display: flex;
+        flex-direction: row;
+        gap: 35vw;
+    }
+
+    .header_logo_xsm {
+        margin-left: 2vw;
+        transform: scale(0.9);
+    }
+
+    .header_signature_xsm {
+        margin-left:15vw;
+        margin-right: 0px;
+        margin-top: 0px;
+        transform: scale(0.9);
+    }
+
+    .first_menubar_xsm {
+        gap: 70px;
+        margin-top: 0px;
+        margin-bottom: -3px;
+        font-size: 8px;
+    }
+
+    .first_menubar_xsm p {
+        padding: 6px;
+    }
+
+    .second_menubar_xsm {
+        gap: 90px;
+        margin-bottom: 0px;
+        font-size: 8px;
+    }
+
+    .second_menubar_xsm p {
+        padding: 6px;
+    }
+
+    .buttons_xsm {
+        gap: 10px;
+        display: flex;
+        margin: 5px;
+        margin-top: 17px;
+        margin-right: 5vw;
+        font-size: 10px;
+        flex-direction: row;
+        margin-left: auto;
+        transform: scale(1.1);
+    }
+
+    .promo_message_first{ 
+        font-size: 10px;
+      }
+      
+
+    .register_button_xsm {
+        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 6px;
+    }
+
+    .login_button_xsm {
+        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 6px;
+    }
+
+}
+
+
+
+
+
+
+@media (min-width: 1000px) and (max-width: 1200px) and (orientation:landscape) {
 
     .parent_xsm {
         transition: 0.5s;
