@@ -215,7 +215,7 @@
 @media (min-width: 300px) and (max-width: 400px) and (orientation:portrait){
     .parent_xsm {
         transition: 0.5s;
-        margin-top: 70px;
+        margin-top: 50px;
         padding-top: 0px;
         position: fixed;
         display: flex;
@@ -232,13 +232,10 @@
         flex-direction: column;
         align-items: center;
         width: max-content;
-        margin-top: -30px;
+        margin-top: -50px;
         padding-top: 0;
       }
-
-
-
-    
+      
         .logo__signature_and_button_parent_xsm {
             display: flex;
             flex-direction: row;
@@ -445,7 +442,7 @@
         align-items: center;
         width: max-content;
         margin-top: -30px;
-        padding-top: 17px;
+        padding-top: 0;
       }
 
 
@@ -543,8 +540,8 @@
         flex-direction: column;
         align-items: center;
         width: max-content;
-        margin-top: -30px;
-        padding-top: 17px;
+        margin-top: -35px;
+        padding-top: 0px;
       }
 
 

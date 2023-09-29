@@ -19,6 +19,11 @@
 
 
 
+.favicon { 
+  width: 10px;
+  height: 5px;
+}
+
 
 
 .parent ul {
