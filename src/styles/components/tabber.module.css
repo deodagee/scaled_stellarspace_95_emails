@@ -50,13 +50,13 @@
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  gap: 10px;
+  gap: 2vw;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   transition: 0.5s;
-  width: 100%;
+  max-width: 90vw;
 }
 
 .pricing_headers_list:hover {
@@ -104,6 +104,7 @@
 }
 
 .frame_wrapper_and_popup { 
+  margin-top: 2vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -494,15 +495,45 @@ width: 200px;
 
 
 
-@media (min-width: 200px) and (max-width: 300px) {
+@media (min-width: 200px) and (max-width: 300px) and (orientation:portrait) {
   .pricing_headers_list_wrapper { 
-    width: 90vw;
     margin-top: 150px;
     margin-bottom: 0;
   }
 
   .pricing_headers_list {
-gap: 0;
+ }
+
+ .pricing_headers_list p { 
+  font-size: 9px;
+ }
+
+  .everything_wrapper { 
+    width: 100vw;
+  }
+
+  .frame_wrapper_and_popup { 
+    flex-direction: column;
+  }
+  .frame_wrapper{ 
+    flex-direction: column;
+    margin-top: -50px;
+    transform: scale(0.7);
+  }
+
+  .frame_402 { 
+    flex-direction: column;
+  }
+
+}
+
+@media (min-width: 200px) and (max-width: 300px) and (orientation:landscape) {
+  .pricing_headers_list_wrapper { 
+    margin-top: 150px;
+    margin-bottom: 0;
+  }
+
+  .pricing_headers_list {
  }
 
  .pricing_headers_list p { 
@@ -532,15 +563,13 @@ gap: 0;
 
 
 
-@media (min-width: 300px) and (max-width: 400px) {
+@media (min-width: 300px) and (max-width: 400px) and (orientation:portrait) {
   .pricing_headers_list_wrapper { 
-    width: 90vw;
     margin-top: 150px;
     margin-bottom: 0;
   }
 
   .pricing_headers_list {
-gap: 10px;
  }
 
  .pricing_headers_list p { 
@@ -566,15 +595,48 @@ gap: 10px;
 
 }
 
-@media (min-width: 400px) and (max-width: 500px) {
+
+@media (min-width: 300px) and (max-width: 400px) and (orientation:landscape) {
   .pricing_headers_list_wrapper { 
-    width: 90vw;
+    margin-top: 150px;
+    margin-bottom: 0;
+  }
+
+  .pricing_headers_list {
+ }
+
+ .pricing_headers_list p { 
+  font-size: 9px;
+ }
+
+  .everything_wrapper { 
+    width: 100vw;
+  }
+
+  .frame_wrapper_and_popup { 
+    flex-direction: column;
+  }
+
+  .frame_wrapper { 
+    flex-direction: column;
+        margin-top: 0px;
+  }
+
+  .frame_402 { 
+    flex-direction: column;
+  }
+
+}
+
+
+
+@media (min-width: 400px) and (max-width: 500px) and (orientation:portrait){
+  .pricing_headers_list_wrapper { 
     margin-top: 200px;
     margin-bottom: 0;
   }
 
   .pricing_headers_list {
-gap: 15px;
  }
 
  .pricing_headers_list p { 
@@ -601,15 +663,49 @@ gap: 15px;
 
 }
 
-@media (min-width: 500px) and (max-width: 600px) {
+
+@media (min-width: 400px) and (max-width: 500px) and (orientation:landscape){
   .pricing_headers_list_wrapper { 
-    width: 90vw;
     margin-top: 200px;
     margin-bottom: 0;
   }
 
   .pricing_headers_list {
-gap: 20px;
+ }
+
+ .pricing_headers_list p { 
+  font-size: 9px;
+ }
+
+  .everything_wrapper { 
+    width: 100vw;
+  }
+
+  .frame_wrapper_and_popup { 
+    flex-direction: column;
+  }
+
+  .frame_wrapper { 
+    flex-direction: column;
+        margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .frame_402 { 
+    flex-direction: column;
+  }
+
+}
+
+
+
+@media (min-width: 500px) and (max-width: 600px)  and (orientation:portrait){
+  .pricing_headers_list_wrapper { 
+    margin-top: 200px;
+    margin-bottom: 0;
+  }
+
+  .pricing_headers_list {
  }
 
  .pricing_headers_list p { 
@@ -636,50 +732,13 @@ gap: 20px;
 
 }
 
-@media (min-width: 600px) and (max-width: 700px) {
+@media (min-width: 500px) and (max-width: 600px)  and (orientation:landscape){
   .pricing_headers_list_wrapper { 
-    width: 90vw;
     margin-top: 200px;
     margin-bottom: 0;
   }
 
   .pricing_headers_list {
-gap: 25px;
- }
-
- .pricing_headers_list p { 
-  font-size: 9px;
- }
-
-  .everything_wrapper { 
-    width: 100vw;
-  }
-
-  .frame_wrapper_and_popup { 
-    flex-direction: column;
-  }
-
-  .frame_wrapper { 
-    flex-direction: column;
-    margin-top: 50px;
-    margin-bottom: 20px;
-  }
-
-  .frame_402 { 
-    flex-direction: column;
-  }
-
-}
-
-@media (min-width: 700px) and (max-width: 800px) {
-  .pricing_headers_list_wrapper { 
-    width: 90vw;
-    margin-top: 200px;
-    margin-bottom: 0;
-  }
-
-  .pricing_headers_list {
-gap: 30px;
  }
 
  .pricing_headers_list p { 
@@ -708,7 +767,7 @@ gap: 30px;
 
 
 
-@media (min-width: 800px) and (max-width: 900px) {
+@media (min-width: 600px) and (max-width: 700px) and (orientation:portrait) {
   .pricing_headers_list_wrapper { 
     width: 90vw;
     margin-top: 200px;
@@ -716,7 +775,146 @@ gap: 30px;
   }
 
   .pricing_headers_list {
-gap: 35px;
+ }
+
+ .pricing_headers_list p { 
+  font-size: 9px;
+ }
+
+  .everything_wrapper { 
+    width: 100vw;
+  }
+
+  .frame_wrapper_and_popup { 
+    flex-direction: column;
+  }
+
+  .frame_wrapper { 
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .frame_402 { 
+    flex-direction: column;
+  }
+
+}
+
+@media (min-width: 600px) and (max-width: 700px) and (orientation:landscape) {
+  .pricing_headers_list_wrapper { 
+    width: 90vw;
+    margin-top: 200px;
+    margin-bottom: 0;
+  }
+
+  .pricing_headers_list {
+ }
+
+ .pricing_headers_list p { 
+  font-size: 9px;
+ }
+
+  .everything_wrapper { 
+    width: 100vw;
+  }
+
+  .frame_wrapper_and_popup { 
+    flex-direction: column;
+  }
+
+  .frame_wrapper { 
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .frame_402 { 
+    flex-direction: column;
+  }
+
+}
+
+
+
+@media (min-width: 700px) and (max-width: 800px) and (orientation:portrait){
+  .pricing_headers_list_wrapper { 
+    width: 90vw;
+    margin-top: 200px;
+    margin-bottom: 0;
+  }
+
+  .pricing_headers_list {
+ }
+
+ .pricing_headers_list p { 
+  font-size: 9px;
+ }
+
+  .everything_wrapper { 
+    width: 100vw;
+  }
+
+  .frame_wrapper_and_popup { 
+    flex-direction: column;
+  }
+
+  .frame_wrapper { 
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .frame_402 { 
+    flex-direction: column;
+  }
+
+}
+
+@media (min-width: 700px) and (max-width: 800px) and (orientation:landscape) {
+  .pricing_headers_list_wrapper { 
+    width: 90vw;
+    margin-top: 200px;
+    margin-bottom: 0;
+  }
+
+  .pricing_headers_list {
+ }
+
+ .pricing_headers_list p { 
+  font-size: 9px;
+ }
+
+  .everything_wrapper { 
+    width: 100vw;
+  }
+
+  .frame_wrapper_and_popup { 
+    flex-direction: column;
+  }
+
+  .frame_wrapper { 
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .frame_402 { 
+    flex-direction: column;
+  }
+
+}
+
+
+
+@media (min-width: 800px) and (max-width: 900px) and (orientation:portrait){
+  .pricing_headers_list_wrapper { 
+    width: 90vw;
+    margin-top: 200px;
+    margin-bottom: 0;
+  }
+
+  .pricing_headers_list {
  }
 
  .pricing_headers_list p { 
@@ -744,8 +942,7 @@ gap: 35px;
 }
 
 
-
-@media (min-width: 900px) and (max-width: 1000px) {
+@media (min-width: 800px) and (max-width: 900px) and (orientation:landscape){
   .pricing_headers_list_wrapper { 
     width: 90vw;
     margin-top: 200px;
@@ -753,7 +950,77 @@ gap: 35px;
   }
 
   .pricing_headers_list {
-gap: 40px;
+ }
+
+ .pricing_headers_list p { 
+  font-size: 9px;
+ }
+
+  .everything_wrapper { 
+    width: 100vw;
+  }
+
+
+  .frame_wrapper_and_popup { 
+    flex-direction: column;
+  }
+
+  .frame_wrapper { 
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .frame_402 { 
+    flex-direction: column;
+  }
+}
+
+
+@media (min-width: 900px) and (max-width: 1000px) and (orientation:portrait) {
+  .pricing_headers_list_wrapper { 
+    width: 90vw;
+    margin-top: 200px;
+    margin-bottom: 0;
+  }
+
+  .pricing_headers_list {
+ }
+
+ .pricing_headers_list p { 
+  font-size: 9px;
+ }
+
+  .everything_wrapper { 
+    width: 100vw;
+  }
+
+
+  .frame_wrapper_and_popup { 
+    flex-direction: column;
+  }
+
+  .frame_wrapper { 
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+
+  .frame_402 { 
+    flex-direction: column;
+  }
+}
+
+
+@media (min-width: 900px) and (max-width: 1000px) and (orientation:landscape) {
+  .pricing_headers_list_wrapper { 
+    width: 90vw;
+    margin-top: 200px;
+    margin-bottom: 0;
+  }
+
+  .pricing_headers_list {
  }
 
  .pricing_headers_list p { 
@@ -784,7 +1051,7 @@ gap: 40px;
 
 
 
-@media (min-width: 1000px) and (max-width: 1100px) {
+@media (min-width: 1000px) and (max-width: 1100px) and (orientation:portrait) {
   .pricing_headers_list_wrapper { 
     width: 90vw;
     margin-top: 200px;
@@ -792,7 +1059,41 @@ gap: 40px;
   }
 
   .pricing_headers_list {
-gap: 0;
+ }
+
+ .pricing_headers_list p { 
+  font-size: 9px;
+ }
+
+  .everything_wrapper { 
+    width: 100vw;
+  }
+
+  .frame_wrapper_and_popup { 
+    flex-direction: row;
+  }
+
+  .frame_wrapper { 
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .frame_402 { 
+    flex-direction: row;
+  }
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1100px) and (orientation:landscape){
+  .pricing_headers_list_wrapper { 
+    width: 90vw;
+    margin-top: 200px;
+    margin-bottom: 0;
+  }
+
+  .pricing_headers_list {
  }
 
  .pricing_headers_list p { 
@@ -822,7 +1123,7 @@ gap: 0;
 
 
 
-@media (min-width: 1100px) and (max-width: 1200px) {
+@media (min-width: 1100px) and (max-width: 1200px) and (orientation:portrait) {
   .pricing_headers_list_wrapper { 
     width: 90vw;
     margin-top: 200px;
@@ -830,7 +1131,43 @@ gap: 0;
   }
 
   .pricing_headers_list {
-gap: 0;
+ }
+
+ .pricing_headers_list p { 
+  font-size: 9px;
+ }
+
+  .everything_wrapper { 
+    width: 100vw;
+  }
+
+
+  .frame_wrapper_and_popup { 
+    flex-direction: row;
+  }
+
+
+  .frame_wrapper { 
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .frame_402 { 
+    flex-direction: row;
+  }
+
+}
+
+
+@media (min-width: 1100px) and (max-width: 1200px) and (orientation:landscape) {
+  .pricing_headers_list_wrapper { 
+    width: 90vw;
+    margin-top: 200px;
+    margin-bottom: 0;
+  }
+
+  .pricing_headers_list {
  }
 
  .pricing_headers_list p { 
@@ -862,7 +1199,7 @@ gap: 0;
 
 
 
-@media (min-width: 1200px) and (max-width: 1300px) {
+@media (min-width: 1200px) and (max-width: 1300px) and (orientation:portrait){
   .pricing_headers_list_wrapper { 
     width: 90vw;
     margin-top: 200px;
@@ -870,7 +1207,40 @@ gap: 0;
   }
 
   .pricing_headers_list {
-gap: 0;
+ }
+
+ .pricing_headers_list p { 
+  font-size: 9px;
+ }
+
+  .everything_wrapper { 
+    width: 100vw;
+  }
+
+  .frame_wrapper_and_popup { 
+    flex-direction: row;
+  }
+
+  .frame_wrapper { 
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .frame_402 { 
+    flex-direction: row;
+  }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) and (orientation:landscape) {
+  .pricing_headers_list_wrapper { 
+    width: 90vw;
+    margin-top: 200px;
+    margin-bottom: 0;
+  }
+
+  .pricing_headers_list {
  }
 
  .pricing_headers_list p { 
@@ -900,7 +1270,8 @@ gap: 0;
 
 
 
-@media (min-width: 1300px) and (max-width: 1400px) {
+
+@media (min-width: 1300px) and (max-width: 1400px) and (orientation:portrait) {
   .pricing_headers_list_wrapper { 
     width: 90vw;
     margin-top: 200px;
@@ -908,7 +1279,41 @@ gap: 0;
   }
 
   .pricing_headers_list {
-gap: 0;
+ }
+
+ .pricing_headers_list p { 
+  font-size: 9px;
+ }
+
+  .everything_wrapper { 
+    width: 100vw;
+  }
+
+
+  .frame_wrapper_and_popup { 
+    flex-direction: row;
+  }
+
+  .frame_wrapper { 
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+
+  .frame_402 { 
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) and (orientation:landscape) {
+  .pricing_headers_list_wrapper { 
+    width: 90vw;
+    margin-top: 200px;
+    margin-bottom: 0;
+  }
+
+  .pricing_headers_list {
  }
 
  .pricing_headers_list p { 
@@ -941,7 +1346,8 @@ gap: 0;
 
 
 
-@media (min-width: 2000px) and (max-width: 5000px) {
+
+@media (min-width: 2000px) and (max-width: 5000px) and (orientation:portrait) {
   .pricing_headers_list_wrapper { 
     width: 90vw;
     margin-top: 200px;
@@ -949,7 +1355,6 @@ gap: 0;
   }
 
   .pricing_headers_list {
-gap: 0;
  }
 
  .pricing_headers_list p { 
@@ -975,3 +1380,39 @@ gap: 0;
   }
 
 }
+
+
+@media (min-width: 2000px) and (max-width: 5000px) and (orientation:landscape) {
+  .pricing_headers_list_wrapper { 
+    width: 90vw;
+    margin-top: 200px;
+    margin-bottom: 0;
+  }
+
+  .pricing_headers_list {
+ }
+
+ .pricing_headers_list p { 
+  font-size: 9px;
+ }
+
+  .everything_wrapper { 
+    width: 100vw;
+  }
+
+  .frame_wrapper_and_popup { 
+    flex-direction: row;
+  }
+
+  .frame_wrapper { 
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .frame_402 { 
+    flex-direction: row;
+  }
+
+}
+
