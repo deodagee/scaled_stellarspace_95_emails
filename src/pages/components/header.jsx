@@ -10,9 +10,9 @@ import Head from 'next/head';
 function Header() {
 
   const [imageLoaded, setImageLoaded] = useState(false);
-const handleImageLoad = () => {
+  const handleImageLoad = () => {
     setImageLoaded(true);
-};
+  };
 
   const [isVisible, setIsVisible] = useState(true);
 
@@ -36,21 +36,21 @@ const handleImageLoad = () => {
 
   return (
     <>
-          <Head>
-          <link rel="icon" href="/logoblack.ico" type="image/x-icon"/>
+      <Head>
+        <link rel="icon" href="/logoblack.ico" type="image/x-icon" />
         <link rel="stylesheet" href={"/styles/components/header.module.css"} />
         <link rel="stylesheet" href={"/styles/components/header_xsm_mobile.module.css"} />
       </Head>
-    
+
       <div className={`${styles.parent} ${xsmStyles.parent_xsm}`}>
-      <div className={`${styles.parent_wrapper} ${xsmStyles.parent_wrapper_xsm} ${isVisible ? '' : styles.parent_wrapper_margin}`}>
-                          <ol className={`${styles.logo__signature_and_button_parent} ${xsmStyles.logo__signature_and_button_parent_xsm}`}>
+        <div className={`${styles.parent_wrapper} ${xsmStyles.parent_wrapper_xsm} ${isVisible ? '' : styles.parent_wrapper_margin}`}>
+          <ol className={`${styles.logo__signature_and_button_parent} ${xsmStyles.logo__signature_and_button_parent_xsm}`}>
 
 
             <ul className={`${styles.logo_and_signature} ${xsmStyles.logo_and_signature_xsm}`}>
               <li className={`${styles.logo_item} ${xsmStyles.logo_item_xsm}`}>
                 <Image
-                  className={`${styles.header_logo} ${xsmStyles.header_logo_xsm}`} 
+                  className={`${styles.header_logo} ${xsmStyles.header_logo_xsm}`}
                   alt=""
                   width={50}
                   height={50}
@@ -79,6 +79,7 @@ const handleImageLoad = () => {
               <ul className={styles.login_logout_list}>
                 {session ? (
                   <>
+
                     <li className={styles.register_button_item}>
                       <button className={`${styles.logout_button_item} ${xsmStyles.register_button_xsm}`} onClick={() => signOut('github')()}>
                         <p>Logout</p>
@@ -105,8 +106,8 @@ const handleImageLoad = () => {
           <ol className={styles.menu_bars_wrapper}>
 
 
-          <ul className={`${styles.first_menubar} ${xsmStyles.first_menubar_xsm}`} style={{ display: isVisible ? 'inline-flex' : 'none' }}>              
-          <li className={styles.first_menubar_item}>
+            <ul className={`${styles.first_menubar} ${xsmStyles.first_menubar_xsm}`} style={{ display: isVisible ? 'inline-flex' : 'none' }}>
+              <li className={styles.first_menubar_item}>
                 <Link href={'/sources'}>
                   <p className={styles.promo1}>
                     Private Domains
@@ -121,24 +122,24 @@ const handleImageLoad = () => {
                 </Link>
               </li>
               <li className={styles.first_menubar_item}>
-              <Link href={'/components/info/3drenders'}>
-                <p className={styles.promo3}>
-                  3D Renders
-                </p>
+                <Link href={'/components/info/3drenders'}>
+                  <p className={styles.promo3}>
+                    3D Renders
+                  </p>
                 </Link>
               </li>
               <li className={styles.first_menubar_item}>
-              <Link href={'/components/info/vercel'}>
-                <p className={styles.promo4}>
-                  Vercel?
-                </p>
+                <Link href={'/components/info/vercel'}>
+                  <p className={styles.promo4}>
+                    Vercel?
+                  </p>
                 </Link>
               </li>
               <li className={styles.first_menubar_item}>
-              <Link href={'/components/info/hostgator'}>
-                <p className={styles.promo4}>
-                  Hostgator/Bluehost?
-                </p>
+                <Link href={'/components/info/hostgator'}>
+                  <p className={styles.promo4}>
+                    Hostgator/Bluehost?
+                  </p>
                 </Link>
               </li>
 
@@ -196,6 +197,19 @@ const handleImageLoad = () => {
               </li>
 
             </ul>
+
+            {session ? (
+              <>
+
+                <div className={`${styles.promo_message_first} ${xsmStyles.promo_message_first_xsm}`}>
+                  <p>Congratulations! You&apos;ve earned a higher rebate for signing in. Mention promo code: <span className={styles.promo_code}>&quot;STELLAR19950202&quot; </span> when you send your request to get 70% off</p>
+                </div>
+              </>
+            ) : (
+              <div className={styles.nothing}>
+              </div>
+            )}
+
           </ol>
 
         </div>

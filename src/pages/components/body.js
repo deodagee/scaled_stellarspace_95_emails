@@ -72,17 +72,18 @@ function Body() {
 
                 {session ? (
                   <>
-                    <li className={styles.promo_message_first}>
-                      <Link
+                  <Link
                         href="/services"
                       >
+                    <div className={styles.promo_message_first}>
+                      
                         <p>Congratulations! You&apos;ve earned a higher rebate for signing in. Mention promo code: <span className={styles.promo_code}>&quot;STELLAR19950202&quot; </span> when you send your request to get 70% off</p>
-                      </Link>
-                    </li>
+                    </div>
+                    </Link>
                   </>
                 ) : (
-                  <li className={styles.nothing}>
-                  </li>
+                  <div className={styles.nothing}>
+                  </div>
                 )}
 
 
