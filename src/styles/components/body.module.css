@@ -5407,7 +5407,8 @@ transition: 0.5s;
   }
 
   .avatar_image_list_item_deo {
-    margin-top: -140px;
+    margin-top: -120px;
+    margin-bottom: -100px;
     position: absolute;
     transform: scale(0.7);
   }
