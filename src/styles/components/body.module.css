@@ -1472,6 +1472,8 @@ transition: 0.5s;
 }
 
 .list_title {
+  padding-left: 5px;
+  padding-right: 5px;
   font-size: 11px;
   color: orange;
 }
