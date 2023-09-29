@@ -70,23 +70,6 @@ function Body() {
 
               <ul className={styles.avatar_image_items} >
 
-                {session ? (
-                  <>
-                  <Link
-                        href="/services"
-                      >
-                    <div className={styles.promo_message_first}>
-                      
-                        <p>Congratulations! You&apos;ve earned a higher rebate for signing in. Mention promo code: <span className={styles.promo_code}>&quot;STELLAR19950202&quot; </span> when you send your request to get 70% off</p>
-                    </div>
-                    </Link>
-                  </>
-                ) : (
-                  <div className={styles.nothing}>
-                  </div>
-                )}
-
-
 
                 <li className={styles.avatar_image_list_item}>
                   <Image
