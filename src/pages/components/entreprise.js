@@ -137,7 +137,7 @@ function Entreprise() {
                                       </li>
                                       <li className={styles.list_component}>
                                         <span className={styles.list_title}>*CMS:</span>
-                                        <span className={styles.list_description}>CMS Included, Customizable</span>
+                                        <span className={styles.list_description}>Customizable CMS/ Price Included</span>
                                       </li>
                                       <li className={styles.list_component}>
                                         <span className={styles.list_title}>*Page Links (Local):</span>

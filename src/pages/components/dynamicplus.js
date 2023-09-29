@@ -153,7 +153,7 @@ function DynamicPlus() {
                                         </li>
                                         <li className={styles.list_component}>
                                           <span className={styles.list_title}>*CMS:</span>
-                                          <span className={styles.list_description}>Basic CMS/ Price Included</span>
+                                          <span className={styles.list_description}>Customizable CMS/ Price Included</span>
                                         </li>
                                         <li className={styles.list_component}>
                                           <span className={styles.list_title}>*Page Links:</span>
