@@ -118,8 +118,8 @@ transition: 0.5s;
 
 .avatar_image_items {
   margin-right: 50px;
-  width: 90vw;
-  gap: 0px;
+  width: 70vw;
+  gap: 10px;
   align-items: center;
   justify-content: space-between;
   display: flex;
@@ -5126,7 +5126,6 @@ transition: 0.5s;
   }
 
   .avatar_image_items {
-    gap: 0px;
     margin-right: 0;
     flex-direction: row;
     margin-top: 10px;
@@ -5414,7 +5413,6 @@ transition: 0.5s;
   }
 
   .avatar_image_items {
-    gap: 0px;
     margin-right: 0;
     flex-direction: row;
     margin-top: 10px;
@@ -5722,7 +5720,6 @@ transition: 0.5s;
   }
 
   .avatar_image_items {
-    gap: 0px;
     margin-right: 0;
     flex-direction: row;
     margin-top: 25px;
@@ -6001,7 +5998,6 @@ transition: 0.5s;
   }
 
   .avatar_image_items {
-    gap: 0px;
     margin-right: 0;
     flex-direction: row;
     margin-top: 25px;
@@ -6310,7 +6306,6 @@ transition: 0.5s;
   }
 
   .avatar_image_items {
-    gap: 0px;
     margin-right: 0;
     flex-direction: row;
     margin-top: 25px;
@@ -6613,7 +6608,6 @@ transition: 0.5s;
   }
 
   .avatar_image_items {
-    gap: 0px;
     margin-right: 0;
     flex-direction: row;
     margin-top: 25px;
@@ -6888,7 +6882,6 @@ transition: 0.5s;
   .avatar_image_items {
     margin-bottom: 10px;
     margin-top: 10px;
-    gap: 50px;
   }
 
   .avatar_image_list_item_paragraph {
@@ -7156,7 +7149,6 @@ transition: 0.5s;
   .avatar_image_items {
     margin-bottom: 10px;
     margin-top: 10px;
-    gap: 50px;
   }
 
   .avatar_image_list_item_paragraph {
@@ -7425,7 +7417,6 @@ transition: 0.5s;
     margin-left: 50px;
     margin-bottom: 10px;
     margin-top: 10px;
-    gap: 10px;
   }
 
 
@@ -7694,7 +7685,6 @@ transition: 0.5s;
     margin-left: 50px;
     margin-bottom: 10px;
     margin-top: 10px;
-    gap: 10px;
   }
 
 
@@ -7962,7 +7952,6 @@ transition: 0.5s;
   .avatar_image_items {
     margin-bottom: 10px;
     margin-top: 10px;
-    gap: 50px;
   }
 
 
@@ -8232,7 +8221,6 @@ transition: 0.5s;
   .avatar_image_items {
     margin-bottom: 10px;
     margin-top: 10px;
-    gap: 50px;
   }
 
 
@@ -8503,7 +8491,6 @@ transition: 0.5s;
   .avatar_image_items {
     margin-bottom: 10px;
     margin-top: 10px;
-    gap: 50px;
   }
 
 
@@ -8775,7 +8762,6 @@ transition: 0.5s;
   .avatar_image_items {
     margin-bottom: 10px;
     margin-top: 10px;
-    gap: 50px;
   }
 
 
@@ -9046,7 +9032,6 @@ transition: 0.5s;
   .avatar_image_items {
     margin-bottom: 10px;
     margin-top: 10px;
-    gap: 50px;
   }
 
 
@@ -9318,7 +9303,6 @@ transition: 0.5s;
   .avatar_image_items {
     margin-bottom: 10px;
     margin-top: 10px;
-    gap: 50px;
   }
 
 
