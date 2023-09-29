@@ -3,8 +3,7 @@
 
     .parent_xsm {
         transition: 0.5s;
-        margin-top: 70px;
-        padding-top: 10px;
+        margin-top: 50px;
         position: fixed;
         display: flex;
         align-items: center;
@@ -20,8 +19,8 @@
         flex-direction: column;
         align-items: center;
         width: max-content;
-        margin-top: -30px;
-        padding-top: 17px;
+        margin-top: 0;
+        padding-top: 20px;
       }
 
 
@@ -77,8 +76,8 @@
         padding: 0px;
     }
 
-    .promo_message_first{ 
-        font-size: 8px;
+    .promo_message_first_xsm{ 
+        font-size: 7px;
       }
       
 
@@ -111,8 +110,7 @@
 
     .parent_xsm {
         transition: 0.5s;
-        margin-top: 70px;
-        padding-top: 10px;
+        margin-top: 50px;
         position: fixed;
         display: flex;
         align-items: center;
@@ -128,9 +126,10 @@
         flex-direction: column;
         align-items: center;
         width: max-content;
-        margin-top: -30px;
-        padding-top: 17px;
+        margin-top: 0;
+        padding-top: 20px;
       }
+
 
 
     
@@ -184,8 +183,8 @@
         padding: 0px;
     }
 
-    .promo_message_first{ 
-        font-size: 8px;
+    .promo_message_first_xsm{ 
+        font-size: 7px;
       }
       
 
@@ -210,12 +209,13 @@
         padding-bottom: 4px;
     }
 
+
 }
 
 @media (min-width: 300px) and (max-width: 400px) and (orientation:portrait){
     .parent_xsm {
         transition: 0.5s;
-        margin-top: 50px;
+        margin-top: 55px;
         padding-top: 0px;
         position: fixed;
         display: flex;
@@ -232,7 +232,7 @@
         flex-direction: column;
         align-items: center;
         width: max-content;
-        margin-top: -50px;
+        margin-top: 0px;
         padding-top: 0;
       }
       
@@ -293,7 +293,7 @@
             transform: scale(0.7);
         }
 
-        .promo_message_first{ 
+        .promo_message_first_xsm{ 
             font-size: 8px;
           }
           
@@ -317,7 +317,7 @@
 @media (min-width: 300px) and (max-width: 400px) and (orientation:landscape){
     .parent_xsm {
         transition: 0.5s;
-        margin-top: 70px;
+        margin-top: 55px;
         padding-top: 0px;
         position: fixed;
         display: flex;
@@ -334,8 +334,7 @@
         flex-direction: column;
         align-items: center;
         width: max-content;
-        margin-top: -30px;
-        padding-top: 17px;
+        margin-top: 0;
       }
 
 
@@ -348,7 +347,8 @@
             justify-content: space-between;
             margin-bottom: 0vh;
             padding-left: 0vw;
-            margin-top: 10px;
+            padding-top: 30px;
+
         }
     
         .logo_item_xsm { 
@@ -399,9 +399,11 @@
             transform: scale(0.7);
         }
 
-        .promo_message_first{ 
+        
+        .promo_message_first_xsm{ 
             font-size: 8px;
           }
+          
           
         .login_button_xsm {
             padding: 5px;
@@ -424,7 +426,7 @@
 
     .parent_xsm {
         transition: 0.5s;
-        margin-top: 70px;
+        margin-top: 80px;
         padding-top: 0px;
         position: fixed;
         display: flex;
@@ -499,7 +501,7 @@
         transform: scale(0.8);
     }
 
-    .promo_message_first{ 
+    .promo_message_first_xsm{ 
         font-size: 9px;
       }
       
@@ -523,7 +525,7 @@
 
     .parent_xsm {
         transition: 0.5s;
-        margin-top: 70px;
+        margin-top: 80px;
         padding-top: 0px;
         position: fixed;
         display: flex;
@@ -598,7 +600,7 @@
         transform: scale(0.8);
     }
 
-    .promo_message_first{ 
+    .promo_message_first_xsm{ 
         font-size: 9px;
       }
       
@@ -622,8 +624,8 @@
 
     .parent_xsm {
         transition: 0.5s;
-        margin-top: 90px;
-        padding-top: 0px;
+        margin-top: 65px;
+        padding-top: px;
         position: fixed;
         display: flex;
         align-items: center;
@@ -639,8 +641,8 @@
         flex-direction: column;
         align-items: center;
         width: max-content;
-        margin-top: -45px;
-        padding-top: 17px;
+        margin-top: 0;
+        padding-top: 0px;
       }
 
 
@@ -649,7 +651,8 @@
         flex-direction: row;
         gap: 0vw;
         width: 100vw;
-        margin-top: 5px;
+        margin-top: 0;
+        padding-top: 50px;
     }
 
     .header_logo_xsm {
@@ -696,8 +699,8 @@
         transform: scale(0.8);
     }
 
-    .promo_message_first{ 
-        font-size: 9px;
+    .promo_message_first_xsm{ 
+        font-size: 8px;
       }
       
 
@@ -721,7 +724,7 @@
 
     .parent_xsm {
         transition: 0.5s;
-        margin-top: 90px;
+        margin-top: 60px;
         padding-top: 0px;
         position: fixed;
         display: flex;
@@ -738,7 +741,7 @@
         flex-direction: column;
         align-items: center;
         width: max-content;
-        margin-top: -45px;
+        margin-top: 0;
         padding-top: 17px;
       }
 
@@ -748,7 +751,7 @@
         flex-direction: row;
         gap: 0vw;
         width: 100vw;
-        margin-top: 5px;
+        padding-top: 50px;
     }
 
     .header_logo_xsm {
@@ -923,7 +926,7 @@
 
     .parent_xsm {
         transition: 0.5s;
-        margin-top: 70px;
+        margin-top: 80px;
         padding-top: 0px;
         position: fixed;
         display: flex;
