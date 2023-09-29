@@ -34,7 +34,8 @@ function WebsiteTypes() {
 
                         <ol className={styles.descriptions_list_wrapper}>
                             <li className={styles.list_element_third}>
-                                <p>Since static Web pages contain fixed code, the content of each page does not change unless it is manually updated by the webmaster. This works well for small websites, but it can make large sites with hundreds or thousands of pages difficult to maintain. Therefore, larger websites typically use dynamic pages, which can be updated by simply modifying a database record. Static sites that contain a lot of pages are often designed using templates. This makes it possible to update several pages at once, and also helps provide a consistent layout throughout the site.</p>
+                                <p>They consist of fixed web pages stored on a web server. Unlike dynamic websites that are generated on-the-fly, static sites don&apos;t change content based on user interactions. They are quick to load, secure, and cost-effective, making them great for simple online presences like portfolios, blogs, or informational websites.</p>
+                                <p>SSR (Server-Side Rendering): When we talk about Server-Side Rendering (SSR), we mean the process where a web server generates a web page for a user&apos;s browser every time they visit a website. In dynamic websites, SSR allows for real-time content updates and personalized user experiences. </p>
                             </li>
 
                         </ol>
@@ -50,7 +51,7 @@ function WebsiteTypes() {
                         <ol className={styles.descriptions_list_wrapper}>
 
                             <li className={styles.list_element_third}>
-                                <p>Most large websites are dynamic since they are easier to maintain than static websites. This is because static pages each contain unique content, meaning they must be manually opened, edited, and published whenever a change is made. Dynamic pages, on the other hand, access information from a database. Therefore, to alter the content of a dynamic page, the webmaster may only need to update a database record. This is especially helpful for large sites that contain hundreds or thousands of pages. It also makes it possible for multiple users to update the content of a website without editing the layout of the pages.Dynamic websites that access information from a database are also called database-driven websites.</p>
+                                <p>Dynamic websites are like interactive and ever-changing storybooks on the internet. Unlike static websites, dynamic sites generate content on-the-fly in response to user interactions. They use databases, server-side scripts, and various technologies to create personalized experiences. When you visit a dynamic website, it&apos;s akin to opening a book where the content adapts based on your preferences and actions, offering real-time updates and interactive features.</p>
                             </li>
                         </ol>
                     </ol>
@@ -65,9 +66,7 @@ function WebsiteTypes() {
                         <ol className={styles.descriptions_list_wrapper}>
 
                             <li className={styles.list_element_third}>
-                                <p>Business to Business<span>(B2B) is when one business purchases goods or services from another business. A business selling to a government or other organization, while not strictly B2B, is also considered B2B e-commerce.</span></p>
-                                <p>Consumer to Consumer<span>(C2C) is when one person sells something to another person, facilitated by a website or other Internet service. Auction sites like eBay were the earliest forms of C2C e-commerce, and sites like Etsy now allow individuals offering products and services to find customers easily.</span></p>
-                                <p>Consumer-to-Business<span></span>(C2B) e-commerce is where an individual sells a product (or, more often, a service) to a business. One common form of this is freelance contract work, like a photographer licensing an image to a stock photo agency or a developer creating a custom application for a business.</p>
+                                <p>E-commerce websites are digital marketplaces where buying and selling happen online. They&apos;re like bustling virtual shopping malls, where businesses showcase their products or services, and customers can browse, select items, and make purchases, all from the comfort of their devices. E-commerce sites integrate secure payment gateways, product catalogs, and shopping carts, allowing users to explore a vast array of products, compare prices, and complete transactions with just a few clicks. These websites revolutionize the way we shop, bringing the entire retail experience to our fingertips.</p>
                             </li>
                         </ol>
                     </ol>
