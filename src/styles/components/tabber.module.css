@@ -36,7 +36,7 @@
 .pricing_headers_list_wrapper {
   margin-top: 20vh;
   margin-bottom: 60px;
-  width: max-content;
+  max-width: 80vw;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -45,7 +45,7 @@
 
 .pricing_headers_list {
   margin-top: 20px;
-  width: 50vw;
+  width: 80vw;
   gap: 0;
   background-color: rgb(232, 232, 232);
   box-shadow: rgb(105, 105, 105) 0px 0px 7px;
@@ -69,7 +69,7 @@
 .pricing_headers_list p {
   white-space: nowrap;
   font-family: 'Oswald', sans-serif;
-  font-size: 11px;
+  font-size: 9px;
   font-weight: 500;
   color: rgb(93, 93, 93);
   padding: 5px;
