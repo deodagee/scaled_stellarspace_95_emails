@@ -31,7 +31,6 @@ function Services() {
         }
     }, []);
 
-
     return (
         <>
             <Head>
@@ -53,83 +52,102 @@ function Services() {
                     </div>
 
 
-                    <div className={styles.video_and_image}>
 
-                        <ol className={styles.title_and_image_wrap}>
-                            <li className={styles.title_wrap}>
-                                <p>Personalized 3d Models</p>
+                    <li className={styles.title}>
+                            <h1>
+                              3D Modeling Services
+                            </h1>
                             </li>
 
-                            <li className={styles.title_bottom_img_or_video}>
-                                <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_loop_tag}>
+                    <div className={styles.videos_and_images_wrapper}>
+                        
+                        <div className={styles.box_wrapper}>
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>From Blender</p>
+                                </li>
 
-                                    <source src="/headphones.mp4" type="video/mp4" />
-                                </video>
-                            </li>
-                        </ol>
+                                <li className={styles.title_bottom_img_or_video}>
+                                    <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_loop_tag}>
 
-                        <ol className={styles.title_and_image_wrap}>
-                            <li className={styles.title_wrap}>
-                                <p>With The Cycles Render Engine</p>
-                            </li>
-                            <li className={styles.title_bottom_img_or_video}>
+                                        <source src="/headphones.mp4" type="video/mp4" />
+                                    </video>
+                                </li>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
+                            </ol>
 
-                                <div className={styles.desert_eagle_div}>
-                                    <Image
-                                        className={styles.deserteagle}
-                                        width={100}
-                                        height={50}
-                                        quality={100}
-                                        alt=""
-                                        src="/headphones.png"
-                                    >
-                                    </Image>
-                                </div>
-                            </li>
-                        </ol>
 
-                    </div>
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>To High Def Renders</p>
+                                </li>
+                                <li className={styles.title_bottom_img_or_video}>
 
-                    <div className={styles.video_and_image}>
+                                    <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_for_video}
+                                            width={156}
+                                            height={83}
+                                            quality={100}
+                                            alt=""
+                                            src="/headphones.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                </li>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
+                            </ol>
+                        </div>
 
-                        <ol className={styles.title_and_image_wrap}>
-                            <li className={styles.title_wrap}>
-                                <p>From Blender</p>
-                            </li>
+                        <div className={styles.box_wrapper}>
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>Personalized 3d Models</p>
+                                </li>
 
-                            <li className={styles.title_bottom_img_or_video}>
-                                <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_loop_tag}>
+                                <li className={styles.title_bottom_img_or_video}>
+                                    <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_loop_tag}>
 
-                                    <source src="/stitchvideo4.mp4" type="video/mp4" />
-                                </video>
-                            </li>
-                        </ol>
+                                        <source src="/stitchvideo4.mp4" type="video/mp4" />
+                                    </video>
+                                </li>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
+                            </ol>
 
-                        <ol className={styles.title_and_image_wrap}>
-                            <li className={styles.title_wrap}>
-                                <p>To High Def Renders</p>
-                            </li>
-                            <li className={styles.title_bottom_img_or_video}>
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>With The Cycles Render Engine</p>
+                                </li>
+                                <li className={styles.title_bottom_img_or_video}>
 
-                                <div className={styles.desert_eagle_div}>
-                                    <Image
-                                        className={styles.deserteagle}
-                                        width={100}
-                                        height={50}
-                                        quality={100}
-                                        alt=""
-                                        src="/deserteagle.png"
-                                    >
-                                    </Image>
-                                </div>
-                            </li>
-                        </ol>
+
+                                    <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_for_video}
+                                            width={156}
+                                            height={83}
+                                            quality={100}
+                                            alt=""
+                                            src="/deserteagle.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                </li>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
+                            </ol>
                         </div>
 
 
-                        <div className={styles.video_and_image}>
-
-                            <ol className={styles.title_and_image_wrap}>
+                        <div className={styles.box_wrapper}>
+                            <ol className={styles.title_and_content_wrap}>
                                 <li className={styles.title_wrap}>
                                     <p>Advanced Lighting and Texturing</p>
                                 </li>
@@ -140,19 +158,23 @@ function Services() {
                                         <source src="/signbricks.mp4" type="video/mp4" />
                                     </video>
                                 </li>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
                             </ol>
 
-                            <ol className={styles.title_and_image_wrap}>
+
+                            <ol className={styles.title_and_content_wrap}>
                                 <li className={styles.title_wrap}>
                                     <p>For Stunning Results</p>
                                 </li>
                                 <li className={styles.title_bottom_img_or_video}>
 
-                                    <div className={styles.desert_eagle_div}>
+                                    <div className={styles.image_for_video_div}>
                                         <Image
-                                            className={styles.deserteagle}
-                                            width={100}
-                                            height={50}
+                                            className={styles.image_for_video}
+                                            width={156}
+                                            height={83}
                                             quality={100}
                                             alt=""
                                             src="/signbricks.png"
@@ -160,46 +182,96 @@ function Services() {
                                         </Image>
                                     </div>
                                 </li>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
                             </ol>
-
                         </div>
 
-                    <div className={styles.video_and_image}>
+                        <div className={styles.box_wrapper}>
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>3D In Depth Modeling</p>
+                                </li>
 
-                        <ol className={styles.title_and_image_wrap}>
-                            <li className={styles.title_wrap}>
-                                <p>3D In Depth Modeling</p>
-                            </li>
+                                <li className={styles.title_bottom_img_or_video}>
+                                    <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_loop_tag} >
 
-                            <li className={styles.title_bottom_img_or_video}>
-                                <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_loop_tag} >
+                                        <source src="/boxbuild.mp4" type="video/mp4" />
+                                    </video>
+                                </li>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
+                            </ol>
 
-                                    <source src="/boxbuild.mp4" type="video/mp4" />
-                                </video>
-                            </li>
-                        </ol>
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>For Product Designs And More</p>
+                                </li>
+                                <li className={styles.title_bottom_img_or_video}>
 
-                        <ol className={styles.title_and_image_wrap}>
-                            <li className={styles.title_wrap}>
-                                <p>For Product Designs And More</p>
-                            </li>
-                            <li className={styles.title_bottom_img_or_video}>
 
-                                <div className={styles.desert_eagle_div}>
-                                    <Image
-                                        className={styles.deserteagle}
-                                        width={100}
-                                        height={50}
-                                        quality={100}
-                                        alt=""
-                                        src="/blackbox.png"
-                                    >
-                                    </Image>
-                                </div>
-                            </li>
-                        </ol>
+                                    <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_for_video}
+                                            width={156}
+                                            height={83}
+                                            quality={100}
+                                            alt=""
+                                            src="/blackbox.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                </li>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
+                            </ol>
+                        </div>
 
+                        <div className={styles.box_wrapper}>
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>3D In Depth Modeling</p>
+                                </li>
+
+                                <li className={styles.title_bottom_img_or_video}>
+                                    <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_loop_tag} >
+
+                                        <source src="/boxbuild.mp4" type="video/mp4" />
+                                    </video>
+                                </li>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
+                            </ol>
+
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>For Product Designs And More</p>
+                                </li>
+                                <li className={styles.title_bottom_img_or_video}>
+
+                                    <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_for_video}
+                                            width={156}
+                                            height={83}
+                                            quality={100}
+                                            alt=""
+                                            src="/blackbox.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                </li>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
+                            </ol>
+                        </div>
                     </div>
+
 
                     <ol className={styles.list3}>
                         <li className={styles.title}>
@@ -218,6 +290,7 @@ function Services() {
                                 height={15}
                                 src={"/forwardarrow.png"}></Image></span>
                         </li>
+
                     </ol>
 
                     <ol className={styles.list4}>
