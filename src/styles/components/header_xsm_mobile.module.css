@@ -3,7 +3,7 @@
 
     .parent_xsm {
         transition: 0.5s;
-        margin-top: 50px;
+        margin-top: 35px;
         position: fixed;
         display: flex;
         align-items: center;
@@ -20,7 +20,7 @@
         align-items: center;
         width: max-content;
         margin-top: 0;
-        padding-top: 20px;
+        padding-top: 0px;
       }
 
 
@@ -33,6 +33,7 @@
             justify-content: space-between;
             margin-bottom: 0vh;
             padding-left: 0vw;
+            padding-top: 15px;
         }
     
         .logo_item_xsm { 
@@ -107,10 +108,9 @@
 @media (min-width: 200px) and (max-width: 300px) and (orientation:landscape) {
 
 
-
     .parent_xsm {
         transition: 0.5s;
-        margin-top: 50px;
+        margin-top: 35px;
         position: fixed;
         display: flex;
         align-items: center;
@@ -127,11 +127,8 @@
         align-items: center;
         width: max-content;
         margin-top: 0;
-        padding-top: 20px;
+        padding-top: 0px;
       }
-
-
-
     
         .logo__signature_and_button_parent_xsm {
             display: flex;
@@ -140,6 +137,7 @@
             justify-content: space-between;
             margin-bottom: 0vh;
             padding-left: 0vw;
+            padding-top: 15px;
         }
     
         .logo_item_xsm { 
@@ -946,8 +944,6 @@
         margin-top: -60px;
         padding-top: 20px;
       }
-
-
       
 
     .logo__signature_and_button_parent_xsm {
@@ -1030,7 +1026,7 @@
 
     .parent_xsm {
         transition: 0.5s;
-        margin-top: 70px;
+        margin-top: 25px;
         padding-top: 20px;
         position: fixed;
         display: flex;
@@ -1047,7 +1043,7 @@
         flex-direction: column;
         align-items: center;
         width: max-content;
-        margin-top: -55px;
+        margin-top: 0;
         padding-top: 17px;
       }
 
@@ -1132,10 +1128,9 @@
 
 @media (min-width: 1000px) and (max-width: 1200px) and (orientation:landscape) {
 
-
     .parent_xsm {
         transition: 0.5s;
-        margin-top: 70px;
+        margin-top: 25px;
         padding-top: 20px;
         position: fixed;
         display: flex;
@@ -1152,7 +1147,7 @@
         flex-direction: column;
         align-items: center;
         width: max-content;
-        margin-top: -55px;
+        margin-top: 0;
         padding-top: 17px;
       }
 
@@ -1165,7 +1160,6 @@
         flex-direction: row;
         gap: 35vw;
     }
-
     .header_logo_xsm {
         margin-left: 2vw;
         transform: scale(0.9);
