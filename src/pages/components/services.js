@@ -233,13 +233,13 @@ function Services() {
                         <div className={styles.box_wrapper}>
                             <ol className={styles.title_and_content_wrap}>
                                 <li className={styles.title_wrap}>
-                                    <p>3D In Depth Modeling</p>
+                                    <p>Live Model Representation</p>
                                 </li>
 
                                 <li className={styles.title_bottom_img_or_video}>
                                     <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_loop_tag} >
 
-                                        <source src="/boxbuild.mp4" type="video/mp4" />
+                                        <source src="/countach.mp4" type="video/mp4" />
                                     </video>
                                 </li>
                                 <li className={styles.title_sub}>
@@ -249,7 +249,7 @@ function Services() {
 
                             <ol className={styles.title_and_content_wrap}>
                                 <li className={styles.title_wrap}>
-                                    <p>For Product Designs And More</p>
+                                    <p>High Poly & Low Poly</p>
                                 </li>
                                 <li className={styles.title_bottom_img_or_video}>
 
@@ -260,7 +260,7 @@ function Services() {
                                             height={83}
                                             quality={100}
                                             alt=""
-                                            src="/blackbox.png"
+                                            src="/countach.png"
                                         >
                                         </Image>
                                     </div>
