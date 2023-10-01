@@ -298,7 +298,7 @@ function Services() {
 
                     <li className={styles.title}>
                         <h1>
-                            User Interface / User Experience and Software Services
+                            Ui /Ux and Software Services
                         </h1>
                     </li>
 
