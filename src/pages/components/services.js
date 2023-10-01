@@ -273,6 +273,254 @@ function Services() {
                     </div>
 
 
+
+
+
+                    <li className={styles.title}>
+                            <h1>
+                              User Interface / User Experience and Software Services
+                            </h1>
+                            </li>
+
+                    <div className={styles.videos_and_images_wrapper}>
+                        
+                        <div className={styles.box_wrapper}>
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>Figma Models</p>
+                                </li>
+
+                                <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_tag}
+                                            width={50}
+                                            height={50}
+                                            quality={100}
+                                            alt=""
+                                            src="/figma.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
+                            </ol>
+
+
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>Personal Models</p>
+                                </li>
+                                <li className={styles.title_bottom_img_or_video}>
+
+                                    <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_for_video}
+                                            width={25}
+                                            height={35}
+                                            quality={100}
+                                            alt=""
+                                            src="/uiux1.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                </li>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
+                            </ol>
+                        </div>
+
+                        <div className={styles.box_wrapper}>
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>original Code</p>
+                                </li>
+
+                                <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_tag}
+                                            width={50}
+                                            height={50}
+                                            quality={100}
+                                            alt=""
+                                            src="/original.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
+                            </ol>
+
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>with SEO</p>
+                                </li>
+                                <li className={styles.title_bottom_img_or_video}>
+
+
+                                    <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_for_video}
+                                            width={156}
+                                            height={83}
+                                            quality={100}
+                                            alt=""
+                                            src="/uiux2.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                </li>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
+                            </ol>
+                        </div>
+
+
+                        <div className={styles.box_wrapper}>
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>Test your Site</p>
+                                </li>
+
+                                <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_tag}
+                                            width={50}
+                                            height={50}
+                                            quality={100}
+                                            alt=""
+                                            src="/test.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
+                            </ol>
+
+
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>Databases</p>
+                                </li>
+                                <li className={styles.title_bottom_img_or_video}>
+
+                                    <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_for_video}
+                                            width={156}
+                                            height={83}
+                                            quality={100}
+                                            alt=""
+                                            src="/uiux3.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                </li>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
+                            </ol>
+                        </div>
+
+                        <div className={styles.box_wrapper}>
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>Paid Domains / Free Domains</p>
+                                </li>
+
+                                <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_for_video}
+                                            width={156}
+                                            height={83}
+                                            quality={100}
+                                            alt=""
+                                            src="/uiux4.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
+                            </ol>
+
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>Site Analytics</p>
+                                </li>
+                                <li className={styles.title_bottom_img_or_video}>
+
+
+                                    <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_for_video}
+                                            width={156}
+                                            height={83}
+                                            quality={100}
+                                            alt=""
+                                            src="/uiux4.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                </li>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
+                            </ol>
+                        </div>
+
+                        <div className={styles.box_wrapper}>
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>Login Features</p>
+                                </li>
+
+                                <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_for_video}
+                                            width={156}
+                                            height={83}
+                                            quality={100}
+                                            alt=""
+                                            src="/uiux5.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
+                            </ol>
+
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>Payment Features</p>
+                                </li>
+                                <li className={styles.title_bottom_img_or_video}>
+
+                                    <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_for_video}
+                                            width={156}
+                                            height={83}
+                                            quality={100}
+                                            alt=""
+                                            src="/uiux5.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                </li>
+                                <li className={styles.title_sub}>
+                                    <p>View</p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+
                     <ol className={styles.list3}>
                         <li className={styles.title}>
                             <h1>
