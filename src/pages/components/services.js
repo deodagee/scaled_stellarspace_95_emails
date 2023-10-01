@@ -342,7 +342,7 @@ function Services() {
                                             height={50}
                                             quality={100}
                                             alt=""
-                                            src="/teallogo.png"
+                                            src="/orangelogo.png"
                                         >
                                         </Image>
                                     </div>
@@ -368,7 +368,7 @@ function Services() {
                                         height={50}
                                         quality={100}
                                         alt=""
-                                        src="/original.png"
+                                        src="/orangelogo.png"
                                     >
                                     </Image>
                                 </div>
