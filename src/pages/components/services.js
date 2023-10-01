@@ -315,12 +315,12 @@ function Services() {
 
                                     <div className={styles.image_for_video_div}>
                                         <Image
-                                            className={styles.image_for_video}
-                                            width={25}
-                                            height={35}
+                                            className={styles.image_tag}
+                                            width={50}
+                                            height={50}
                                             quality={100}
                                             alt=""
-                                            src="/uiux1.png"
+                                            src="/teallogo.png"
                                         >
                                         </Image>
                                     </div>
@@ -362,12 +362,12 @@ function Services() {
 
                                     <div className={styles.image_for_video_div}>
                                         <Image
-                                            className={styles.image_for_video}
-                                            width={156}
-                                            height={83}
+                                            className={styles.image_tag}
+                                            width={50}
+                                            height={50}
                                             quality={100}
                                             alt=""
-                                            src="/uiux2.png"
+                                            src="/seo.png"
                                         >
                                         </Image>
                                     </div>
@@ -410,12 +410,12 @@ function Services() {
 
                                     <div className={styles.image_for_video_div}>
                                         <Image
-                                            className={styles.image_for_video}
-                                            width={156}
-                                            height={83}
+                                            className={styles.image_tag}
+                                            width={50}
+                                            height={50}
                                             quality={100}
                                             alt=""
-                                            src="/uiux3.png"
+                                            src="/databases.png"
                                         >
                                         </Image>
                                     </div>
@@ -434,12 +434,12 @@ function Services() {
 
                                 <div className={styles.image_for_video_div}>
                                         <Image
-                                            className={styles.image_for_video}
-                                            width={156}
-                                            height={83}
+                                            className={styles.image_tag}
+                                            width={50}
+                                            height={50}
                                             quality={100}
                                             alt=""
-                                            src="/uiux4.png"
+                                            src="/domains.png"
                                         >
                                         </Image>
                                     </div>
@@ -457,12 +457,12 @@ function Services() {
 
                                     <div className={styles.image_for_video_div}>
                                         <Image
-                                            className={styles.image_for_video}
-                                            width={156}
-                                            height={83}
+                                            className={styles.image_tag}
+                                            width={50}
+                                            height={50}
                                             quality={100}
                                             alt=""
-                                            src="/uiux4.png"
+                                            src="/analytics.png"
                                         >
                                         </Image>
                                     </div>
@@ -481,12 +481,12 @@ function Services() {
 
                                 <div className={styles.image_for_video_div}>
                                         <Image
-                                            className={styles.image_for_video}
-                                            width={156}
-                                            height={83}
+                                            className={styles.image_tag}
+                                            width={50}
+                                            height={50}
                                             quality={100}
                                             alt=""
-                                            src="/uiux5.png"
+                                            src="/login.png"
                                         >
                                         </Image>
                                     </div>
@@ -503,12 +503,12 @@ function Services() {
 
                                     <div className={styles.image_for_video_div}>
                                         <Image
-                                            className={styles.image_for_video}
-                                            width={156}
-                                            height={83}
+                                            className={styles.image_tag}
+                                            width={50}
+                                            height={50}
                                             quality={100}
                                             alt=""
-                                            src="/uiux5.png"
+                                            src="/payments.png"
                                         >
                                         </Image>
                                     </div>
