@@ -50,19 +50,15 @@
 }
 
 .box_wrapper {
-    border-width: 1px;
-    border-color: rgba(168, 168, 168, 0.157);
-    margin: 5px;
     padding: 5px;
     display: block;
     align-items: center;
     justify-content: center;
-    border-radius: 0.35rem;
     transition: 0.5s;
+    transform: scale(0.9);
 }
 
 .box_wrapper:hover {
-    border-color: rgb(216, 216, 216);
     transition: 0.5s;
 }
 
@@ -80,8 +76,7 @@
     border-width: 2px;
     border-color: rgba(248, 161, 0, 0.642);
     background-color: rgba(55, 55, 55, 0.1);
-    border-radius: 0.35rem;
-    margin: 5px;
+    border-radius: 0.95rem;
     height: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -89,7 +84,7 @@
 }
 
 .title_and_content_wrap:hover {
-    border-color: rgb(132, 83, 0);
+    border-color: rgb(152, 152, 152);
     transition: 0.5s;
     background-color: rgb(20, 20, 20);
     transform: scale(0.98);
@@ -110,8 +105,8 @@
     justify-content: center;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin: 20px;
-
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-family: 'Changa', sans-serif;
     font-size: 11px;
     font-weight: 600;
