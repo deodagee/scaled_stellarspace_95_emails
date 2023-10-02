@@ -162,13 +162,7 @@
   padding: 5px;
   padding-top: 8px;
   padding-bottom: 8px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-color: rgb(212, 212, 212);
   color: rgb(246, 246, 246);
-  border-width: 1px;
-  box-shadow: rgb(184, 184, 184) 0px 0px 6px;
 }
 
 .first_menubar p:hover {
