@@ -4,9 +4,18 @@ import styles from "../../styles/components/pricing.module.css";
 import { useState } from "react";
 import Link from "next/link";
 import Head from 'next/head';
+import Loading from './loading';
+
 
 
 function Pricing() {
+  const [isCssLoaded, setIsCssLoaded] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsCssLoaded(true);
+    }, 2000);
+  }, []);
+
 
   const videoRef = useRef(null);
 
@@ -57,6 +66,9 @@ function Pricing() {
       <Head>
         <link rel="stylesheet" href={"/styles/components/pricing.module.css"} />
       </Head>
+
+      {!isCssLoaded && <Loading />} {/* Show loading screen while CSS is not loaded */}
+      {isCssLoaded && (
 
       <div className={styles.pricing_page}>
         <div className={styles.pricing_page_wrapper}>
@@ -1519,6 +1531,8 @@ function Pricing() {
           </div>
         </div>
       </div>
+      )}
+
     </>
 
   )

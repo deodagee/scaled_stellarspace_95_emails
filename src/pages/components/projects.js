@@ -4,8 +4,18 @@ import Link from "next/link";
 import { useState } from "react";
 import { useSession } from "next-auth/react";
 import Image from "next/image"
+import Loading from './loading';
+
 
 function Projects() {
+
+    const [isCssLoaded, setIsCssLoaded] = useState(false);
+    useEffect(() => {
+      setTimeout(() => {
+        setIsCssLoaded(true);
+      }, 2000);
+    }, []);
+  
 
     const videoRef = useRef(null);
 
@@ -35,6 +45,9 @@ function Projects() {
     return (
 
         <>
+
+{!isCssLoaded && <Loading />} {/* Show loading screen while CSS is not loaded */}
+      {isCssLoaded && (
 
             <div className={styles.projects_page_whole}>
                 <div className={styles.projects_page_wrapper}>
@@ -196,6 +209,7 @@ function Projects() {
 
                 </div>
             </div>
+            )}
 
         </>
     )

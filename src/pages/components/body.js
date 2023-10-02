@@ -4,9 +4,17 @@ import styles from "../../styles/components/body.module.css";
 import Link from "next/link";
 import { useState } from "react";
 import { useSession } from "next-auth/react"
+import Loading from './loading';
 
 
 function Body() {
+  const [isCssLoaded, setIsCssLoaded] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsCssLoaded(true);
+    }, 2000);
+  }, []);
+
 
   const videoRef = useRef(null);
 
@@ -59,6 +67,9 @@ function Body() {
 
   return (
     <>
+
+{!isCssLoaded && <Loading />} {/* Show loading screen while CSS is not loaded */}
+      {isCssLoaded && (
 
       <div className={styles.whole}>
         <div className={styles.parent_wrapper}>
@@ -1973,6 +1984,8 @@ function Body() {
 
         </div>
       </div>
+      )}
+
     </>
 
   )
