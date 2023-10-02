@@ -14,7 +14,7 @@ const Loading = () => {
 
         </Image>
         </div>
-      <div className={styles.loadingText}>Loading... :)</div>
+      <div className={styles.loadingText}>...</div>
     </div>
   );
 };
