@@ -96,7 +96,7 @@
 .top_main_header_and_paragraphs:hover {
   transition: 0.4s;
   box-shadow: rgb(211, 211, 211) 0px 0px 5px;
-  transform: scale(0.98);
+  transform: scale(0.97);
 }
 
 
@@ -338,7 +338,7 @@
 }
 
 .top_main_header_and_paragraphs_squared:hover {
-  transform: scale(1.01);
+  transform: scale(0.97);
   transition: 0.4s;
   box-shadow: rgb(71, 71, 71) 0px 0px 7px;
 
