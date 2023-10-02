@@ -22,11 +22,12 @@
     box-shadow: white 0px 0px 4px;
     transition: 0.5s;
     margin-bottom: 10px;
+    transform: scale(0.7);
 }
 
 .logored:hover { 
     transition: 0.5s;
-    transform: scale(1.1);
+    transform: scale(0.75);
 }
 
 .projects_page_wrapper {
@@ -37,7 +38,7 @@
 
 .list_div {
     width: 100vw;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,8 +73,6 @@
     text-align: center;
     width: 75vw;
     font-size: 10px;
-    padding: 10px;
-    margin: 10px;
     color: rgb(144, 144, 144);
 }
 
@@ -84,6 +83,7 @@
     justify-content: center;
     gap: 10px;
     grid-auto-flow: dense;
+    margin: 20px;
 }
 
 .contact_button {
@@ -128,24 +128,23 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
+    margin: 0;
 }
 
 .video_list_element {
     display: flex;
     background-color: rgb(22, 22, 22);
+    margin: 0;
 }
 
 .video_tag {
-    width: 600px;
-    margin-top: -50px;
+    width: 200px;
     border-radius: 0.15rem;
     box-shadow: white 0px 0px 6px;
-    transform: scale(0.6);
     transition: 0.5s;
 }
 
 .video_tag:hover {
-    transform: scale(0.55);
     box-shadow: orange 0px 0px 7px;
     transition: 0.5s;
 }
@@ -164,191 +163,100 @@
 
 
 
-@media (min-width: 200px) and (max-width: 900px) and (orientation: portrait) {
-    .video_list_element {
-        margin-top: 50px;
+@media (min-width: 200px) and (max-width: 300px) and (orientation: portrait) {
+    .video_tag { 
+    width: 180px;
     }
-
-
-
-    .list4 {
-        display: grid;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        width: 100vw;
-        margin-top: 0;
-        margin-bottom: 20px;
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-
-    .list4_list_item {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 50px;
-
-    }
-
-    .teallogo { 
-        margin-top: 50px;
-        margin-bottom: -20px;
-    }
-
-    .list4_title { 
-        width: 200px;
-        margin-top: 0;
-        margin-bottom: -20px;
-    }
-    .list4_title_paragraph {
-        width: 75vw;
-        height: max-content;
-        margin-left: 0;
-font-size: 8px;
-    }
+    
 }
+@media (min-width: 200px) and (max-width: 300px) and (orientation: landscape) {
+    .video_tag { 
+    width: 180px;
+    }
+    
+}
+
+
+@media (min-width: 300px) and (max-width: 400px) and (orientation: portrait) {
+    .video_tag { 
+    width: 180px;
+    }
+    
+}
+@media (min-width: 300px) and (max-width: 400px) and (orientation: landscape) {
+    .video_tag { 
+    width: 180px;
+    }
+    
+}
+
+
+@media (min-width: 400px) and (max-width: 500px) and (orientation: portrait) {
+    .video_tag { 
+    width: 180px;
+    }
+    
+}
+@media (min-width: 400px) and (max-width: 500px) and (orientation: landscape) {
+    .video_tag { 
+    width: 180px;
+    }
+    
+}
+
+
+@media (min-width: 500px) and (max-width: 600px) and (orientation: portrait) {
+    .video_tag { 
+    width: 180px;
+    }
+    
+}
+@media (min-width: 500px) and (max-width: 600px) and (orientation: landscape) {
+    .video_tag { 
+    width: 180px;
+    }
+    
+}
+
+
+@media (min-width: 600px) and (max-width: 700px) and (orientation: portrait) {
+    .video_tag { 
+    width: 180px;
+    }
+    
+}
+@media (min-width: 600px) and (max-width: 700px) and (orientation: landscape) {
+    .video_tag { 
+    width: 180px;
+    }
+    
+}
+
+
+@media (min-width: 700px) and (max-width: 800px) and (orientation: portrait) {
+
+}
+@media (min-width: 700px) and (max-width: 800px) and (orientation: landscape) {
+
+}
+
+
+
+@media (min-width: 800px) and (max-width: 900px) and (orientation: portrait) {
+
+}
+@media (min-width: 800px) and (max-width: 900px) and (orientation: landscape) {
+
+}
+
 
 
 @media (min-width: 900px) and (max-width: 1000px) and (orientation: portrait) {
-    .video_list_element {
-        margin-top: 50px;
-    }
 
-
-
-    .list4 {
-        display: grid;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        width: 100vw;
-        margin-top: 0;
-        margin-bottom: 20px;
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-
-    .list4_list_item {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .teallogo { 
-        margin-top: 50px;
-        margin-bottom: -20px;
-    }
-
-    .list4_title { 
-        width: 200px;
-        margin-top: 0;
-        margin-bottom: -20px;
-    }
-    .list4_title_paragraph {
-        width: 75vw;
-        height: max-content;
-        margin-left: 0;
-
-    }
 }
-
-
-
-
-@media (min-width: 200px) and (max-width: 900px) and (orientation: landscape) {
-    .video_list_element {
-        margin-top: 50px;
-    }
-
-
-
-    .list4 {
-        display: grid;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        width: 100vw;
-        margin-top: 0;
-        margin-bottom: 20px;
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-
-    .list4_list_item {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 50px;
-
-    }
-
-    .teallogo { 
-        margin-top: 50px;
-        margin-bottom: -20px;
-    }
-
-    .list4_title { 
-        width: 200px;
-        margin-top: 0;
-        margin-bottom: -20px;
-    }
-    .list4_title_paragraph {
-        width: 75vw;
-        height: max-content;
-        margin-left: 0;
-font-size: 8px;
-    }
-}
-
-
 @media (min-width: 900px) and (max-width: 1000px) and (orientation: landscape) {
-    .video_list_element {
-        margin-top: 50px;
-    }
 
-
-
-    .list4 {
-        display: grid;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        width: 100vw;
-        margin-top: 0;
-        margin-bottom: 20px;
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-
-    .list4_list_item {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .teallogo { 
-        margin-top: 50px;
-        margin-bottom: -20px;
-    }
-
-    .list4_title { 
-        width: 200px;
-        margin-top: 0;
-        margin-bottom: -20px;
-    }
-    .list4_title_paragraph {
-        width: 75vw;
-        height: max-content;
-        margin-left: 0;
-
-    }
 }
+
+
+
