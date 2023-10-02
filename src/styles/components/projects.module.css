@@ -56,13 +56,32 @@
     justify-content: center;
 }
 
-.title {
+.title1 { 
     display: flex;
     flex-direction: row;
     color: rgb(226, 226, 226);
     font-size: 20px;
     font-family: Teko, sans-serif;
     font-weight: 900;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    color: rgb(193, 193, 193);
+    font-size: 15px;
+    font-family: Teko, sans-serif;
+    font-weight: 900;
+    background-color: black;
+    border-radius: 0.90rem;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-width: 1px;
+    width: 160px;
+
 }
 
 .title_brother {
@@ -74,6 +93,7 @@
     width: 75vw;
     font-size: 10px;
     color: rgb(144, 144, 144);
+    margin: 10px;
 }
 
 .buttons_list_element {
@@ -129,6 +149,7 @@
     justify-content: center;
     width: 100vw;
     margin: 0;
+    flex-direction: column;
 }
 
 .video_list_element {
@@ -138,7 +159,7 @@
 }
 
 .video_tag {
-    width: 200px;
+    max-width: 580px;
     border-radius: 0.15rem;
     box-shadow: white 0px 0px 6px;
     transition: 0.5s;
@@ -147,6 +168,10 @@
 .video_tag:hover {
     box-shadow: orange 0px 0px 7px;
     transition: 0.5s;
+}
+
+.arrow { 
+    margin: 10px;
 }
 
 
@@ -179,13 +204,13 @@
 
 @media (min-width: 300px) and (max-width: 400px) and (orientation: portrait) {
     .video_tag { 
-    width: 180px;
+    width: 280px;
     }
     
 }
 @media (min-width: 300px) and (max-width: 400px) and (orientation: landscape) {
     .video_tag { 
-    width: 180px;
+        width: 280px;
     }
     
 }
@@ -193,13 +218,13 @@
 
 @media (min-width: 400px) and (max-width: 500px) and (orientation: portrait) {
     .video_tag { 
-    width: 180px;
+    width: 380px;
     }
     
 }
 @media (min-width: 400px) and (max-width: 500px) and (orientation: landscape) {
     .video_tag { 
-    width: 180px;
+        width: 380px;
     }
     
 }
@@ -207,13 +232,13 @@
 
 @media (min-width: 500px) and (max-width: 600px) and (orientation: portrait) {
     .video_tag { 
-    width: 180px;
+    width: 480px;
     }
     
 }
 @media (min-width: 500px) and (max-width: 600px) and (orientation: landscape) {
     .video_tag { 
-    width: 180px;
+        width: 480px;
     }
     
 }
@@ -221,13 +246,13 @@
 
 @media (min-width: 600px) and (max-width: 700px) and (orientation: portrait) {
     .video_tag { 
-    width: 180px;
+    width: 580px;
     }
     
 }
 @media (min-width: 600px) and (max-width: 700px) and (orientation: landscape) {
     .video_tag { 
-    width: 180px;
+        width: 580px;
     }
     
 }
