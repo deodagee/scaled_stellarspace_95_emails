@@ -43,16 +43,16 @@ function Projects() {
                     <div className={styles.list_div}>
 
                         <ol className={styles.title_and_title_description}>
-                        <Image
+                            <Image
                                 className={styles.logored}
                                 alt=""
                                 width={100}
                                 height={100}
                                 src={"/logored.png"}></Image>
-                            <li className={styles.title}><p><h1>Projects and Upcoming<span className={styles.title_brother}> Plans</span></h1></p></li>
+                            <li className={styles.title1}><p><h1>Projects and Upcoming<span className={styles.title_brother}> Plans</span></h1></p></li>
                             <li className={styles.description_list_element}>
                                 <p>
-                                    Current projects for the month. Some client names are withheld. 
+                                    Some Current Projects Here At StellarSpace 
                                 </p>
                             </li>
 
@@ -64,6 +64,14 @@ function Projects() {
 
 
                         <ol className={styles.list2}>
+                            <li className={styles.title}>
+                                <h1>
+                                    Category: Branding
+                                </h1>
+                            </li>
+                            <li className={styles.description_list_element}>
+                                <p>Client Name: Prefers Not To Say</p>
+                            </li>
                             <li className={styles.video_list_element}>
                                 <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
                                     className={styles.video_tag}>
@@ -73,47 +81,105 @@ function Projects() {
                                     </source>
                                 </video>
                             </li>
+                            <li>
+                                <span><Image
+                                    className={styles.arrow}
+                                    alt=""
+                                    width={15}
+                                    height={15}
+                                    src={"/forwardarrow.png"}></Image></span>
+                            </li>
                         </ol>
 
-                        <ol className={styles.list3}>
+
+                        <ol className={styles.list2}>
                             <li className={styles.title}>
                                 <h1>
-                                    Category: Branding
+                                    Category: Ui/Ux
                                 </h1>
                             </li>
                             <li className={styles.description_list_element}>
                                 <p>Client Name: Prefers Not To Say</p>
                             </li>
-                            <li>
-                            <span><Image
-                                className={styles.arrow}
-                                alt=""
-                                width={15}
-                                height={15}
-                                src={"/forwardarrow.png"}></Image></span> 
+                            <li className={styles.video_list_element}>
+                                <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                    className={styles.video_tag}>
+                                    <source
+                                        src={'/logopaperwhite.mp4'}
+                                        type={"video/mp4"}>
+                                    </source>
+                                </video>
                             </li>
-
-
+                            <li>
+                                <span><Image
+                                    className={styles.arrow}
+                                    alt=""
+                                    width={15}
+                                    height={15}
+                                    src={"/forwardarrow.png"}></Image></span>
+                            </li>
                         </ol>
 
-                        <ol className={styles.list3}>
+
+                        
+                        <ol className={styles.list2}>
                             <li className={styles.title}>
                                 <h1>
-                                    Ctegory: UI /UX
+                                    Category: 3D Animation
                                 </h1>
                             </li>
                             <li className={styles.description_list_element}>
                                 <p>Client Name: Prefers Not To Say</p>
                             </li>
+                            <li className={styles.video_list_element}>
+                                <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                    className={styles.video_tag}>
+                                    <source
+                                        src={'/logopaperwhite.mp4'}
+                                        type={"video/mp4"}>
+                                    </source>
+                                </video>
+                            </li>
                             <li>
-                            <span><Image
-                                className={styles.arrow}
-                                alt=""
-                                width={15}
-                                height={15}
-                                src={"/forwardarrow.png"}></Image></span> 
+                                <span><Image
+                                    className={styles.arrow}
+                                    alt=""
+                                    width={15}
+                                    height={15}
+                                    src={"/forwardarrow.png"}></Image></span>
                             </li>
                         </ol>
+
+
+
+                        <ol className={styles.list2}>
+                            <li className={styles.title}>
+                                <h1>
+                                    Category: Press Kit
+                                </h1>
+                            </li>
+                            <li className={styles.description_list_element}>
+                                <p>Client Name: Prefers Not To Say</p>
+                            </li>
+                            <li className={styles.video_list_element}>
+                                <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                    className={styles.video_tag}>
+                                    <source
+                                        src={'/logopaperwhite.mp4'}
+                                        type={"video/mp4"}>
+                                    </source>
+                                </video>
+                            </li>
+                            <li>
+                                <span><Image
+                                    className={styles.arrow}
+                                    alt=""
+                                    width={15}
+                                    height={15}
+                                    src={"/forwardarrow.png"}></Image></span>
+                            </li>
+                        </ol>
+
 
                         <ol className={styles.list3}>
                         </ol>
