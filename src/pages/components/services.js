@@ -296,6 +296,9 @@ function Services() {
 
 
 
+
+
+
                     <li className={styles.title}>
                         <h1>
                             Ui /Ux and Software Services
@@ -559,6 +562,180 @@ function Services() {
                             </ol>
                         </div>
                     </div>
+
+
+
+                    
+
+                    <li className={styles.title}>
+                        <h1>
+                            Branding / Logos / Products
+                        </h1>
+                    </li>
+
+                    <div className={styles.videos_and_images_wrapper}>
+
+                        <div className={styles.box_wrapper}>
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>Logos & Design</p>
+                                </li>
+
+
+                                    <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_tag}
+                                            width={50}
+                                            height={50}
+                                            quality={100}
+                                            alt=""
+                                            src="/orangelogo.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                <li className={styles.title_sub}>
+                                    <Link href={"/infopage"}>
+                                        <p>View</p>
+                                    </Link>
+                                </li>
+                            </ol>
+
+
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>Concept to Implementation</p>
+                                </li>
+                                <li className={styles.title_bottom_img_or_video}>
+
+                                <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_tag}
+                                            width={50}
+                                            height={50}
+                                            quality={100}
+                                            alt=""
+                                            src="/orangelogo.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                </li>
+                                <li className={styles.title_sub}>
+                                    <Link href={"/infopage"}>
+                                        <p>View</p>
+                                    </Link>
+                                </li>
+                            </ol>
+                        </div>
+
+                        <div className={styles.box_wrapper}>
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>Product Lines</p>
+                                </li>
+
+                                <li className={styles.title_bottom_img_or_video}>
+                                <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_tag}
+                                            width={50}
+                                            height={50}
+                                            quality={100}
+                                            alt=""
+                                            src="/orangelogo.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                </li>
+                                <li className={styles.title_sub}>
+                                    <Link href={"/infopage"}>
+                                        <p>View</p>
+                                    </Link>
+                                </li>
+                            </ol>
+
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>Press Kits</p>
+                                </li>
+                                <li className={styles.title_bottom_img_or_video}>
+
+
+                                <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_tag}
+                                            width={50}
+                                            height={50}
+                                            quality={100}
+                                            alt=""
+                                            src="/orangelogo.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                </li>
+                                <li className={styles.title_sub}>
+                                    <Link href={"/infopage"}>
+                                        <p>View</p>
+                                    </Link>
+                                </li>
+                            </ol>
+                        </div>
+
+
+                        <div className={styles.box_wrapper}>
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>Adobe Suite</p>
+                                </li>
+
+                                <li className={styles.title_bottom_img_or_video}>
+                                <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_tag}
+                                            width={50}
+                                            height={50}
+                                            quality={100}
+                                            alt=""
+                                            src="/orangelogo.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                </li>
+                                <li className={styles.title_sub}>
+                                    <Link href={"/infopage"}>
+                                        <p>View</p>
+                                    </Link>
+                                </li>
+                            </ol>
+
+
+                            <ol className={styles.title_and_content_wrap}>
+                                <li className={styles.title_wrap}>
+                                    <p>And Blender 3d</p>
+                                </li>
+                                <li className={styles.title_bottom_img_or_video}>
+                                <div className={styles.image_for_video_div}>
+                                        <Image
+                                            className={styles.image_tag}
+                                            width={50}
+                                            height={50}
+                                            quality={100}
+                                            alt=""
+                                            src="/orangelogo.png"
+                                        >
+                                        </Image>
+                                    </div>
+                                </li>
+                                <li className={styles.title_sub}>
+                                    <Link href={"/infopage"}>
+                                        <p>View</p>
+                                    </Link>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+
+
 
 
                     <ol className={styles.list3}>
