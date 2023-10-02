@@ -73,12 +73,11 @@
 
 .logo__signature_and_button_parent {
   background: linear-gradient(to top, #0a0a0a, #0e0e0e, #232323f1);
-  margin-top: 0;
   display: flex;
   width: 100vw;
   justify-content: space-between;
   flex-direction: row;
-  padding-top: 20px;
+  padding-top: 45px;
   padding-bottom: 5px;
 }
 
@@ -88,6 +87,7 @@
   align-items: center;
   justify-content: space-between;
   width: max-content;
+  margin-top: 10px;
 }
 
 .logo_item {
@@ -163,6 +163,7 @@
   padding-top: 8px;
   padding-bottom: 8px;
   color: rgb(246, 246, 246);
+  position: fixed;
 }
 
 .first_menubar p:hover {
@@ -221,9 +222,7 @@
 
 .buttons {
   display: flex;
-  margin: 5px;
-  margin-top: 17px;
-  margin-right: 5vw;
+  margin-right: 2vw;
   font-size: 15px;
   font-family: 'Teko', sans-serif;
   flex-direction: row;
@@ -237,7 +236,8 @@
   flex-direction: row;
 }
 
-.promo_message_first{ 
+.promo_message_first{
+  position: relative; 
   display: flex;
   align-items: center;
   justify-content: center;
