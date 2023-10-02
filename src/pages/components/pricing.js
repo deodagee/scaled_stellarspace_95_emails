@@ -63,17 +63,6 @@ function Pricing() {
       <div className={styles.pricing_page}>
         <div className={styles.pricing_page_wrapper}>
           <div className={styles.offered_list_and_top_main_header}>
-            <div>
-              <Image
-                className={styles.cocacola}
-                width={50}
-                height={50}
-                alt="logo"
-                src="/cocacola2.png"
-              >
-              </Image>
-            </div>
-
 
             <div className={styles.top_video_background}>
               <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_background_tag} onLoad={handleVideoLoad}>

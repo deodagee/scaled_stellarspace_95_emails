@@ -83,7 +83,6 @@ function Projects() {
                                 </h1>
                             </li>
                             <li className={styles.description_list_element}>
-                                <p>Client Name: []</p>
                             </li>
                             <li className={styles.video_list_element}>
                                 <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
@@ -112,7 +111,6 @@ function Projects() {
                                 </h1>
                             </li>
                             <li className={styles.description_list_element}>
-                                <p>Client Name: []</p>
                             </li>
                             <li className={styles.video_list_element}>
                                 <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
@@ -142,7 +140,6 @@ function Projects() {
                                 </h1>
                             </li>
                             <li className={styles.description_list_element}>
-                                <p>Client Name: []</p>
                             </li>
                             <li className={styles.video_list_element}>
                                 <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
@@ -172,7 +169,6 @@ function Projects() {
                                 </h1>
                             </li>
                             <li className={styles.description_list_element}>
-                                <p>Client Name: []</p>
                             </li>
                             <li className={styles.video_list_element}>
                                 <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
