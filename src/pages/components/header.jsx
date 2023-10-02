@@ -5,9 +5,11 @@ import Link from "next/link";
 import { useSession, signIn, signOut } from "next-auth/react"
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
+import Loading from './loading';
 
 
 function Header() {
+  const [isCssLoaded, setIsCssLoaded] = useState(false);
 
   const [imageLoaded, setImageLoaded] = useState(false);
   const handleImageLoad = () => {
@@ -15,6 +17,12 @@ function Header() {
   };
 
   const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsCssLoaded(true);
+    }, 2000);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -36,6 +44,7 @@ function Header() {
 
   return (
     <>
+
       <Head>
       <title > Astrum Stellar</title>
 
@@ -43,6 +52,9 @@ function Header() {
         <link rel="stylesheet" href={"/styles/components/header.module.css"} />
         <link rel="stylesheet" href={"/styles/components/header_xsm_mobile.module.css"} />
       </Head>
+
+      {!isCssLoaded && <Loading />} {/* Show loading screen while CSS is not loaded */}
+      {isCssLoaded && (
 
       <div className={`${styles.parent} ${xsmStyles.parent_xsm}`}>
         <div className={`${styles.parent_wrapper} ${xsmStyles.parent_wrapper_xsm} ${isVisible ? '' : styles.parent_wrapper_margin}`}>
@@ -214,6 +226,7 @@ function Header() {
 
         </div>
       </div>
+            )}
     </>
   )
 
