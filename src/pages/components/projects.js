@@ -52,8 +52,7 @@ function Projects() {
                             <li className={styles.title}><p><h1>Projects and Upcoming<span className={styles.title_brother}> Plans</span></h1></p></li>
                             <li className={styles.description_list_element}>
                                 <p>
-                                    Here you can view most of my current projects. For a detailed list of all my work please carefully visit all the links provided for each section. Some projects that are visible through portals such as reddit, LinkedIn, or others may require you to have an account with them in order to bypass some security features to view personal account details. Send any of your questions to the <Link
-                                        href={"/"}>Contact Page</Link> and I will respond asap or within three business days if the waiting list is long. Usually 1 business day is the target. Thank you.
+                                    Current projects for the month. Some client names are withheld. 
                                 </p>
                             </li>
 
@@ -79,11 +78,11 @@ function Projects() {
                         <ol className={styles.list3}>
                             <li className={styles.title}>
                                 <h1>
-                                    Main Services
+                                    Category: Branding
                                 </h1>
                             </li>
                             <li className={styles.description_list_element}>
-                                <p>A comprehensive list of all services offered here at Stellarspace</p>
+                                <p>Client Name: Prefers Not To Say</p>
                             </li>
                             <li>
                             <span><Image
@@ -93,18 +92,27 @@ function Projects() {
                                 height={15}
                                 src={"/forwardarrow.png"}></Image></span> 
                             </li>
+
+
                         </ol>
 
                         <ol className={styles.list3}>
                             <li className={styles.title}>
                                 <h1>
-                                    1080 to 4k Rendering
+                                    Ctegory: UI /UX
                                 </h1>
                             </li>
                             <li className={styles.description_list_element}>
-                                <p>Uitilzing Unreal Engine&apos;s rendering capabalities through Blender for professionals toolkit.</p>
+                                <p>Client Name: Prefers Not To Say</p>
                             </li>
-
+                            <li>
+                            <span><Image
+                                className={styles.arrow}
+                                alt=""
+                                width={15}
+                                height={15}
+                                src={"/forwardarrow.png"}></Image></span> 
+                            </li>
                         </ol>
 
                         <ol className={styles.list3}>
