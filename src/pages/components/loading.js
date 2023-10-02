@@ -14,7 +14,7 @@ const Loading = () => {
 
         </Image>
         </div>
-      <div className={styles.loadingText}>...</div>
+      <div className={styles.loadingText}>StellarSpace</div>
     </div>
   );
 };
