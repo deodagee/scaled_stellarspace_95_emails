@@ -5,6 +5,7 @@ import Image from 'next/image';
 const Loading = () => {
   return (
     <div className={styles.loadingScreen}>
+        <div>
         <Image
         alt=''
         width={50}
@@ -12,6 +13,7 @@ const Loading = () => {
         src={'/teallogo.png'}>
 
         </Image>
+        </div>
       <div className={styles.loadingText}>Loading... :)</div>
     </div>
   );
