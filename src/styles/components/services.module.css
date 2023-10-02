@@ -10,7 +10,7 @@
 }
 
 .services_page_whole {
-    background: linear-gradient(to right, rgb(112, 112, 112), #191919f1,rgb(85, 85, 85));
+    background: linear-gradient(to right,rgb(24, 24, 24), rgb(50, 50, 50),rgb(24, 24, 24));
     width: 100vw;
     height: max-content;
     display: flex;
