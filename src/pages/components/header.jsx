@@ -15,14 +15,15 @@ function Header() {
   const handleImageLoad = () => {
     setImageLoaded(true);
   };
-
-  const [isVisible, setIsVisible] = useState(true);
-
+  
   useEffect(() => {
     setTimeout(() => {
       setIsCssLoaded(true);
     }, 2000);
   }, []);
+
+  const [isVisible, setIsVisible] = useState(true);
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -77,8 +78,8 @@ function Header() {
                 <Image
                   className={`${styles.header_signature} ${xsmStyles.header_signature_xsm}`} aria-label="signature"
                   alt=""
-                  width={90}
-                  height={90}
+                  width={50}
+                  height={50}
                   src={"/signaturewhite.png"}
                 >
                 </Image>
