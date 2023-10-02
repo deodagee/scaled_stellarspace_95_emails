@@ -147,29 +147,28 @@
 
 
 .first_menubar {
-  box-shadow: rgb(201, 201, 201) 0px 0px 5px;
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-  border-color: rgb(255, 255, 255);
-  border-width: 0.5px;
   gap: 12vw;
   width: 100vw;
   display: flex;
   font-size: 9px;
   font-family: 'Skranji', cursive;
-    font-weight: 600;
+  font-weight: 700;
   flex-direction: row;
   white-space: nowrap;
   align-items: center;
   justify-content: center;
-  transition: 0.1s;
-  background-color: rgb(20, 0, 37);
+  transition: 0.05s;
+  background-color: rgb(24, 24, 24);
   padding: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-bottom: -1px;
-  color: rgb(220, 220, 220);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: rgb(212, 212, 212);
+  color: rgb(246, 246, 246);
+  border-width: 1px;
+  box-shadow: rgb(184, 184, 184) 0px 0px 6px;
 }
 
 .first_menubar p:hover {
