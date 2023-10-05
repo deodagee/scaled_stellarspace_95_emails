@@ -117,18 +117,16 @@ function Header() {
             </ol>
           </ol>
           <ol className={styles.menu_bars_wrapper}>
-
-
             <ul className={`${styles.first_menubar} ${xsmStyles.first_menubar_xsm}`} style={{ display: isVisible ? 'inline-flex' : 'none' }}>
               <li className={styles.first_menubar_item}>
-                <Link href={'/sources'}>
+                <Link href={'/info/privatedomains'}>
                   <p className={styles.promo1}>
                     Private Domains
                   </p>
                 </Link>
               </li>
               <li className={styles.first_menubar_item}>
-                <Link href={'/components/info/aplicationinterfaces'}>
+                <Link href={'/info/applicationinterfaces'}>
                   <p className={styles.promo2}>
                     Application Interfaces
                   </p>
