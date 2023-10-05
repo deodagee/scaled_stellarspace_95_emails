@@ -111,12 +111,16 @@ function Projects() {
                                 </h1>
                             </li>
                             <li className={styles.description_list_element}>
+                            <p>Real Time Chat App</p>
+                            </li>
+                            <li className={styles.description_list_element}>
+                            <p>Client: Personal</p>
                             </li>
                             <li className={styles.video_list_element}>
                                 <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
                                     className={styles.video_tag}>
                                     <source
-                                        src={'/logopaperwhite.mp4'}
+                                        src={'/chatapp.mp4'}
                                         type={"video/mp4"}>
                                     </source>
                                 </video>
