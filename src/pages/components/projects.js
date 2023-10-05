@@ -75,20 +75,28 @@ function Projects() {
                             </li>
                         </ol>
 
-
+                        
                         <ol className={styles.list2}>
                             <li className={styles.title}>
                                 <h1>
-                                    Category: Branding
+                                    Category: Ui/Ux
                                 </h1>
                             </li>
                             <li className={styles.description_list_element}>
+                            <p>Real Time Chat App</p>
                             </li>
+                            <li className={styles.description_list_element}>
+                            <p>Link: <Link className={styles.projects_link} href={"https://chatappbydeo.vercel.app/login"}>https://chatappbydeo.vercel.app/login</Link></p>
+                            </li>
+                            <li className={styles.description_list_element}>
+                            <p>Client: Public</p>
+                            </li>
+
                             <li className={styles.video_list_element}>
                                 <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
                                     className={styles.video_tag}>
                                     <source
-                                        src={'/logopaperwhite.mp4'}
+                                        src={'/chatapp.mp4'}
                                         type={"video/mp4"}>
                                     </source>
                                 </video>
@@ -107,20 +115,16 @@ function Projects() {
                         <ol className={styles.list2}>
                             <li className={styles.title}>
                                 <h1>
-                                    Category: Ui/Ux
+                                    Category: Branding
                                 </h1>
                             </li>
                             <li className={styles.description_list_element}>
-                            <p>Real Time Chat App</p>
-                            </li>
-                            <li className={styles.description_list_element}>
-                            <p>Client: Personal</p>
                             </li>
                             <li className={styles.video_list_element}>
                                 <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
                                     className={styles.video_tag}>
                                     <source
-                                        src={'/chatapp.mp4'}
+                                        src={'/logopaperwhite.mp4'}
                                         type={"video/mp4"}>
                                     </source>
                                 </video>
