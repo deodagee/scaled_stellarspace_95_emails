@@ -94,11 +94,14 @@
     text-align: center;
     width: 75vw;
     font-size: 10px;
-    color: rgb(144, 144, 144);
+    color: rgb(0, 167, 131);
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
+.projects_link { 
+    color: rgb(184, 162, 0);
+}
 .buttons_list_element {
     display: flex;
     flex-direction: row;
