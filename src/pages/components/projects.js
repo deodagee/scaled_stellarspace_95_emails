@@ -118,6 +118,12 @@ function Projects() {
                                         Category: Branding
                                     </h1>
                                 </li>
+
+                                <li className={styles.description_list_element}>
+
+                                    <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
+                                </li>
+
                                 <li className={styles.description_list_element}>
                                 </li>
                                 <li className={styles.video_list_element}>
@@ -151,13 +157,13 @@ function Projects() {
                                     <p>Product Modeling</p>
                                 </li>
                                 <li className={styles.description_list_element}>
-                                    <p>Link: <Link className={styles.description_list_element_right_side} href={"/projects"}>Not Availabe Yet</Link></p>
+                                    <p>Link: <Link className={styles.description_list_element_right_side} href={"/projects"}> Not Availabe Yet</Link></p>
                                 </li>
                                 <li className={styles.description_list_element}>
-                                    <p>Status:<span className={styles.description_list_element_right_side}>Upcoming</span></p>
+                                    <p>Status:<span className={styles.description_list_element_right_side}> Upcoming</span></p>
                                 </li>
                                 <li className={styles.description_list_element}>
-                                    <p>Client: <span className={styles.description_list_element_right_side}>Public</span></p>
+                                    <p>Client: <span className={styles.description_list_element_right_side}> Public</span></p>
                                 </li>
                                 <li className={styles.description_list_element}>
                                 </li>
@@ -187,6 +193,10 @@ function Projects() {
                                     <h1>
                                         Category: Press Kit
                                     </h1>
+                                </li>
+                                <li className={styles.description_list_element}>
+
+                                    <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
                                 </li>
                                 <li className={styles.description_list_element}>
                                 </li>
