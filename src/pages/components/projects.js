@@ -165,7 +165,7 @@ function Projects() {
                                     <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
                                         className={styles.video_tag}>
                                         <source
-                                            src={'/bottleblender.zip/bottleblender.mp4'}
+                                            src={'/bottleblender.mp4'}
                                             type={"video/mp4"}>
                                         </source>
                                     </video>
