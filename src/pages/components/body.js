@@ -629,7 +629,7 @@ function Body() {
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
-                    src={"/uilightgreyastrum.png"}
+                    src={"/bluecard.png"}
                     alt=""
                     width={200}
                     height={200}
