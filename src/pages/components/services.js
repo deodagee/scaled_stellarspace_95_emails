@@ -86,11 +86,6 @@ function Services() {
                                             <source src="/headphones.mp4" type="video/mp4" />
                                         </video>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
                                 </ol>
 
 
@@ -112,11 +107,6 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
                                 </ol>
                             </div>
 
@@ -132,11 +122,7 @@ function Services() {
                                             <source src="/stitchvideo4.mp4" type="video/mp4" />
                                         </video>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+
                                 </ol>
 
                                 <ol className={styles.title_and_content_wrap}>
@@ -158,11 +144,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+
                                 </ol>
                             </div>
 
@@ -179,11 +161,7 @@ function Services() {
                                             <source src="/signbricks.mp4" type="video/mp4" />
                                         </video>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+
                                 </ol>
 
 
@@ -205,11 +183,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+
                                 </ol>
                             </div>
 
@@ -225,11 +199,7 @@ function Services() {
                                             <source src="/boxbuild.mp4" type="video/mp4" />
                                         </video>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+     
                                 </ol>
 
                                 <ol className={styles.title_and_content_wrap}>
@@ -251,11 +221,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+
                                 </ol>
                             </div>
 
@@ -271,11 +237,7 @@ function Services() {
                                             <source src="/countach.mp4" type="video/mp4" />
                                         </video>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+
                                 </ol>
 
                                 <ol className={styles.title_and_content_wrap}>
@@ -296,11 +258,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+
                                 </ol>
                             </div>
                         </div>
@@ -337,11 +295,7 @@ function Services() {
                                         >
                                         </Image>
                                     </div>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+
                                 </ol>
 
 
@@ -363,11 +317,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+    
                                 </ol>
                             </div>
 
@@ -388,11 +338,7 @@ function Services() {
                                         >
                                         </Image>
                                     </div>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+              
                                 </ol>
 
                                 <ol className={styles.title_and_content_wrap}>
@@ -414,11 +360,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+           
                                 </ol>
                             </div>
 
@@ -440,11 +382,7 @@ function Services() {
                                         >
                                         </Image>
                                     </div>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+            
                                 </ol>
 
 
@@ -466,11 +404,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+                     
                                 </ol>
                             </div>
 
@@ -491,11 +425,7 @@ function Services() {
                                         >
                                         </Image>
                                     </div>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+                      
                                 </ol>
 
                                 <ol className={styles.title_and_content_wrap}>
@@ -517,11 +447,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+                    
                                 </ol>
                             </div>
 
@@ -542,11 +468,7 @@ function Services() {
                                         >
                                         </Image>
                                     </div>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+            
                                 </ol>
 
                                 <ol className={styles.title_and_content_wrap}>
@@ -567,11 +489,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+                
                                 </ol>
                             </div>
                         </div>
@@ -606,11 +524,7 @@ function Services() {
                                         >
                                         </Image>
                                     </div>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+    
                                 </ol>
 
 
@@ -632,11 +546,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+                
                                 </ol>
                             </div>
 
@@ -659,11 +569,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+                
                                 </ol>
 
                                 <ol className={styles.title_and_content_wrap}>
@@ -685,11 +591,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+          
                                 </ol>
                             </div>
 
@@ -713,11 +615,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+            
                                 </ol>
 
 
@@ -738,11 +636,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                                    <li className={styles.title_sub}>
-                                        <Link href={"/infopage"}>
-                                            <p>View</p>
-                                        </Link>
-                                    </li>
+            
                                 </ol>
                             </div>
                         </div>
