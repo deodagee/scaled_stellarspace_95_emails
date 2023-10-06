@@ -75,13 +75,15 @@ function Projects() {
                                 </li>
                             </ol>
 
-
+                            <div className={styles.categories_wrapper}>
                             <ol className={styles.list2}>
                                 <li className={styles.title}>
                                     <h1>
                                         Category: Ui/Ux
                                     </h1>
                                 </li>
+  
+                                <span className={styles.description_list_element_wrapper}>
                                 <li className={styles.description_list_element}>
                                     <p>Real Time Chat App</p>
                                 </li>
@@ -91,6 +93,7 @@ function Projects() {
                                 <li className={styles.description_list_element}>
                                     <p>Client: <span className={styles.description_list_element_right_side}>Public</span></p>
                                 </li>
+                                </span>
 
                                 <li className={styles.video_list_element}>
                                     <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
@@ -119,13 +122,13 @@ function Projects() {
                                     </h1>
                                 </li>
 
+                                <span className={styles.description_list_element_wrapper}>
+
                                 <li className={styles.description_list_element}>
 
                                     <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
                                 </li>
-
-                                <li className={styles.description_list_element}>
-                                </li>
+                              </span>
                                 <li className={styles.video_list_element}>
                                     <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
                                         className={styles.video_tag}>
@@ -153,6 +156,9 @@ function Projects() {
                                         Category: 3D Animation
                                     </h1>
                                 </li>
+
+                                <span className={styles.description_list_element_wrapper}>
+                                
                                 <li className={styles.description_list_element}>
                                     <p>Product Modeling</p>
                                 </li>
@@ -165,8 +171,7 @@ function Projects() {
                                 <li className={styles.description_list_element}>
                                     <p>Client: <span className={styles.description_list_element_right_side}> Public</span></p>
                                 </li>
-                                <li className={styles.description_list_element}>
-                                </li>
+                                </span>
                                 <li className={styles.video_list_element}>
                                     <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
                                         className={styles.video_tag}>
@@ -194,12 +199,14 @@ function Projects() {
                                         Category: Press Kit
                                     </h1>
                                 </li>
+
+                                <span className={styles.description_list_element_wrapper}>
                                 <li className={styles.description_list_element}>
 
                                     <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
                                 </li>
-                                <li className={styles.description_list_element}>
-                                </li>
+                                </span>
+
                                 <li className={styles.video_list_element}>
                                     <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
                                         className={styles.video_tag}>
@@ -218,21 +225,8 @@ function Projects() {
                                         src={"/forwardarrow.png"}></Image></span>
                                 </li>
                             </ol>
-
-
-                            <ol className={styles.list3}>
-                            </ol>
-
-                            <ol className={styles.list3}>
-                            </ol>
-
-                            <ol className={styles.list3}>
-                            </ol>
-
-                            <ol className={styles.list3}>
-                            </ol>
                         </div>
-
+                        </div>
                     </div>
                 </div>
             )}
