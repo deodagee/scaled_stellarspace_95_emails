@@ -464,7 +464,7 @@ function Body() {
                   </li>
                   <li className={styles.table_item}>
                     <Link
-                      href={"/pricing"}>
+                      href={"/prices"}>
                       <button className={styles.prices_more_button}>
                         <p>Prices {" >"}</p>
                       </button>
@@ -574,9 +574,9 @@ function Body() {
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
                     alt=""
-                    src={"/bgwhole1.jpg"}
-                    width={100}
-                    height={100}
+                    src={"/cocacola2.png"}
+                    width={200}
+                    height={200}
                     quality={100}
                     onLoad={handleImageLoad}
 
@@ -585,10 +585,10 @@ function Body() {
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
-                    src={"/bgwhole2.jpg"}
+                    src={"/shade.png"}
                     alt=""
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
                     quality={100}
                     onLoad={handleImageLoad}
                   ></Image>
@@ -596,10 +596,10 @@ function Body() {
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
-                    src={"/bgwhole3.jpg"}
+                    src={"/cafepls.jpg"}
                     alt=""
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
                     quality={100}
                     onLoad={handleImageLoad}
                   ></Image>
@@ -607,10 +607,10 @@ function Body() {
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
-                    src={"/bgwhole4.jpg"}
+                    src={"/cafepls2.jpg"}
                     alt=""
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
                     quality={100}
                     onLoad={handleImageLoad}
                   ></Image>
@@ -618,10 +618,10 @@ function Body() {
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
-                    src={"/bgwhole5.jpg"}
+                    src={"/chandeliercard.png"}
                     alt=""
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
                     quality={100}
                     onLoad={handleImageLoad}
                   ></Image>
@@ -629,10 +629,10 @@ function Body() {
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
-                    src={"/bgwhole6.jpg"}
+                    src={"/uilightgreyastrum.png"}
                     alt=""
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
                     quality={100}
                     onLoad={handleImageLoad}
                   ></Image>
@@ -640,10 +640,10 @@ function Body() {
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
-                    src={"/bgwhole7.jpg"}
-                    width={50}
+                    src={"/imageblog.jpg"}
                     alt=""
-                    height={50}
+                    width={200}
+                    height={200}
                     quality={100}
                     onLoad={handleImageLoad}
                   ></Image>
@@ -651,10 +651,10 @@ function Body() {
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
-                    src={"/bgwhole8.jpg"}
+                    src={"/astrumgreengrassui.png"}
                     alt=""
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
                     quality={100}
                     onLoad={handleImageLoad}
                   ></Image>
@@ -662,10 +662,10 @@ function Body() {
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
-                    src={"/bgwhole9.jpg"}
+                    src={"/stellarspaceui.png"}
                     alt=""
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
                     quality={100}
                     onLoad={handleImageLoad}
                   ></Image>
@@ -673,10 +673,10 @@ function Body() {
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
-                    src={"/bgwhole10.jpg"}
+                    src={"/neumorphicclickwheel.png"}
                     alt=""
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
                     quality={100}
                     onLoad={handleImageLoad}
                   ></Image>
@@ -684,9 +684,9 @@ function Body() {
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
-                    src={"/bgwhole11.jpg"}
-                    width={100}
-                    height={100}
+                    src={"/blackbox.jpg"}
+                    width={200}
+                    height={200}
                     alt=""
                     quality={100}
                     onLoad={handleImageLoad}
@@ -695,9 +695,9 @@ function Body() {
 
                 <li className={styles.rectangle_image_item}>
                   <Image className={styles.rectangle_image}
-                    src={"/bgwhole12.jpg"}
-                    width={100}
-                    height={100}
+                    src={"/bluebox.png"}
+                    width={200}
+                    height={200}
                     alt=""
                     quality={100}
                     onLoad={handleImageLoad}
