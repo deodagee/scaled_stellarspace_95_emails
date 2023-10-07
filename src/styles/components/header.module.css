@@ -159,24 +159,23 @@
   white-space: nowrap;
   align-items: center;
   justify-content: center;
-  transition: 0.05s;
-  background-color: rgb(84, 139, 0);
+  background-color: rgb(218, 218, 218);
   padding: 5px;
   padding-top: 8px;
   padding-bottom: 8px;
-  color: rgb(246, 246, 246);
+  color: rgb(94, 94, 94);
   position: fixed;
+  text-decoration: underline;
 }
 
 .first_menubar p:hover {
   cursor: pointer;
   transition: 0.1s;
-  color: rgb(255, 128, 0);
+  color: rgb(255, 255, 255);
 }
 
 .first_menubar:hover {
-  color: rgb(240, 240, 240);
-  transition: 0.4s;
+  color: rgb(208, 208, 208);
   background-color: rgb(17, 22, 24);
 }
 
@@ -191,7 +190,6 @@
   white-space: nowrap;
   align-items: center;
   justify-content: center;
-  transition: 0.05s;
   background-color: rgb(24, 24, 24);
   padding: 5px;
   padding-top: 8px;
@@ -206,9 +204,8 @@
 }
 
 .second_menubar:hover {
-  transition: 0.05s;
   color: rgb(241, 241, 241);
-  background-color: rgb(31, 39, 44);
+  background-color: rgb(29, 29, 29);
 }
 
 .second_menubar p {
@@ -260,7 +257,7 @@
 
 
 .register_button {
-  color: rgb(61, 61, 61);
+  color: rgb(40, 40, 40);
   white-space: nowrap;
   margin-left: 10px;
   margin-bottom: 5px;
@@ -270,21 +267,21 @@
   padding: 3px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: rgb(9, 7, 48);
+  background: linear-gradient(to top, #ededed, #efefef, #f7f7f7f1);
   border-radius: 0.99rem;
   transition: 0.6s;
 }
 
 
 .register_button:hover {
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
+  color: rgb(224, 224, 224);
+  background: linear-gradient(to top, #0a0a0a, #0e0e0e, #232323f1);
   transition: 0.6s;
   box-shadow: white 0px 0px 5px;
 }
 
 .login_button {
-  color: rgb(228, 228, 228);
+  color: rgb(40, 40, 40);
   white-space: nowrap;
   margin-left: 10px;
   margin-bottom: 5px;
@@ -294,15 +291,16 @@
   padding: 3px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: rgb(18, 39, 54);
+  padding-top: 4px;
+  background: linear-gradient(to top, #ededed, #efefef, #f7f7f7f1);
   border-radius: 0.25rem;
   transition: 0.6s;
 }
 
 
 .login_button:hover {
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
+  color: rgb(227, 227, 227);
+  background: linear-gradient(to top, #0a0a0a, #0e0e0e, #232323f1);
   transition: 0.6s;
   box-shadow: white 0px 0px 5px;
 }
