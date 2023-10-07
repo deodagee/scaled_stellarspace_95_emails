@@ -101,7 +101,7 @@
     color: #3D3D3D;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 25px;
-    padding-right: 50px;
+    padding-right: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
     background: linear-gradient(to right, ##CECECE, #ECECEC, ##D0CDCC);
@@ -128,7 +128,7 @@ flex-direction: column;
     color: #3D3D3D;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 25px;
-    padding-right: 50px;
+    padding-right: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
     background: linear-gradient(to right, ##CECECE, #ECECEC, ##D0CDCC);
