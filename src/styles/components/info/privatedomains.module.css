@@ -145,10 +145,9 @@
     margin-bottom: 20px;
     font-size: 13px;
 font-weight: 500;
-    max-width: 70vw;
     color: #3D3D3D;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 15px;
+    padding-right: 45px;
     padding-top: 10px;
     padding-bottom: 10px;
     background: linear-gradient(to right, ##CECECE, #ECECEC, ##D0CDCC);
