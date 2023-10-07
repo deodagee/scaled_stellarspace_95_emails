@@ -1,11 +1,11 @@
 import { Inter } from 'next/font/google'
 import Header from '../components/header'
-import ApisPage from "../components/info/applicationinterfaces.js"
+import Threedrenderspage from "../components/info/threedrenders.js"
 import Footer from "../components/footer"
-import styles from "../../styles/components/info/hostgatorvercel.module.css"
+import styles from "../../styles/components/info/threedrenders.module.css"
 const inter = Inter({ subsets: ['latin'] })
 
-function Apis() {
+function threedrenders() {
   return (
     <>
     <div className={styles.front_end_apis_page}>
@@ -14,7 +14,7 @@ function Apis() {
       <Header></Header>
       </div>
       <div className={styles.front_end_apis_page_body}>
-      <ApisPage></ApisPage>
+      <Threedrenderspage></Threedrenderspage>
       </div>
       <div className={styles.front_end_apis_page_footer}>
       <Footer></Footer>
@@ -25,5 +25,5 @@ function Apis() {
   )
 }
 
-export default Apis;
+export default threedrenders;
 
