@@ -20,7 +20,7 @@ function Threedrenderspage() {
                                 FAQ
                             </h1>
                             <div className={styles.top_titles}>
-                                <h1 className={styles.top_title}>3Vercel?</h1>
+                                <h1 className={styles.top_title}>Vercel?</h1>
                             </div>
 
                         </li>
