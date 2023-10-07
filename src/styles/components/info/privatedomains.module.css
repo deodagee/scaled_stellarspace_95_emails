@@ -161,10 +161,9 @@ font-weight: 500;
 .section_top_list_item3 p:hover,
 .section_top_list_item4 p:hover,
 .section_top_list_item5 p:hover {
-    background-color: rgb(0, 0, 0);
+background-color: rgba(22, 22, 22, 0.947);
     transform: scale(1.01);
-    transition: 0.5s;
-    color: #DEDEDE;
+    transition: 0.5scolor: #DEDEDE;
 }
 .section_bottom_list_item1 p:hover,
 .section_bottom_list_item2 p:hover,
