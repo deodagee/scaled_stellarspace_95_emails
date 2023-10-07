@@ -164,6 +164,7 @@ font-weight: 500;
     background-color: rgb(0, 0, 0);
     transform: scale(1.01);
     transition: 0.5s;
+    color: #DEDEDE;
 }
 .section_bottom_list_item1 p:hover,
 .section_bottom_list_item2 p:hover,
@@ -172,7 +173,7 @@ font-weight: 500;
 .section_bottom_list_item5 p:hover {
     background-color: rgba(22, 22, 22, 0.947);
     transform: scale(1.01);
-    transition: 0.5s;
+    transition: 0.5scolor: #DEDEDE;
 }
 
 .section_bottom_list_item1 { 
