@@ -105,8 +105,9 @@
         padding: 5px;
         padding-top: 5px;
         padding-bottom: 4px;
-    }
-
+padding-left:10px;
+        padding-right:10px;    
+}
 }
 
 @media (min-width: 200px) and (max-width: 300px) and (orientation:landscape) {
@@ -201,14 +202,18 @@
     .login_button_xsm {
         padding: 5px;
         padding-top: 5px;
-        padding-bottom: 4px;
+
+padding-left:10px;
+        padding-right:10px;        padding-bottom: 4px;
         margin-bottom: 5px;
     }
 
     .register_button_xsm {
         padding: 5px;
         padding-top: 5px;
-        padding-bottom: 4px;
+
+padding-left:10px;
+        padding-right:10px;        padding-bottom: 4px;
     }
 
 
@@ -302,14 +307,18 @@
             padding: 5px;
             padding-top: 5px;
             padding-bottom: 4px;
-            margin-bottom: 5px;
+
+padding-left:10px;
+        padding-right:10px;            margin-bottom: 5px;
         }
     
         .register_button_xsm {
             padding: 5px;
             padding-top: 5px;
             padding-bottom: 4px;
-        }
+
+padding-left:10px;
+        padding-right:10px;        }
         
 
 }
@@ -401,13 +410,17 @@
             padding: 5px;
             padding-top: 5px;
             padding-bottom: 4px;
-            margin-bottom: 5px;
+
+padding-left:10px;
+        padding-right:10px;            margin-bottom: 5px;
         }
     
         .register_button_xsm {
             padding: 5px;
             padding-top: 5px;
-            padding-bottom: 4px;
+
+padding-left:10px;
+        padding-right:10px;            padding-bottom: 4px;
         }
         
 
