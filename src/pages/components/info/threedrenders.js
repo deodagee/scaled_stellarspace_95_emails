@@ -22,7 +22,7 @@ function Threedrenderspage() {
                             <div className={styles.top_titles}>
                                 <h1 className={styles.top_title}>3D Renders?</h1>
                                 <h1 className={styles.top_title}>
-                                    As A Services
+                                    As A Service
                                 </h1>
                                 <h1 className={styles.top_title}>How About Copyright Use?</h1>
                             </div>
