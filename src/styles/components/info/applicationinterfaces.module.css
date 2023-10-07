@@ -98,13 +98,13 @@
     text-align: left;
     margin: 10px;
     font-size: 12px;
-    color: white;
+    color: #3D3D3D;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-left: 25px;
     padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgba(22, 22, 22, 0.89);
+    background: linear-gradient(to right, ##CECECE, #ECECEC, ##D0CDCC);
     border-radius: 0.45rem;
     box-shadow: rgb(25, 25, 25) 0px 0px 10px;
     transition: 0.5s;
