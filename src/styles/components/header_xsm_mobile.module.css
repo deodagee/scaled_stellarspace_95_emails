@@ -93,7 +93,9 @@
         transform: scale(0.6);
     }
     .login_button_xsm {
-        padding: 5px;
+        padding: 5px; 
+        padding-left:10px;
+        padding-right:10px;
         padding-top: 5px;
         padding-bottom: 4px;
         margin-bottom: 5px;
