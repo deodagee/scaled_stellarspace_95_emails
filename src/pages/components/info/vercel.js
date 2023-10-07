@@ -41,7 +41,7 @@ function Threedrenderspage() {
                             </p>
                         </li>
                         <li className={styles.section_bottom_list_item5}>
-                            <Button className={styles.source_button}><Link href={"/"}><p className="text-xs">Written By: Deo Singiza</p></Link></Button>
+                            <Button className={styles.source_button}><Link href={"/"}>Written By: Deo Singiza</Link></Button>
                             <Image
                                 className={styles.forward_arrow}
                                 alt="arrow"
