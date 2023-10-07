@@ -64,6 +64,8 @@ function Header() {
 
             <ul className={`${styles.logo_and_signature} ${xsmStyles.logo_and_signature_xsm}`}>
               <li className={`${styles.logo_item} ${xsmStyles.logo_item_xsm}`}>
+                <Link
+                href={"/"}>
                 <Image
                   className={`${styles.header_logo} ${xsmStyles.header_logo_xsm}`}
                   alt=""
@@ -72,9 +74,11 @@ function Header() {
                   src={"/logored.png"}
                 >
                 </Image>
+                </Link>
               </li>
 
               <li className={styles.signature_item}>
+                <Link href={"/"}>
                 <Image
                   className={`${styles.header_signature} ${xsmStyles.header_signature_xsm}`} aria-label="signature"
                   alt=""
@@ -83,6 +87,7 @@ function Header() {
                   src={"/signaturewhite.png"}
                 >
                 </Image>
+                </Link>
               </li>
             </ul>
 
@@ -121,33 +126,33 @@ function Header() {
               <li className={styles.first_menubar_item}>
                 <Link href={'/info/privatedomains'}>
                   <p className={styles.promo1}>
-                    Private Domains
+                    Private Domains?
                   </p>
                 </Link>
               </li>
               <li className={styles.first_menubar_item}>
                 <Link href={'/info/applicationinterfaces'}>
                   <p className={styles.promo2}>
-                    Application Interfaces
+                    Application Interfaces? 
                   </p>
                 </Link>
               </li>
               <li className={styles.first_menubar_item}>
-                <Link href={'/components/info/3drenders'}>
+                <Link href={'/info/threedrenders'}>
                   <p className={styles.promo3}>
-                    3D Renders
+                    3D Renders?
                   </p>
                 </Link>
               </li>
               <li className={styles.first_menubar_item}>
-                <Link href={'/components/info/vercel'}>
+                <Link href={'/info/vercel'}>
                   <p className={styles.promo4}>
                     Vercel?
                   </p>
                 </Link>
               </li>
               <li className={styles.first_menubar_item}>
-                <Link href={'/components/info/hostgator'}>
+                <Link href={'/info/hostgatorvercel'}>
                   <p className={styles.promo4}>
                     Hostgator/Bluehost?
                   </p>
