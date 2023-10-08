@@ -36,6 +36,8 @@ function ChatAppDetails() {
                         </ol>
                     </div>
 
+                    
+
                     <div className={styles.categories_wrapper}>
                         <ol className={styles.list2}>
                             <li className={styles.titles_group}>
