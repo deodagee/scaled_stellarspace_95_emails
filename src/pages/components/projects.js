@@ -71,161 +71,168 @@ function Projects() {
 
                                 <li className={styles.buttons_list_element}>
                                     <button className={styles.contact_button}><Link href={"/contact"}>Contact Page</Link></button>
-                                    <button className={styles.see_more_button}><Link href={"/"}>Home Page</Link></button>
+                                    <button className={styles.see_more_button}><Link href={"/projects_more_page"}>More Projects</Link></button>
                                 </li>
                             </ol>
 
                             <div className={styles.categories_wrapper}>
-                            <ol className={styles.list2}>
-                                <li className={styles.title}>
-                                    <h1>
-                                        Category: Ui/Ux
-                                    </h1>
-                                </li>
-  
-                                <span className={styles.description_list_element_wrapper}>
-                                <li className={styles.description_list_element}>
-                                    <p>Real Time Chat App</p>
-                                </li>
-                                <li className={styles.description_list_element}>
-                                    <p>Link: <Link className={styles.description_list_element_right_side} href={"https://chatappbydeo.vercel.app/login"}>https://chatappbydeo.vercel.app/login</Link></p>
-                                </li>
-                                <li className={styles.description_list_element}>
-                                    <p>Client: <span className={styles.description_list_element_right_side}>Public</span></p>
-                                </li>
-                                </span>
+                                <ol className={styles.list2}>
+                                    <li className={styles.title}>
+                                        <h1>
+                                            Category: Ui/Ux
+                                        </h1>
+                                    </li>
 
-                                <li className={styles.video_list_element}>
-                                    <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
-                                        className={styles.video_tag}>
-                                        <source
-                                            src={'/chatapp.mp4'}
-                                            type={"video/mp4"}>
-                                        </source>
-                                    </video>
-                                </li>
-                                <li>
-                                    <span><Image
-                                        className={styles.arrow}
-                                        alt=""
-                                        width={15}
-                                        height={15}
-                                        src={"/forwardarrow.png"}></Image></span>
-                                </li>
-                            </ol>
+                                    <span className={styles.description_list_element_wrapper}>
+                                        <li className={styles.description_list_element}>
+                                            <p>Real Time Chat App</p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Link: <Link className={styles.description_list_element_right_side} href={"https://chatappbydeo.vercel.app/login"}>https://chatappbydeo.vercel.app/login</Link></p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Client: <span className={styles.description_list_element_right_side}>Public</span></p>
+                                        </li>
+                                    </span>
 
-
-                            <ol className={styles.list2}>
-                                <li className={styles.title}>
-                                    <h1>
-                                        Category: Branding
-                                    </h1>
-                                </li>
-
-                                <span className={styles.description_list_element_wrapper}>
-
-                                <li className={styles.description_list_element}>
-
-                                    <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
-                                </li>
-                              </span>
-                                <li className={styles.video_list_element}>
-                                    <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
-                                        className={styles.video_tag}>
-                                        <source
-                                            src={'/logopaperwhite.mp4'}
-                                            type={"video/mp4"}>
-                                        </source>
-                                    </video>
-                                </li>
-                                <li>
-                                    <span><Image
-                                        className={styles.arrow}
-                                        alt=""
-                                        width={15}
-                                        height={15}
-                                        src={"/forwardarrow.png"}></Image></span>
-                                </li>
-                            </ol>
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/chatapp.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/info/chatappdetails'}>
+                                            <h1 className={styles.view_link_header}>View App Details</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
 
 
+                                <ol className={styles.list2}>
+                                    <li className={styles.title}>
+                                        <h1>
+                                            Category: Branding
+                                        </h1>
+                                    </li>
 
-                            <ol className={styles.list2}>
-                                <li className={styles.title}>
-                                    <h1>
-                                        Category: 3D Animation
-                                    </h1>
-                                </li>
+                                    <span className={styles.description_list_element_wrapper}>
 
-                                <span className={styles.description_list_element_wrapper}>
-                                
-                                <li className={styles.description_list_element}>
-                                    <p>Product Modeling</p>
-                                </li>
-                                <li className={styles.description_list_element}>
-                                    <p>Link: <Link className={styles.description_list_element_right_side} href={"/projects"}> Not Availabe Yet</Link></p>
-                                </li>
-                                <li className={styles.description_list_element}>
-                                    <p>Status:<span className={styles.description_list_element_right_side}> Upcoming</span></p>
-                                </li>
-                                <li className={styles.description_list_element}>
-                                    <p>Client: <span className={styles.description_list_element_right_side}> Public</span></p>
-                                </li>
-                                </span>
-                                <li className={styles.video_list_element}>
-                                    <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
-                                        className={styles.video_tag}>
-                                        <source
-                                            src={'/bottleblender.mp4'}
-                                            type={"video/mp4"}>
-                                        </source>
-                                    </video>
-                                </li>
-                                <li>
-                                    <span><Image
-                                        className={styles.arrow}
-                                        alt=""
-                                        width={15}
-                                        height={15}
-                                        src={"/forwardarrow.png"}></Image></span>
-                                </li>
-                            </ol>
+                                        <li className={styles.description_list_element}>
+
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
+                                        </li>
+                                    </span>
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/logopaperwhite.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
 
 
 
-                            <ol className={styles.list2}>
-                                <li className={styles.title}>
-                                    <h1>
-                                        Category: Press Kit
-                                    </h1>
-                                </li>
+                                <ol className={styles.list2}>
+                                    <li className={styles.title}>
+                                        <h1>
+                                            Category: 3D Animation
+                                        </h1>
+                                    </li>
 
-                                <span className={styles.description_list_element_wrapper}>
-                                <li className={styles.description_list_element}>
+                                    <span className={styles.description_list_element_wrapper}>
 
-                                    <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
-                                </li>
-                                </span>
+                                        <li className={styles.description_list_element}>
+                                            <p>Product Modeling</p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Link: <Link className={styles.description_list_element_right_side} href={"/projects"}> Not Availabe Yet</Link></p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Upcoming</span></p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Client: <span className={styles.description_list_element_right_side}> Public</span></p>
+                                        </li>
+                                    </span>
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/bottleblender.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
 
-                                <li className={styles.video_list_element}>
-                                    <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
-                                        className={styles.video_tag}>
-                                        <source
-                                            src={'/logopaperwhite.mp4'}
-                                            type={"video/mp4"}>
-                                        </source>
-                                    </video>
-                                </li>
-                                <li>
-                                    <span><Image
-                                        className={styles.arrow}
-                                        alt=""
-                                        width={15}
-                                        height={15}
-                                        src={"/forwardarrow.png"}></Image></span>
-                                </li>
-                            </ol>
-                        </div>
+
+
+                                <ol className={styles.list2}>
+                                    <li className={styles.title}>
+                                        <h1>
+                                            Category: Press Kit
+                                        </h1>
+                                    </li>
+
+                                    <span className={styles.description_list_element_wrapper}>
+                                        <li className={styles.description_list_element}>
+
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
+                                        </li>
+                                    </span>
+
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/logopaperwhite.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
+                            </div>
                         </div>
                     </div>
                 </div>
