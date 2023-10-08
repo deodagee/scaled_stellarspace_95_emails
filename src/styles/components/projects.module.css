@@ -256,10 +256,10 @@
     font-weight: 600;
     transition: 0.3s;
     margin: 10px;
-    padding: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 0.55rem;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 0.35rem;
 }
 
 .view_link_header:hover { 
