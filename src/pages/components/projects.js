@@ -145,11 +145,11 @@ function Projects() {
                                             </source>
                                         </video>
                                     </li>
-                                                                        <li>
+                                    <li>
                                         <Link
                                             className={styles.view_link}
                                             href={'/info/chatappdetails'}>
-                                            <h1 className={styles.view_link_header}>View Product Details</h1>
+                                            <h1 className={styles.view_link_header}>Details Coming Soon</h1>
                                         </Link>
                                     </li>
                                     <li>
@@ -199,7 +199,7 @@ function Projects() {
                                         <Link
                                             className={styles.view_link}
                                             href={'/info/chatappdetails'}>
-                                            <h1 className={styles.view_link_header}>View Product Details</h1>
+                                            <h1 className={styles.view_link_header}>Details Coming Soon</h1>
                                         </Link>
                                     </li>
                                     <li>
@@ -237,11 +237,11 @@ function Projects() {
                                             </source>
                                         </video>
                                     </li>
-                                                                        <li>
+                                    <li>
                                         <Link
                                             className={styles.view_link}
                                             href={'/info/chatappdetails'}>
-                                            <h1 className={styles.view_link_header}>View Product Details</h1>
+                                            <h1 className={styles.view_link_header}>Details Coming Soon</h1>
                                         </Link>
                                     </li>
                                     <li>
