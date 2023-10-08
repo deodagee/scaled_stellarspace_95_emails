@@ -20,7 +20,7 @@
 
 
 .whole {
-  background: linear-gradient(to right, #161616, #191919f1, #090909);
+  background: linear-gradient(to bottom, #141414f1, #161616 );
   align-items: center;
   justify-content: center;
   width: 100vw;
@@ -73,7 +73,7 @@ background-position-x: 55px;
 
 .video_background_tag {
   border-width: 2px;
-  border-color: rgb(0, 209, 237);
+  border-color: rgb(255, 255, 255);
   box-shadow: white 0px 0px 7px;
   border-radius: 0.45rem;
   transform: scale(0.4);
@@ -109,7 +109,7 @@ transition: 0.5s;
   border-width: 1px;
   border-left: none;
   border-right: none;
-  border-color: rgb(0, 255, 213);
+  border-color: rgb(255, 255, 255);
   box-shadow: rgb(0, 107, 107) 0px 0px 5px;
   background-image: url("/bgwhole3.jpg");
   background-position: center;
