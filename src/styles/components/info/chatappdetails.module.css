@@ -277,7 +277,7 @@
 
 .bottom_link {
     color: rgb(255, 255, 255);
-    font-size: 13px;
+    font-size: 8px;
     background-color: rgba(225, 146, 0, 0.851);
     display: flex;
     gap: 5px;
