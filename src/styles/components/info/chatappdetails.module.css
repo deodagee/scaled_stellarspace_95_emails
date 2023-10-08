@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 
 
-.list_div ol {
+.projects_page_whole ol {
     list-style: none;
 }
 
@@ -166,8 +166,7 @@
 }
 
 .list2:hover {
-    background-color: rgba(22, 22, 22, 0);
-    transform: scale(1.002);
+    background-color: rgba(54, 54, 54, 0);
     transition: 0.4s;
     box-shadow: rgba(224, 224, 224, 0.54) 0px 0px 5px;
 }
@@ -180,6 +179,7 @@
     justify-content: center;
     color: white;
     gap: 10px;
+    margin-bottom: 20px;
 }
 
 .titles_group span {
@@ -203,18 +203,21 @@
     font-family: 'Bruno Ace SC', sans-serif;
     color: rgb(0, 206, 141);
     transition: 0.5s;
+    width: 150px;
 }
 
 .titles_group h2 {
     font-family: 'Bruno Ace SC', sans-serif;
     color: rgb(79, 79, 79);
     transition: 0.5s;
+    width: 150px;
 }
 
 .titles_group p {
     font-family: 'Bruno Ace SC', sans-serif;
     color: rgb(128, 128, 128);
     transition: 0.5s;
+    width: 150px;
 }
 
 .titles_group h1:hover,
@@ -297,11 +300,85 @@
 }
 
 
+.blog_part { 
+    background-color: rgb(238, 238, 238);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    grid-area: 5px;
+}
+
+.blog_part_title { 
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: 'Bruno Ace SC', sans-serif;
+    font-size: 20px;
+    color: rgb(15, 15, 15);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.blog_part_title2 { 
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: 'Bruno Ace SC', sans-serif;
+    font-size: 15px;
+    color: rgb(225, 157, 0);
+    margin-left: 20px;
+}
+
+.blog_part_paragraph { 
+    display: flex;
+    align-items: center;
+    justify-content: start;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #5d4a00 ;
+    margin-left: 20px;
+    margin: 30px;
+    margin-top: 5px;
+    text-align: left;
+
+}
+
+.darkened { 
+    background-color: rgb(198, 198, 198) ;
+    padding: 1px;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 0.45rem;
+    color: rgb(12, 12, 12);
+    margin-left: 2px;
+    margin-right: 2px;
+}
 @media (min-width: 200px) and (max-width: 700px) and (orientation: portrait) {
     .list2 {
         flex-direction: column;
         gap: 0;
     }
+
+    .blog_part_title { 
+        font-size: 20px;
+
+    }
+
+    .blog_part_title2 { 
+    font-size: 15px;
+    } 
+    .blog_part_paragraph { 
+        font-size: 10px;
+    }
+
+    .darkened { 
+        white-space: nowrap;
+        font-size: 9px;
+
+
+    } 
 }
 
 
@@ -311,4 +388,15 @@
         gap: 0;
 
     }
+
+    .blog_part_paragraph { 
+        font-size: 9px;
+
+    }
+
+    .darkened { 
+        font-size: 8px;
+
+
+    } 
 }
