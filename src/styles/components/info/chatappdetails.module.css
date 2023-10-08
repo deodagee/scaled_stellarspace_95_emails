@@ -161,8 +161,8 @@
     height: max-content;
     box-shadow: rgba(253, 253, 253, 0.174) 0px 0px 4px;
     transition: 0.4s;
-    height: 100vh;
     width: 100vw;
+    padding: 50px;
 }
 
 .list2:hover {
@@ -200,17 +200,20 @@
 }
 
 .titles_group h1 {
-    color: rgb(0, 255, 174);
+    font-family: 'Bruno Ace SC', sans-serif;
+    color: rgb(0, 206, 141);
     transition: 0.5s;
 }
 
 .titles_group h2 {
-    color: rgb(167, 167, 167);
+    font-family: 'Bruno Ace SC', sans-serif;
+    color: rgb(79, 79, 79);
     transition: 0.5s;
 }
 
 .titles_group p {
-    color: rgb(218, 218, 218);
+    font-family: 'Bruno Ace SC', sans-serif;
+    color: rgb(128, 128, 128);
     transition: 0.5s;
 }
 
@@ -238,22 +241,27 @@
     justify-content: center;
     margin: 5px;
     background-color: rgb(22, 32, 45);
-    font-size: 12px;
+    font-size: 10px;
     width: 70vw;
     padding: 5px;
     color: rgb(230, 230, 230);
     font-weight: 700;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-family: 'Bruno Ace SC', sans-serif;
+    border-radius: 0.55rem;
+
 }
 
 
 .mid_page_image {
+    margin: 5px;
     position: relative;
     width: 70vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 0.96rem;
+    box-shadow: rgb(53, 53, 53) 0px 0px 3px;
+
 }
 
 .bottom_link_list_element {
@@ -276,6 +284,8 @@
     align-content: center;
     justify-content: center;
     transition: 0.5s;
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
 }
 
 .bottom_link:hover {
@@ -284,4 +294,40 @@
     text-decoration: underline;
     transition: 0.5s;
     box-shadow: white 0px 0px 4px;
+}
+
+
+@media (min-width: 200px) and (max-width: 300px) and (orientation: portrait) {
+    .list2 {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+
+@media (min-width: 200px) and (max-width: 300px) and (orientation: landscape) {
+    .list2 {
+        flex-direction: column;
+        gap: 0;
+
+    }
+}
+
+
+
+@media (min-width: 300px) and (max-width: 400px) and (orientation: portrait) {
+    .list2 {
+        flex-direction: column;
+        gap: 0;
+
+    }
+}
+
+
+
+@media (min-width: 300px) and (max-width: 400px) and (orientation: landscape) {
+    .list2 {
+        flex-direction: column;
+        gap: 0;
+    }
 }
