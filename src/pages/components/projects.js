@@ -145,6 +145,13 @@ function Projects() {
                                             </source>
                                         </video>
                                     </li>
+                                                                        <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/info/chatappdetails'}>
+                                            <h1 className={styles.view_link_header}>View Product Details</h1>
+                                        </Link>
+                                    </li>
                                     <li>
                                         <span><Image
                                             className={styles.arrow}
@@ -189,6 +196,13 @@ function Projects() {
                                         </video>
                                     </li>
                                     <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/info/chatappdetails'}>
+                                            <h1 className={styles.view_link_header}>View Product Details</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
                                         <span><Image
                                             className={styles.arrow}
                                             alt=""
@@ -222,6 +236,13 @@ function Projects() {
                                                 type={"video/mp4"}>
                                             </source>
                                         </video>
+                                    </li>
+                                                                        <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/info/chatappdetails'}>
+                                            <h1 className={styles.view_link_header}>View Product Details</h1>
+                                        </Link>
                                     </li>
                                     <li>
                                         <span><Image
