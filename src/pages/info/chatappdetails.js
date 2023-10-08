@@ -1,11 +1,11 @@
 import { Inter } from 'next/font/google'
 import Header from '../components/header'
-import VercelPage from "../components/info/vercel.js"
+import ChatAppDetails from "../components/info/chatappdetails"
 import Footer from "../components/footer"
-import styles from "../../styles/components/info/vercel.module.css"
+import styles from "../../styles/components/info/chatappdetails.module.css"
 const inter = Inter({ subsets: ['latin'] })
 
-function threedrenders() {
+function ChatAppDetailsPage() {
   return (
     <>
     <div className={styles.front_end_apis_page}>
@@ -14,7 +14,7 @@ function threedrenders() {
       <Header></Header>
       </div>
       <div className={styles.front_end_apis_page_body}>
-      <VercelPage></VercelPage>
+      <ChatAppDetails></ChatAppDetails>
       </div>
       <div className={styles.front_end_apis_page_footer}>
       <Footer></Footer>
@@ -25,5 +25,7 @@ function threedrenders() {
   )
 }
 
-export default threedrenders;
+export default ChatAppDetailsPage;
+
+
 
