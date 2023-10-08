@@ -20,7 +20,7 @@
 
 
 .whole {
-  background: linear-gradient(to right, #161616, #191919f1, #090909);
+    background: linear-gradient(to top, #232323, #141414, #111111, #121212);
   align-items: center;
   justify-content: center;
   width: 100vw;
