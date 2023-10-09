@@ -43,6 +43,7 @@
 }
 
 .cocacola {
+  display: none;
   width: max-content;
   border-radius: 0.45rem;
   margin-top: 5vh;
