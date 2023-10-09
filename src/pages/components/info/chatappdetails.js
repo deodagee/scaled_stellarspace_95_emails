@@ -91,8 +91,8 @@ function ChatAppDetails() {
                             <div>
                                     <Image
                                     alt="iphoneiamges"
-                                    width={100}
-                                    height={100}
+                                    width={300}
+                                    height={300}
                                     src={"/iphoneimage4.png"}
                                     className={styles.iphoneimages}>
                                     </Image>
@@ -100,8 +100,8 @@ function ChatAppDetails() {
                                 <div>
                                     <Image
                                     alt="iphoneiamges"
-                                    width={100}
-                                    height={100}
+                                    width={300}
+                                    height={300}
                                     src={"/iphoneimage5.png"}
                                     className={styles.iphoneimages}>
                                     </Image>
@@ -109,8 +109,8 @@ function ChatAppDetails() {
                                 <div>
                                     <Image
                                     alt="iphoneiamges"
-                                    width={100}
-                                    height={100}
+                                    width={300}
+                                    height={300}
                                     src={"/iphoneimage6.png"}
                                     className={styles.iphoneimages}>
                                     </Image>
@@ -118,8 +118,8 @@ function ChatAppDetails() {
                                 <div>
                                     <Image
                                     alt="iphoneiamges"
-                                    width={100}
-                                    height={100}
+                                    width={300}
+                                    height={300}
                                     src={"/iphoneimage7.png"}
                                     className={styles.iphoneimages}>
                                     </Image>
