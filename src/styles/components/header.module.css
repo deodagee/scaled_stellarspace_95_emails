@@ -72,7 +72,7 @@
 
 
 .logo__signature_and_button_parent {
-  background: linear-gradient(to top, #0a0a0a, #0e0e0e, #232323f1);
+  background: linear-gradient(to top, #0e0e0e, #1e1e1e, #202020, #323232);
   display: flex;
   width: 100vw;
   justify-content: space-between;
