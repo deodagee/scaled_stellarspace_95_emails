@@ -63,6 +63,8 @@ width: 100vw;
   width: max-content;
   flex: 1;
   padding: 15px;
+  align-items: center;
+  justify-content: center;
 }
 
 .list_sections {
@@ -71,6 +73,8 @@ width: 100vw;
   list-style: none;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   gap: 50px;
 }
 
@@ -140,6 +144,10 @@ width: 100vw;
 }
 
 .pagesLinksServices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 0;
 }
 
@@ -154,11 +162,14 @@ width: 100vw;
 }
 
 .list {
+  display: block;
   width: min-content;
   text-align: center;
   list-style: none;
   padding: 0;
   margin: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .item {
@@ -256,11 +267,14 @@ transform: scale(1.2);
   }
 
   .list { 
-   width: 50px;
+   width: max-content;
   } 
+  .sectionTitle { 
+    font-size: 8px;
+  }
 
-  .sectionTitle {
-    font-size: 10px;
+  .item { 
+    font-size: 5px;
   }
 
   .avatarContact {
