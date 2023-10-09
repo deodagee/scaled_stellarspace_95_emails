@@ -20,7 +20,6 @@
 }
 
 .services_page_wrapper {
-    margin-bottom: 150px;
     width: 100vw;
     height: max-content;
     display: flex;
@@ -219,7 +218,6 @@ border-color: rgb(208, 208, 208);
     align-items: center;
     justify-content: space-evenly;
     margin-top: 50px;
-    margin-bottom: 20px;
     grid-template-columns: repeat(1, 1fr);
 
 }
