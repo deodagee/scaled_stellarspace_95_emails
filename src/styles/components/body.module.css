@@ -58,7 +58,7 @@
   flex-direction: column;
   justify-content: center;
   background-image: url("/lens.png");
-  background-size: contain;
+  background-size: 10%;
 background-position-x: 55px;
   background-repeat: no-repeat;
 }
@@ -87,7 +87,7 @@ background-position-x: 55px;
 
 .video_background_tag:hover {
 box-shadow: white 0px 0px 10px;
-transform: scale(0.45);
+transform: scale(0.405);
 transition: 0.5s;
 } 
 

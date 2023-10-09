@@ -10,7 +10,7 @@
 }
 
 .services_page_whole {
-    background: linear-gradient(to bottom, #11191e, #0c1013, #11191e);
+    background: linear-gradient(to bottom, #e9e9e9, #dcdcdc, #f8f8f8);
     width: 100vw;
     height: max-content;
     display: flex;
@@ -356,7 +356,7 @@ border-color: rgb(208, 208, 208);
 .title {
     display: flex;
     flex-direction: row;
-    color: rgb(232, 232, 232);
+    color: rgb(66, 66, 66);
     font-size: 20px;
     font-family: Teko, sans-serif;
     font-weight: 900;
