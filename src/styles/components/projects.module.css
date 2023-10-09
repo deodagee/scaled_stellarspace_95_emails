@@ -223,7 +223,6 @@
 }
 
 .video_tag {
-    height: max-content;
     width: 250px;
     border-radius: 35px;
     box-shadow: rgb(0, 193, 84) 0px 0px 5px;
@@ -300,7 +299,6 @@
 
     .video_tag {
         width: 120px;
-        height: max-content;
     }
 }
 
@@ -331,7 +329,6 @@
 
     .video_tag {
         width: 120px;
-        height: max-content;
     }
 }
 
@@ -362,7 +359,6 @@
 
     .video_tag {
         width: 120px;
-        height: max-content;
     }
 }
 
@@ -393,7 +389,6 @@
 
     .video_tag {
         width: 120px;
-        height: max-content;
     }
 }
 
@@ -427,7 +422,6 @@
 
     .video_tag {
         width: 350px;
-        height: max-content;
     }
 }
 
@@ -460,7 +454,6 @@
 
     .video_tag {
         width: 250px;
-        height: max-content;
     }
 }
 
@@ -494,9 +487,6 @@
 
     .video_tag {
         width: 350px;
-        height: max-content;
-        padding: 0;
-        margin: 0;
     }
 }
 
@@ -529,7 +519,6 @@
 
     .video_tag {
         width: 370px;
-        height: max-content;
     }
 }
 
@@ -563,7 +552,6 @@
 
     .video_tag {
         width: 450px;
-        height: max-content;
     }
 }
 
@@ -597,7 +585,6 @@
 
     .video_tag {
         width: 450px;
-        height: max-content;
     }
 }
 
@@ -631,7 +618,6 @@
 
     .video_tag {
         width: 250px;
-        height: max-content;
     }
 }
 
@@ -664,7 +650,6 @@
 
     .video_tag {
         width: 250px;
-        height: max-content;
     }
 }
 
@@ -698,7 +683,6 @@
 
     .video_tag {
         width: 300px;
-        height: max-content;
     }
 
 }
@@ -732,7 +716,6 @@
 
     .video_tag {
         width: 300px;
-        height: max-content;
     }
 
 }
@@ -768,7 +751,6 @@
 
     .video_tag {
         width: 300px;
-        height: max-content;
     }
 }
 
@@ -801,7 +783,6 @@
 
     .video_tag {
         width: 300px;
-        height: max-content;
     }
 }
 
@@ -836,7 +817,6 @@
 
     .video_tag {
         width: 300px;
-        height: max-content;
     }
 }
 
@@ -869,7 +849,6 @@
 
     .video_tag {
         width: 300px;
-        height: max-content;
     }
 
 }
