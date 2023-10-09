@@ -199,7 +199,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
     width: 100vw;
-    background: linear-gradient(to top,rgb(238, 238, 238),  rgb(193, 193, 193), rgb(200, 200, 200), rgb(238, 238, 238));
+    background: linear-gradient(to top,#080c0f,  #0b141a, #0b141a, #080c0f);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
