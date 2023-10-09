@@ -441,11 +441,13 @@
         flex-direction: row;
         width: 100vw;
         justify-content: space-between;
-
+        margin-bottom: 0vh;
+        padding-left: 0vw;
     }
 
     .logo_item_xsm {
         transform: scale(0.7);
+        margin: 5px;
     }
 
     .header_logo_xsm {
@@ -484,7 +486,7 @@
         font-size: 15px;
         flex-direction: row;
         margin-left: auto;
-        transform: scale(0.8);
+        transform: scale(0.7);
     }
 
     .promo_message_first_xsm {
@@ -582,7 +584,7 @@
         font-size: 15px;
         flex-direction: row;
         margin-left: auto;
-        transform: scale(0.8);
+        transform: scale(0.7);
     }
 
     .promo_message_first_xsm {
