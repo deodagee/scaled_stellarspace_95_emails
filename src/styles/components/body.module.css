@@ -716,7 +716,7 @@ transition: 0.5s;
 .description:hover {
   transform: scale(1.02);
   transition: 0.7s;
-  color: black;
+  color: rgb(218, 218, 218);
 }
 
 
@@ -823,7 +823,7 @@ transition: 0.5s;
 }
 
 .tabber_buttons_list {
-  width: max-content;
+  max-width: max-content ;
   margin-top: 10px;
   display: flex;
   flex-direction: row;
@@ -845,7 +845,7 @@ transition: 0.5s;
   background: linear-gradient(to top, #0c0e14, #000002, #232323f1);
   padding: 10px 20px;
   cursor: pointer;
-  width: 110px;
+  max-width: 90px;
   box-shadow: rgb(137, 137, 137) 0px 0px 8px;
   transition: 0.5s;
   border-color: rgba(255, 255, 255, 0.73);
@@ -1768,9 +1768,11 @@ transition: 0.5s;
     flex-direction: column;
   }
 
-  .tabber_buttons_list {
-    transform: scale(0.36);
+  .tabber_buttons_list { 
+    transform: scale(0.45);
   }
+
+
 
   .description {
     font-size: 9px;
@@ -2031,9 +2033,10 @@ transition: 0.5s;
     flex-direction: column;
   }
 
-  .tabber_buttons_list {
-    transform: scale(0.3);
+  .tabber_buttons_list { 
+    transform: scale(0.45);
   }
+
 
   .description {
     font-size: 9px;
@@ -2324,9 +2327,11 @@ transition: 0.5s;
     flex-direction: column;
   }
 
-  .tabber_buttons_list {
-    transform: scale(0.48);
+
+  .tabber_buttons_list { 
+    transform: scale(0.6);
   }
+
 
   .description {
     font-size: 9px;
@@ -2593,8 +2598,8 @@ transition: 0.5s;
     flex-direction: column;
   }
 
-  .tabber_buttons_list {
-    transform: scale(0.3);
+  .tabber_buttons_list { 
+    transform: scale(0.6);
   }
 
   .description {
@@ -2885,9 +2890,10 @@ transition: 0.5s;
     flex-direction: column;
   }
 
-  .tabber_buttons_list {
-    transform: scale(0.6);
+  .tabber_buttons_list { 
+    transform: scale(0.75);
   }
+
 
   .description {
     font-size: 9px;
@@ -3174,9 +3180,10 @@ transition: 0.5s;
     flex-direction: column;
   }
 
-  .tabber_buttons_list {
-    transform: scale(0.3);
+  .tabber_buttons_list { 
+    transform: scale(0.75);
   }
+
 
   .description {
     font-size: 9px;
@@ -3462,8 +3469,8 @@ transition: 0.5s;
     flex-direction: column;
   }
 
-  .tabber_buttons_list {
-    transform: scale(0.3);
+  .tabber_buttons_list { 
+    transform: scale(0.95);
   }
 
   .description {
@@ -3726,9 +3733,10 @@ transition: 0.5s;
     flex-direction: column;
   }
 
-  .tabber_buttons_list {
-    transform: scale(0.3);
+  .tabber_buttons_list { 
+    transform: scale(0.95);
   }
+
 
   .description {
     font-size: 9px;
@@ -4017,9 +4025,6 @@ transition: 0.5s;
     flex-direction: column;
   }
 
-  .tabber_buttons_list {
-    transform: scale(0.3);
-  }
 
   .description {
     font-size: 9px;
@@ -4273,10 +4278,6 @@ transition: 0.5s;
   .tabber_wrapper {
     width: 95vw;
     flex-direction: column;
-  }
-
-  .tabber_buttons_list {
-    transform: scale(0.3);
   }
 
   .description {
@@ -4561,9 +4562,6 @@ transition: 0.5s;
     flex-direction: column;
   }
 
-  .tabber_buttons_list {
-    transform: scale(0.3);
-  }
 
   .description {
     font-size: 9px;
@@ -4819,10 +4817,6 @@ transition: 0.5s;
   .tabber_wrapper {
     width: 95vw;
     flex-direction: column;
-  }
-
-  .tabber_buttons_list {
-    transform: scale(0.3);
   }
 
   .description {
@@ -5725,10 +5719,6 @@ transition: 0.5s;
     font-size: 10px;
   }
 
-  .tabber_buttons_list {
-    flex-direction: column;
-  }
-
   .thank_you {
     transform: scale(0.7);
   }
@@ -6001,10 +5991,6 @@ transition: 0.5s;
 
   .description {
     font-size: 10px;
-  }
-
-  .tabber_buttons_list {
-    flex-direction: column;
   }
 
   .thank_you {
@@ -6312,11 +6298,6 @@ transition: 0.5s;
     white-space: nowrap;
   }
 
-  .tabber_buttons_list {
-    flex-direction: column;
-  }
-
-
   .rectangle_images_wrapper {
     margin-top: 30px;
     width: max-content;
@@ -6612,10 +6593,6 @@ transition: 0.5s;
 
   .table_item {
     white-space: nowrap;
-  }
-
-  .tabber_buttons_list {
-    flex-direction: column;
   }
 
 
