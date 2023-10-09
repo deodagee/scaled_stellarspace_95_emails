@@ -495,7 +495,7 @@ function Body() {
                   </li>
                   <li className={styles.table_item}>
                     <Link
-                      href={"/more"}>
+                      href={"/info/chatappdetails"}>
                       <button className={styles.more_more_button}>
                         <p>More {" >"}</p>
                       </button>
