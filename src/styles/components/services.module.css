@@ -44,7 +44,7 @@
     grid-template-columns: repeat(5, 1fr);
     box-shadow: white 0px 0px 2px;
     background: linear-gradient(to top, rgb(234, 234, 234), rgb(199, 199, 199), rgb(230, 230, 230));
-    background-image: url("/bgwhole7.jpg");
+    background-image: url("/bgwhole20.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -81,7 +81,7 @@
     justify-content: center;
     border-width: 2px;
     border-color: rgba(248, 161, 0, 0.642);
-    background-color: rgb(33, 33, 33);
+    background-color: rgba(33, 33, 33, 0.515);
     border-radius: 0.90rem;
     border-bottom-right-radius: 35px;
     border-top-left-radius: 35px;
@@ -97,9 +97,8 @@
     border-top-left-radius: 0.90rem;
     border-bottom-left-radius: 35px;
     border-top-right-radius: 35px;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(224, 224, 224);
     transition: 0.5s;
-    background-color: rgb(20, 20, 20);
     transform: scale(1.06);
     box-shadow: black 0px 0px 8px;
 }
@@ -163,6 +162,7 @@
     display: block;
     align-items: center;
     justify-content: center;
+    
 }
 
 .image_for_video {
