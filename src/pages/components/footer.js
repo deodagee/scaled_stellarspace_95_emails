@@ -41,7 +41,7 @@ const handleImageLoad = () => {
                   />
                   <p className={styles.astrumBottomName}>Astrum Stellar</p>
                   <button className={styles.contactButton}>
-                    <p className={styles.contactParagraph}>Contact</p>
+                    <p classNsame={styles.contactParagraph}>Contact</p>
                   </button>
                 </div>
               </li>
