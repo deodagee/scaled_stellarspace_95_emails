@@ -260,7 +260,7 @@
     }
 
     .first_menubar_xsm {
-        gap: 20px;
+        gap: 10px;
         padding: 8px;
         width: 100vw;
         margin-bottom: 0px;
@@ -274,7 +274,7 @@
     }
 
     .second_menubar_xsm {
-        gap: 25px;
+        gap: 20px;
         padding: 8px;
         width: 100vw;
         margin-bottom: 0px;
@@ -361,7 +361,7 @@
     }
 
     .first_menubar_xsm {
-        gap: 20px;
+        gap: 10px;
         padding: 8px;
         width: 100vw;
         font-size: 9px;
@@ -373,7 +373,7 @@
     }
 
     .second_menubar_xsm {
-        gap: 25px;
+        gap: 20px;
         padding: 8px;
         width: 100vw;
         font-size: 9px;
@@ -461,7 +461,7 @@
 
     .first_menubar_xsm {
         gap: 3px;
-        font-size: 9px;
+        font-size: 8px;
         position: fixed;
     }
 
@@ -470,7 +470,7 @@
     }
 
     .second_menubar_xsm {
-        gap: 20px;
+        gap: 15px;
         margin-bottom: 0px;
         font-size: 9px;
     }
@@ -556,8 +556,8 @@
     }
 
     .first_menubar_xsm {
-        gap: 8px;
-        font-size: 9px;
+        gap: 3px;
+        font-size: 8px;
         position: fixed;
     }
 
@@ -566,7 +566,7 @@
     }
 
     .second_menubar_xsm {
-        gap: 20px;
+        gap: 15px;
         margin-bottom: 0px;
         font-size: 9px;
     }
@@ -657,7 +657,7 @@
     }
 
     .first_menubar_xsm {
-        gap: 35px;
+        gap: 25px;
         font-size: 9px;
         position: fixed;
     }
@@ -757,7 +757,7 @@
     }
 
     .first_menubar_xsm {
-        gap: 35px;
+        gap: 25px;
         font-size: 9px;
         position: fixed;
     }
@@ -857,7 +857,7 @@
     }
 
     .first_menubar_xsm {
-        gap: 55px;
+        gap: 75px;
         font-size: 11px;
         position: fixed;
     }
@@ -867,7 +867,7 @@
     }
 
     .second_menubar_xsm {
-        gap: 60px;
+        gap: 85px;
         font-size: 11px;
     }
 
@@ -957,7 +957,7 @@
     }
 
     .first_menubar_xsm {
-        gap: 35px;
+        gap: 75px;
         font-size: 9px;
         position: fixed;
     }
@@ -967,7 +967,7 @@
     }
 
     .second_menubar_xsm {
-        gap: 35px;
+        gap: 85px;
         font-size: 10px;
     }
 
@@ -1067,7 +1067,7 @@
     }
 
     .second_menubar_xsm {
-        gap: 100px;
+        gap: 120px;
         font-size: 11px;
     }
 
@@ -1171,7 +1171,7 @@
     }
 
     .second_menubar_xsm {
-        gap: 100px;
+        gap: 120px;
         font-size: 11px;
     }
 
