@@ -10,7 +10,7 @@
 }
 
 .services_page_whole {
-    background: linear-gradient(to right, #ededed, #efefeff1, #dedede);
+    background: linear-gradient(to bottom, #11191e, #0c1013, #11191e);
     width: 100vw;
     height: max-content;
     display: flex;
@@ -21,7 +21,7 @@
 
 .services_page_wrapper {
     margin-bottom: 150px;
-    width: max-content;
+    width: 100vw;
     height: max-content;
     display: flex;
     flex-direction: column;
@@ -44,6 +44,10 @@
     grid-template-columns: repeat(5, 1fr);
     box-shadow: white 0px 0px 2px;
     background: linear-gradient(to top, rgb(234, 234, 234), rgb(199, 199, 199), rgb(230, 230, 230));
+    background-image: url("/bgwhole7.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100vw;
     align-items: center;
     justify-content: center;
@@ -120,11 +124,12 @@
     font-family: 'Changa', sans-serif;
     font-size: 11px;
     font-weight: 600;
-    color: rgb(40, 40, 40);
-    background-color: rgb(227, 227, 227);
+    color: rgb(235, 235, 235);
+    background-color: rgb(166, 139, 0);
     border-radius: 0.85rem;
-    box-shadow: rgb(68, 68, 68) 0px 0px 10px;
+    box-shadow: rgb(167, 167, 167) 0px 0px 8px;
     border-width: 0.5px;
+    border-color: rgb(220, 180, 0);
     width: 180px;
 }
 
@@ -193,7 +198,7 @@
     border-color: rgb(82, 82, 82);
     padding-top: 40px;
     padding-bottom: 40px;
-    width: max-content;
+    width: 100vw;
     background: linear-gradient(to top,rgb(238, 238, 238),  rgb(193, 193, 193), rgb(200, 200, 200), rgb(238, 238, 238));
     background-position: center;
     background-repeat: no-repeat;
@@ -340,7 +345,7 @@
 .title {
     display: flex;
     flex-direction: row;
-    color: rgb(49, 49, 49);
+    color: rgb(232, 232, 232);
     font-size: 20px;
     font-family: Teko, sans-serif;
     font-weight: 900;
