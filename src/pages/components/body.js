@@ -471,7 +471,7 @@ function Body() {
                   </li>
                   <li className={styles.table_item}>
                     <Link
-                      href={"/prices"}>
+                      href={"/pricing"}>
                       <button className={styles.prices_more_button}>
                         <p>Prices {" >"}</p>
                       </button>
