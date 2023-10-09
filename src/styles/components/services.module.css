@@ -10,7 +10,7 @@
 }
 
 .services_page_whole {
-    background: linear-gradient(to right, #161616, #191919f1, #090909);
+    background: linear-gradient(to right, #ededed, #efefeff1, #dedede);
     width: 100vw;
     height: max-content;
     display: flex;
@@ -43,7 +43,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     box-shadow: white 0px 0px 2px;
-    background: linear-gradient(to top, rgb(14, 14, 14), rgb(17, 17, 17), rgb(22, 22, 22));
+    background: linear-gradient(to top, rgb(234, 234, 234), rgb(199, 199, 199), rgb(230, 230, 230));
     width: 100vw;
     align-items: center;
     justify-content: center;
@@ -77,19 +77,27 @@
     justify-content: center;
     border-width: 2px;
     border-color: rgba(248, 161, 0, 0.642);
-    background-color: rgba(55, 55, 55, 0.1);
-    border-radius: 0.95rem;
-    height: 200px;
+    background-color: rgb(33, 33, 33);
+    border-radius: 0.90rem;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    height: 180px;
     margin-top: 20px;
     margin-bottom: 20px;
+    box-shadow: rgb(64, 64, 64) 0px 0px 9px;
     transition: 0.5s;
 }
 
 .title_and_content_wrap:hover {
-    border-color: rgb(152, 152, 152);
+        border-bottom-right-radius: 0.90rem;
+    border-top-left-radius: 0.90rem;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-color: rgb(0, 0, 0);
     transition: 0.5s;
     background-color: rgb(20, 20, 20);
-    transform: scale(0.98);
+    transform: scale(1.06);
+    box-shadow: black 0px 0px 8px;
 }
 
 .title_and_content_wrap li {
@@ -112,8 +120,8 @@
     font-family: 'Changa', sans-serif;
     font-size: 11px;
     font-weight: 600;
-    color: rgb(222, 222, 222);
-    background-color: rgb(34, 34, 34);
+    color: rgb(40, 40, 40);
+    background-color: rgb(227, 227, 227);
     border-radius: 0.85rem;
     box-shadow: rgb(68, 68, 68) 0px 0px 10px;
     border-width: 0.5px;
@@ -186,7 +194,7 @@
     padding-top: 40px;
     padding-bottom: 40px;
     width: max-content;
-    background: linear-gradient(to top, rgb(10, 10, 10), rgb(11, 11, 11), rgb(9, 9, 9));
+    background: linear-gradient(to top,rgb(238, 238, 238),  rgb(193, 193, 193), rgb(200, 200, 200), rgb(238, 238, 238));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -205,7 +213,7 @@
     border-left: none;
     border-right: none;
     border-width: 5px;
-    background-color: rgba(26, 28, 34, 0.655);
+    background-color: rgb(19, 25, 35);
     display: flex;
     flex-direction: row;
     padding: 10px;
@@ -304,8 +312,8 @@
     color: rgb(239, 239, 239);
     border-radius: 0.45rem;
     padding: 20px;
-    border-width: 0.5px;
-    border-color: rgb(107, 107, 107);
+    border-width: 1px;
+    border-color: rgb(0, 223, 204);
     transition: 0.5s;
     margin-left: 0;
     align-items: center;
@@ -332,7 +340,7 @@
 .title {
     display: flex;
     flex-direction: row;
-    color: rgb(226, 226, 226);
+    color: rgb(49, 49, 49);
     font-size: 20px;
     font-family: Teko, sans-serif;
     font-weight: 900;
@@ -347,7 +355,7 @@
     font-size: 10px;
     padding: 10px;
     margin: 10px;
-    color: rgb(144, 144, 144);
+    color: rgb(58, 58, 58);
 }
 
 
@@ -361,8 +369,8 @@
 }
 
 .arrow {
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -377,8 +385,8 @@
 }
 
 .arrow2 {
-    height: 15px;
-    width: 15px;
+    height: 20px;
+    width: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
