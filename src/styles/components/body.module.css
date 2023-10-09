@@ -20,7 +20,7 @@
 
 
 .whole {
-  background: linear-gradient(to bottom, #141414f1, #161616 );
+  background: linear-gradient(to bottom, #d6d6d6f1, #e7e7e7f1, #ededed );
   align-items: center;
   justify-content: center;
   width: 100vw;
@@ -102,7 +102,7 @@ transition: 0.5s;
 
 .name_and_emails_wrapper {
   margin-top: 300px;
-  width: 90vw;
+  width: 100vw;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -147,7 +147,7 @@ transition: 0.5s;
   transition: 0.5s;
   width: max-content;
   border-radius: 50px;
-  box-shadow: rgb(255, 255, 255) 0px 0px 7px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 20px;
 }
 
 .avatar_image_deo:hover {
