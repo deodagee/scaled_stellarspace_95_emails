@@ -125,7 +125,6 @@ function Body() {
                     <Image
                       className={styles.avatar_image_deo}
                       width={50}
-
                       height={50}
                       alt=""
                       src="/Deo.jpg"
@@ -266,35 +265,6 @@ function Body() {
                 </li>
               </ul>
             </ul>
-
-            <div className={styles.image_and_video}>
-              
-              <div>
-              <Link 
-              href={'/projects'}>
-                <Image
-                  className={styles.cocacola}
-                  width={50}
-                  height={50}
-                  alt=""
-                  src="/cocacola2.png"
-                  onLoad={handleImageLoad}
-                >
-                </Image>
-                </Link>
-              </div>
-
-
-              <div className={styles.top_video_background}>
-                <Link
-                href={"/services"}>
-                <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_background_tag} onLoad={handleVideoLoad}>
-                  <source src="/logogreytonetriple.mp4" type="video/mp4" />
-
-                </video>
-                </Link>
-              </div>
-            </div>
 
 
             <div className={styles.container}>

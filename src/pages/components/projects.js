@@ -140,7 +140,7 @@ function Projects() {
                                         <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
                                             className={styles.video_tag}>
                                             <source
-                                                src={'/logopaperwhite.mp4'}
+                                                src={'/logogreytonetriple.mp4'}
                                                 type={"video/mp4"}>
                                             </source>
                                         </video>
