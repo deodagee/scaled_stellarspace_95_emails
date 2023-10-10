@@ -42,7 +42,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     box-shadow: white 0px 0px 2px;
-    background-color:#fafafa;
+    background: linear-gradient(to top,#dcdcdc,  #dcdcdc, #dcdcdc, #dcdcdc);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -121,25 +121,21 @@
     font-family: 'Changa', sans-serif;
     font-size: 11px;
     font-weight: 600;
-  background-color: #2b2b2b;
-transition: 0.5s;
-color: #f7f7f7;
-border-color: rgb(208, 208, 208);
-
-    
+    color: rgb(235, 235, 235);
+    background-color: rgb(166, 139, 0);
     border-radius: 0.85rem;
     box-shadow: rgb(167, 167, 167) 0px 0px 8px;
     border-width: 0.5px;
- 
+    border-color: rgb(220, 180, 0);
     width: 180px;
-
+    transition: 0.5s;
 
 }
 
 .title_wrap:hover{
-    background-color: #f7f7f7;
+    background-color: rgb(234, 234, 234);
 transition: 0.5s;
-color: #2b2b2b ;
+color: rgb(54, 54, 54);
 border-color: rgb(208, 208, 208);
 
 
