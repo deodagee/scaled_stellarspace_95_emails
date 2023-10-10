@@ -65,6 +65,11 @@ function Body() {
   }
 
 
+  const [promoVisible, setpromoVisible] = useState(true);
+  const promoCloseButtonClick = () => {
+    setpromoVisible(false); // Set isVisible to false to hide the div
+  };
+
   return (
     <>
 
@@ -74,12 +79,35 @@ function Body() {
       <div className={styles.whole}>
         <div className={styles.parent_wrapper}>
 
+
           <ol className={styles.everything_wrapper}>
 
-            <ul className={styles.name_and_emails_wrapper}>
-              <div className={styles.separatorLine}></div>
 
+
+            <ul className={styles.name_and_emails_wrapper}>
+              
+              <div className={styles.separatorLine}></div>
+              <div className={styles.promo_message_first_body} style={{ display: promoVisible ? 'inline-flex' : 'none' }}>
+                <h1>Thank you for visiting the site. I am currently renovating and changing things up so please excuse the frequently changing Ui. If you&apos;re ready to purchase, you can absolutely get 60% off everything I&apos;ve priced on the site. Log in to take part of the 70% promotions. This is only for a limited time, I will change prices back once enough clients have taken into the promotion.</h1>
+                <button className={styles.close_button} onClick={promoCloseButtonClick}><div>
+                        <Image
+                          className={styles.close_button_image}
+                          alt="closebutton"
+                          width={100}
+                          height={100}
+                          src={"/closebutton.png"}
+                        >
+                        </Image>
+                      </div>
+                      <div>
+                        <p>
+                          Close
+                        </p>
+                      </div>
+                    </button>
+              </div>
               <ul className={styles.avatar_image_items} >
+
 
 
                 <li className={styles.avatar_image_list_item}>

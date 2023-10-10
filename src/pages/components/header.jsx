@@ -16,6 +16,8 @@ function Header() {
     setImageLoaded(true);
   };
 
+  
+
   useEffect(() => {
     setTimeout(() => {
       setIsCssLoaded(true);
@@ -250,25 +252,7 @@ function Header() {
                 <div className={styles.nothing}>
                 </div>
               )}
-              <div className={`${styles.promo_message_first} ${xsmStyles.promo_message_first_xsm}`} style={{ display: promoVisible ? 'inline-flex' : 'none' }}>
-                <h1>Thank you for visiting the site. I am currently renovating and changing things up so please excuse the frequently changing Ui. If you&apos;re ready to purchase, you can absolutely get 60% off everything I&apos;ve priced on the site. Log in to take part of the 70% promotions. This is only for a limited time, I will change prices back once enough clients have taken into the promotion.</h1>
-                <button className={styles.close_button} onClick={promoCloseButtonClick}><div>
-                        <Image
-                          className={styles.close_button_image}
-                          alt="closebutton"
-                          width={100}
-                          height={100}
-                          src={"/closebutton.png"}
-                        >
-                        </Image>
-                      </div>
-                      <div>
-                        <p>
-                          Close
-                        </p>
-                      </div>
-                    </button>
-              </div>
+
             </ol>
 
 
