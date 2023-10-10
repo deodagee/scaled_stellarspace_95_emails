@@ -240,63 +240,6 @@
   flex-direction: row;
 }
 
-.promo_message_first{
-  position: absolute; 
-  margin-top: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(194, 194, 194, 0.699);
-  border-width: 1px;
-  border-color: orange;
-  width: 90vw;
-  height: 250px;
-  padding: 10px;
-  font-weight: 400;
-  font-size: 11px;
-  text-align: center;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.promo_message_first h1{ 
-
-  text-align: left;
-  background-color: rgba(167, 114, 0, 0.762);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 10px;
-  border-radius: 0.45rem;
-  color: rgb(245, 245, 245);
-}
-
-.close_button  {
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-  align-items: center;
-  gap: 5px;
-  justify-content: center;
-  margin-top: 200px;
-  margin-left: 20px;
-  background-color: black;
-  border-radius: 0.15rem;
-  box-shadow: white 0px 0px 4px;
-  padding: 10px;
-  transition: 0.5s;
-}
-.close_button_image{ 
-  width: 10px;
-  height: 10px;
-}
-
-.close_button:hover { 
-  background-color: black;
-  transition: 0.5s;
-  transform: scale(1.05);
-}
-
-.promo_code { 
-  color: rgb(237, 197, 52);
-}
 
 .register_button {
   color: rgb(40, 40, 40);

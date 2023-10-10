@@ -51,6 +51,68 @@
   transform: scale(0.9);
   transition: 0.4s;
 }
+
+.promo_message_first_body { 
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  height: 250px;
+  background-color: rgba(194, 194, 194, 0.87);
+  border-width: 1px;
+  border-color: orange;
+  padding: 20px;
+  z-index: 90;
+}
+
+.promo_message_first_body h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: rgba(167, 114, 0, 0.762);
+padding: 10px;
+border-radius: 0.45rem;
+color: rgb(245, 245, 245);
+}
+
+.close_button  {
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  margin-left: 20px;
+  background-color: black;
+  border-radius: 0.15rem;
+  box-shadow: white 0px 0px 4px;
+  padding: 10px;
+  transition: 0.5s;
+  margin-top: 190px;
+  color: white;
+}
+
+.close_button_image{ 
+  width: 10px;
+  height: 10px;
+}
+
+.close_button:hover { 
+  background-color: black;
+  transition: 0.5s;
+  transform: scale(1.05);
+}
+
+.promo_code { 
+  color: rgb(237, 197, 52);
+}
 .image_and_video  { 
   width: 100vw;
   display: flex;
