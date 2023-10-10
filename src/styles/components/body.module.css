@@ -58,13 +58,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 90vw;
-  height: 250px;
-  background-color: rgba(194, 194, 194, 0.87);
+  height: 200px;
+  width: 500px;
+  background-color: rgba(227, 227, 227, 0.87);
   border-width: 1px;
   border-color: orange;
   padding: 20px;
   z-index: 90;
+  gap: 10px;
 }
 
 .promo_message_first_body h1{
@@ -79,13 +80,13 @@ background-color: rgba(167, 114, 0, 0.762);
 padding: 10px;
 border-radius: 0.45rem;
 color: rgb(245, 245, 245);
+margin: 0;
 }
 
 .close_button  {
   width: max-content;
   display: flex;
   flex-direction: row;
-  position: absolute;
   align-items: center;
   gap: 5px;
   justify-content: center;
@@ -95,7 +96,6 @@ color: rgb(245, 245, 245);
   box-shadow: white 0px 0px 4px;
   padding: 10px;
   transition: 0.5s;
-  margin-top: 190px;
   color: white;
 }
 
@@ -164,7 +164,7 @@ transition: 0.5s;
 }
 
 .name_and_emails_wrapper {
-  margin-top: 100px;
+  margin-top: 200px;
   width: 100vw;
   align-items: center;
   display: flex;
@@ -206,7 +206,7 @@ transition: 0.5s;
 }
 
 .avatar_image_deo {
-  margin-top: -80px;
+  margin-top: -250px;
   margin-bottom: 20px;
   transition: 0.5s;
   width: max-content;
@@ -1700,6 +1700,10 @@ transition: 0.5s;
     padding: 0;
   }
 
+  .promo_message_first_body { 
+ transform: scale(0.6);
+  }
+
   .name_and_emails_wrapper {
   }
 
@@ -1994,6 +1998,10 @@ transition: 0.5s;
     align-items: center;
     padding: 0;
   }
+  
+  .promo_message_first_body { 
+    transform: scale(0.6);
+     }
 
   .name_and_emails_wrapper {
   }
@@ -2259,6 +2267,9 @@ transition: 0.5s;
     padding: 0;
   }
 
+  .promo_message_first_body { 
+    transform: scale(0.7);
+     }
 
 
   .name_and_emails_wrapper {
@@ -2552,6 +2563,9 @@ transition: 0.5s;
     padding: 0;
   }
 
+  .promo_message_first_body { 
+    transform: scale(0.7);
+     }
 
   .name_and_emails_wrapper {
   }
@@ -2822,6 +2836,9 @@ transition: 0.5s;
     padding: 0;
   }
 
+  .promo_message_first_body { 
+    transform: scale(0.8);
+     }
 
   .name_and_emails_wrapper {
   }
@@ -3110,6 +3127,10 @@ transition: 0.5s;
     align-items: center;
     padding: 0;
   }
+
+  .promo_message_first_body { 
+    transform: scale(0.8);
+     }
 
   .name_and_emails_wrapper {
   }
@@ -3403,6 +3424,9 @@ transition: 0.5s;
     padding: 0;
   }
 
+  .promo_message_first_body { 
+ transform: scale(0.8);
+  }
   .name_and_emails_wrapper {
   }
 
@@ -3689,6 +3713,9 @@ transition: 0.5s;
     padding: 0;
   }
 
+  .promo_message_first_body { 
+    transform: scale(0.8);
+     }
   .name_and_emails_wrapper {
   }
 
@@ -9209,7 +9236,7 @@ transition: 0.5s;
 
   .credentials {
     width: 100vw;
-    transform: scale(0.7);
+    transform: scale(0.6);
     gap: 20px;
     margin-bottom: 0;
   }
