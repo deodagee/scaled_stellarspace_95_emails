@@ -65,11 +65,9 @@
   transition: 0.6s;
 }
 
-
 .parent_wrapper_margin {
   transition: 0.6s;
 }
-
 
 .logo__signature_and_button_parent {
   background: linear-gradient(to top, #0e0e0e, #1e1e1e, #202020, #323232);
@@ -147,12 +145,11 @@
   cursor: pointer;
 }
 
-
 .first_menubar {
   gap: 10vw;
   width: 100vw;
   display: flex;
-  font-size: 11px;
+  font-size: 9px;
   font-family: 'Skranji', cursive;
   font-weight: 700;
   flex-direction: row;
@@ -168,7 +165,6 @@
   position: fixed;
   text-decoration: underline;
   transition: 0.8s;
-
 }
 
 .first_menubar p:hover {
@@ -182,7 +178,6 @@
   color:#f0f0f0;
   background: linear-gradient(to top, #171717, #191919);
     box-shadow: rgb(255, 255, 255) 0px 0px 5px;
-
 }
 
 .second_menubar {
@@ -208,7 +203,6 @@
   border-width: 1px;
   box-shadow: rgb(255, 255, 255) 0px 0px 3px;
   transition: 0.5s;
-
 }
 
 .second_menubar:hover {
@@ -216,8 +210,6 @@
   background-color: rgb(31, 31, 31);
   transition: 0.5s;
   box-shadow: rgb(255, 255, 255) 0px 0px 5px;
-
-
 }
 
 .second_menubar p {
@@ -249,25 +241,62 @@
 }
 
 .promo_message_first{
-  margin-top: 30px;
-  position: relative; 
+  position: absolute; 
+  margin-top: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(35, 35, 35);
-  width: 90vw;
+  background-color: rgba(35, 35, 35, 0.699);
+  border-width: 1px;
+  border-color: orange;
+  width: 60vw;
+  height: 180px;
   padding: 10px;
-  font-size: 10px;
   font-weight: 400;
+  font-size: 11px;
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.promo_message_first h1{ 
+
+  text-align: left;
+  background-color: rgba(167, 114, 0, 0.762);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  border-radius: 0.45rem;
+  color: rgb(245, 245, 245);
+}
+
+.close_button  {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 120px;
+  margin-left: 20px;
+  background-color: black;
+  border-radius: 0.15rem;
+  box-shadow: white 0px 0px 4px;
+  padding: 10px;
+  transition: 0.5s;
+}
+.close_button_image{ 
+  width: 10px;
+  height: 10px;
+}
+
+.close_button:hover { 
+  background-color: black;
+  transition: 0.5s;
+  transform: scale(1.05);
 }
 
 .promo_code { 
   color: rgb(237, 197, 52);
 }
-
-
 
 .register_button {
   color: rgb(40, 40, 40);
@@ -284,7 +313,6 @@
   border-radius: 0.99rem;
   transition: 0.6s;
 }
-
 
 .register_button:hover {
   color: rgb(224, 224, 224);
@@ -310,10 +338,10 @@
   transition: 0.6s;
 }
 
-
 .login_button:hover {
   color: rgb(227, 227, 227);
   background: linear-gradient(to top, #0a0a0a, #0e0e0e, #232323f1);
   transition: 0.6s;
   box-shadow: white 0px 0px 5px;
 }
+
