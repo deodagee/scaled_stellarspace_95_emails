@@ -224,6 +224,8 @@
 }
 
 .promo_message_first { 
+  align-items: center;
+  justify-content: center;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.077);
   color: white;
