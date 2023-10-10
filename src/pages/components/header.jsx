@@ -235,7 +235,6 @@ function Header() {
                 <div className={styles.nothing}>
                 </div>
               )}
-
             </ol>
 
 
