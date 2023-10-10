@@ -86,7 +86,7 @@
     height: 180px;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: rgb(64, 64, 64) 0px 0px 9px;
+    box-shadow: rgb(164, 164, 164) 0px 0px 5px;
     transition: 0.5s;
 }
 
@@ -95,10 +95,10 @@
     border-top-left-radius: 0.90rem;
     border-bottom-left-radius: 35px;
     border-top-right-radius: 35px;
-    border-color: rgba(164, 107, 0, 0.642);
+    border-color: rgba(248, 161, 0, 0.642);
     transition: 0.5s;
-    transform: scale(1.06);
-    box-shadow: black 0px 0px 8px;
+    transform: scale(1.05);
+    box-shadow: rgb(255, 255, 255) 0px 0px 5px;
 }
 
 .title_and_content_wrap li {
@@ -360,6 +360,12 @@ border-color: rgb(208, 208, 208);
     font-weight: 900;
     margin-top: 20px;
     margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.title:hover {
+    transition: 0.5s;
+color: rgb(121, 121, 121);
 }
 
 
