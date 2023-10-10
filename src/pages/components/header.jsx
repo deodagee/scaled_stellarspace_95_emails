@@ -227,7 +227,7 @@ function Header() {
 
               {session ? (
                 <>
-                  <div className={`${styles.promo_message_first} ${xsmStyles.promo_message_first_xsm}`} style={{ display: promoVisible ? 'inline-flex' : 'none' }}>
+                  <div className={`${styles.promo_message_first} ${xsmStyles.promo_message_first_xsm}`} style={{ display: promoVisible ? 'block' : 'none' }}>
                     <p>Congratulations! You&apos;ve earned a higher rebate for signing in. Mention promo code: <span className={styles.promo_code}>&quot;STELLAR19950202&quot; </span> when you send your request to get 70% off</p>
                     <button className={styles.close_button} onClick={promoCloseButtonClick}>
                       <div>
