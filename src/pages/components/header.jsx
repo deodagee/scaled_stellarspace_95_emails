@@ -174,82 +174,7 @@ function Header() {
                       SITE MENU
                     </p>
                   </li>
-                  <li className={styles.first_menubar_item}>
-                    <Image
-                      className={styles.menu_chevron_image} aria-label="menutoggler"
-                      alt="menu_toggler"
-                      width={100}
-                      height={100}
-                      src={"/chevron.png"}
-                    >
-                    </Image>
-                    <Link href={'/info/privatedomains'}>
-                      <p className={styles.promo1}>
-                        Private Domains?
-                      </p>
-                    </Link>
-                  </li>
-                  <li className={styles.first_menubar_item}>
-                    <Image
-                      className={styles.menu_chevron_image} aria-label="menutoggler"
-                      alt="menu_toggler"
-                      width={100}
-                      height={100}
-                      src={"/chevron.png"}
-                    >
-                    </Image>
-                    <Link href={'/info/applicationinterfaces'}>
-                      <p className={styles.promo2}>
-                        Application Interfaces?
-                      </p>
-                    </Link>
-                  </li>
-                  <li className={styles.first_menubar_item}>
-                    <Image
-                      className={styles.menu_chevron_image} aria-label="menutoggler"
-                      alt="menu_toggler"
-                      width={100}
-                      height={100}
-                      src={"/chevron.png"}
-                    >
-                    </Image>
-                    <Link href={'/info/threedrenders'}>
-                      <p className={styles.promo3}>
-                        3D Renders?
-                      </p>
-                    </Link>
-                  </li>
-                  <li className={styles.first_menubar_item}>
-                    <Image
-                      className={styles.menu_chevron_image} aria-label="menutoggler"
-                      alt="menu_toggler"
-                      width={100}
-                      height={100}
-                      src={"/chevron.png"}
-                    >
-                    </Image>
-                    <Link href={'/info/vercel'}>
-                      <p className={styles.promo4}>
-                        Vercel?
-                      </p>
-                    </Link>
-                  </li>
-                  <li className={styles.first_menubar_item}>
-                    <Image
-                      className={styles.menu_chevron_image} aria-label="menutoggler"
-                      alt="menu_toggler"
-                      width={100}
-                      height={100}
-                      src={"/chevron.png"}
-                    >
-                    </Image>
-                    <Link href={'/info/hostgatorvercel'}>
-                      <p className={styles.promo4}>
-                        Hostgator/Bluehost?
-                      </p>
-                    </Link>
-                  </li>
-                  <li className={styles.first_menubar_item}>
+                                    <li className={styles.first_menubar_item}>
                     <Image
                       className={styles.menu_chevron_image} aria-label="menutoggler"
                       alt="menu_toggler"
@@ -346,6 +271,82 @@ function Header() {
                       </p>
                     </Link>
                   </li>
+                  <li className={styles.first_menubar_item}>
+                    <Image
+                      className={styles.menu_chevron_image} aria-label="menutoggler"
+                      alt="menu_toggler"
+                      width={100}
+                      height={100}
+                      src={"/chevron.png"}
+                    >
+                    </Image>
+                    <Link href={'/info/privatedomains'}>
+                      <p className={styles.promo1}>
+                        Private Domains?
+                      </p>
+                    </Link>
+                  </li>
+                  <li className={styles.first_menubar_item}>
+                    <Image
+                      className={styles.menu_chevron_image} aria-label="menutoggler"
+                      alt="menu_toggler"
+                      width={100}
+                      height={100}
+                      src={"/chevron.png"}
+                    >
+                    </Image>
+                    <Link href={'/info/applicationinterfaces'}>
+                      <p className={styles.promo2}>
+                        Application Interfaces?
+                      </p>
+                    </Link>
+                  </li>
+                  <li className={styles.first_menubar_item}>
+                    <Image
+                      className={styles.menu_chevron_image} aria-label="menutoggler"
+                      alt="menu_toggler"
+                      width={100}
+                      height={100}
+                      src={"/chevron.png"}
+                    >
+                    </Image>
+                    <Link href={'/info/threedrenders'}>
+                      <p className={styles.promo3}>
+                        3D Renders?
+                      </p>
+                    </Link>
+                  </li>
+                  <li className={styles.first_menubar_item}>
+                    <Image
+                      className={styles.menu_chevron_image} aria-label="menutoggler"
+                      alt="menu_toggler"
+                      width={100}
+                      height={100}
+                      src={"/chevron.png"}
+                    >
+                    </Image>
+                    <Link href={'/info/vercel'}>
+                      <p className={styles.promo4}>
+                        Vercel?
+                      </p>
+                    </Link>
+                  </li>
+                  <li className={styles.first_menubar_item}>
+                    <Image
+                      className={styles.menu_chevron_image} aria-label="menutoggler"
+                      alt="menu_toggler"
+                      width={100}
+                      height={100}
+                      src={"/chevron.png"}
+                    >
+                    </Image>
+                    <Link href={'/info/hostgatorvercel'}>
+                      <p className={styles.promo4}>
+                        Hostgator/Bluehost?
+                      </p>
+                    </Link>
+                  </li>
+
                 </ul>
               </ul>
             </ol>
