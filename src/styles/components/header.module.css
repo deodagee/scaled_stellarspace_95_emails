@@ -223,6 +223,12 @@
   text-decoration: underline;
 }
 
+.promo_message_first { 
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.077);
+  color: white;
+}
+
 .buttons {
   margin-top: 10px;
   display: flex;
