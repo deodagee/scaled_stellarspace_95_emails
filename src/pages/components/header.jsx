@@ -25,7 +25,7 @@ function Header() {
 
   const [isVisible, setIsVisible] = useState(true);
   const [promoVisible, setpromoVisible] = useState(true);
-  const [menuVisible, setmenuVisible] = useState(true);
+  const [menuVisible, setmenuVisible] = useState(false);
 
 
 
