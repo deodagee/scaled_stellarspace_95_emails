@@ -168,7 +168,7 @@ function Header() {
                     </Image>
                   </button>
                 </li>
-                <ul className={styles.first_menubar} style={{ display: menuVisible ? 'inline-flex' : 'none' }}>
+                <ul className={styles.first_menubar} style={{ display: menuVisible ? '' : 'none' }}>
                   <li className={styles.first_menubar_item}>
                     <p className={styles.menulist_title}>
                       SITE MENU
@@ -234,8 +234,6 @@ function Header() {
                       </p>
                     </Link>
                   </li>
-
-
                   <li className={styles.first_menubar_item}>
                     <Image
                       className={styles.menu_chevron_image} aria-label="menutoggler"
@@ -251,8 +249,6 @@ function Header() {
                       </p>
                     </Link>
                   </li>
-
-
                   <li className={styles.first_menubar_item}>
                     <Image
                       className={styles.menu_chevron_image} aria-label="menutoggler"
