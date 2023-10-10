@@ -136,8 +136,6 @@ function Header() {
                   ) : (
                     <>
                       <li>
-                        <Link className={styles.avatar_and_tag}
-                          href={'/info/loginpage'}>
                           <Image
                             className={styles.login_avatar} aria-label="loginavatar"
                             alt="login_avatar"
@@ -146,11 +144,9 @@ function Header() {
                             src={"/loginavatar.png"}
                           >
                           </Image>
-                          <button className={styles.login_button}>
-
+                          <button className={styles.login_button} onClick={() => signIn('google')('github')}>
                             <p>Sign In</p>
                           </button>
-                        </Link>
                       </li>
                     </>
                   )}
