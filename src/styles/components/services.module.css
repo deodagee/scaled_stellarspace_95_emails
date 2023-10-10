@@ -42,7 +42,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     box-shadow: white 0px 0px 2px;
-    background: linear-gradient(to top, rgb(19, 19, 19), rgb(23, 23, 23), rgb(29, 29, 29));
+    background: linear-gradient(to top,#dcdcdc,  #dcdcdc, #dcdcdc, #dcdcdc);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
