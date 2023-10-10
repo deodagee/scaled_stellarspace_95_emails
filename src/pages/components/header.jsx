@@ -1,5 +1,4 @@
 import styles from "../../styles/components/header.module.css";
-import xsmStyles from "../../styles/components/header_xsm_mobile.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { useSession, signIn, signOut } from "next-auth/react"
@@ -16,7 +15,7 @@ function Header() {
     setImageLoaded(true);
   };
 
-  
+
 
   useEffect(() => {
     setTimeout(() => {
@@ -26,6 +25,7 @@ function Header() {
 
   const [isVisible, setIsVisible] = useState(true);
   const [promoVisible, setpromoVisible] = useState(true);
+  const [menuVisible, setmenuVisible] = useState(true);
 
 
 
@@ -49,7 +49,16 @@ function Header() {
 
 
   const promoCloseButtonClick = () => {
-    setpromoVisible(false); // Set isVisible to false to hide the div
+    setpromoVisible(false);
+  };
+
+
+
+  const hideMenu = () => {
+    setmenuVisible(false);
+  };
+  const showMenu = () => {
+    setmenuVisible(true);
   };
 
 
@@ -62,23 +71,23 @@ function Header() {
 
         <link className={styles.favicon} height={100} width={100} rel="icon" href="/logoblack.ico" type="image/x-icon" />
         <link rel="stylesheet" href={"/styles/components/header.module.css"} />
-        <link rel="stylesheet" href={"/styles/components/header_xsm_mobile.module.css"} />
       </Head>
 
       {!isCssLoaded && <Loading />} {/* Show loading screen while CSS is not loaded */}
       {isCssLoaded && (
 
-        <div className={`${styles.parent} ${xsmStyles.parent_xsm}`}>
-          <div className={`${styles.parent_wrapper} ${xsmStyles.parent_wrapper_xsm} ${isVisible ? '' : styles.parent_wrapper_margin}`}>
-            <ol className={`${styles.logo__signature_and_button_parent} ${xsmStyles.logo__signature_and_button_parent_xsm}`}>
+        <div className={styles.parent}>
+          <div className={`${styles.parent_wrapper} ${isVisible ? '' : styles.parent_wrapper_margin}`}>
+            <ol className={styles.logo__signature_and_button_parent}>
 
 
-              <ul className={`${styles.logo_and_signature} ${xsmStyles.logo_and_signature_xsm}`}>
-                <li className={`${styles.logo_item} ${xsmStyles.logo_item_xsm}`}>
+              <ul className={styles.logo_and_signature}>
+
+                <li className={styles.logo_item}>
                   <Link
                     href={"/"}>
                     <Image
-                      className={`${styles.header_logo} ${xsmStyles.header_logo_xsm}`}
+                      className={styles.header_logo}
                       alt=""
                       width={50}
                       height={50}
@@ -91,7 +100,7 @@ function Header() {
                 <li className={styles.signature_item}>
                   <Link href={"/"}>
                     <Image
-                      className={`${styles.header_signature} ${xsmStyles.header_signature_xsm}`} aria-label="signature"
+                      className={styles.header_signature} aria-label="signature"
                       alt=""
                       width={200}
                       height={200}
@@ -102,132 +111,253 @@ function Header() {
                 </li>
               </ul>
 
-
-
-              <ol className={`${styles.buttons} ${xsmStyles.buttons_xsm}`}>
-                <ul className={styles.login_logout_list}>
+              <ul className={styles.buttons}>
+                <li className={styles.login_logout_list_item}>
                   {session ? (
                     <>
-
-                      <li className={styles.register_button_item}>
-                        <button className={`${styles.logout_button_item} ${xsmStyles.register_button_xsm}`} onClick={() => signOut('github')()}>
-                          <p>Logout</p>
-                        </button>
+                      <li className={styles.avatar_and_tag}>
+                        <div className={styles.login_avatar} >
+                          <Image
+                            className={styles.login_avatar} aria-label="loginavatar"
+                            alt="login_avatar"
+                            width={100}
+                            height={100}
+                            src={"/loginavatar.png"}
+                          >
+                          </Image>
+                        </div>
+                        <div>
+                          <button className={styles.login_button} onClick={() => signOut('github')()}>
+                            <p>Logout</p>
+                          </button>
+                        </div>
                       </li>
                     </>
                   ) : (
                     <>
-                      <li className={styles.logout_button_item}>
-                        <button className={`${styles.login_button} ${xsmStyles.login_button_xsm}`} onClick={() => signIn('google')}>
-                          <p>Google signIn</p>
-                        </button>
-                      </li>
-                      <li className={styles.logout_button_item}>
-                        <button className={`${styles.login_button} ${xsmStyles.login_button_xsm}`} onClick={() => signIn('github')}>
-                          <p>GitHub signIn</p>
-                        </button>
+                      <li>
+                        <Link className={styles.avatar_and_tag}
+                          href={'/info/loginpage'}>
+                          <Image
+                            className={styles.login_avatar} aria-label="loginavatar"
+                            alt="login_avatar"
+                            width={100}
+                            height={100}
+                            src={"/loginavatar.png"}
+                          >
+                          </Image>
+                          <button className={styles.login_button}>
+
+                            <p>Sign In</p>
+                          </button>
+                        </Link>
                       </li>
                     </>
                   )}
+                </li>
+                <li>
+                  <button className={styles.menu_toggler_button}
+                    onClick={menuVisible ? hideMenu : showMenu} >
+                    <Image
+                      className={styles.menu_toggler_image} aria-label="menutoggler"
+                      alt="menu_toggler"
+                      width={100}
+                      height={100}
+                      src={"/menubarblue.png"}
+                    >
+                    </Image>
+                  </button>
+                </li>
+                <ul className={styles.first_menubar} style={{ display: menuVisible ? 'inline-flex' : 'none' }}>
+                  <li className={styles.first_menubar_item}>
+                    <p className={styles.menulist_title}>
+                      SITE MENU
+                    </p>
+                  </li>
+                  <li className={styles.first_menubar_item}>
+                    <Image
+                      className={styles.menu_chevron_image} aria-label="menutoggler"
+                      alt="menu_toggler"
+                      width={100}
+                      height={100}
+                      src={"/chevron.png"}
+                    >
+                    </Image>
+                    <Link href={'/info/privatedomains'}>
+                      <p className={styles.promo1}>
+                        Private Domains?
+                      </p>
+                    </Link>
+                  </li>
+                  <li className={styles.first_menubar_item}>
+                    <Image
+                      className={styles.menu_chevron_image} aria-label="menutoggler"
+                      alt="menu_toggler"
+                      width={100}
+                      height={100}
+                      src={"/chevron.png"}
+                    >
+                    </Image>
+                    <Link href={'/info/applicationinterfaces'}>
+                      <p className={styles.promo2}>
+                        Application Interfaces?
+                      </p>
+                    </Link>
+                  </li>
+                  <li className={styles.first_menubar_item}>
+                    <Image
+                      className={styles.menu_chevron_image} aria-label="menutoggler"
+                      alt="menu_toggler"
+                      width={100}
+                      height={100}
+                      src={"/chevron.png"}
+                    >
+                    </Image>
+                    <Link href={'/info/threedrenders'}>
+                      <p className={styles.promo3}>
+                        3D Renders?
+                      </p>
+                    </Link>
+                  </li>
+                  <li className={styles.first_menubar_item}>
+                    <Image
+                      className={styles.menu_chevron_image} aria-label="menutoggler"
+                      alt="menu_toggler"
+                      width={100}
+                      height={100}
+                      src={"/chevron.png"}
+                    >
+                    </Image>
+                    <Link href={'/info/vercel'}>
+                      <p className={styles.promo4}>
+                        Vercel?
+                      </p>
+                    </Link>
+                  </li>
+
+
+                  <li className={styles.first_menubar_item}>
+                    <Image
+                      className={styles.menu_chevron_image} aria-label="menutoggler"
+                      alt="menu_toggler"
+                      width={100}
+                      height={100}
+                      src={"/chevron.png"}
+                    >
+                    </Image>
+                    <Link href={'/info/hostgatorvercel'}>
+                      <p className={styles.promo4}>
+                        Hostgator/Bluehost?
+                      </p>
+                    </Link>
+                  </li>
+
+
+                  <li className={styles.first_menubar_item}>
+                    <Image
+                      className={styles.menu_chevron_image} aria-label="menutoggler"
+                      alt="menu_toggler"
+                      width={100}
+                      height={100}
+                      src={"/chevron.png"}
+                    >
+                    </Image>
+                    <Link href={'/'}>
+                      <p className={styles.promo4}>
+                        Home
+                      </p>
+                    </Link>
+                  </li>
+
+
+                  <li className={styles.first_menubar_item}>
+                    <Image
+                      className={styles.menu_chevron_image} aria-label="menutoggler"
+                      alt="menu_toggler"
+                      width={100}
+                      height={100}
+                      src={"/chevron.png"}
+                    >
+                    </Image>
+                    <Link href={'/services'}>
+                      <p className={styles.promo4}>
+                        Services
+                      </p>
+                    </Link>
+                  </li>
+
+                  <li className={styles.first_menubar_item}>
+                    <Image
+                      className={styles.menu_chevron_image} aria-label="menutoggler"
+                      alt="menu_toggler"
+                      width={100}
+                      height={100}
+                      src={"/chevron.png"}
+                    >
+                    </Image>
+                    <Link href={'/pricing'}>
+                      <p className={styles.promo4}>
+                        Pricing
+                      </p>
+                    </Link>
+                  </li>
+
+                  <li className={styles.first_menubar_item}>
+                    <Image
+                      className={styles.menu_chevron_image} aria-label="menutoggler"
+                      alt="menu_toggler"
+                      width={100}
+                      height={100}
+                      src={"/chevron.png"}
+                    >
+                    </Image>
+                    <Link href={'/projects'}>
+                      <p className={styles.promo4}>
+                        Projects
+                      </p>
+                    </Link>
+                  </li>
+
+
+                  <li className={styles.first_menubar_item}>
+                    <Image
+                      className={styles.menu_chevron_image} aria-label="menutoggler"
+                      alt="menu_toggler"
+                      width={100}
+                      height={100}
+                      src={"/chevron.png"}
+                    >
+                    </Image>
+                    <Link href={'/contact'}>
+                      <p className={styles.promo4}>
+                        Contact Me
+                      </p>
+                    </Link>
+                  </li>
+
+                  <li className={styles.first_menubar_item}>
+                    <Image
+                      className={styles.menu_chevron_image} aria-label="menutoggler"
+                      alt="menu_toggler"
+                      width={100}
+                      height={100}
+                      src={"/chevron.png"}
+                    >
+                    </Image>
+                    <Link href={'https://github.com/deodagee?tab=repositories'}>
+                      <p className={styles.promo4}>
+                        Source Code
+                      </p>
+                    </Link>
+                  </li>
                 </ul>
-              </ol>
+              </ul>
             </ol>
-            <ol className={styles.menu_bars_wrapper}>
-              <ul className={`${styles.first_menubar} ${xsmStyles.first_menubar_xsm}`} style={{ display: isVisible ? 'inline-flex' : 'none' }}>
-                <li className={styles.first_menubar_item}>
-                  <Link href={'/info/privatedomains'}>
-                    <p className={styles.promo1}>
-                      Private Domains?
-                    </p>
-                  </Link>
-                </li>
-                <li className={styles.first_menubar_item}>
-                  <Link href={'/info/applicationinterfaces'}>
-                    <p className={styles.promo2}>
-                      Application Interfaces?
-                    </p>
-                  </Link>
-                </li>
-                <li className={styles.first_menubar_item}>
-                  <Link href={'/info/threedrenders'}>
-                    <p className={styles.promo3}>
-                      3D Renders?
-                    </p>
-                  </Link>
-                </li>
-                <li className={styles.first_menubar_item}>
-                  <Link href={'/info/vercel'}>
-                    <p className={styles.promo4}>
-                      Vercel?
-                    </p>
-                  </Link>
-                </li>
-                <li className={styles.first_menubar_item}>
-                  <Link href={'/info/hostgatorvercel'}>
-                    <p className={styles.promo4}>
-                      Hostgator/Bluehost?
-                    </p>
-                  </Link>
-                </li>
 
-              </ul>
-
-
-              <ul className={`${styles.second_menubar} ${xsmStyles.second_menubar_xsm}`}>
-
-                <li className={styles.menuitem}>
-                  <Link legacyBehavior
-                    href="/"
-                  >
-                    <p className={styles.second_menubar_item}>Home</p>
-                  </Link >
-                </li>
-
-                <li className={styles.menuitem}>
-                  <Link legacyBehavior
-                    href="/services"
-                  >
-                    <p className={styles.second_menubar_item}>Services</p>
-                  </Link>
-                </li>
-
-                <li className={styles.menuitem}>
-                  <Link legacyBehavior
-                    href="/pricing"
-                  >
-                    <p className={styles.second_menubar_item}>Pricing</p>
-                  </Link>
-                </li>
-
-                <li className={styles.menuitem}>
-                  <Link legacyBehavior
-                    href="/projects"
-                  >
-                    <p className={styles.second_menubar_item}>Projects</p>
-                  </Link>
-                </li>
-
-                <li className={styles.menuitem}>
-                  <Link legacyBehavior
-                    href="/contact"
-                  >
-                    <p className={styles.second_menubar_item}>Contact Me</p>
-                  </Link>
-                </li>
-
-                <li className={styles.menuitem}>
-                  <Link legacyBehavior
-                    href="https://github.com/deodagee?tab=repositories"
-                  >
-                    <p className={styles.second_menubar_item}>Source Code</p>
-                  </Link>
-                </li>
-
-              </ul>
-
+            <ol className={styles.promos}>
               {session ? (
                 <>
-                  <div className={`${styles.promo_message_first} ${xsmStyles.promo_message_first_xsm}`} style={{ display: promoVisible ? 'block' : 'none' }}>
+                  <div className={styles.promo_message_first} style={{ display: promoVisible ? 'block' : 'none' }}>
                     <p>Congratulations! You&apos;ve earned a higher rebate for signing in. Mention promo code: <span className={styles.promo_code}>&quot;STELLAR19950202&quot; </span> when you send your request to get 70% off</p>
                   </div>
                 </>
@@ -235,8 +365,10 @@ function Header() {
                 <div className={styles.nothing}>
                 </div>
               )}
+              <div className={styles.promo_message_first} style={{ display: promoVisible ? 'block' : 'none' }}>
+                <p>Congratulations! You&apos;ve earned a higher rebate for signing in. Mention promo code: <span className={styles.promo_code}>&quot;STELLAR19950202&quot; </span> when you send your request to get 70% off</p>
+              </div>
             </ol>
-
 
           </div>
         </div>
