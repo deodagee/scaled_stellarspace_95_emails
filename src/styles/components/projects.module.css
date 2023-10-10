@@ -470,10 +470,10 @@
 
 @media (min-width: 400px) and (max-width: 500px) and (orientation: portrait) {
     .title h1 {
-        width: 350px;
+        width: 300px;
     } 
     .description_list_element_wrapper {
-        width: 350px;
+        width: 300px;
     }
 
     .description_list_element {
@@ -484,7 +484,7 @@
     }
 
     .list2 {
-        width: 395px;
+        width: 350px;
         height: 550px;
     }
 
@@ -496,16 +496,16 @@
     }
 
     .video_tag {
-        width: 350px;
+        width: 300px;
     }
 }
 
 @media (min-width: 400px) and (max-width: 500px) and (orientation: landscape) {
     .title h1 {
-        width: 350px;
+        width: 300px;
     } 
     .description_list_element_wrapper {
-        width: 350px;
+        width: 300px;
     }
 
     .description_list_element {
@@ -516,85 +516,85 @@
     }
 
     .list2 {
-        width: 395px;
+        width: 350px;
         height: 550px;
     }
 
     .video_list_element {
         margin-top: 30px;
         margin-bottom: 20px;
-        width: 370px;
+        width: max-content;
         height: 250px;
     }
 
     .video_tag {
-        width: 370px;
+        width: 300px;
     }
 }
 
 
 @media (min-width: 500px) and (max-width: 600px) and (orientation: portrait) {
     .title h1 {
-        width: 450px;
+        width: 370px;
     } 
     .description_list_element_wrapper {
-        width: 450px;
+        width: 370px;
     }
 
     .description_list_element {
-        width: 450px;
+        width: 370px;
     } 
     .categories_wrapper {
         grid-template-columns: repeat(1, 1fr);
     }
 
     .list2 {
-        width: 495px;
+        width: 400px;
         height: 550px;
     }
 
     .video_list_element {
         margin-top: 30px;
         margin-bottom: 20px;
-        width: 450px;
+        width: 370px;
         height: 250px;
     }
 
     .video_tag {
-        width: 450px;
+        width: 370px;
     }
 }
 
 
 @media (min-width: 500px) and (max-width: 600px) and (orientation: landscape) {
     .title h1 {
-        width: 450px;
+        width: 370px;
     } 
     .description_list_element_wrapper {
-        width: 450px;
+        width: 370px;
     }
 
     .description_list_element {
-        width: 450px;
+        width: 370px;
     } 
     .categories_wrapper {
         grid-template-columns: repeat(1, 1fr);
     }
 
     .list2 {
-        width: 495px;
+        width: 400px;
         height: 550px;
     }
 
     .video_list_element {
         margin-top: 30px;
         margin-bottom: 20px;
-        width: 450px;
+        width: 370px;
         height: 250px;
     }
 
     .video_tag {
-        width: 450px;
+        width: 370px;
     }
 }
 
