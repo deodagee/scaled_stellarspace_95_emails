@@ -214,10 +214,12 @@
     padding: 10px;
     border-radius: 0.95rem;
     border-bottom-right-radius: 0.95rem;
-    border-bottom-left-radius: 80px;
+    border-bottom-left-radius: 0.95rem;
 }
 
 .list2:hover {
+    border-bottom-right-radius: 0.95rem;
+    border-bottom-left-radius: 80px;
     background-color: #ffffff;
     transform: scale(1.01);
     transition: 0.4s;
