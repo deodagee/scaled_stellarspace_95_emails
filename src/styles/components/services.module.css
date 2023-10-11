@@ -42,7 +42,6 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     box-shadow: white 0px 0px 2px;
-    background: linear-gradient(to top,#dcdcdc,  #dcdcdc, #dcdcdc, #dcdcdc);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -55,12 +54,17 @@
 }
 
 .box_wrapper {
-    padding: 0px;
+    padding: 10px;
+    border-radius: 0.56rem;
     display: block;
     align-items: center;
     justify-content: center;
     transition: 0.5s;
     transform: scale(0.9);
+    background: linear-gradient(to top,#dcdcdc,  #dcdcdc, #dcdcdc, #dcdcdc);
+
+
+
 }
 
 .box_wrapper:hover {
