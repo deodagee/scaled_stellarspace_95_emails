@@ -504,20 +504,20 @@ margin: 0;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: max-content;
 }
 
 .title {
   display: flex;
   flex-direction: row;
   color: rgb(226, 226, 226);
-  font-size: 15px;
+  font-size: 14px;
   font-family: Teko, sans-serif;
   font-weight: 900;
 }
 
 .description_list_element {
   text-align: center;
+  height: 50px;
   font-size: 9px;
   padding: 10px;
   margin: 10px;
