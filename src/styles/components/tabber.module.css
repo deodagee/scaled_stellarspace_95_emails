@@ -118,8 +118,8 @@
 
 .frame_wrapper {
   z-index:0;
-  background-image: url("/bgwhole2.jpg");
   border-width: 1px;
+  background: linear-gradient(to bottom,#071719,#17171f, #0e0a12);
   box-shadow: rgb(60, 60, 60) 0px 0px 10px 1px;
   border-color: rgb(255, 196, 0);
   background-position: center;

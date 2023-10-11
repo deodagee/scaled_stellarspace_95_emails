@@ -760,13 +760,14 @@
 
 
 .frame_wrapper {
-  background-image: url("/bgwhole14.jpg");
   border-width: 1px;
   box-shadow: rgb(60, 60, 60) 0px 0px 10px 1px;
-  border-color: rgb(255, 196, 0);
+  border-color: rgb(255, 255, 255);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #070719;
+  background: linear-gradient(to bottom,#071719,#17171f, #0e0a12);
   padding: 30px;
   border-width: 2px;
   border-bottom-right-radius: 0.85rem;
