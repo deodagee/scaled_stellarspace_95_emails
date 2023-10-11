@@ -186,7 +186,7 @@
 .see_more_button:hover {
     background: linear-gradient(to top, rgba(52, 52, 52, 0.62), rgba(50, 50, 50, 0.541), rgba(49, 49, 49, 0.562));
     transition: 0.4s;
-}
+} 
 
 .categories_wrapper {
     margin-bottom: 20px;
