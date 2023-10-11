@@ -69,16 +69,15 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     box-shadow: white 0px 0px 2px;
-    background-color: #15181b;
+    background-color: #071019;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 80vw;
+    width: 100vw;
     align-items: center;
     justify-content: center;
     transition: 0.5s;
     padding: 50px;
-    border-radius: 0.95rem;
 }
 
 .box_wrapper {
