@@ -405,75 +405,75 @@
 
 @media (min-width: 300px) and (max-width: 400px) and (orientation: portrait) {
     .title h1 {
-        width: 250px;
+        width: 200px;
     } 
     .description_list_element_wrapper {
-        width: 250px;
+        width: 200px;
     }
 
     .description_list_element {
-        width: 250px;
+        width: 200px;
     } 
     .categories_wrapper {
         grid-template-columns: repeat(1, 1fr);
     }
 
     .list2 {
-        width: 280px;
+        width: 270px;
         height: 450px;
     }
 
     .video_list_element {
         margin-top: 50px;
         margin-bottom: 20px;
-        width: 250px;
+        width: 200px;
         height: 140px;
     }
 
     .video_tag {
-        width: 350px;
+        width: 200px;
     }
 }
 
 @media (min-width: 300px) and (max-width: 400px) and (orientation: landscape) {
     .title h1 {
-        width: 250px;
+        width: 200px;
     } 
     .description_list_element_wrapper {
-        width: 250px;
+        width: 200px;
     }
 
     .description_list_element {
-        width: 250px;
+        width: 200px;
     } 
     .categories_wrapper {
         grid-template-columns: repeat(1, 1fr);
     }
 
     .list2 {
-        width: 280px;
+        width: 270px;
         height: 450px;
     }
 
     .video_list_element {
         margin-top: 50px;
         margin-bottom: 20px;
-        width: 250px;
+        width: 200px;
         height: 140px;
     }
 
     .video_tag {
-        width: 250px;
+        width: 200px;
     }
 }
 
 
 @media (min-width: 400px) and (max-width: 500px) and (orientation: portrait) {
     .title h1 {
-        width: 300px;
+        width: 250px;
     } 
     .description_list_element_wrapper {
-        width: 300px;
+        width: 250px;
     }
 
     .description_list_element {
@@ -484,28 +484,28 @@
     }
 
     .list2 {
-        width: 350px;
+        width: 300px;
         height: 550px;
     }
 
     .video_list_element {
         margin-top: 30px;
         margin-bottom: 20px;
-        width: max-content;
+        width: 250px;
         height: 250px;
     }
 
     .video_tag {
-        width: 300px;
+        width: 250px;
     }
 }
 
 @media (min-width: 400px) and (max-width: 500px) and (orientation: landscape) {
     .title h1 {
-        width: 300px;
+        width: 250px;
     } 
     .description_list_element_wrapper {
-        width: 300px;
+        width: 250px;
     }
 
     .description_list_element {
@@ -516,33 +516,33 @@
     }
 
     .list2 {
-        width: 350px;
+        width: 300px;
         height: 550px;
     }
 
     .video_list_element {
         margin-top: 30px;
         margin-bottom: 20px;
-        width: max-content;
+        width: 250px;
         height: 250px;
     }
 
     .video_tag {
-        width: 300px;
+        width: 250px;
     }
 }
 
 
 @media (min-width: 500px) and (max-width: 600px) and (orientation: portrait) {
     .title h1 {
-        width: 370px;
+        width: 350px;
     } 
     .description_list_element_wrapper {
-        width: 370px;
+        width: 350px;
     }
 
     .description_list_element {
-        width: 370px;
+        width: 350px;
     } 
     .categories_wrapper {
         grid-template-columns: repeat(1, 1fr);
@@ -556,26 +556,26 @@
     .video_list_element {
         margin-top: 30px;
         margin-bottom: 20px;
-        width: 370px;
+        width: 350px;
         height: 250px;
     }
 
     .video_tag {
-        width: 370px;
+        width: 350px;
     }
 }
 
 
 @media (min-width: 500px) and (max-width: 600px) and (orientation: landscape) {
     .title h1 {
-        width: 370px;
+        width: 350px;
     } 
     .description_list_element_wrapper {
-        width: 370px;
+        width: 350px;
     }
 
     .description_list_element {
-        width: 370px;
+        width: 350px;
     } 
     .categories_wrapper {
         grid-template-columns: repeat(1, 1fr);
@@ -589,40 +589,40 @@
     .video_list_element {
         margin-top: 30px;
         margin-bottom: 20px;
-        width: 370px;
+        width: 350px;
         height: 250px;
     }
 
     .video_tag {
-        width: 370px;
+        width: 350px;
     }
 }
 
 
 @media (min-width: 600px) and (max-width: 700px) and (orientation: portrait) {
     .title h1 {
-        width: 250px;
+        width: 200px;
     } 
     .description_list_element_wrapper {
-        width: 250px;
+        width: 200px;
     }
 
     .description_list_element {
-        width: 250px;
+        width: 200px;
     } 
     .categories_wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
 
     .list2 {
-        width: 280px;
+        width: 250px;
         height: 550px;
     }
 
     .video_list_element {
         margin-top: 30px;
         margin-bottom: 20px;
-        width: 250px;
+        width: 200px;
         height: 250px;
     }
 
@@ -633,99 +633,99 @@
 
 @media (min-width: 600px) and (max-width: 700px) and (orientation: landscape) {
     .title h1 {
-        width: 250px;
+        width: 200px;
     } 
     .description_list_element_wrapper {
-        width: 250px;
+        width: 200px;
     }
 
     .description_list_element {
-        width: 250px;
+        width: 200px;
     } 
     .categories_wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
 
     .list2 {
-        width: 280px;
+        width: 250px;
         height: 550px;
     }
 
     .video_list_element {
         margin-top: 30px;
         margin-bottom: 20px;
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        width: 200px;
     }
 
     .video_tag {
-        width: 250px;
+        width: 200px;
     }
 }
 
 
 @media (min-width: 700px) and (max-width: 800px) and (orientation: portrait) {
     .title h1 {
-        width: 250px;
+        width: 200px;
     } 
     .description_list_element_wrapper {
-        width: 250px;
+        width: 200px;
     }
 
     .description_list_element {
-        width: 250px;
+        width: 200px;
     } 
     .categories_wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
 
     .list2 {
-        width: 330px;
+        width: 250px;
         height: 550px;
     }
 
     .video_list_element {
         margin-top: 30px;
         margin-bottom: 20px;
-        width: 300px;
+        width: 200px;
         height: 250px;
     }
 
     .video_tag {
-        width: 300px;
+        width: 250px;
     }
 
 }
 
 @media (min-width: 700px) and (max-width: 800px) and (orientation: landscape) {
     .title h1 {
-        width: 250px;
+        width: 200px;
     } 
     .description_list_element_wrapper {
-        width: 250px;
+        width: 200px;
     }
 
     .description_list_element {
-        width: 250px;
+        width: 200px;
     } 
     .categories_wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
 
     .list2 {
-        width: 330px;
+        width: 250px;
         height: 550px;
     }
 
     .video_list_element {
         margin-top: 30px;
         margin-bottom: 20px;
-        width: 300px;
+        width: 200px;
         height: 250px;
     }
 
     .video_tag {
-        width: 300px;
+        width: 250px;
     }
 
 }
