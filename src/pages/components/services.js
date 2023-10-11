@@ -52,7 +52,9 @@ function Services() {
                 <div className={styles.services_page_whole}>
                     <div className={styles.services_page_wrapper}>
                         <div>
-                            <Image
+                                                <ol className={styles.section_top}>
+                        <li className={styles.section_top_list_item1}>
+                        <Image
                                 className={styles.cocacola}
                                 width={50}
                                 height={50}
@@ -62,6 +64,16 @@ function Services() {
 
                             >
                             </Image>
+                            <h1 className={styles.top_title1}>
+                                Main Services 
+                            </h1>
+                            <Link href={"https://www.hostgator.com/domains"}>
+                                <p className={styles.domain_link}>Home
+                                </p>
+                            </Link>
+                        </li>
+                    </ol>
+
                         </div>
 
 
@@ -279,23 +291,26 @@ function Services() {
                         <div className={styles.videos_and_images_wrapper}>
 
                             <div className={styles.box_wrapper}>
-                                <ol className={styles.title_and_content_wrap}>
+
+                            <ol className={styles.title_and_content_wrap}>
                                     <li className={styles.title_wrap}>
                                         <p>Figma Models</p>
                                     </li>
+                                    <li className={styles.title_bottom_img_or_video}>
 
-                                    <div className={styles.image_for_video_div}>
-                                        <Image
-                                            className={styles.image_tag}
-                                            width={50}
-                                            height={50}
-                                            quality={100}
-                                            alt=""
-                                            src="/figma.png"
-                                        >
-                                        </Image>
-                                    </div>
-
+                                        <div className={styles.image_for_video_div}>
+                                            <Image
+                                                className={styles.image_tag}
+                                                width={50}
+                                                height={50}
+                                                quality={100}
+                                                alt=""
+                                                src="/orangelogo.png"
+                                            >
+                                            </Image>
+                                        </div>
+                                    </li>
+    
                                 </ol>
 
 
@@ -322,31 +337,12 @@ function Services() {
                             </div>
 
                             <div className={styles.box_wrapper}>
-                                <ol className={styles.title_and_content_wrap}>
-                                    <li className={styles.title_wrap}>
-                                        <p>original Code</p>
-                                    </li>
 
-                                    <div className={styles.image_for_video_div}>
-                                        <Image
-                                            className={styles.image_tag}
-                                            width={50}
-                                            height={50}
-                                            quality={100}
-                                            alt=""
-                                            src="/orangelogo.png"
-                                        >
-                                        </Image>
-                                    </div>
-              
-                                </ol>
-
-                                <ol className={styles.title_and_content_wrap}>
+                            <ol className={styles.title_and_content_wrap}>
                                     <li className={styles.title_wrap}>
-                                        <p>with SEO</p>
+                                        <p>Original Code</p>
                                     </li>
                                     <li className={styles.title_bottom_img_or_video}>
-
 
                                         <div className={styles.image_for_video_div}>
                                             <Image
@@ -355,35 +351,61 @@ function Services() {
                                                 height={50}
                                                 quality={100}
                                                 alt=""
-                                                src="/seo.png"
+                                                src="/orangelogo.png"
                                             >
                                             </Image>
                                         </div>
                                     </li>
-           
+    
+                                </ol>
+
+
+                                <ol className={styles.title_and_content_wrap}>
+                                    <li className={styles.title_wrap}>
+                                        <p>With SEO</p>
+                                    </li>
+                                    <li className={styles.title_bottom_img_or_video}>
+
+                                        <div className={styles.image_for_video_div}>
+                                            <Image
+                                                className={styles.image_tag}
+                                                width={50}
+                                                height={50}
+                                                quality={100}
+                                                alt=""
+                                                src="/orangelogo.png"
+                                            >
+                                            </Image>
+                                        </div>
+                                    </li>
+    
                                 </ol>
                             </div>
 
 
                             <div className={styles.box_wrapper}>
-                                <ol className={styles.title_and_content_wrap}>
-                                    <li className={styles.title_wrap}>
-                                        <p>Test your Site</p>
-                                    </li>
 
-                                    <div className={styles.image_for_video_div}>
-                                        <Image
-                                            className={styles.image_tag}
-                                            width={50}
-                                            height={50}
-                                            quality={100}
-                                            alt=""
-                                            src="/test.png"
-                                        >
-                                        </Image>
-                                    </div>
-            
+                            <ol className={styles.title_and_content_wrap}>
+                                    <li className={styles.title_wrap}>
+                                        <p>Test Your Site</p>
+                                    </li>
+                                    <li className={styles.title_bottom_img_or_video}>
+
+                                        <div className={styles.image_for_video_div}>
+                                            <Image
+                                                className={styles.image_tag}
+                                                width={50}
+                                                height={50}
+                                                quality={100}
+                                                alt=""
+                                                src="/orangelogo.png"
+                                            >
+                                            </Image>
+                                        </div>
+                                    </li>
+    
                                 </ol>
+
 
 
                                 <ol className={styles.title_and_content_wrap}>
@@ -399,41 +421,44 @@ function Services() {
                                                 height={50}
                                                 quality={100}
                                                 alt=""
-                                                src="/databases.png"
+                                                src="/orangelogo.png"
                                             >
                                             </Image>
                                         </div>
                                     </li>
-                     
+    
                                 </ol>
                             </div>
 
                             <div className={styles.box_wrapper}>
+
                                 <ol className={styles.title_and_content_wrap}>
                                     <li className={styles.title_wrap}>
                                         <p>Paid Domains / Free Domains</p>
                                     </li>
+                                    <li className={styles.title_bottom_img_or_video}>
 
-                                    <div className={styles.image_for_video_div}>
-                                        <Image
-                                            className={styles.image_tag}
-                                            width={50}
-                                            height={50}
-                                            quality={100}
-                                            alt=""
-                                            src="/domains.png"
-                                        >
-                                        </Image>
-                                    </div>
-                      
+                                        <div className={styles.image_for_video_div}>
+                                            <Image
+                                                className={styles.image_tag}
+                                                width={50}
+                                                height={50}
+                                                quality={100}
+                                                alt=""
+                                                src="/domains.png"
+                                            >
+                                            </Image>
+                                        </div>
+                                    </li>
+    
                                 </ol>
+
 
                                 <ol className={styles.title_and_content_wrap}>
                                     <li className={styles.title_wrap}>
                                         <p>Site Analytics</p>
                                     </li>
                                     <li className={styles.title_bottom_img_or_video}>
-
 
                                         <div className={styles.image_for_video_div}>
                                             <Image
@@ -447,30 +472,34 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                    
+    
                                 </ol>
                             </div>
 
                             <div className={styles.box_wrapper}>
-                                <ol className={styles.title_and_content_wrap}>
+
+                            <ol className={styles.title_and_content_wrap}>
                                     <li className={styles.title_wrap}>
                                         <p>Login Features</p>
                                     </li>
+                                    <li className={styles.title_bottom_img_or_video}>
 
-                                    <div className={styles.image_for_video_div}>
-                                        <Image
-                                            className={styles.image_tag}
-                                            width={50}
-                                            height={50}
-                                            quality={100}
-                                            alt=""
-                                            src="/login.png"
-                                        >
-                                        </Image>
-                                    </div>
-            
+                                        <div className={styles.image_for_video_div}>
+                                            <Image
+                                                className={styles.image_tag}
+                                                width={50}
+                                                height={50}
+                                                quality={100}
+                                                alt=""
+                                                src="/login.png"
+                                            >
+                                            </Image>
+                                        </div>
+                                    </li>
+    
                                 </ol>
 
+  
                                 <ol className={styles.title_and_content_wrap}>
                                     <li className={styles.title_wrap}>
                                         <p>Payment Features</p>
@@ -489,7 +518,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                
+    
                                 </ol>
                             </div>
                         </div>
@@ -507,26 +536,27 @@ function Services() {
                         <div className={styles.videos_and_images_wrapper}>
 
                             <div className={styles.box_wrapper}>
-                                <ol className={styles.title_and_content_wrap}>
+
+                            <ol className={styles.title_and_content_wrap}>
                                     <li className={styles.title_wrap}>
                                         <p>Logos & Design</p>
                                     </li>
+                                    <li className={styles.title_bottom_img_or_video}>
 
-
-                                    <div className={styles.image_for_video_div}>
-                                        <Image
-                                            className={styles.image_tag}
-                                            width={50}
-                                            height={50}
-                                            quality={100}
-                                            alt=""
-                                            src="/orangelogo.png"
-                                        >
-                                        </Image>
-                                    </div>
+                                        <div className={styles.image_for_video_div}>
+                                            <Image
+                                                className={styles.image_tag}
+                                                width={50}
+                                                height={50}
+                                                quality={100}
+                                                alt=""
+                                                src="/orangelogo.png"
+                                            >
+                                            </Image>
+                                        </div>
+                                    </li>
     
                                 </ol>
-
 
                                 <ol className={styles.title_and_content_wrap}>
                                     <li className={styles.title_wrap}>
