@@ -16,7 +16,7 @@ function FaqPage() {
                             <h1 className={styles.top_title1}>
                                 FAQ
                             </h1>
-                            <Link href={"https://www.hostgator.com/domains"}>
+                            <Link href={"/"}>
                                 <p className={styles.domain_link}>Home
                                 </p>
                             </Link>
