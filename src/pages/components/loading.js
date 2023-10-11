@@ -7,10 +7,11 @@ const Loading = () => {
     <div className={styles.loadingScreen}>
         <div>
         <Image
+        className={styles.logo}
         alt=''
         width={50}
         height={50}
-        src={'/teallogo.png'}>
+        src={'/logored.png'}>
 
         </Image>
         </div>
