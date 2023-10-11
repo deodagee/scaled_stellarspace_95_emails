@@ -77,7 +77,10 @@ function Pricing() {
                                     >
                                     </Image>
                                     <h1 className={styles.top_title1}>
-                                        Main Services
+                                        Pricing Page
+                                    </h1>
+                                    <h1 className={styles.top_title2}>
+                                        Currently Only Web Dev Pricing is shown
                                     </h1>
                                     <Link href={"/"}>
                                         <p className={styles.domain_link}>Home
