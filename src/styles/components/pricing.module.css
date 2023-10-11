@@ -86,7 +86,7 @@
   background-color: rgb(18, 17, 23);
   display: flex;
   flex-direction: row;
-  width: 80vw;
+  width: 70vw;
   align-items: center;
   justify-content: center;
   gap: 70px;
@@ -306,7 +306,6 @@
 }
 
 .top_main_header_group {
-  width: 100vw;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -329,7 +328,7 @@
   background-color: rgb(13, 20, 23);
   display: flex;
   flex-direction: row;
-  width: 45vw;
+  width: 70vw;
   height: max-content;
   align-items: center;
   justify-content: center;
@@ -1059,7 +1058,6 @@
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -1068,7 +1066,6 @@
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -1277,7 +1274,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -1286,7 +1282,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -1504,7 +1499,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -1513,7 +1507,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -1723,7 +1716,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -1732,7 +1724,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -1933,7 +1924,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -1942,7 +1932,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -2150,7 +2139,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -2159,7 +2147,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -2368,7 +2355,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -2377,7 +2363,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -2585,7 +2570,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -2594,7 +2578,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -2801,7 +2784,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -2810,7 +2792,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -3018,7 +2999,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -3027,7 +3007,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -3235,7 +3214,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -3244,7 +3222,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -3455,7 +3432,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -3464,7 +3440,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -3673,7 +3648,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -3682,7 +3656,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -3892,7 +3865,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -3901,7 +3873,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -4110,7 +4081,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -4119,7 +4089,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -4328,7 +4297,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -4337,7 +4305,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -4546,7 +4513,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -4555,7 +4521,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -4764,7 +4729,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -4773,7 +4737,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -4982,7 +4945,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -4991,7 +4953,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -5203,7 +5164,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -5212,7 +5172,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -5425,7 +5384,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -5434,7 +5392,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -5643,7 +5600,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -5652,7 +5608,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -5861,7 +5816,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -5870,7 +5824,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -6078,7 +6031,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -6087,7 +6039,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -6301,7 +6252,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -6310,7 +6260,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -6519,7 +6468,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -6528,7 +6476,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -6737,7 +6684,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -6746,7 +6692,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
@@ -6954,7 +6899,6 @@ margin: 10px;
 
 
   .top_main_header_group {
-    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -6963,7 +6907,6 @@ margin: 10px;
   }
 
   .top_main_header_group ol {
-    width: 100vw;
     height: max-content;
 
   }
