@@ -348,7 +348,7 @@ margin: 0;
   padding-left: 70px;
   padding-right: 70px;
   box-shadow: rgb(217, 217, 217) 0px 0px 10px;
-  background-color: rgb(13, 13, 13);
+  background-color: rgb(0, 9, 26);
   display: flex;
   flex-direction: row;
   width: 100vw;
@@ -486,15 +486,16 @@ margin: 0;
   width: 100vw;
   padding-top: 20px;
   padding-bottom: 20px;
-  background: linear-gradient(to left,  #000002, #0c0e14, #232323f1);
-  box-shadow: white 0px 0px 5px;
+  background-color: rgb(244, 244, 244);
+  box-shadow: rgb(124, 124, 124) 0px 0px 5px;
   transition: 0.8s;
 }
 
 .lists:hover { 
+  box-shadow: rgb(0, 0, 0) 0px 0px 7px;
+background-color: rgb(255, 255, 255);
   transition: 0.8s;
-  box-shadow: white 0px 0px 7px;
-  background: linear-gradient(to left,  #232323da, #0c0e14, #000002ee);
+transform: scale(1.02);
 
 }
 
@@ -509,19 +510,21 @@ margin: 0;
 .title {
   display: flex;
   flex-direction: row;
-  color: rgb(226, 226, 226);
+  color: rgb(71, 71, 71);
   font-size: 14px;
   font-family: Teko, sans-serif;
   font-weight: 900;
+  white-space: nowrap;
 }
+
 
 .description_list_element {
   text-align: center;
-  height: 50px;
-  font-size: 9px;
+  max-height: 100px;
+  font-size: 10px;
   padding: 10px;
   margin: 10px;
-  color: rgb(144, 144, 144);
+  color: rgb(0, 57, 63);
 }
 
 
@@ -623,6 +626,7 @@ margin: 0;
 }
 
 .link:hover {
+
   text-decoration: none;
 
 }
@@ -644,7 +648,7 @@ margin: 0;
 .tabber_wrapper {
   border-width: 1px;
   border-color: rgb(228, 228, 228);
-  box-shadow: rgb(255, 255, 255) 0px 0px 10px;
+  box-shadow: rgb(255, 255, 255) 0px 0px 7px;
   border-radius: 0.25rem;
   gap: 15px;
   display: flex;
@@ -671,7 +675,7 @@ margin: 0;
 
 .description {
   text-align: center;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 600;
   line-height: 1.5;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1370,13 +1374,6 @@ margin: 0;
 }
 
 
-.title {
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  display: contents;
-}
-
 
 .recommended_div {
   position: relative;
@@ -1683,11 +1680,6 @@ margin: 0;
   }
 
 
-
-  .description {
-    font-size: 9px;
-  }
-
   .bio_item {
     display: none;
   }
@@ -1920,10 +1912,6 @@ margin: 0;
   }
 
 
-  .description {
-    font-size: 9px;
-  }
-
   .bio_item {
     display: none;
   }
@@ -2151,9 +2139,6 @@ margin: 0;
   }
 
 
-  .description {
-    font-size: 9px;
-  }
 
   .bio_item {
     display: none;
@@ -2382,9 +2367,6 @@ margin: 0;
     transform: scale(0.6);
   }
 
-  .description {
-    font-size: 9px;
-  }
 
   .bio_item {
     display: none;
@@ -2612,11 +2594,6 @@ margin: 0;
     transform: scale(0.75);
   }
 
-
-  .description {
-    font-size: 9px;
-  }
-
   .bio_item {
     display: none;
   }
@@ -2838,11 +2815,6 @@ margin: 0;
     transform: scale(0.75);
   }
 
-
-  .description {
-    font-size: 9px;
-  }
-
   .bio_item {
     display: none;
   }
@@ -3062,10 +3034,6 @@ margin: 0;
 
   .tabber_buttons_list { 
     transform: scale(0.95);
-  }
-
-  .description {
-    font-size: 9px;
   }
 
   .bio_item {
@@ -3292,9 +3260,6 @@ margin: 0;
   }
 
 
-  .description {
-    font-size: 9px;
-  }
 
   .bio_item {
     display: none;
@@ -3511,11 +3476,6 @@ margin: 0;
     flex-direction: column;
   }
 
-
-  .description {
-    font-size: 9px;
-  }
-
   .bio_item {
     display: none;
   }
@@ -3723,10 +3683,6 @@ margin: 0;
   .tabber_wrapper {
     width: 95vw;
     flex-direction: column;
-  }
-
-  .description {
-    font-size: 9px;
   }
 
   .bio_item {
@@ -3940,12 +3896,7 @@ margin: 0;
     width: 95vw;
     flex-direction: column;
   }
-
-
-  .description {
-    font-size: 9px;
-  }
-
+  
   .bio_item {
     display: none;
   }
@@ -4156,10 +4107,6 @@ margin: 0;
   .tabber_wrapper {
     width: 95vw;
     flex-direction: column;
-  }
-
-  .description {
-    font-size: 9px;
   }
 
   .bio_item {
@@ -4395,9 +4342,6 @@ margin: 0;
     flex-direction: column;
   }
 
-  .description {
-    font-size: 10px;
-  }
 
   .bio_item {
     display: none;
@@ -4635,10 +4579,6 @@ margin: 0;
     flex-direction: column;
   }
 
-  .description {
-    font-size: 10px;
-  }
-
   .bio_item {
     display: none;
   }
@@ -4860,9 +4800,6 @@ margin: 0;
     flex-direction: column;
   }
 
-  .description {
-    font-size: 10px;
-  }
 
   .thank_you {
     transform: scale(0.7);
@@ -5082,9 +5019,6 @@ margin: 0;
     flex-direction: column;
   }
 
-  .description {
-    font-size: 10px;
-  }
 
   .thank_you {
     transform: scale(0.7);
@@ -5310,10 +5244,6 @@ margin: 0;
     flex-direction: column;
   }
 
-  .description {
-    font-size: 10px;
-  }
-
   .thank_you {
     transform: scale(0.7);
   }
@@ -5534,9 +5464,7 @@ margin: 0;
     flex-direction: column;
   }
 
-  .description {
-    font-size: 10px;
-  }
+ 
 
   .thank_you {
     transform: scale(0.7);
@@ -5749,9 +5677,7 @@ margin: 0;
     flex-direction: column;
   }
 
-  .description {
-    font-size: 10px;
-  }
+
 
   .thank_you {
     transform: scale(0.7);
@@ -5968,9 +5894,6 @@ margin: 0;
     flex-direction: column;
   }
 
-  .description {
-    font-size: 10px;
-  }
 
   .thank_you {
     transform: scale(0.7);
@@ -6190,10 +6113,6 @@ margin: 0;
     flex-direction: column;
   }
 
-  .description {
-    font-size: 10px;
-  }
-
   .thank_you {
     transform: scale(0.7);
   }
@@ -6411,9 +6330,6 @@ margin: 0;
     flex-direction: column;
   }
 
-  .description {
-    font-size: 10px;
-  }
 
   .thank_you {
     transform: scale(0.7);
@@ -6631,10 +6547,6 @@ margin: 0;
   .tabber_wrapper {
     width: 95vw;
     flex-direction: column;
-  }
-
-  .description {
-    font-size: 10px;
   }
 
 
@@ -6856,11 +6768,6 @@ margin: 0;
     flex-direction: column;
   }
 
-  .description {
-    font-size: 10px;
-  }
-
-
   .thank_you {
     transform: scale(0.7);
   }
@@ -7080,12 +6987,6 @@ margin: 0;
     width: 80vw;
     flex-direction: column;
   }
-
-  .description {
-    font-size: 10px;
-    font-weight: 600;
-  }
-
 
   .thank_you {
     transform: scale(0.7);
@@ -7307,12 +7208,6 @@ margin: 0;
     flex-direction: column;
   }
 
-  .description {
-    font-size: 10px;
-    font-weight: 600;
-  }
-
-
   .thank_you {
     transform: scale(0.7);
   }
@@ -7530,11 +7425,6 @@ margin: 0;
   .tabber_wrapper {
     width: 80vw;
     flex-direction: column;
-  }
-
-  .description {
-    font-size: 10px;
-    font-weight: 600;
   }
 
 
@@ -7756,12 +7646,6 @@ margin: 0;
     width: 80vw;
     flex-direction: column;
   }
-
-  .description {
-    font-size: 10px;
-    font-weight: 600;
-  }
-
 
   .thank_you {
     transform: scale(0.7);
