@@ -84,7 +84,7 @@ function Body() {
 
 
 
-            <ul className={styles.name_and_emails_wrapper}>
+            <ul className={styles.top_bg_image_wrapper}>
               
               <div className={styles.separatorLine}></div>
               <div className={styles.promo_message_first_body} style={{ display: promoVisible ? 'inline-flex' : 'none' }}>

@@ -136,17 +136,17 @@ function Header() {
                   ) : (
                     <>
                       <li className={styles.avatar_and_tag}>
-                          <Image
-                            className={styles.login_avatar} aria-label="loginavatar"
-                            alt="login_avatar"
-                            width={100}
-                            height={100}
-                            src={"/loginavatar.png"}
-                          >
-                          </Image>
-                          <button className={styles.login_button} onClick={() => signIn('google')('')}>
-                            <p>Sign In</p>
-                          </button>
+                        <Image
+                          className={styles.login_avatar} aria-label="loginavatar"
+                          alt="login_avatar"
+                          width={100}
+                          height={100}
+                          src={"/loginavatar.png"}
+                        >
+                        </Image>
+                        <button className={styles.login_button} onClick={() => signIn('google')('')}>
+                          <p>Sign In</p>
+                        </button>
                       </li>
                     </>
                   )}
@@ -170,16 +170,17 @@ function Header() {
                       SITE MENU
                     </p>
                   </li>
-                                    <li className={styles.first_menubar_item}>
-                    <Image
-                      className={styles.menu_chevron_image} aria-label="menutoggler"
-                      alt="menu_toggler"
-                      width={100}
-                      height={100}
-                      src={"/chevron.png"}
-                    >
-                    </Image>
-                    <Link href={'/'}>
+
+                  <li >
+                    <Link className={styles.first_menubar_item} href={'/'}>
+                      <Image
+                        className={styles.menu_chevron_image} aria-label="menutoggler"
+                        alt="menu_toggler"
+                        width={100}
+                        height={100}
+                        src={"/chevron.png"}
+                      >
+                      </Image>
                       <p className={styles.promo4}>
                         Home
                       </p>
@@ -187,48 +188,48 @@ function Header() {
                   </li>
 
 
-                  <li className={styles.first_menubar_item}>
-                    <Image
-                      className={styles.menu_chevron_image} aria-label="menutoggler"
-                      alt="menu_toggler"
-                      width={100}
-                      height={100}
-                      src={"/chevron.png"}
-                    >
-                    </Image>
-                    <Link href={'/services'}>
+                  <li >
+                    <Link className={styles.first_menubar_item} href={'/services'}>
+                      <Image
+                        className={styles.menu_chevron_image} aria-label="menutoggler"
+                        alt="menu_toggler"
+                        width={100}
+                        height={100}
+                        src={"/chevron.png"}
+                      >
+                      </Image>
                       <p className={styles.promo4}>
                         Services
                       </p>
                     </Link>
                   </li>
 
-                  <li className={styles.first_menubar_item}>
-                    <Image
-                      className={styles.menu_chevron_image} aria-label="menutoggler"
-                      alt="menu_toggler"
-                      width={100}
-                      height={100}
-                      src={"/chevron.png"}
-                    >
-                    </Image>
-                    <Link href={'/pricing'}>
+                  <li >
+                    <Link className={styles.first_menubar_item} href={'/pricing'}>
+                      <Image
+                        className={styles.menu_chevron_image} aria-label="menutoggler"
+                        alt="menu_toggler"
+                        width={100}
+                        height={100}
+                        src={"/chevron.png"}
+                      >
+                      </Image>
                       <p className={styles.promo4}>
                         Pricing
                       </p>
                     </Link>
                   </li>
 
-                  <li className={styles.first_menubar_item}>
-                    <Image
-                      className={styles.menu_chevron_image} aria-label="menutoggler"
-                      alt="menu_toggler"
-                      width={100}
-                      height={100}
-                      src={"/chevron.png"}
-                    >
-                    </Image>
-                    <Link href={'/projects'}>
+                  <li >
+                    <Link className={styles.first_menubar_item} href={'/projects'}>
+                      <Image
+                        className={styles.menu_chevron_image} aria-label="menutoggler"
+                        alt="menu_toggler"
+                        width={100}
+                        height={100}
+                        src={"/chevron.png"}
+                      >
+                      </Image>
                       <p className={styles.promo4}>
                         Projects
                       </p>
@@ -236,109 +237,125 @@ function Header() {
                   </li>
 
 
-                  <li className={styles.first_menubar_item}>
-                    <Image
-                      className={styles.menu_chevron_image} aria-label="menutoggler"
-                      alt="menu_toggler"
-                      width={100}
-                      height={100}
-                      src={"/chevron.png"}
-                    >
-                    </Image>
-                    <Link href={'/contact'}>
+                  <li >
+                    <Link className={styles.first_menubar_item} href={'/contact'}>
+                      <Image
+                        className={styles.menu_chevron_image} aria-label="menutoggler"
+                        alt="menu_toggler"
+                        width={100}
+                        height={100}
+                        src={"/chevron.png"}
+                      >
+                      </Image>
                       <p className={styles.promo4}>
                         Contact Me
                       </p>
                     </Link>
                   </li>
 
-                  <li className={styles.first_menubar_item}>
-                    <Image
-                      className={styles.menu_chevron_image} aria-label="menutoggler"
-                      alt="menu_toggler"
-                      width={100}
-                      height={100}
-                      src={"/chevron.png"}
-                    >
-                    </Image>
-                    <Link href={'https://github.com/deodagee?tab=repositories'}>
+                  <li >
+                    <Link className={styles.first_menubar_item} href={'https://github.com/deodagee?tab=repositories'}>
+
+                      <Image
+                        className={styles.menu_chevron_image} aria-label="menutoggler"
+                        alt="menu_toggler"
+                        width={100}
+                        height={100}
+                        src={"/chevron.png"}
+                      >
+                      </Image>
                       <p className={styles.promo4}>
                         Source Code
                       </p>
                     </Link>
                   </li>
-                  <li className={styles.first_menubar_item}>
-                    <Image
-                      className={styles.menu_chevron_image} aria-label="menutoggler"
-                      alt="menu_toggler"
-                      width={100}
-                      height={100}
-                      src={"/chevron.png"}
-                    >
-                    </Image>
-                    <Link href={'/info/privatedomains'}>
+                  <li >
+                    <Link className={styles.first_menubar_item} href={'/info/privatedomains'}>
+                      <Image
+                        className={styles.menu_chevron_image} aria-label="menutoggler"
+                        alt="menu_toggler"
+                        width={100}
+                        height={100}
+                        src={"/chevron.png"}
+                      >
+                      </Image>
                       <p className={styles.promo1}>
                         Private Domains?
                       </p>
                     </Link>
                   </li>
-                  <li className={styles.first_menubar_item}>
-                    <Image
-                      className={styles.menu_chevron_image} aria-label="menutoggler"
-                      alt="menu_toggler"
-                      width={100}
-                      height={100}
-                      src={"/chevron.png"}
-                    >
-                    </Image>
-                    <Link href={'/info/applicationinterfaces'}>
+                  <li >
+                    <Link className={styles.first_menubar_item} href={'/info/applicationinterfaces'}>
+                      <Image
+                        className={styles.menu_chevron_image} aria-label="menutoggler"
+                        alt="menu_toggler"
+                        width={100}
+                        height={100}
+                        src={"/chevron.png"}
+                      >
+                      </Image>
                       <p className={styles.promo2}>
                         Application Interfaces?
                       </p>
                     </Link>
                   </li>
-                  <li className={styles.first_menubar_item}>
-                    <Image
-                      className={styles.menu_chevron_image} aria-label="menutoggler"
-                      alt="menu_toggler"
-                      width={100}
-                      height={100}
-                      src={"/chevron.png"}
-                    >
-                    </Image>
-                    <Link href={'/info/threedrenders'}>
+                  <li >
+                    <Link className={styles.first_menubar_item} href={'/info/threedrenders'}>
+                      <Image
+                        className={styles.menu_chevron_image} aria-label="menutoggler"
+                        alt="menu_toggler"
+                        width={100}
+                        height={100}
+                        src={"/chevron.png"}
+                      >
+                      </Image>
                       <p className={styles.promo3}>
                         3D Renders?
                       </p>
                     </Link>
                   </li>
-                  <li className={styles.first_menubar_item}>
-                    <Image
-                      className={styles.menu_chevron_image} aria-label="menutoggler"
-                      alt="menu_toggler"
-                      width={100}
-                      height={100}
-                      src={"/chevron.png"}
-                    >
-                    </Image>
-                    <Link href={'/info/vercel'}>
+                  <li >
+                    <Link className={styles.first_menubar_item} href={'/info/vercel'}>
+                      <Image
+                        className={styles.menu_chevron_image} aria-label="menutoggler"
+                        alt="menu_toggler"
+                        width={100}
+                        height={100}
+                        src={"/chevron.png"}
+                      >
+                      </Image>
                       <p className={styles.promo4}>
                         Vercel?
                       </p>
                     </Link>
                   </li>
-                  <li className={styles.first_menubar_item}>
-                    <Image
-                      className={styles.menu_chevron_image} aria-label="menutoggler"
-                      alt="menu_toggler"
-                      width={100}
-                      height={100}
-                      src={"/chevron.png"}
-                    >
-                    </Image>
-                    <Link href={'/info/hostgatorvercel'}>
+                  <li >
+                    <Link className={styles.first_menubar_item} href={'/info/hostgatorvercel'}>
+                      <Image
+                        className={styles.menu_chevron_image} aria-label="menutoggler"
+                        alt="menu_toggler"
+                        width={100}
+                        height={100}
+                        src={"/chevron.png"}
+                      >
+                      </Image>
                       <p className={styles.promo4}>
                         Hostgator/Bluehost?
+                      </p>
+                    </Link>
+                  </li>
+                  <li >
+                    <Link className={styles.first_menubar_item} href={'/info/faq'}>
+                      <Image
+                        className={styles.menu_chevron_image} aria-label="menutoggler"
+                        alt="menu_toggler"
+                        width={100}
+                        height={100}
+                        src={"/chevron.png"}
+                      >
+                      </Image>
+                      <p className={styles.promo4}>
+                        FAQ
                       </p>
                     </Link>
                   </li>
