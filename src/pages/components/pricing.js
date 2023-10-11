@@ -63,13 +63,30 @@ function Pricing() {
       <div className={styles.pricing_page}>
         <div className={styles.pricing_page_wrapper}>
           <div className={styles.offered_list_and_top_main_header}>
+          <ol className={styles.section_top}>
+                                <li className={styles.section_top_list_item1}>
+                                    <Image
+                                    
+                                        className={styles.cocacola}
+                                        width={50}
+                                        height={50}
+                                        quality={100}
+                                        alt=""
+                                        src="/cocacola2.png"
 
-            <div className={styles.top_video_background}>
-              <video ref={videoRef} autoPlay loop muted playsInline className={styles.video_background_tag} onLoad={handleVideoLoad}>
-                <source src="/logobox.mp4" type="video/mp4" />
+                                    >
+                                    </Image>
+                                    <h1 className={styles.top_title1}>
+                                        Main Services
+                                    </h1>
+                                    <Link href={"/"}>
+                                        <p className={styles.domain_link}>Home
+                                        </p>
+                                    </Link>
+                                </li>
+                            </ol>
 
-              </video>
-            </div>
+
 
             <ol className={styles.top_main_header_and_paragraphs} >
               <ul className={styles.top_main_header}>
