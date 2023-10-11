@@ -71,7 +71,7 @@ function Projects() {
 
                                 <li className={styles.buttons_list_element}>
                                     <button className={styles.contact_button}><Link href={"/contact"}>Contact Page</Link></button>
-                                    <button className={styles.see_more_button}><Link href={"/projects_more_page"}>More Projects</Link></button>
+                                    <button className={styles.see_more_button}><Link href={"/services"}>Services </Link></button>
                                 </li>
                             </ol>
 
