@@ -2,7 +2,7 @@ import { Inter } from 'next/font/google'
 import Header from '../components/header'
 import HostgatorVercel from "../components/info/hostgatorvercel.js"
 import Footer from "../components/footer"
-import styles from "../../styles/components/info/applicationinterfaces.module.css"
+import styles from "../../styles/components/info/faq.module.css"
 const inter = Inter({ subsets: ['latin'] })
 
 function Apis() {
