@@ -12,19 +12,27 @@ function FaqPage() {
             <div className={styles.faq_page_whole}>
                 <div className={styles.faq_page_whole_wrapper}>
                     <ol className={styles.section_top}>
+
                         <li className={styles.section_top_list_item1}>
                             <h1 className={styles.top_title1}>
                                 FAQ
                             </h1>
-                            <Link href={"/"}>
-                                <p className={styles.domain_link}>Home
-                                </p>
-                            </Link>
                         </li>
+
+                        <li className={styles.section_top_list_item2}>
+                            <h1 className={styles.top_title2}>
+                                Frequently Asked questions
+                            </h1>
+                        </li>
+
+                        <Link href={"/"}>
+                                    <p className={styles.domain_link}>Home
+                                    </p>
+                                </Link>
                     </ol>
-                    <ol className={styles.section_middle} >
+                    <ol className={styles.section_bottom} >
                         <li>
-                            <h1 className={styles.faq_top_title}>
+                            <h1 className={styles.section_bottom_title1}>
                                 Frequently Asked questions
                             </h1>
                         </li>
@@ -34,7 +42,7 @@ function FaqPage() {
                         <li>
                             <Link
                                 href={"/info/privatedomains"}>
-                                <h2 className={styles.faq_sub_titles}>
+                                <h2 className={styles.section_bottom_paragraph_item}>
                                     What Are Private Domains?
                                 </h2>
                             </Link>
@@ -42,7 +50,7 @@ function FaqPage() {
                         <li>
                             <Link
                                 href={"/info/applicationinterfaces"}>
-                                <h2 className={styles.faq_sub_titles}>
+                                <h2 className={styles.section_bottom_paragraph_item}>
                                     What is An Application Interface?
                                 </h2>
                             </Link>
@@ -50,7 +58,7 @@ function FaqPage() {
                         <li>
                             <Link
                                 href={"/info/threedrenders"}>
-                                <h2 className={styles.faq_sub_titles}>
+                                <h2 className={styles.section_bottom_paragraph_item}>
                                     Where Can I get Copyright on Graphic Designs?
                                 </h2>
                             </Link>
@@ -58,11 +66,12 @@ function FaqPage() {
                         <li>
                             <Link
                                 href={"/info/hostgatorvercel"}>
-                                <h2 className={styles.faq_sub_titles}>
+                                <h2 className={styles.section_bottom_paragraph_item}>
                                     Where Will My Website Be Hosted?
                                 </h2>
                             </Link>
                         </li>
+                        
                     </ol>
 
                 </div>
