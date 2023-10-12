@@ -63,31 +63,34 @@ function Pricing() {
       <div className={styles.pricing_page}>
         <div className={styles.pricing_page_wrapper}>
           <div className={styles.offered_list_and_top_main_header}>
-          <ol className={styles.section_top}>
-                                <li className={styles.section_top_list_item1}>
-                                    <Image
-                                    
-                                        className={styles.cocacola}
-                                        width={50}
-                                        height={50}
-                                        quality={100}
-                                        alt=""
-                                        src="/cocacola2.png"
+            <ol className={styles.section_top}>
+              <li className={styles.section_top_list_item1}>
+                <Image
 
-                                    >
-                                    </Image>
-                                    <h1 className={styles.top_title1}>
-                                        Pricing Page
-                                    </h1>
-                                    <h1 className={styles.top_title2}>
-                                        Currently Only Web Dev Pricing is shown
-                                    </h1>
-                                    <Link href={"/"}>
-                                        <p className={styles.domain_link}>Home
-                                        </p>
-                                    </Link>
-                                </li>
-                            </ol>
+                  className={styles.cocacola}
+                  width={50}
+                  height={50}
+                  quality={100}
+                  alt=""
+                  src="/Deo.jpg"
+
+                >
+                </Image>
+                <h1 className={styles.top_title1}>
+                  Pricing Page
+                </h1>
+                <h1 className={styles.top_title2}>
+                  Currently Only Web Dev Pricing is shown
+                </h1>
+                <h1 className={styles.top_title2}>
+                Front End | Back End | Full Stack | Graphic Design | 3D Modeling | Branding 
+                </h1>
+                <Link href={"/"}>
+                  <p className={styles.home_button}>Home
+                  </p>
+                </Link>
+              </li>
+            </ol>
 
 
 
@@ -566,9 +569,9 @@ function Pricing() {
                                 <div className={styles.your_session_has_tim5}>300</div>
                               </div>
                               <div className={styles.component_6}>
-                                      <button className={styles.label}> <Link href={"/static"}>Get Started </Link>
-                                      <p className={styles.label_header}>Click For More Details</p> </button>
-                                    </div>
+                                <button className={styles.label}> <Link href={"/static"}>Get Started </Link>
+                                  <p className={styles.label_header}>Click For More Details</p> </button>
+                              </div>
                             </div>
 
                           </div>

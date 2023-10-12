@@ -52,28 +52,31 @@ function Services() {
                 <div className={styles.services_page_whole}>
                     <div className={styles.services_page_wrapper}>
                         <div>
-                            <ol className={styles.section_top}>
+                        <ol className={styles.section_top}>
                                 <li className={styles.section_top_list_item1}>
                                     <Image
+                                    
                                         className={styles.cocacola}
                                         width={50}
                                         height={50}
                                         quality={100}
                                         alt=""
-                                        src="/cocacola2.png"
+                                        src="/Deo.jpg"
 
                                     >
                                     </Image>
                                     <h1 className={styles.top_title1}>
-                                        Main Services
+                                        Services Page
+                                    </h1>
+                                    <h1 className={styles.top_title2}>
+                                        Front End | Back End | Full Stack | Graphic Design | 3D Modeling | Branding
                                     </h1>
                                     <Link href={"/"}>
-                                        <p className={styles.domain_link}>Home
+                                        <p className={styles.home_button}>Home
                                         </p>
                                     </Link>
                                 </li>
                             </ol>
-
                         </div>
 
 
