@@ -52,27 +52,27 @@ function Services() {
                 <div className={styles.services_page_whole}>
                     <div className={styles.services_page_wrapper}>
                         <div>
-                                                <ol className={styles.section_top}>
-                        <li className={styles.section_top_list_item1}>
-                        <Image
-                                className={styles.cocacola}
-                                width={50}
-                                height={50}
-                                quality={100}
-                                alt=""
-                                src="/cocacola2.png"
+                            <ol className={styles.section_top}>
+                                <li className={styles.section_top_list_item1}>
+                                    <Image
+                                        className={styles.cocacola}
+                                        width={50}
+                                        height={50}
+                                        quality={100}
+                                        alt=""
+                                        src="/cocacola2.png"
 
-                            >
-                            </Image>
-                            <h1 className={styles.top_title1}>
-                                Main Services 
-                            </h1>
-                            <Link href={"https://www.hostgator.com/domains"}>
-                                <p className={styles.domain_link}>Home
-                                </p>
-                            </Link>
-                        </li>
-                    </ol>
+                                    >
+                                    </Image>
+                                    <h1 className={styles.top_title1}>
+                                        Main Services
+                                    </h1>
+                                    <Link href={"/"}>
+                                        <p className={styles.domain_link}>Home
+                                        </p>
+                                    </Link>
+                                </li>
+                            </ol>
 
                         </div>
 
@@ -211,7 +211,7 @@ function Services() {
                                             <source src="/boxbuild.mp4" type="video/mp4" />
                                         </video>
                                     </li>
-     
+
                                 </ol>
 
                                 <ol className={styles.title_and_content_wrap}>
@@ -292,7 +292,7 @@ function Services() {
 
                             <div className={styles.box_wrapper}>
 
-                            <ol className={styles.title_and_content_wrap}>
+                                <ol className={styles.title_and_content_wrap}>
                                     <li className={styles.title_wrap}>
                                         <p>Figma Models</p>
                                     </li>
@@ -310,7 +310,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-    
+
                                 </ol>
 
 
@@ -332,13 +332,13 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-    
+
                                 </ol>
                             </div>
 
                             <div className={styles.box_wrapper}>
 
-                            <ol className={styles.title_and_content_wrap}>
+                                <ol className={styles.title_and_content_wrap}>
                                     <li className={styles.title_wrap}>
                                         <p>Original Code</p>
                                     </li>
@@ -356,7 +356,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-    
+
                                 </ol>
 
 
@@ -378,14 +378,14 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-    
+
                                 </ol>
                             </div>
 
 
                             <div className={styles.box_wrapper}>
 
-                            <ol className={styles.title_and_content_wrap}>
+                                <ol className={styles.title_and_content_wrap}>
                                     <li className={styles.title_wrap}>
                                         <p>Test Your Site</p>
                                     </li>
@@ -403,7 +403,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-    
+
                                 </ol>
 
 
@@ -426,7 +426,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-    
+
                                 </ol>
                             </div>
 
@@ -450,7 +450,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-    
+
                                 </ol>
 
 
@@ -472,13 +472,13 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-    
+
                                 </ol>
                             </div>
 
                             <div className={styles.box_wrapper}>
 
-                            <ol className={styles.title_and_content_wrap}>
+                                <ol className={styles.title_and_content_wrap}>
                                     <li className={styles.title_wrap}>
                                         <p>Login Features</p>
                                     </li>
@@ -496,10 +496,10 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-    
+
                                 </ol>
 
-  
+
                                 <ol className={styles.title_and_content_wrap}>
                                     <li className={styles.title_wrap}>
                                         <p>Payment Features</p>
@@ -518,7 +518,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-    
+
                                 </ol>
                             </div>
                         </div>
@@ -537,7 +537,7 @@ function Services() {
 
                             <div className={styles.box_wrapper}>
 
-                            <ol className={styles.title_and_content_wrap}>
+                                <ol className={styles.title_and_content_wrap}>
                                     <li className={styles.title_wrap}>
                                         <p>Logos & Design</p>
                                     </li>
@@ -555,7 +555,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-    
+
                                 </ol>
 
                                 <ol className={styles.title_and_content_wrap}>
@@ -576,7 +576,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                
+
                                 </ol>
                             </div>
 
@@ -599,7 +599,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-                
+
                                 </ol>
 
                                 <ol className={styles.title_and_content_wrap}>
@@ -621,7 +621,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-          
+
                                 </ol>
                             </div>
 
@@ -645,7 +645,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-            
+
                                 </ol>
 
 
@@ -666,7 +666,7 @@ function Services() {
                                             </Image>
                                         </div>
                                     </li>
-            
+
                                 </ol>
                             </div>
                         </div>
