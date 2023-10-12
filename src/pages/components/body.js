@@ -152,7 +152,7 @@ function Body() {
                       width={50}
                       height={50}
                       alt=""
-                      src="/Deo.jpg"
+                      src="/avatar.jpg"
                       onLoad={handleImageLoad}
                     >
                     </Image>
