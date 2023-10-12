@@ -2,7 +2,7 @@ import { Inter } from 'next/font/google'
 import Header from '../components/header'
 import VercelPage from "../components/info/vercel.js"
 import Footer from "../components/footer"
-import styles from "../../styles/components/info/vercel.module.css"
+import styles from "../../styles/components/info/faq.module.css"
 const inter = Inter({ subsets: ['latin'] })
 
 function threedrenders() {
