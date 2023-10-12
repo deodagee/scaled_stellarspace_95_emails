@@ -19,6 +19,17 @@ function HostgatorVercel() {
                     <ol className={styles.section_top}>
 
                         <li className={styles.section_top_list_item1}>
+                            <Image
+
+                                className={styles.cocacola}
+                                width={50}
+                                height={50}
+                                quality={100}
+                                alt=""
+                                src="/Deo.jpg"
+
+                            >
+                            </Image>
                             <h1 className={styles.top_title1}>
                                 FAQ
                             </h1>
