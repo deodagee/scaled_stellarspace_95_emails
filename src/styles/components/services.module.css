@@ -30,7 +30,7 @@
 
 
 .section_top {
-    padding-left:40px;
+    padding-left:7vw;
     padding-bottom: 20px;
     padding-top: 150px;
     background-image: url("/logogreythreed.jpg");
@@ -41,6 +41,14 @@
     display: flex;
     margin-bottom: 50px;
   }
+
+  .cocacola {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: 0.4s;
+transform: scale(1.04);
+box-shadow: white 0px 0px 4px;
+}
   
   .section_top_list_item1 {
     color: white;
@@ -74,32 +82,26 @@
     padding-right: 15px;
     font-size: 15px;
     padding-bottom: 4px;
-    background-color: rgba(199, 199, 199, 0);
+    background-color: rgba(255, 255, 255, 0.833);
     border-radius: 0.75rem;
-    color: rgb(91, 91, 91);
-    box-shadow: rgb(255, 255, 255) 0px 0px 4px;
-    border-width: 2px;
-    border-color: rgb(168, 168, 168);
+    color: rgb(13, 18, 26);
+    box-shadow: rgb(0, 0, 0) 0px 0px 5px;
+    border-width: 1px;
+    border-color: rgb(53, 53, 53);
     transition: 0.4s;
   }
   
   .home_button:hover{ 
-    transform: scale(1.1);
-    background-color: rgb(0, 199, 172);
+    transform: scale(1.08);
+    background-color: rgb(15, 15, 20);
     text-decoration: none;
     transition: 0.4s;
-    color: rgb(241, 241, 241);
+    color: rgb(222, 222, 222);
     border-color: rgb(255, 255, 255);
     box-shadow: rgb(206, 206, 206) 0px 0px 7px;
   }
   
-.cocacola {
-    border-radius: 50%;
-    margin-top: 130px;
-    margin-bottom: 0;
-    transform: scale(0.9);
-    transition: 0.4s;
-}
+
 
 .videos_and_images_wrapper {
     align-items: center;
@@ -514,12 +516,7 @@
 
 @media (min-width: 200px) and (max-width: 300px) and (orientation:portrait) {
 
-    .cocacola {
-        margin-top: 100px;
-        border-radius: 50%;
-        transform: scale(0.8);
-        transition: 0.4s;
-    }
+
 
     .box_wrapper {
         width: 220px;
@@ -573,13 +570,6 @@
 
 @media (min-width: 200px) and (max-width: 300px) and (orientation:landscape) {
 
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(0.8);
-        transition: 0.4s;
-        margin-top: 100px;
-
-    }
 
     .box_wrapper {
         width: 220px;
@@ -633,12 +623,7 @@
 
 
 @media (min-width: 300px) and (max-width: 400px) and (orientation:portrait) {
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(1);
-        transition: 0.4s;
-        margin-top: 100px;
-    }
+
 
     .box_wrapper {
         width: 270px;
@@ -692,12 +677,6 @@
 }
 
 @media (min-width: 300px) and (max-width: 400px) and (orientation:landscape) {
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(0.8);
-        transition: 0.4s;
-        margin-top: 100px;
-    }
 
 
     .box_wrapper {
@@ -755,13 +734,6 @@
 
 
 @media (min-width: 400px) and (max-width: 500px) and (orientation:portrait) {
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(1);
-        transition: 0.4s;
-        margin-top: 120px;
-
-    }
 
 
     .box_wrapper {
@@ -817,12 +789,7 @@
 }
 
 @media (min-width: 400px) and (max-width: 500px) and (orientation:landscape) {
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(1);
-        transition: 0.4s;
-        margin-top: 120px;
-    }
+
 
     .box_wrapper {
         width: 300px;
@@ -877,13 +844,6 @@
 }
 
 @media (min-width: 500px) and (max-width: 600px) and (orientation:portrait) {
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(1);
-        transition: 0.4s;
-        margin-top: 120px;
-
-    }
 
 
     .box_wrapper {
@@ -940,13 +900,7 @@
 }
 
 @media (min-width: 500px) and (max-width: 600px) and (orientation:landscape) {
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(1);
-        transition: 0.4s;
-        margin-top: 120px;
 
-    }
 
     .box_wrapper {
         width: 250px;
@@ -1001,13 +955,6 @@
 }
 
 @media (min-width: 600px) and (max-width: 700px) and (orientation:portrait) {
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(1);
-        transition: 0.4s;
-        margin-top: 140px;
-
-    }
 
 
     .box_wrapper {
@@ -1062,13 +1009,7 @@
 }
 
 @media (min-width: 600px) and (max-width: 700px) and (orientation:landscape) {
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(1);
-        transition: 0.4s;
-        margin-top: 140px;
 
-    }
 
 
     .box_wrapper {
@@ -1122,14 +1063,6 @@
 }
 
 @media (min-width: 700px) and (max-width: 800px) and (orientation:portrait) {
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(1);
-        transition: 0.4s;
-        margin-top: 140px;
-
-    }
-
 
     .box_wrapper {
         width: 30vw;
@@ -1182,14 +1115,6 @@
 }
 
 @media (min-width: 700px) and (max-width: 800px) and (orientation:landscape) {
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(1);
-        transition: 0.4s;
-        margin-top: 140px;
-
-    }
-
 
     .box_wrapper {
         width: 30vw;
@@ -1242,14 +1167,6 @@
 }
 
 @media (min-width: 800px) and (max-width: 900px) and (orientation:portrait) {
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(1);
-        transition: 0.4s;
-        margin-top: 140px;
-
-    }
-
 
 
     .box_wrapper {
@@ -1305,13 +1222,6 @@
 }
 
 @media (min-width: 800px) and (max-width: 900px) and (orientation:landscape) {
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(1);
-        transition: 0.4s;
-        margin-top: 140px;
-
-    }
 
     .box_wrapper {
         width: 26vw;
@@ -1365,13 +1275,6 @@
 
 @media (min-width: 900px) and (max-width: 1000px) and (orientation:portrait) {
 
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(1);
-        transition: 0.4s;
-        margin-top: 150px;
-
-    }
 
     .box_wrapper {
         width: 26vw;
@@ -1426,14 +1329,6 @@
 
 @media (min-width: 900px) and (max-width: 1000px) and (orientation:landscape) {
 
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(1);
-        transition: 0.4s;
-        margin-top: 150px;
-
-    }
-
     .box_wrapper {
         width: 26vw;
     }
@@ -1487,14 +1382,6 @@
 
 @media (min-width: 1000px) and (max-width: 1200px) and (orientation:portrait) {
 
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(1);
-        transition: 0.4s;
-        margin-top: 150px;
-
-    }
-
     .box_wrapper {
         width: 22vw;
     }
@@ -1504,21 +1391,11 @@
         grid-template-columns: repeat(4, 1fr);
         gap: 10px;
     }
-
-
-
 }
 
 
 @media (min-width: 1000px) and (max-width: 1200px) and (orientation:landscape) {
 
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(1);
-        transition: 0.4s;
-        margin-top: 150px;
-
-    }
 
     .box_wrapper {
         width: 22vw;
@@ -1529,20 +1406,9 @@
         grid-template-columns: repeat(4, 1fr);
         gap: 10px;
     }
-
-
-
-
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) and (orientation:portrait) {
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(1);
-        transition: 0.4s;
-        margin-top: 150px;
-    }
-
     .box_wrapper {
         width: 22vw;
     }
@@ -1552,21 +1418,9 @@
         grid-template-columns: repeat(4, 1fr);
         gap: 10px;
     }
-
-
-
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) and (orientation:landscape) {
-
-
-    .cocacola {
-        border-radius: 50%;
-        transform: scale(1);
-        transition: 0.4s;
-        margin-top: 150px;
-    }
-
     .box_wrapper {
         width: 22vw;
     }
