@@ -82,8 +82,6 @@ function Body() {
 
           <ol className={styles.everything_wrapper}>
 
-
-
             <ul className={styles.top_bg_image_wrapper}>
               
               <div className={styles.separatorLine}></div>
@@ -426,90 +424,7 @@ function Body() {
               </ol>
             </div>
 
-
-
-            <ol className={styles.tabber}>
-
-              <ul className={styles.tabber_wrapper}>
-
-
-                <li className={styles.description_item}>
-                  <p className={styles.description}>
-                    I specialize in crafting immersive websites and applications that resonate with your target audience, and deliver cost-effective options that rival mainstream applications. Empower yourself with easy and affordable access to web services, apps, designs, and blueprints.
-                  </p>
-                </li>
-
-                <ul className={styles.bio_item}>
-
-                  <h1 className={styles.bio_header}>Bio & Skills</h1>
-                  <h1 className={styles.bio_header2}>Skills</h1>
-
-                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>DIPLOMA</p><span> 2017: Network Admin | CCNA, CCNP, & NET+</span></h1>
-                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>JAVASCRIPT</p><span>JavaScript; a versatile scripting language primarily used for adding interactivity and dynamic behavior to websites.</span></h1>
-                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>HTML</p><span>HTML; a language for structuring web content. </span></h1>
-                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>CSS</p><span>CSS; used to style and design how that content looks.</span></h1>
-                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>NextJs</p><span>Next.js; a React-based framework that provides development experience for building server-rendered, statically generated, and dynamically serving web applications.</span></h1>
-                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>SQL</p><span>SQL (Structured Query Language);  a programming language used for managing and manipulating relational databases.</span></h1>
-                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>PHP</p><span>PHP; a server-side scripting language commonly used for web development to create dynamic and interactive web applications.</span></h1>
-                </ul>
-
-
-
-
-                <ul className={styles.tabber_buttons_list}>
-
-                  <li className={styles.table_item}>
-                    <Link
-                      href={"/services"}>
-                      <button className={styles.services_more_button}>
-                        <p>Services {" >"}</p>
-                      </button>
-                    </Link>
-                  </li>
-                  <li className={styles.table_item}>
-                    <Link
-                      href={"/pricing"}>
-                      <button className={styles.prices_more_button}>
-                        <p>Prices {" >"}</p>
-                      </button>
-                    </Link>
-                  </li>
-                  <li className={styles.table_item}>
-                    <Link
-                      href={"/contact"}>
-                      <button className={styles.contact_more_button}>
-                        <p>Contact {" >"}</p>
-                      </button>
-                    </Link>
-                  </li>
-                  <li className={styles.table_item}>
-                    <Link
-                      href={"/projects"}>
-                      <button className={styles.projects_more_button}>
-                        <p>Projects {" >"}</p>
-                      </button>
-                    </Link>
-                  </li>
-                  <li className={styles.table_item}>
-                    <Link
-                      href={"/info/chatappdetails"}>
-                      <button className={styles.more_more_button}>
-                        <p>More {" >"}</p>
-                      </button>
-                    </Link>
-                  </li>
-                </ul>
-                <ul>
-                  <li className={styles.thank_you}>
-                    <p >Thank you for visiting astrumstellar.com!</p>
-                  </li>
-                </ul>
-
-
-              </ul>
-            </ol>
-
-
+            
             <div className={styles.lists}>
               <ol className={styles.list3}>
                 <li className={styles.title}>
@@ -568,9 +483,6 @@ function Body() {
                 </li>
               </ol>
             </div>
-
-
-
 
             <ol className={styles.rectangle_images_parent}>
               <ul className={styles.rectangle_images_wrapper}>
@@ -707,6 +619,86 @@ function Body() {
                     onLoad={handleImageLoad}
                   ></Image>
                 </li>
+              </ul>
+            </ol>
+            <ol className={styles.tabber}>
+
+              <ul className={styles.tabber_wrapper}>
+
+
+                <li className={styles.description_item}>
+                  <p className={styles.description}>
+                    I specialize in crafting immersive websites and applications that resonate with your target audience, and deliver cost-effective options that rival mainstream applications. Empower yourself with easy and affordable access to web services, apps, designs, and blueprints.
+                  </p>
+                </li>
+
+                <ul className={styles.bio_item}>
+
+                  <h1 className={styles.bio_header}>Bio & Skills</h1>
+                  <h1 className={styles.bio_header2}>Skills</h1>
+
+                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>DIPLOMA</p><span> 2017: Network Admin | CCNA, CCNP, & NET+</span></h1>
+                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>JAVASCRIPT</p><span>JavaScript; a versatile scripting language primarily used for adding interactivity and dynamic behavior to websites.</span></h1>
+                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>HTML</p><span>HTML; a language for structuring web content. </span></h1>
+                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>CSS</p><span>CSS; used to style and design how that content looks.</span></h1>
+                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>NextJs</p><span>Next.js; a React-based framework that provides development experience for building server-rendered, statically generated, and dynamically serving web applications.</span></h1>
+                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>SQL</p><span>SQL (Structured Query Language);  a programming language used for managing and manipulating relational databases.</span></h1>
+                  <h1 className={styles.bio_tag}><p className={styles.bio_side_tag}>PHP</p><span>PHP; a server-side scripting language commonly used for web development to create dynamic and interactive web applications.</span></h1>
+                </ul>
+
+
+
+
+                <ul className={styles.tabber_buttons_list}>
+
+                  <li className={styles.table_item}>
+                    <Link
+                      href={"/services"}>
+                      <button className={styles.services_more_button}>
+                        <p>Services {" >"}</p>
+                      </button>
+                    </Link>
+                  </li>
+                  <li className={styles.table_item}>
+                    <Link
+                      href={"/pricing"}>
+                      <button className={styles.prices_more_button}>
+                        <p>Prices {" >"}</p>
+                      </button>
+                    </Link>
+                  </li>
+                  <li className={styles.table_item}>
+                    <Link
+                      href={"/contact"}>
+                      <button className={styles.contact_more_button}>
+                        <p>Contact {" >"}</p>
+                      </button>
+                    </Link>
+                  </li>
+                  <li className={styles.table_item}>
+                    <Link
+                      href={"/projects"}>
+                      <button className={styles.projects_more_button}>
+                        <p>Projects {" >"}</p>
+                      </button>
+                    </Link>
+                  </li>
+                  <li className={styles.table_item}>
+                    <Link
+                      href={"/info/chatappdetails"}>
+                      <button className={styles.more_more_button}>
+                        <p>More {" >"}</p>
+                      </button>
+                    </Link>
+                  </li>
+                </ul>
+                <ul>
+                  <li className={styles.thank_you}>
+                    <p >Thank you for visiting astrumstellar.com!</p>
+                  </li>
+                </ul>
+
+
               </ul>
             </ol>
 
