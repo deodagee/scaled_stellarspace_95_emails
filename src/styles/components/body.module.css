@@ -145,6 +145,7 @@ margin: 0;
 .avatar_image_items {
   margin-right: 50px;
   width: 70vw;
+  max-height: 150px;
   gap: 10px;
   align-items: center;
   justify-content: space-between;
@@ -158,8 +159,7 @@ margin: 0;
   flex-direction: column;
   transition: 0.5s;
   width: 100px;
-height:100px ;
-
+  max-height: 150px;
 }
 .avatar_image_deo {
   margin-top: -50px;
