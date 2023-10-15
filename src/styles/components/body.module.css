@@ -125,21 +125,86 @@ margin: 0;
 }
 
 
-.avatar_image_deo_circle_item { 
+.avatar_image_deo_circle_item svg { 
   display: flex;
   align-content: center;
   justify-content: center;
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
   background-image: url("/me5.png");
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: white 0px 0px 7px;
   border-width: 2px;
   border-color: rgb(204, 204, 204);
+  animation: changeBorderColor 3s infinite, changeBoxShadow 3s infinite, changeBgimage 12s infinite; /* Apply both animations */}
+
+@keyframes changeBorderColor {
+  30% {
+      border-color: rgb(255, 179, 0); /* Initial border color at the start of the animation */
+  }
+  60% {
+      border-color: rgb(0, 191, 255); /* Border color halfway through the animation */
+  }
+  90% {
+      border-color: rgb(128, 255, 0); /* Final border color at the end of the animation */
+  }
 }
+
+@keyframes changeBoxShadow {
+  30% {
+    box-shadow: #00fff2 0px 0px 10px; 
+  }
+  60% {
+    box-shadow: #ff0080 0px 0px 10px;
+  }
+  100% {
+    box-shadow: #fff200 0px 0px 10px; 
+  }
+}
+
+
+@keyframes changeBgimage {
+  0% {
+    background-image: url("/me5.png");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(0.5);
+
+    
+  }
+  50% {
+    background-image: url("/bgwhole9.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(0.9);
+
+    
+  }
+  75% {
+    background-image: url("/bgwhole12.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1);
+
+  }
+  100% {
+    background-image: url("/bgwhole10.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+      transform: scale(1.1);
+
+  }
+}
+
 
 .top_bg_image_wrapper {
   width: 100vw;
@@ -152,7 +217,7 @@ margin: 0;
   border-right: none;
   border-color: rgb(255, 255, 255);
   box-shadow: rgb(0, 0, 0) 0px 0px 5px;
-  background-image: url("/bgwhole3.jpg");
+  background-image: url("/bgwhole20.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
