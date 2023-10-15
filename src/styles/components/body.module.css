@@ -140,8 +140,8 @@ margin: 0;
   background-size: cover;
   box-shadow: white 0px 0px 1px;
   border-width: 2px;
-  width: 70ox;
-  height: 70ox;
+  width: 70px;
+  height: 70px;
   border-color: rgb(204, 204, 204);
   animation: changeBorderColor 3s infinite, changeBoxShadow 3s infinite, changeBgimage 12s infinite; /* Apply both animations */}
 
