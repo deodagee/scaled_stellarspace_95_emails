@@ -143,12 +143,18 @@ margin: 0;
 @keyframes changeBorderColor {
   30% {
       border-color: rgb(255, 179, 0); /* Initial border color at the start of the animation */
+        border-radius: 50%;
+
   }
   60% {
       border-color: rgb(0, 191, 255); /* Border color halfway through the animation */
+      border-radius: 50%;
+
   }
   90% {
       border-color: rgb(128, 255, 0); /* Final border color at the end of the animation */
+      border-radius: 50%;
+
   }
 }
 
