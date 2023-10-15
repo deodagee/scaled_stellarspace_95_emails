@@ -81,14 +81,14 @@ function Body() {
 
       const radiusAnimation = document.createElementNS("http://www.w3.org/2000/svg", "animate");
       radiusAnimation.setAttribute("attributeName", "r");
-      radiusAnimation.setAttribute("values", "25%;50%");
-      radiusAnimation.setAttribute("dur", "4s");
+      radiusAnimation.setAttribute("values", "5%;55%");
+      radiusAnimation.setAttribute("dur", "3s");
       radiusAnimation.setAttribute("repeatCount", "indefinite");
 
       const opacityAnimation = document.createElementNS("http://www.w3.org/2000/svg", "animate");
       opacityAnimation.setAttribute("attributeName", "fill-opacity");
-      opacityAnimation.setAttribute("values", "1;0");
-      opacityAnimation.setAttribute("dur", "4s");
+      opacityAnimation.setAttribute("values", "0.4;0");
+      opacityAnimation.setAttribute("dur", "3s");
       opacityAnimation.setAttribute("repeatCount", "indefinite");
 
       circle.appendChild(radiusAnimation);
@@ -109,6 +109,7 @@ function Body() {
 
         <div className={styles.whole}>
           <div className={styles.parent_wrapper}>
+
 
 
             <ol className={styles.everything_wrapper}>
@@ -178,17 +179,16 @@ function Body() {
 
                   <ul className={styles.avatar_image_list_item_and_name_and_emails_item}>
                     <li className={`${styles.avatar_image_list_item} ${styles.avatar_image_list_item_deo}`}>
-                      <svg width="50" height="50" viewBox="0 0 320 320">
-                        <defs>
-                          <circle id="circle-clip" cx="50%" cy="50%" r="25%" />
-                          <clipPath id="avatar-clip">
-                            <use href="#circle-clip" />
-                          </clipPath>
-                        </defs>
+                      <div className={styles.avatar_image_deo_circle_item} >
+                      <svg className={styles.svg_image_deo} width={100} height="100" viewBox="0 0 320 320">
+                        <circle ref={circleRef} cx="50%" cy="50%" fill="grery" fillOpacity="0.5" >
 
-                        <circle ref={circleRef} cx="50%" cy="50%" r="25%" fill="white" fillOpacity="1" />
-                        <image className={styles.avatar_image_deo} width="200" height="200" x="25%" y="25%" src="/avatar.jpg" clipPath="url(#avatar-clip)" />
+
+                        </circle>
+
                       </svg>
+                      </div>
+
                     </li>
                     <li className={styles.name_and_emails_item}>
                       <div>
