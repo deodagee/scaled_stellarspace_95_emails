@@ -58,8 +58,8 @@
   justify-content: center;
   height: 200px;
   width: 500px;
-  border-radius: 0.25rem;
-  background-color: rgba(227, 227, 227, 0.87);
+  border-radius: 0.55rem;
+  background-color: rgba(17, 17, 17, 0.87);
   border-width: 1px;
   border-color: rgb(255, 255, 255);
   box-shadow: white 0px 0px 7px;
@@ -78,8 +78,10 @@
 font-family: sans-serif;
 padding: 10px;
 border-radius: 0.85rem;
-color: rgb(63, 63, 63);
+color: rgb(229, 229, 229);
 box-shadow: white 0px 0px 7px ;
+border-color: rgb(184, 184, 184);
+border-width: 1px;
 margin: 0;
 }
 
@@ -97,6 +99,8 @@ margin: 0;
   padding: 5px;
   transition: 0.5s;
   color: white;
+  border-color: whitesmoke;
+  border-width: 1px;
 }
 
 .close_button_image{ 
@@ -136,8 +140,8 @@ margin: 0;
   background-size: cover;
   box-shadow: white 0px 0px 7px;
   border-width: 2px;
-  width: 100px;
-  height: 100px;
+  width: max-content;
+  height: max-content;
   border-color: rgb(204, 204, 204);
   animation: changeBorderColor 3s infinite, changeBoxShadow 3s infinite, changeBgimage 12s infinite; /* Apply both animations */}
 
@@ -1682,7 +1686,7 @@ transform: scale(1.02);
 @media (min-width: 200px) and (max-width: 300px) and (orientation: portrait) {
 
   .promo_message_first_body { 
- transform: scale(0.4);
+ transform: scale(0.3);
   }
 
   .credentials {
@@ -1883,7 +1887,7 @@ transform: scale(1.02);
 @media (min-width: 200px) and (max-width: 300px) and (orientation: landscape) {
 
   .promo_message_first_body { 
-    transform: scale(0.4);
+    transform: scale(0.3);
      }
    
      .credentials {
@@ -2088,7 +2092,7 @@ transform: scale(1.02);
 
 
   .promo_message_first_body { 
-    transform: scale(0.6);
+    transform: scale(0.5);
      }
 
   .credentials {
@@ -2288,7 +2292,7 @@ transform: scale(1.02);
 @media (min-width: 300px) and (max-width: 400px) and (orientation: landscape) {
 
   .promo_message_first_body { 
-    transform: scale(0.6);
+    transform: scale(0.5);
      }
 
   .credentials {
@@ -2490,7 +2494,7 @@ transform: scale(1.02);
 @media (min-width: 400px) and (max-width: 500px) and (orientation: portrait) {
 
   .promo_message_first_body { 
-    transform: scale(0.8);
+    transform: scale(0.7);
      }
 
   .credentials {
@@ -2688,7 +2692,7 @@ transform: scale(1.02);
 @media (min-width: 400px) and (max-width: 500px) and (orientation: landscape) {
 
   .promo_message_first_body { 
-    transform: scale(0.8);
+    transform: scale(0.7);
      }
 
   .credentials {
@@ -2887,7 +2891,7 @@ transform: scale(1.02);
 @media (min-width: 500px) and (max-width: 600px) and (orientation: portrait){
 
   .promo_message_first_body { 
- transform: scale(0.8);
+ transform: scale(0.7);
   }
 
   .credentials {
@@ -3086,7 +3090,7 @@ transform: scale(1.02);
 
 
   .promo_message_first_body { 
-    transform: scale(0.8);
+    transform: scale(0.7);
      }
 
   .credentials {
