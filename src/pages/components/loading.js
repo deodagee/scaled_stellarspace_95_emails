@@ -11,7 +11,7 @@ const Loading = () => {
         alt=''
         width={50}
         height={50}
-        src={'/logored.png'}>
+        src={'/logoico.png'}>
 
         </Image>
         </div>

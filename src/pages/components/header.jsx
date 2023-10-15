@@ -69,7 +69,7 @@ function Header() {
       <Head>
         <title > Astrum Stellar</title>
 
-        <link className={styles.favicon} height={100} width={100} rel="icon" href="/logoblack.ico" type="image/x-icon" />
+        <link className={styles.favicon} height={50} width={30} rel="icon" href="/logoico.ico" type="image/x-icon" />
         <link rel="stylesheet" href={"/styles/components/header.module.css"} />
       </Head>
 
@@ -91,7 +91,7 @@ function Header() {
                       alt=""
                       width={50}
                       height={50}
-                      src={"/logored.png"}
+                      src={"/logoico.png"}
                     >
                     </Image>
                   </Link>
