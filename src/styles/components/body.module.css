@@ -136,6 +136,7 @@ margin: 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: white 0px 0px 7px;
 }
 
 .top_bg_image_wrapper {
