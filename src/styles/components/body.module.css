@@ -1426,10 +1426,10 @@ transform: scale(1.02);
   background: linear-gradient(to bottom,#071719,#17171f, #0e0a12);
   padding: 30px;
   border-width: 2px;
-  border-bottom-right-radius: 0.85rem;
-  border-bottom-left-radius: 0.85rem;
-  border-top-right-radius: 0.25rem;
-  border-top-left-radius: 0.25rem;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
   display: flex;
@@ -1445,10 +1445,14 @@ transform: scale(1.02);
 }
 
 .frame_wrapper:hover {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 45px;
+  border-bottom-left-radius: 45px;
   color: rgb(255, 255, 255);
   transition: 0.5s;
   box-shadow: rgb(60, 60, 60) 0px 0px 10px 1px;
-  transform: scale(1.05);
+  transform: scale(1.03);
 
 }
 
