@@ -138,7 +138,7 @@ margin: 0;
   background-size: cover;
   box-shadow: white 0px 0px 7px;
   border-width: 2px;
-  border-color: white;
+  border-color: rgb(204, 204, 204);
 }
 
 .top_bg_image_wrapper {
