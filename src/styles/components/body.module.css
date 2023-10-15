@@ -165,13 +165,13 @@ margin: 0;
 
 @keyframes changeBoxShadow {
   30% {
-    box-shadow: #00fff2 0px 0px 10px; 
+    box-shadow: #00fff2 0px 0px 5px; 
   }
   60% {
-    box-shadow: #ff0080 0px 0px 10px;
+    box-shadow: #ff0080 0px 0px 5px;
   }
   100% {
-    box-shadow: #fff200 0px 0px 10px; 
+    box-shadow: #fff200 0px 0px 5px; 
   }
 }
 
