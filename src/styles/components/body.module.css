@@ -137,6 +137,8 @@ margin: 0;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: white 0px 0px 7px;
+  border-width: 2px;
+  border-color: white;
 }
 
 .top_bg_image_wrapper {
