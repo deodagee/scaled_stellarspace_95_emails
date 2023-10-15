@@ -180,7 +180,7 @@ function Body() {
                   <ul className={styles.avatar_image_list_item_and_name_and_emails_item}>
                     <li className={`${styles.avatar_image_list_item} ${styles.avatar_image_list_item_deo}`}>
                     <div className={styles.avatar_image_deo_circle_item}>
-      <svg className={styles.svg_image_deo} width="120" height="120" viewBox="0 0 320 320">
+      <svg className={styles.svg_image_deo} width="70" height="70" viewBox="0 0 320 320">
         <circle ref={circleRef} cx="50%" cy="50%" fill="gray" fillOpacity="0.5"></circle>
       </svg>
     </div>
