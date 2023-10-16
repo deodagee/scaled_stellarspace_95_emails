@@ -130,7 +130,7 @@ function Projects() {
 
                                     <span className={styles.description_list_element_wrapper}>
                                         <li className={styles.description_list_element}>
-                                            <p>Coffee Shop For Day Skippers</p>
+                                            <p>Coffee Shop App For Day Skippers</p>
                                         </li>
                                         <li className={styles.description_list_element}>
                                             <p>Link: <Link className={styles.description_list_element_right_side} href={"https://coffee-shop-beta-swart.vercel.app"}>https://coffee-shop-beta-swart.vercel.app</Link></p>
