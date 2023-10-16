@@ -1438,7 +1438,7 @@ transform: scale(1.02);
   flex-direction: row;
   gap: 20px;
   width: max-content;
-  height: max-content;
+  height: 550px;
   color: rgb(212, 212, 212);
   font-size: 12px;
   transition: 0.5s;
