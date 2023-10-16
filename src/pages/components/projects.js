@@ -121,6 +121,50 @@ function Projects() {
                                     </li>
                                 </ol>
 
+                                <ol className={styles.list2}>
+                                    <li className={styles.title}>
+                                        <h1>
+                                            Category: Ui/Ux
+                                        </h1>
+                                    </li>
+
+                                    <span className={styles.description_list_element_wrapper}>
+                                        <li className={styles.description_list_element}>
+                                            <p>Real Time Chat App</p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Link: <Link className={styles.description_list_element_right_side} href={"https://coffee-shop-beta-swart.vercel.app"}>https://coffee-shop-beta-swart.vercel.app</Link></p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Client: <span className={styles.description_list_element_right_side}>Public</span></p>
+                                        </li>
+                                    </span>
+
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/coffeepls.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/info/coffeeappdetails'}>
+                                            <h1 className={styles.view_link_header}>View App Details</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
 
                                 <ol className={styles.list2}>
                                     <li className={styles.title}>

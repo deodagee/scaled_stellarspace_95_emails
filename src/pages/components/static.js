@@ -42,13 +42,13 @@ function Static() {
                 <span className={styles.seperator_line}></span>
                 <Link href={'/dynamicplus'}>
                   <li className={styles.tab_3}>
-                    <p>Dynamic Plus</p>
+                    <p>Dynamic +</p>
                   </li>
                 </Link>
                 <span className={styles.seperator_line}></span>
                 <Link href={'/dynamicplusextra'}>
                   <li className={styles.tab_4}>
-                    <p>Dynamic Plus Extra</p>
+                    <p>Dynamic + Extra</p>
                   </li>
                 </Link>
                 <span className={styles.seperator_line}></span>
