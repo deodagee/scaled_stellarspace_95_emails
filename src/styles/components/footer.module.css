@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+/*font-family: 'Oswald', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
+/*  font-family: 'Cabin', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+/*  font-family: 'Teko', sans-serif;
+*/
+
+.footer ul { 
+  list-style: none;
+}
+
+.footer {
+  background-color: #0c1215;
+  color: #8b0000;
+  padding: 10px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+width: 100vw;
+}
+
+
+.separatorLine1 {
+  border-color: #ffffffe7;
+  border-radius: 50px;
+  border-width: 2px;
+  width: 80vw;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+.sections {
+  width: 70vw;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  transition: 0.2s;
+  align-items: center;
+  justify-content: space-between;
+  height: max-content;
+}
+
+.section {
+  width: max-content;
+  flex: 1;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.list_sections {
+  width: max-content;
+  font-size: 9px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.avatarContact {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: max-content;
+}
+
+.avatar {
+  box-shadow: rgb(45, 14, 14) 0px 0px 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: 1s;
+  margin-right: 0;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+}
+
+
+.avatar:hover {
+  transition: 1s;
+  box-shadow: rgb(255, 0, 0) 0px 0px 10px;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+.astrumBottomName {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+  transition: 2s;
+}
+
+.astrumBottomName:hover {
+  cursor: pointer;
+  transition: 2s;
+  color: rgb(231, 231, 231);
+}
+
+.contactButton {
+  box-shadow: rgb(171, 171, 171) 0px 0px 8px;
+  background-color: #1e9218;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.contactButton:hover {
+  transition: 0.6s;
+  transform: scale(1.03);
+  background-color: #0b3908;
+}
+
+.contactParagraph {
+  font-size: 9px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.pagesLinksServices {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.sectionTitle {
+  text-align: center;
+  font-size: 12px;
+  color: rgb(166, 166, 166);
+  font-weight: bold;
+  margin-bottom: 2vh;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.list {
+  display: block;
+  width: min-content;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 10px;
+  color: rgb(143, 143, 143);
+  margin-bottom: 5px;
+  transition: 0.2s;
+}
+
+.item:hover {
+  text-decoration: underline;
+  color: rgb(255, 191, 0);
+  transition: 0.2s;
+
+}
+
+.iconsAndCopy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageIcon {
+  border-radius: 50%;
+  transition: 0.5s;
+  margin-right: 10px;
+  transform: scale(0.5);
+}
+
+.imageIcon:hover {
+  cursor: pointer;
+  transition: 0.6s;
+  transform: scale(0.8);
+}
+
+.copyRight {
+  transition: 0.5s;
+  text-align: right;
+  font-size: 6px;
+  font-weight: 400;
+  color: rgb(255, 102, 0);
+}
+
+.copyRight:hover {
+    transition: 0.5s;
+transform: scale(1.2);
+}
+
+
+@media (min-width: 200px) and (max-width: 300px) {
+
+  .footer {
+    background-color: #0c1215;
+    color: white;
+    width: 100vw ;
+    display: flex;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+  
+  .sections {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    transition: 0.2s;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+  }
+
+  .list_sections {
+    font-size: 6px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+  }
+
+  .list { 
+   width: max-content;
+  } 
+  .sectionTitle { 
+    font-size: 8px;
+  }
+
+  .item { 
+    font-size: 5px;
+  }
+
+  .avatarContact {
+    transform: scale(0.6);
+    gap: 10px;
+  }
+
+  .iconsAndCopy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    flex-direction: column;
+  }
+
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+
+  .footer {
+    background-color: #0c1215;
+    color: white;
+    width: 100vw ;
+    display: flex;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+  
+  .sections {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    transition: 0.2s;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+  }
+
+  .list_sections {
+    font-size: 7px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+  }
+
+  .sectionTitle {
+    font-size: 10px;
+  }
+
+  .avatarContact {
+    transform: scale(0.6);
+    gap: 10px;
+  }
+
+  .iconsAndCopy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    flex-direction: column;
+  }
+
+}
+
+
+
+@media (min-width: 400px) and (max-width: 800px) {
+
+
+
+  .sections {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    transition: 0.2s;
+    align-items: center;
+    justify-content: center;
+    height: max-content;
+  }
+
+
+  .list_sections {
+    font-size: 9px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+  }
+
+  .sectionTitle {
+    font-size: 10px;
+  }
+
+  .avatarContact {
+    transform: scale(0.6);
+  }
+
+  .iconsAndCopy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    flex-direction: column;
+  }
+
+}
+

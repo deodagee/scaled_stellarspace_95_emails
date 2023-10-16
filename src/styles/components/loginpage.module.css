@@ -1,0 +1,83 @@
+.loginpage_wrapper { 
+    display: contents;
+}
+
+.first_menubar {
+    gap: 10vw;
+    width: 100vw;
+    display: flex;
+    font-size: 9px;
+    font-family: 'Skranji', cursive;
+    font-weight: 700;
+    flex-direction: row;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(34, 34, 34);
+    background: linear-gradient(to top, #111316, #11141a);
+    padding: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    text-decoration: underline;
+    transition: 0.8s;
+  }
+  
+  .first_menubar p:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    color: rgb(0, 68, 93);
+  }
+  
+  .first_menubar:hover {
+    transition: 0.5s;
+    color:#f0f0f0;
+    background: linear-gradient(to top, #171717, #191919);
+      box-shadow: rgb(255, 255, 255) 0px 0px 5px;
+  }
+
+  
+.second_menubar {
+    gap: 12vw;
+    width: 100vw;
+    display: flex;
+    font-size: 10px;
+    font-family: 'Skranji', cursive;
+    font-weight: 700;
+    flex-direction: row;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(17, 17, 17);
+    padding: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(212, 212, 212);
+    color: rgb(246, 246, 246);
+    border-width: 1px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 3px;
+    transition: 0.5s;
+  }
+  
+  .second_menubar:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 31, 31);
+    transition: 0.5s;
+    box-shadow: rgb(255, 255, 255) 0px 0px 5px;
+  }
+  
+  .second_menubar p {
+    transition: 0.7s;
+  }
+  
+  .second_menubar p:hover {
+    cursor: pointer;
+    color: rgb(250, 250, 250);
+    transition: 0.4s;
+    text-decoration: underline;
+  }
+  
