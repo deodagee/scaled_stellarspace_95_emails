@@ -7,7 +7,11 @@
 
 
 .whole {
-  background-color: rgb(11, 11, 11);
+  background:linear-gradient( rgb(206, 206, 206),  rgb(255, 255, 255));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   align-items: center;
   justify-content: center;
   display: flex;
@@ -34,7 +38,7 @@
 
 
 .pricing_headers_list_wrapper {
-  margin-top: 20vh;
+  margin-top: 100px;
   margin-bottom: 60px;
   width: 80vw;
   align-items: center;
@@ -49,7 +53,7 @@
   gap: 35px;
   background-color: rgb(232, 232, 232);
   box-shadow: rgb(105, 105, 105) 0px 0px 7px;
-  border-radius: 0.25rem;
+  border-radius: 0.88rem;
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
@@ -92,9 +96,9 @@
 
 .seperator_line {
   display: flex;
-  background-color: rgb(167, 167, 167);
+  background-color: rgb(255, 179, 0);
   height: 15px;
-  width: 1px;
+  width: 2px;
   box-shadow: black 0px 0px 50px;
 }
 
@@ -114,14 +118,13 @@
   justify-content: center;
   gap: 30px;
   width: 100vw;
+  margin-bottom: 100px;
 }
 
 .frame_wrapper {
   z-index:0;
   border-width: 1px;
-  background: linear-gradient(to bottom,#071719,#17171f, #0e0a12);
-  box-shadow: rgb(60, 60, 60) 0px 0px 10px 1px;
-  border-color: rgb(255, 196, 0);
+  box-shadow: rgb(235, 235, 235) 0px 0px 10px 1px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -131,7 +134,6 @@
   border-bottom-left-radius: 0.85rem;
   border-top-right-radius: 0.25rem;
   border-top-left-radius: 0.25rem;
-  margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -142,14 +144,15 @@
   color: rgb(212, 212, 212);
   font-size: 12px;
   transition: 0.5s;
+  
 
 }
 
 .frame_wrapper:hover {
   color: rgb(255, 255, 255);
   transition: 0.5s;
-  box-shadow: rgb(60, 60, 60) 0px 0px 10px 1px;
-  transform: scale(1.05);
+  box-shadow: rgb(199, 199, 199) 0px 0px 10px 1px;
+  transform: scale(1.01);
 
 }
 
@@ -199,10 +202,9 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  border-radius: 50px;
+  border-radius: 0.75rem;
   width: 180px;
   border-width: 1px;
-  border-color: linear-gradient(to right, rgba(255, 255, 255, 0.731), rgba(255, 255, 255, 0.935), rgba(255, 255, 255, 0.752));
   font-size: 20px;
   font-weight: 400;
   padding: 1px;
@@ -210,7 +212,7 @@
   box-shadow: white 0px 0px 8px;
   transition: 0.6s;
   background-color: rgba(255, 255, 255, 0.981);
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.845), rgba(255, 255, 255, 0.935), rgba(95, 95, 95, 0.801));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.845), rgba(255, 255, 255, 0.935), rgba(179, 179, 179, 0.801));
   padding-top: 5px;
 }
 
@@ -262,7 +264,7 @@
   border-radius: 0.45rem;
   transition: 0.7s;
   gap: 10px;
-  background-color: black;
+  background-color: rgb(78, 78, 78);
 }
 
 .sites_list li:hover {
@@ -270,7 +272,7 @@
   font-weight: 700;
   border-radius: 0.45rem;
   transition: 0.7s;
-  transform: scale(1.1);
+  transform: scale(0.95);
   background-color: rgb(255, 255, 255);
   color: rgb(36, 36, 36);
 }
@@ -332,16 +334,26 @@ border-color: white;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.086);
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-border-radius: 0.45rem;
-box-shadow: white 0px 0px 5px;
+border-radius: 35px;
+border-width: 6px;
+background-color: rgb(23, 23, 23);
+border-color: rgb(163, 163, 163);
+box-shadow: rgb(255, 255, 255) 0px 0px 8px;
 margin: 5px;
 width: 200px;
 gap: 20px;
+transition: 0.5s;
+
+}
+
+.full_design_fee_list_item:hover{ 
+  transition: 0.5s;
+  background-color: rgb(227, 227, 227);
+  border-color: rgb(36, 36, 36);
 }
 
 .full_design_fee_title {
@@ -349,7 +361,7 @@ gap: 20px;
   align-items: center;
   justify-content: center;
   font-size: 15px;
-  color: rgb(215, 215, 215);
+  color: rgb(47, 47, 47);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -511,7 +523,6 @@ gap: 20px;
 
 @media (min-width: 200px) and (max-width: 300px) and (orientation:portrait) {
   .pricing_headers_list_wrapper { 
-    margin-top: 150px;
     margin-bottom: 0;
   }
 
@@ -545,7 +556,6 @@ gap: 20px;
 
 @media (min-width: 200px) and (max-width: 300px) and (orientation:landscape) {
   .pricing_headers_list_wrapper { 
-    margin-top: 150px;
     margin-bottom: 0;
   }
 
@@ -583,7 +593,6 @@ gap: 20px;
 
 @media (min-width: 300px) and (max-width: 400px) and (orientation:portrait) {
   .pricing_headers_list_wrapper { 
-    margin-top: 160px;
     margin-bottom: 20px;
   }
 
@@ -620,7 +629,6 @@ gap: 20px;
 
 @media (min-width: 300px) and (max-width: 400px) and (orientation:landscape) {
   .pricing_headers_list_wrapper { 
-    margin-top: 140px;
     margin-bottom: 20px;
   }
 
@@ -657,7 +665,6 @@ gap: 20px;
 
 @media (min-width: 400px) and (max-width: 500px) and (orientation:portrait){
   .pricing_headers_list_wrapper { 
-    margin-top: 170px;
     margin-bottom: 0;
   }
 
@@ -694,7 +701,6 @@ gap: 20px;
 
 @media (min-width: 400px) and (max-width: 500px) and (orientation:landscape){
   .pricing_headers_list_wrapper { 
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -732,7 +738,6 @@ gap: 20px;
 
 @media (min-width: 500px) and (max-width: 600px)  and (orientation:portrait){
   .pricing_headers_list_wrapper { 
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -767,7 +772,6 @@ gap: 20px;
 
 @media (min-width: 500px) and (max-width: 600px)  and (orientation:landscape){
   .pricing_headers_list_wrapper { 
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -806,7 +810,6 @@ gap: 20px;
 @media (min-width: 600px) and (max-width: 700px) and (orientation:portrait) {
   .pricing_headers_list_wrapper { 
     width: 90vw;
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -843,7 +846,6 @@ gap: 20px;
 @media (min-width: 600px) and (max-width: 700px) and (orientation:landscape) {
   .pricing_headers_list_wrapper { 
     width: 90vw;
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -881,7 +883,6 @@ gap: 20px;
 @media (min-width: 700px) and (max-width: 800px) and (orientation:portrait){
   .pricing_headers_list_wrapper { 
     width: 90vw;
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -917,7 +918,6 @@ gap: 20px;
 
 @media (min-width: 700px) and (max-width: 800px) and (orientation:landscape) {
   .pricing_headers_list_wrapper { 
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -955,7 +955,6 @@ gap: 20px;
 
 @media (min-width: 800px) and (max-width: 900px) and (orientation:portrait){
   .pricing_headers_list_wrapper { 
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -992,7 +991,6 @@ gap: 20px;
 
 @media (min-width: 800px) and (max-width: 900px) and (orientation:landscape){
   .pricing_headers_list_wrapper { 
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -1030,7 +1028,6 @@ gap: 20px;
 
 @media (min-width: 900px) and (max-width: 1000px) and (orientation:portrait) {
   .pricing_headers_list_wrapper { 
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -1068,7 +1065,6 @@ gap: 20px;
 
 @media (min-width: 900px) and (max-width: 1000px) and (orientation:landscape) {
   .pricing_headers_list_wrapper { 
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -1107,7 +1103,6 @@ gap: 20px;
 
 @media (min-width: 1000px) and (max-width: 1100px) and (orientation:portrait) {
   .pricing_headers_list_wrapper { 
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -1145,7 +1140,6 @@ gap: 20px;
 
 @media (min-width: 1000px) and (max-width: 1100px) and (orientation:landscape){
   .pricing_headers_list_wrapper { 
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -1184,7 +1178,6 @@ gap: 20px;
 
 @media (min-width: 1100px) and (max-width: 1200px) and (orientation:portrait) {
   .pricing_headers_list_wrapper { 
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -1222,7 +1215,6 @@ gap: 20px;
 
 @media (min-width: 1100px) and (max-width: 1200px) and (orientation:landscape) {
   .pricing_headers_list_wrapper { 
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -1263,7 +1255,6 @@ gap: 20px;
 
 @media (min-width: 1200px) and (max-width: 1300px) and (orientation:portrait){
   .pricing_headers_list_wrapper { 
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -1299,7 +1290,6 @@ gap: 20px;
 
 @media (min-width: 1200px) and (max-width: 1300px) and (orientation:landscape) {
   .pricing_headers_list_wrapper { 
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -1339,7 +1329,6 @@ gap: 20px;
 
 @media (min-width: 1300px) and (max-width: 1400px) and (orientation:portrait) {
   .pricing_headers_list_wrapper { 
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -1377,7 +1366,6 @@ gap: 20px;
 
 @media (min-width: 1300px) and (max-width: 1400px) and (orientation:landscape) {
   .pricing_headers_list_wrapper { 
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -1419,7 +1407,6 @@ gap: 20px;
 
 @media (min-width: 2000px) and (max-width: 5000px) and (orientation:portrait) {
   .pricing_headers_list_wrapper { 
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
@@ -1456,7 +1443,6 @@ gap: 20px;
 
 @media (min-width: 2000px) and (max-width: 5000px) and (orientation:landscape) {
   .pricing_headers_list_wrapper { 
-    margin-top: 200px;
     margin-bottom: 0;
   }
 
