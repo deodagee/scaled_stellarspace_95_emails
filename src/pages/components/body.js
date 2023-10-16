@@ -523,7 +523,7 @@ function Body() {
 
                   <li className={styles.rectangle_image_item}>
                     <Link
-                      href={"/imagespage"}>s
+                      href={"/imagespage"}>
                       <Image className={styles.rectangle_image}
                         alt=""
                         src={"/cocacola2.png"}
