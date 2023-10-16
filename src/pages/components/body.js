@@ -179,11 +179,11 @@ function Body() {
 
                   <ul className={styles.avatar_image_list_item_and_name_and_emails_item}>
                     <li className={`${styles.avatar_image_list_item} ${styles.avatar_image_list_item_deo}`}>
-                    <div className={styles.avatar_image_deo_circle_item}>
-      <svg className={styles.svg_image_deo} width="70" height="70" viewBox="0 0 320 320">
-        <circle ref={circleRef} cx="50%" cy="50%" fill="gray" fillOpacity="0.5"></circle>
-      </svg>
-    </div>
+                      <div className={styles.avatar_image_deo_circle_item}>
+                        <svg className={styles.svg_image_deo} width="70" height="70" viewBox="0 0 320 320">
+                          <circle ref={circleRef} cx="50%" cy="50%" fill="gray" fillOpacity="0.5"></circle>
+                        </svg>
+                      </div>
 
                     </li>
                     <li className={styles.name_and_emails_item}>
@@ -513,121 +513,162 @@ function Body() {
                 </ol>
               </div>
 
+
+
+
+              
+
               <ol className={styles.rectangle_images_parent}>
                 <ul className={styles.rectangle_images_wrapper}>
 
                   <li className={styles.rectangle_image_item}>
-                    <Image className={styles.rectangle_image}
-                      alt=""
-                      src={"/cocacola2.png"}
-                      width={200}
-                      height={200}
-                      quality={100}
-                      onLoad={handleImageLoad}
+                    <Link
+                      href={"/imagespage"}>s
+                      <Image className={styles.rectangle_image}
+                        alt=""
+                        src={"/cocacola2.png"}
+                        width={200}
+                        height={200}
+                        quality={100}
+                        onLoad={handleImageLoad}
 
-                    ></Image>
+                      ></Image>
+                    </Link>
+
                   </li>
 
                   <li className={styles.rectangle_image_item}>
-                    <Image className={styles.rectangle_image}
-                      src={"/shade.png"}
-                      alt=""
-                      width={200}
-                      height={200}
-                      quality={100}
-                      onLoad={handleImageLoad}
-                    ></Image>
+                    <Link
+                      href={"/imagespage"}>
+                      <Image className={styles.rectangle_image}
+                        src={"/shade.png"}
+                        alt=""
+                        width={200}
+                        height={200}
+                        quality={100}
+                        onLoad={handleImageLoad}
+                      ></Image>
+                    </Link>
                   </li>
 
                   <li className={styles.rectangle_image_item}>
-                    <Image className={styles.rectangle_image}
-                      src={"/cafepls.jpg"}
-                      alt=""
-                      width={200}
-                      height={200}
-                      quality={100}
-                      onLoad={handleImageLoad}
-                    ></Image>
+                    <Link
+                      href={"/imagespage"}>
+                      <Image className={styles.rectangle_image}
+                        src={"/cafepls.jpg"}
+                        alt=""
+                        width={200}
+                        height={200}
+                        quality={100}
+                        onLoad={handleImageLoad}
+                      ></Image>
+                    </Link>
                   </li>
 
                   <li className={styles.rectangle_image_item}>
-                    <Image className={styles.rectangle_image}
-                      src={"/cafepls2.jpg"}
-                      alt=""
-                      width={200}
-                      height={200}
-                      quality={100}
-                      onLoad={handleImageLoad}
-                    ></Image>
+                    <Link
+                      href={"/imagespage"}>
+                      <Image className={styles.rectangle_image}
+                        src={"/cafepls2.jpg"}
+                        alt=""
+                        width={200}
+                        height={200}
+                        quality={100}
+                        onLoad={handleImageLoad}
+                      ></Image>
+                    </Link>
                   </li>
 
                   <li className={styles.rectangle_image_item}>
-                    <Image className={styles.rectangle_image}
-                      src={"/chandeliercard.png"}
-                      alt=""
-                      width={200}
-                      height={200}
-                      quality={100}
-                      onLoad={handleImageLoad}
-                    ></Image>
+                    <Link
+                      href={"/imagespage"}>
+                      <Image className={styles.rectangle_image}
+                        src={"/chandeliercard.png"}
+                        alt=""
+                        width={200}
+                        height={200}
+                        quality={100}
+                        onLoad={handleImageLoad}
+                      ></Image>
+                    </Link>
                   </li>
 
                   <li className={styles.rectangle_image_item}>
-                    <Image className={styles.rectangle_image}
-                      src={"/bluecard.png"}
-                      alt=""
-                      width={200}
-                      height={200}
-                      quality={100}
-                      onLoad={handleImageLoad}
-                    ></Image>
+                    <Link
+                      href={"/imagespage"}>
+                      <Image className={styles.rectangle_image}
+                        src={"/bluecard.png"}
+                        alt=""
+                        width={200}
+                        height={200}
+                        quality={100}
+                        onLoad={handleImageLoad}
+                      ></Image>
+                    </Link>
                   </li>
 
                   <li className={styles.rectangle_image_item}>
-                    <Image className={styles.rectangle_image}
-                      src={"/imageblog.jpg"}
-                      alt=""
-                      width={200}
-                      height={200}
-                      quality={100}
-                      onLoad={handleImageLoad}
-                    ></Image>
+                    <Link
+                      href={"/imagespage"}>
+                      <Image className={styles.rectangle_image}
+                        src={"/imageblog.jpg"}
+                        alt=""
+                        width={200}
+                        height={200}
+                        quality={100}
+                        onLoad={handleImageLoad}
+                      ></Image>
+                    </Link>
                   </li>
 
                   <li className={styles.rectangle_image_item}>
-                    <Image className={styles.rectangle_image}
-                      src={"/astrumgreengrassui.png"}
-                      alt=""
-                      width={200}
-                      height={200}
-                      quality={100}
-                      onLoad={handleImageLoad}
-                    ></Image>
+                    <Link
+                      href={"/imagespage"}>
+                      <Image className={styles.rectangle_image}
+                        src={"/astrumgreengrassui.png"}
+                        alt=""
+                        width={200}
+                        height={200}
+                        quality={100}
+                        onLoad={handleImageLoad}
+                      ></Image>
+                    </Link>
+
                   </li>
 
                   <li className={styles.rectangle_image_item}>
-                    <Image className={styles.rectangle_image}
-                      src={"/stellarspaceui.png"}
-                      alt=""
-                      width={200}
-                      height={200}
-                      quality={100}
-                      onLoad={handleImageLoad}
-                    ></Image>
+                    <Link
+                      href={"/imagespage"}>
+                      <Image className={styles.rectangle_image}
+                        src={"/stellarspaceui.png"}
+                        alt=""
+                        width={200}
+                        height={200}
+                        quality={100}
+                        onLoad={handleImageLoad}
+                      ></Image>
+                    </Link>
+
                   </li>
 
                   <li className={styles.rectangle_image_item}>
-                    <Image className={styles.rectangle_image}
-                      src={"/neumorphicclickwheel.png"}
-                      alt=""
-                      width={200}
-                      height={200}
-                      quality={100}
-                      onLoad={handleImageLoad}
-                    ></Image>
+                    <Link
+                      href={"/imagespage"}>
+                      <Image className={styles.rectangle_image}
+                        src={"/neumorphicclickwheel.png"}
+                        alt=""
+                        width={200}
+                        height={200}
+                        quality={100}
+                        onLoad={handleImageLoad}
+                      ></Image>
+                    </Link>
+
                   </li>
 
                   <li className={styles.rectangle_image_item}>
+                  <Link 
+                    href={"/imagespage"}>
                     <Image className={styles.rectangle_image}
                       src={"/blackbox.jpg"}
                       width={200}
@@ -636,9 +677,12 @@ function Body() {
                       quality={100}
                       onLoad={handleImageLoad}
                     ></Image>
+                    </Link>
                   </li>
 
                   <li className={styles.rectangle_image_item}>
+                  <Link 
+                    href={"/imagespage"}>
                     <Image className={styles.rectangle_image}
                       src={"/bluebox.png"}
                       width={200}
@@ -647,9 +691,16 @@ function Body() {
                       quality={100}
                       onLoad={handleImageLoad}
                     ></Image>
+                    </Link>
                   </li>
                 </ul>
               </ol>
+
+
+
+
+
+
               <ol className={styles.tabber}>
 
                 <ul className={styles.tabber_wrapper}>
@@ -2008,8 +2059,9 @@ function Body() {
             </ol>
 
           </div>
-        </div>
-      )}
+        </div >
+      )
+      }
 
     </>
 
