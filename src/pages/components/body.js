@@ -118,7 +118,7 @@ function Body() {
 
                 <div className={styles.separatorLine}></div>
                 <div className={styles.promo_message_first_body} style={{ display: promoVisible ? 'inline-flex' : 'none' }}>
-                  <h1>Thank you for visiting the site. I am currently renovating and changing things up so please excuse the frequently changing Ui. If you&apos;re ready to purchase, you can absolutely get 60% off everything I&apos;ve priced on the site. Log in to take part of the 70% promotions. This is only for a limited time, I will change prices back once enough clients have taken into the promotion.</h1>
+                  <h1>I am currently expirementing with Cloudflare and Vercel&apos;s CDN configurations. Some Videos or Images may take their time loading because of the file size. If you want to report an issue, please go to the contact page and fill me in. I&apos;ll be glad to assist or review the matter.</h1>
                   <button className={styles.close_button} onClick={promoCloseButtonClick}><div>
                     <Image
                       className={styles.close_button_image}
