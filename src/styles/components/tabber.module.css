@@ -259,27 +259,28 @@
 .sites_list li {
   align-items: center;
   font-family: 'Cabin', sans-serif;
-  color: rgb(235, 235, 235);
+  color: rgb(109, 109, 109);
   font-weight: 700;
   margin: 5px;
-  padding: 1px;
+  padding: 5px;
   padding-left: 5px;
   padding-right: 5px;
-  border-radius: 0.45rem;
+  border-radius: 0.85rem;
   transition: 0.7s;
   gap: 10px;
-  background-color: rgb(78, 78, 78);
 }
 
 .sites_list li:hover {
   font-size: 11px;
   font-weight: 700;
-  border-radius: 0.45rem;
+  border-radius: 0.85rem;
   transition: 0.7s;
-  transform: scale(0.95);
-  background-color: rgb(255, 255, 255);
-  color: rgb(36, 36, 36);
+  transform: scale(1.1);
+  box-shadow: white 0px 0px 10px;
+  background: linear-gradient( rgb(255, 255, 255),  rgb(229, 229, 229));
+  color: rgb(40, 40, 40);
 }
+
 
 .list_title {
   font-size: 11px;
