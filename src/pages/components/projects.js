@@ -40,6 +40,24 @@ function Projects() {
         }
     }, []);
 
+    const categoriesWrapperStyles = {
+        paddingRight: "50px",
+        paddingLeft: "50px",
+        width: '100vw',
+        overflowX: 'auto',
+        overflowY: 'hidden',
+        gridTemplateRows: 'repeat(1, 1fr)',
+        display: 'flex',
+        flexDirection: 'row',
+        gap: '20px',
+        marginBottom: '20px',
+        scrollbarWidth: 'none', // Firefox
+        msOverflowStyle: 'none', // IE and Edge
+        WebkitScrollbar: {
+            width: '0', // Safari and Chrome
+        }
+    };
+    
 
 
     return (
@@ -52,30 +70,41 @@ function Projects() {
                 <div className={styles.projects_page_whole}>
                     <div className={styles.projects_page_wrapper}>
 
-
                         <div className={styles.list_div}>
 
-                            <ol className={styles.title_and_title_description}>
-                                <Image
-                                    className={styles.logored}
-                                    alt=""
-                                    width={100}
-                                    height={100}
-                                    src={"/logored.png"}></Image>
-                                <li className={styles.title1}><p><h1>Projects and Upcoming<span className={styles.title_brother}> Plans</span></h1></p></li>
-                                <li className={styles.description_list_element}>
-                                    <p>
-                                        Some Current Projects Here At StellarSpace
-                                    </p>
-                                </li>
+                            <ol className={styles.section_top}>
+                                <li className={styles.section_top_list_item1}>
+                                    <Image
 
-                                <li className={styles.buttons_list_element}>
-                                    <button className={styles.contact_button}><Link href={"/contact"}>Contact Page</Link></button>
-                                    <button className={styles.see_more_button}><Link href={"/services"}>Services </Link></button>
+                                        className={styles.cocacola}
+                                        width={50}
+                                        height={50}
+                                        quality={100}
+                                        alt=""
+                                        src="/Deo.jpg"
+
+                                    >
+                                    </Image>
+                                    <h1 className={styles.top_title1}>
+                                        <li className={styles.title1}><p><h1>Projects and Upcoming<span className={styles.title_brother}> Plans</span></h1></p></li>
+                                    </h1>
+                                    <h1 className={styles.top_title2}>
+                                        Some Current Projects Here At StellarSpace
+                                    </h1>
+
+                                    <span className={styles.buttons_list_element}>
+                                        <button className={styles.contact_button}><Link href={"/contact"}>Contact Page</Link></button>
+                                        <button className={styles.see_more_button}><Link href={"/services"}>Services </Link></button>
+                                    </span>
+                                    <Link href={"/"}>
+                                        <p className={styles.home_button}>Home
+                                        </p>
+                                    </Link>
                                 </li>
                             </ol>
 
-                            <div className={styles.categories_wrapper}>
+
+                            <div style={categoriesWrapperStyles}>
                                 <ol className={styles.list2}>
                                     <li className={styles.title}>
                                         <h1>

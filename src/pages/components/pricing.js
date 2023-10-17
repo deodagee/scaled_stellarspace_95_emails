@@ -63,6 +63,7 @@ function Pricing() {
       <div className={styles.pricing_page}>
         <div className={styles.pricing_page_wrapper}>
           <div className={styles.offered_list_and_top_main_header}>
+            
             <ol className={styles.section_top}>
               <li className={styles.section_top_list_item1}>
                 <Image
