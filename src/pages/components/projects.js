@@ -181,7 +181,7 @@ function Projects() {
                                     <li>
                                         <Link
                                             className={styles.view_link}
-                                            href={'/info/coffeeappdetails'}>
+                                            href={'/info/coffeeshopdetails'}>
                                             <h1 className={styles.view_link_header}>View App Details</h1>
                                         </Link>
                                     </li>
