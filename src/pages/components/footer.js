@@ -41,7 +41,7 @@ const handleImageLoad = () => {
                   />
                   <p className={styles.astrumBottomName}>Astrum Stellar</p>
                   <button className={styles.contactButton}>
-                    <p classNsame={styles.contactParagraph}>Contact</p>
+                    <p className={styles.contactParagraph}>Contact</p>
                   </button>
                 </div>
               </li>
@@ -94,7 +94,7 @@ const handleImageLoad = () => {
 
           <ul className={styles.separatorLine1}></ul>
 
-          <ol className={styles.iconsAndCopy}>
+          <ol className={styles.iconWrapperqtq}>
             <li className={styles.iconWrapper}>
               <Image
                 alt="Upwork"
@@ -133,10 +133,11 @@ const handleImageLoad = () => {
 
               />
             </li>
-            <li className={styles.copyRight}>
+
+          </ol>
+          <li className={styles.copyRight}>
               <p>© Astrumstellar | Stellarspace | Deo Singiza</p>
             </li>
-          </ol>
         </div>
       </div>
     </>
