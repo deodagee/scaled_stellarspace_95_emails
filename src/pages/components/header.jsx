@@ -2,12 +2,13 @@ import styles from "../../styles/components/header.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { useSession, signIn, signOut } from "next-auth/react"
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect , useRef } from 'react';
 import Head from 'next/head';
 import Loading from './loading';
 
 
 function Header() {
+  const menuRef = useRef(null);
   const [isCssLoaded, setIsCssLoaded] = useState(false);
 
   const [imageLoaded, setImageLoaded] = useState(false);
@@ -28,6 +29,23 @@ function Header() {
   const [menuVisible, setmenuVisible] = useState(false);
 
 
+  useEffect(() => {
+    const handleOutsideClick = (event) => {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        // Click occurred outside the menu, hide the menu
+        setmenuVisible(false);
+      }
+    };
+
+    // Attach the event listener to the whole document
+    document.addEventListener('click', handleOutsideClick);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      document.removeEventListener('click', handleOutsideClick);
+    };
+  }, []);
+
 
 
 
@@ -47,20 +65,8 @@ function Header() {
     };
   }, []);
 
-  useEffect ( ( ) => { 
-    const handleMenuOnScroll = ( ) => { 
-      if (window.scrollY > 5) { 
-        setmenuVisible (false);
-      } else { 
-        setIsVisible (false);
-      }
-    }
-    window.addEventListener('scroll', handleMenuOnScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleMenuOnScroll);
-    };
-  }, []);
+
 
   const { data: session } = useSession()
 
@@ -93,7 +99,7 @@ function Header() {
       {!isCssLoaded && <Loading />} {/* Show loading screen while CSS is not loaded */}
       {isCssLoaded && (
 
-        <div className={styles.parent}>
+        <div ref={menuRef} className={styles.parent}>
           <div className={`${styles.parent_wrapper} ${isVisible ? '' : styles.parent_wrapper_margin}`}>
             <ol className={styles.logo__signature_and_button_parent}>
 
