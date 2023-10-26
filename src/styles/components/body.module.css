@@ -403,11 +403,10 @@ overflow-x: hidden;
 .top_main_header_and_paragraphs {
   box-shadow: rgb(217, 217, 217) 0px 0px 10px;
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
   transition: 0.4s;
-  padding: 20px;
   width: 100vw;
 }
 
