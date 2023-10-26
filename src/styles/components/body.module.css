@@ -106,6 +106,8 @@ overflow-x: hidden;
   margin: 0;
   border-radius: 15px;
   background-color: rgba(18, 24, 33, 0.847);
+  height: 150px;
+  width: 400px;
 }
 
 .close_button {
