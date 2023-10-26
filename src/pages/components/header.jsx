@@ -29,19 +29,36 @@ function Header() {
 
 
 
+
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 10) {
         setIsVisible(false);
       } else {
         setIsVisible(true);
-      }
+      } 
     };
 
     window.addEventListener('scroll', handleScroll);
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  useEffect ( ( ) => { 
+    const handleMenuOnScroll = ( ) => { 
+      if (window.scrollY > 5) { 
+        setmenuVisible (false);
+      } else { 
+        setIsVisible (false);
+      }
+    }
+    window.addEventListener('scroll', handleMenuOnScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleMenuOnScroll);
     };
   }, []);
 
