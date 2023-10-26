@@ -112,13 +112,15 @@ function Body() {
 
 
 
-            <ol className={styles.everything_wrapper}>
+            <div className={styles.everything_wrapper}>
 
-              <ul className={styles.top_bg_image_wrapper}>
+              <div className={styles.top_bg_image_wrapper}>
 
-                <div className={styles.separatorLine}></div>
-                <div className={styles.promo_message_first_body} style={{ display: promoVisible ? 'inline-flex' : 'none' }}>
+                <ul className={styles.promo_message_first_body} style={{ display: promoVisible ? 'inline-flex' : 'none' }}>
+                  <li>
                   <h1>I am currently expirementing with Cloudflare and Vercel&apos;s CDN configurations. Some Videos or Images may take their time loading because of the file size. If you want to report an issue, please go to the contact page and fill me in. I&apos;ll be glad to assist or review the matter.</h1>
+                  </li>
+                  <li>
                   <button className={styles.close_button} onClick={promoCloseButtonClick}><div>
                     <Image
                       className={styles.close_button_image}
@@ -135,108 +137,29 @@ function Body() {
                       </p>
                     </div>
                   </button>
-                </div>
-
-                <ul className={styles.avatar_image_items} >
-
-                  <li className={styles.avatar_image_list_item}>
-                    <Image
-                      className={styles.avatar_image}
-                      width={50}
-                      height={50}
-                      alt=""
-                      src="/greencheck.png"
-                      onLoad={handleImageLoad}
-                    >
-
-                    </Image>
-                    <p className={styles.avatar_image_list_item_paragraph} >JAVASCRIPT</p>
                   </li>
-                  <li className={styles.avatar_image_list_item}>
-                    <Image
-                      className={styles.avatar_image}
-                      width={50}
-                      height={50}
-                      alt=""
-                      src="/greencheck.png"
-                      onLoad={handleImageLoad}
-                    >
-                    </Image>
-                    <p className={styles.avatar_image_list_item_paragraph} >NEXT JS</p>
-                  </li>
-                  <li className={styles.avatar_image_list_item}>
-                    <Image
-                      className={styles.avatar_image}
-                      width={50}
-                      height={50}
-                      alt=""
-                      src="/greencheck.png"
-                      onLoad={handleImageLoad}
-                    >
-                    </Image>
-                    <p className={styles.avatar_image_list_item_paragraph} >HTML & CSS</p>
-                  </li>
+                </ul>
 
-                  <ul className={styles.avatar_image_list_item_and_name_and_emails_item}>
+                <ul className={styles.avatar_image_list_item_and_name_and_emails_item}>
+
                     <li className={`${styles.avatar_image_list_item} ${styles.avatar_image_list_item_deo}`}>
-                      <div className={styles.avatar_image_deo_circle_item}>
-                        <svg className={styles.svg_image_deo} width="70" height="70" viewBox="0 0 320 320">
+                        <svg className={styles.svg_image_deo} width={70} height={70} viewBox="0 0 320 320">
                           <circle ref={circleRef} cx="50%" cy="50%" fill="gray" fillOpacity="0.5"></circle>
                         </svg>
-                      </div>
-
                     </li>
                     <li className={styles.name_and_emails_item}>
-                      <div>
+                      <span>
                         <p className={styles.name}>Astrum Stellar</p>
-                      </div>
+                      </span>
 
-                      <div className={styles.emails}>
+                      <span className={styles.emails}>
                         <p>deo_singiza@hotmail.com </p>
                         <p>astrumstellar@gmail.com </p>
                         <p>astrular@astrumstellar.com </p>
                         <p className={styles.phone_number}>(519)-965-9128</p>
-                      </div>
+                      </span>
                     </li>
                   </ul>
-
-                  <li className={styles.avatar_image_list_item}>
-                    <Image
-                      className={styles.avatar_image}
-                      width={50}
-                      height={50}
-                      alt=""
-                      src="/greencheck.png"
-                      onLoad={handleImageLoad}
-                    >
-                    </Image>
-                    <p className={styles.avatar_image_list_item_paragraph} >PHP</p>
-                  </li>
-                  <li className={styles.avatar_image_list_item}>
-                    <Image
-                      className={styles.avatar_image}
-                      width={50}
-                      height={50}
-                      alt=""
-                      src="/greencheck.png"
-                      onLoad={handleImageLoad}
-                    >
-                    </Image>
-                    <p className={styles.avatar_image_list_item_paragraph} >TYPESCRIPT</p>
-                  </li>
-                  <li className={styles.avatar_image_list_item}>
-                    <Image
-                      className={styles.avatar_image}
-                      width={50}
-                      height={50}
-                      alt=""
-                      src="/greencheck.png"
-                      onLoad={handleImageLoad}
-                    >
-                    </Image>
-                    <p className={styles.avatar_image_list_item_paragraph} >SQL, MONGODB</p>
-                  </li>
-                </ul>
 
 
                 <ul className={styles.credentials}>
@@ -318,11 +241,10 @@ function Body() {
                     </Image>
                   </li>
                 </ul>
-              </ul>
+              </div>
 
+                <div className={styles.top_main_header_and_paragraphs}>
 
-              <div className={styles.container}>
-                <ol className={styles.top_main_header_and_paragraphs}>
                   <ul className={styles.top_main_header}>
                     <li>
                       <h1 className={styles.top_main_header_header1}>Stellar Space Plans</h1>
@@ -334,8 +256,9 @@ function Body() {
                       <Link className={styles.contact_page_link} href={'/contact'}><h2 className={styles.top_main_header_button}>Contact</h2></Link>
                     </li>
                   </ul>
+
                   <ul className={styles.top_main_paragraphs}>
-                    <li>
+                    <li className={styles.top_main_paragraphs_item}>
                       <Image
                         className={styles.top_main_icons_target}
                         width={50}
@@ -347,7 +270,7 @@ function Body() {
                       <p className={styles.top_main_header_paragraph1}>Picking and Choosing</p>
                       <p className={styles.top_main_header_paragraph2}>For Individuals and Businesses alike, if you need help picking a plan, send a request through the <Link className={styles.contact_page_link} href={"/contact"}>Contact</Link> page. Otherwise choose a plan, and click on &quot;Get Started&quot; to send me an order. This is not a payment gate; please allow  1-2 business days for a reply first, so we can get started.</p>
                     </li>
-                    <li>
+                    <li className={styles.top_main_paragraphs_item}>
                       <Image
                         className={styles.top_main_icons_chip}
                         width={50}
@@ -367,7 +290,7 @@ function Body() {
                         <button onClick={togglePopup}> <p className={styles.button_toggle_close_paragraph}>Close </p></button>
                       </div>
                     </li>
-                    <li>
+                    <li className={styles.top_main_paragraphs_item}>
                       <Image
                         className={styles.top_main_icons_mountain}
                         width={50}
@@ -379,7 +302,7 @@ function Body() {
                       <p className={styles.top_main_header_paragraph1}>Premium plans</p>
                       <p className={styles.top_main_header_paragraph2}> <Link className={styles.contact_page_link} href={"/entreprise"}> Premium </Link> plans for those that need more. Cover yourself with at least 8GB of ram space.</p>
                     </li>
-                    <li>
+                    <li className={styles.top_main_paragraphs_item}>
                       <Image
                         className={styles.top_main_icons_features}
                         width={50}
@@ -392,9 +315,7 @@ function Body() {
                       <p className={styles.top_main_header_paragraph2}>Get all the features listed, and more. Please send any special requests through the <Link className={styles.contact_page_link} href={"/contact"}>contact</Link> page. Thank You kindly.</p>
                     </li>
                   </ul>
-                </ol>
-              </div>
-
+                </div>
 
               <div className={styles.lists}>
                 <ol className={styles.list3}>
@@ -518,7 +439,7 @@ function Body() {
 
               
 
-              <ol className={styles.rectangle_images_parent}>
+              <div className={styles.rectangle_images_parent}>
                 <ul className={styles.rectangle_images_wrapper}>
 
                   <li className={styles.rectangle_image_item}>
@@ -527,8 +448,8 @@ function Body() {
                       <Image className={styles.rectangle_image}
                         alt=""
                         src={"/cocacola2.png"}
-                        width={200}
-                        height={200}
+                        width={100}
+                        height={100}
                         quality={100}
                         onLoad={handleImageLoad}
 
@@ -543,8 +464,8 @@ function Body() {
                       <Image className={styles.rectangle_image}
                         src={"/shade.png"}
                         alt=""
-                        width={200}
-                        height={200}
+                        width={100}
+                        height={100}
                         quality={100}
                         onLoad={handleImageLoad}
                       ></Image>
@@ -557,8 +478,8 @@ function Body() {
                       <Image className={styles.rectangle_image}
                         src={"/cafepls.jpg"}
                         alt=""
-                        width={200}
-                        height={200}
+                        width={100}
+                        height={100}
                         quality={100}
                         onLoad={handleImageLoad}
                       ></Image>
@@ -571,8 +492,8 @@ function Body() {
                       <Image className={styles.rectangle_image}
                         src={"/cafepls2.jpg"}
                         alt=""
-                        width={200}
-                        height={200}
+                        width={100}
+                        height={100}
                         quality={100}
                         onLoad={handleImageLoad}
                       ></Image>
@@ -585,8 +506,8 @@ function Body() {
                       <Image className={styles.rectangle_image}
                         src={"/chandeliercard.png"}
                         alt=""
-                        width={200}
-                        height={200}
+                        width={100}
+                        height={100}
                         quality={100}
                         onLoad={handleImageLoad}
                       ></Image>
@@ -599,8 +520,8 @@ function Body() {
                       <Image className={styles.rectangle_image}
                         src={"/bluecard.png"}
                         alt=""
-                        width={200}
-                        height={200}
+                        width={100}
+                        height={100}
                         quality={100}
                         onLoad={handleImageLoad}
                       ></Image>
@@ -613,8 +534,8 @@ function Body() {
                       <Image className={styles.rectangle_image}
                         src={"/imageblog.jpg"}
                         alt=""
-                        width={200}
-                        height={200}
+                        width={100}
+                        height={100}
                         quality={100}
                         onLoad={handleImageLoad}
                       ></Image>
@@ -627,8 +548,8 @@ function Body() {
                       <Image className={styles.rectangle_image}
                         src={"/astrumgreengrassui.png"}
                         alt=""
-                        width={200}
-                        height={200}
+                        width={100}
+                        height={100}
                         quality={100}
                         onLoad={handleImageLoad}
                       ></Image>
@@ -642,8 +563,8 @@ function Body() {
                       <Image className={styles.rectangle_image}
                         src={"/stellarspaceui.png"}
                         alt=""
-                        width={200}
-                        height={200}
+                        width={100}
+                        height={100}
                         quality={100}
                         onLoad={handleImageLoad}
                       ></Image>
@@ -657,8 +578,8 @@ function Body() {
                       <Image className={styles.rectangle_image}
                         src={"/neumorphicclickwheel.png"}
                         alt=""
-                        width={200}
-                        height={200}
+                        width={100}
+                        height={100}
                         quality={100}
                         onLoad={handleImageLoad}
                       ></Image>
@@ -671,8 +592,8 @@ function Body() {
                     href={"/imagespage"}>
                     <Image className={styles.rectangle_image}
                       src={"/blackbox.jpg"}
-                      width={200}
-                      height={200}
+                      width={100}
+                      height={100}
                       alt=""
                       quality={100}
                       onLoad={handleImageLoad}
@@ -685,8 +606,8 @@ function Body() {
                     href={"/imagespage"}>
                     <Image className={styles.rectangle_image}
                       src={"/bluebox.png"}
-                      width={200}
-                      height={200}
+                      width={100}
+                      height={100}
                       alt=""
                       quality={100}
                       onLoad={handleImageLoad}
@@ -694,14 +615,14 @@ function Body() {
                     </Link>
                   </li>
                 </ul>
-              </ol>
+              </div>
 
 
 
 
 
 
-              <ol className={styles.tabber}>
+              <div className={styles.tabber}>
 
                 <ul className={styles.tabber_wrapper}>
 
@@ -780,11 +701,11 @@ function Body() {
 
 
                 </ul>
-              </ol>
+              </div>
 
 
-              <ol className={styles.promo_and_stuff}>
-                <ul className={styles.promo_and_stuff_wrapper}>
+              <div className={styles.promo_and_stuff}>
+                <div className={styles.promo_and_stuff_wrapper}>
 
 
                   <ul className={styles.promo_messages} >
@@ -809,7 +730,7 @@ function Body() {
                     )}
                   </ul>
 
-                  <ol className={styles.and_more_stuff}>
+                  <div className={styles.and_more_stuff}>
                     <ul>
                       <h1 className={styles.perks_header}>Perks Included:</h1>
                     </ul>
@@ -869,9 +790,9 @@ function Body() {
                         </Link>
                       </li>
                     </ul>
-                  </ol>
-                </ul>
-              </ol>
+                  </div>
+                </div>
+              </div>
 
               <div className={styles.pricing_page}>
                 <div className={styles.pricing_page_wrapper}>
@@ -939,7 +860,7 @@ function Body() {
 
                       <div className={styles.promo_regular_parent}>
 
-                        <ul className={styles.promo_regular_wrapper}>
+                        <div className={styles.promo_regular_wrapper}>
 
                           <div className={styles.promo_price}>
                             <button
@@ -953,7 +874,7 @@ function Body() {
                               onClick={showUI2}
                             ><p>Regular</p></button>
                           </div>
-                        </ul>
+                        </div>
                       </div>
 
                       <div className={styles.pricing_note}>
@@ -984,9 +905,9 @@ function Body() {
                                         <p>Great For Small Websites with minimal pages and function needs. Does not support Login functionalites or most server side functions of the like. Basic Contact Pages are allowed, written using PHP to recieve or send emails. For other questions, please contact me.</p>
                                       </div>
 
-                                      <ol className={styles.list_wrapper}>
+                                      <div className={styles.list_wrapper}>
                                         <ul className={styles.percent_disclaimer}>
-                                          <div className={styles.save_up_to}>*60% OFF!</div>
+                                          <li className={styles.save_up_to}>*60% OFF!</li>
                                           <li className={styles.list_component2}>
                                           </li>
                                         </ul>
@@ -1046,7 +967,7 @@ function Body() {
                                           <li className={styles.list_component2}>
                                           </li>
                                         </ul>
-                                      </ol>
+                                      </div>
                                     </div>
 
 
@@ -1095,7 +1016,7 @@ function Body() {
                                     <div className={styles.plan_description}>
                                       <p>Great For Small to Medium size websites that may require the use of more ram and storage space. Full server side website features available.</p>
                                     </div>
-                                    <ol className={styles.list_wrapper}>
+                                    <div className={styles.list_wrapper}>
                                       <ul className={styles.percent_disclaimer}>
                                         <div className={styles.save_up_to}>*60% OFF!</div>
                                         <li className={styles.list_component2}>
@@ -1157,8 +1078,8 @@ function Body() {
                                         <li className={styles.list_component2}>
                                         </li>
                                       </ul>
+                                    </div>
 
-                                    </ol>
                                   </div>
                                   <div className={styles.frame_399}>
                                     <div className={styles.frame_407}>
@@ -1203,7 +1124,7 @@ function Body() {
                                       <p>Great For Medium to Large size websites that may require the use of extra ram and storage space. Full server side website features available.</p>
                                     </div>
 
-                                    <ol className={styles.list_wrapper}>
+                                    <div className={styles.list_wrapper}>
                                       <ul className={styles.percent_disclaimer}>
                                         <div className={styles.save_up_to}>*60% OFF!</div>
                                         <li className={styles.list_component2}>
@@ -1267,7 +1188,7 @@ function Body() {
                                         </li>
                                       </ul>
 
-                                    </ol>
+                                    </div>
                                   </div>
 
                                   <div className={styles.frame_399}>
@@ -1315,7 +1236,7 @@ function Body() {
                                     <div className={styles.plan_description}>
                                       <p>Great For Large sized websites and ecommerce sites that may require the use of extra ram and storage space. Full server side website features available.</p>
                                     </div>
-                                    <ol className={styles.list_wrapper}>
+                                    <div className={styles.list_wrapper}>
                                       <ul className={styles.percent_disclaimer}>
                                         <div className={styles.save_up_to}>*60% OFF!</div>
                                         <li className={styles.list_component2}>
@@ -1379,10 +1300,8 @@ function Body() {
                                         <li className={styles.list_component2}>
                                         </li>
                                       </ul>
+                                    </div>
 
-
-
-                                    </ol>
                                   </div>
                                   <div className={styles.frame_399}>
                                     <div className={styles.frame_407}>
@@ -1422,7 +1341,8 @@ function Body() {
                                     <div className={styles.plan_description}>
                                       <p>This plan is for those which some of the specs do not match what is offered already. Please contact for a custom plan tailored just for you.</p>
                                     </div>
-                                    <ol className={styles.list_wrapper}>
+
+                                    <div className={styles.list_wrapper}>
                                       <ul className={styles.percent_disclaimer}>
                                         <div className={styles.save_up_to}>*60% OFF!</div>
                                         <li className={styles.list_component2}>
@@ -1473,9 +1393,8 @@ function Body() {
                                         <li className={styles.list_component2}>
                                         </li>
                                       </ul>
+                                    </div>
 
-
-                                    </ol>
                                   </div>
                                   <div className={styles.frame_399}>
                                     <div className={styles.frame_407}>
@@ -1502,9 +1421,6 @@ function Body() {
                                     </div>
                                   </div>
                                 </div>
-
-
-
                               </div>
                             </div>
                           )}
@@ -1532,7 +1448,7 @@ function Body() {
                                         <p>Great For Small Websites with minimal pages and function needs. Does not support Login functionalites or most server side functions of the like. Basic Contact Pages are allowed, written using PHP to recieve or send emails. For other questions, please contact me.</p>
                                       </div>
 
-                                      <ol className={styles.list_wrapper}>
+                                      <div className={styles.list_wrapper}>
                                         <ul className={styles.regular_disclaimer}>
                                           <div className={styles.save_up_to}>*Regular Price</div>
                                           <li className={styles.list_component2}>
@@ -1594,8 +1510,7 @@ function Body() {
                                           <li className={styles.list_component2}>
                                           </li>
                                         </ul>
-
-                                      </ol>
+                                      </div>
                                     </div>
 
 
@@ -1642,7 +1557,8 @@ function Body() {
                                     <div className={styles.plan_description}>
                                       <p>Great For Small to Medium size websites that may require the use of more ram and storage space. Full server side website features available.</p>
                                     </div>
-                                    <ol className={styles.list_wrapper}>
+
+                                    <div className={styles.list_wrapper}>
                                       <ul className={styles.regular_disclaimer}>
                                         <div className={styles.save_up_to}>*Regular Price</div>
                                         <li className={styles.list_component2}>
@@ -1704,8 +1620,8 @@ function Body() {
                                         <li className={styles.list_component2}>
                                         </li>
                                       </ul>
+                                    </div>
 
-                                    </ol>
                                   </div>
                                   <div className={styles.frame_399}>
                                     <div className={styles.frame_407}>
@@ -1750,7 +1666,8 @@ function Body() {
                                     <div className={styles.plan_description}>
                                       <p>Great For Medium to Large size websites that may require the use of extra ram and storage space. Full server side website features available.</p>
                                     </div>
-                                    <ol className={styles.list_wrapper}>
+
+                                    <div className={styles.list_wrapper}>
                                       <ul className={styles.regular_disclaimer}>
                                         <div className={styles.save_up_to}>*Regular Price</div>
                                         <li className={styles.list_component2}>
@@ -1813,8 +1730,7 @@ function Body() {
                                         <li className={styles.list_component2}>
                                         </li>
                                       </ul>
-
-                                    </ol>
+                                    </div>
                                   </div>
 
                                   <div className={styles.frame_399}>
@@ -1857,7 +1773,8 @@ function Body() {
                                     <div className={styles.plan_description}>
                                       <p>Great For Large sized websites and ecommerce sites that may require the use of extra ram and storage space. Full server side website features available.</p>
                                     </div>
-                                    <ol className={styles.list_wrapper}>
+
+                                    <div className={styles.list_wrapper}>
                                       <ul className={styles.regular_disclaimer}>
                                         <div className={styles.save_up_to}>*Regular Price</div>
                                         <li className={styles.list_component2}>
@@ -1920,9 +1837,8 @@ function Body() {
                                         <li className={styles.list_component2}>
                                         </li>
                                       </ul>
+                                    </div>
 
-
-                                    </ol>
                                   </div>
                                   <div className={styles.frame_399}>
                                     <div className={styles.frame_407}>
@@ -1963,7 +1879,8 @@ function Body() {
                                     <div className={styles.plan_description}>
                                       <p>This plan is for those which some of the specs do not match what is offered already. Please contact for a custom plan tailored just for you.</p>
                                     </div>
-                                    <ol className={styles.list_wrapper}>
+
+                                    <div className={styles.list_wrapper}>
                                       <ul className={styles.regular_disclaimer}>
                                         <div className={styles.save_up_to}>*Regular Price</div>
                                         <li className={styles.list_component2}>
@@ -2013,8 +1930,8 @@ function Body() {
                                         <li className={styles.list_component2}>
                                         </li>
                                       </ul>
+                                    </div>
 
-                                    </ol>
                                   </div>
                                   <div className={styles.frame_399}>
                                     <div className={styles.frame_407}>
@@ -2042,8 +1959,6 @@ function Body() {
                                   </div>
                                 </div>
 
-
-
                               </div>
                             </div>
                           )}
@@ -2056,7 +1971,7 @@ function Body() {
                 </div>
               </div>
 
-            </ol>
+            </div>
 
           </div>
         </div >
