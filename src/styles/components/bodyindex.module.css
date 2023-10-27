@@ -25,6 +25,102 @@
   margin: 0;
 }
 
+.promo_wrapper { 
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.promo_message_first_body {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-height: 230px;
+  max-width: 520px;
+  margin: 20px;
+  border-radius: 0.20rem;
+  background-color: rgba(220, 220, 220, 0.776);
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  padding: 20px;
+  z-index: 90;
+  gap: 10px;
+  animation: changeBoxshadow 5s infinite;
+  margin-top: 80vh;
+
+}
+
+
+.close_button {
+  width: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 10px;
+  border-radius: 0.45rem;
+  box-shadow: white 0px 0px 7px;
+  padding: 5px;
+  padding-bottom: 7px;
+  transition: 0.5s;
+  color: white;
+  border-color: whitesmoke;
+  border-width: 1px;
+  animation: Changecolor 20s infinite;
+  background-color: black;
+
+}
+
+.close_button:hover {
+  background-color: rgba(255, 255, 255, 0.66);
+  color: rgb(23, 23, 23);
+  transition: 0.5s;
+  transform: scale(1.05);
+  border-width: 0;
+}
+
+.close_button_image {
+  width: 10px;
+  height: 10px;
+}
+
+
+
+
+.promo_message_first_body h1 { 
+
+  animation: Changebordercolor 5s infinite;
+}
+
+@keyframes Changebordercolor {
+  0% {
+    color: rgb(0, 79, 52);
+
+
+  }
+
+  50% {
+    color: rgb(0, 39, 47);
+
+
+  }
+
+  75% {
+    color: rgb(50, 0, 108);
+
+  }
+
+  100% {
+    color: rgb(55, 0, 0);
+  }
+}
+
+
+
 .header_butt {
   margin-top:70px;
   display: flex;
@@ -151,6 +247,33 @@ font-size: 12px;
   transition: 0.5s;
   transform: scale(1.03);
 }
+
+.credentials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: rgba(24, 24, 24, 0.6);
+  border-radius: 0.45rem;
+  padding: 10px;
+  width: 85vw;
+}
+
+.credentials_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.credentials_image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin: 0 10px;
+}
+
+
 
 .top_title {
   display: flex;

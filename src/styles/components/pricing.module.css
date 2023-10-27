@@ -810,19 +810,19 @@ box-shadow: white 0px 0px 4px;
 
 
 .frame_405 {
-  width: max-content;
   display: grid;
   gap: 30px;
   grid-auto-flow: dense;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.label_header{ 
+.label_header {
   font-size: 9px;
-  color:black;
+  color: black;
 }
 
 .frame_wrapper {
-  z-index:0;
+  z-index: 0;
   border-width: 1px;
   box-shadow: rgb(235, 235, 235) 0px 0px 10px 1px;
   background-position: center;
@@ -837,16 +837,16 @@ box-shadow: white 0px 0px 4px;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   gap: 20px;
-  width: 85vw;
-  height: max-content;
+  width: 300px;
+  height: 600px;
   color: rgb(212, 212, 212);
   font-size: 12px;
   transition: 0.5s;
 }
 
-.frame_wrapper:nth-child(5){ 
+.frame_wrapper:nth-child(5) {
   margin-bottom: 100px;
 }
 
@@ -866,7 +866,7 @@ box-shadow: white 0px 0px 4px;
   width: max-content;
   justify-content: center;
   align-items: center;
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(1, 1fr);
   flex-direction: column;
   gap: 20px;
@@ -874,13 +874,17 @@ box-shadow: white 0px 0px 4px;
 }
 
 .recommended_div {
+  position: relative;
   width: max-content;
   background: linear-gradient(to right, rgb(43, 153, 0), rgb(78, 180, 37), rgb(0, 183, 122));
   padding: 2px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 20px;
-  border-radius: 0.45rem;
+  border-radius: 50px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
   border-width: 1px;
   transition: 0.6s;
   box-shadow: rgb(0, 183, 122) 0px 0px 10px;
@@ -893,15 +897,14 @@ box-shadow: white 0px 0px 4px;
 }
 
 
-
 .your_session_has_tim3_regular {
   font-family: 'Teko', sans-serif;
   white-space: nowrap;
   justify-content: center;
   align-items: center;
   display: flex;
-  border-radius: 50px;
-  width: 17vw;
+  border-radius: 60px;
+  width: 120px;
   border-width: 1px;
   border-color: linear-gradient(to right, rgba(255, 255, 255, 0.731), rgba(255, 255, 255, 0.935), rgba(255, 255, 255, 0.752));
   font-size: 20px;
@@ -909,9 +912,9 @@ box-shadow: white 0px 0px 4px;
   padding: 1px;
   color: rgb(70, 70, 70);
   box-shadow: white 0px 0px 8px;
-  transition: 0.9s;
+  transition: 0.6s;
   background-color: rgba(255, 255, 255, 0.981);
-  background: linear-gradient(to right, rgba(202, 202, 202, 0.336), rgba(255, 255, 255, 0.533), rgba(255, 255, 255, 0.935));
+  background: linear-gradient(to right, rgba(184, 184, 184, 0.801), rgba(255, 255, 255, 0.935), rgba(255, 255, 255, 0.845));
   padding-top: 5px;
 }
 
@@ -921,33 +924,30 @@ box-shadow: white 0px 0px 4px;
   justify-content: center;
   align-items: center;
   display: flex;
-  border-radius: 50px;
-  width: 17vw;
+  border-radius: 60px;
   border-width: 1px;
+  width: 200px;
   font-size: 20px;
   font-weight: 400;
   padding: 1px;
   color: rgb(70, 70, 70);
   box-shadow: white 0px 0px 8px;
-  transition: 0.9s;
+  transition: 0.6s;
   background-color: rgba(255, 255, 255, 0.981);
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.533), rgba(255, 255, 255, 0.935), rgba(195, 195, 195, 0.336));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.845), rgba(255, 255, 255, 0.935), rgba(179, 179, 179, 0.801));
   padding-top: 5px;
 }
 
 
-
 .your_session_has_tim3_regular:hover,
 .your_session_has_tim3_promo:hover {
-  transition: 0.9s;
+  transition: 0.6s;
   transform: scale(1.03);
-  color: rgb(255, 123, 0);
-  box-shadow: rgba(255, 255, 255, 0.455) 0px 0px 15px;
-  text-decoration: underline;
+  color: rgb(30, 30, 30);
+  box-shadow: white 0px 0px 10px;
 }
 
-
-.plan_description { 
+.plan_description {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -955,10 +955,7 @@ box-shadow: white 0px 0px 4px;
   padding: 10px;
   font-size: 7px;
   width: 200px;
-  color: rgb(182, 182, 182);
 }
-
-
 
 .sites_list {
   position: relative;
@@ -989,22 +986,23 @@ box-shadow: white 0px 0px 4px;
   transition: 0.7s;
   transform: scale(1.1);
   box-shadow: white 0px 0px 10px;
-  background: linear-gradient( rgb(255, 255, 255),  rgb(229, 229, 229));
+  background: linear-gradient(rgb(255, 255, 255), rgb(229, 229, 229));
   color: rgb(40, 40, 40);
 }
 
 
 .list_title {
-  font-size: 11px;
-  color: orange;
   padding-left: 5px;
   padding-right: 5px;
+  font-size: 11px;
+  color: orange;
 }
 
 .list_description {
   font-size: 9px;
   white-space: nowrap;
 }
+
 
 .regular_disclaimer {
   border-width: 0.5px;
@@ -1063,7 +1061,6 @@ box-shadow: white 0px 0px 4px;
 }
 
 .your_session_has_tim5 {
-  margin-top: 15px;
   font-size: 25px;
   color: rgb(0, 189, 0);
 }
@@ -1074,22 +1071,19 @@ box-shadow: white 0px 0px 4px;
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 45px;
+  border-radius: 60px;
   width: max-content;
-  box-shadow: rgb(181, 181, 181) 0px 0px 15px;
+  box-shadow: white 0px 0px 5px;
   transition: 0.6s;
-  border-color: rgb(227, 227, 227);
-  border-width: 2px;
-margin-top: 15px;
-margin-bottom: 10px;
   border-width: 1px;
 }
 
 .component_6:hover {
-  box-shadow: rgb(134, 134, 134) 0px 0px 15px;
+  box-shadow: white 0px 0px 8px;
   transform: scale(1.04);
   transition: 0.6s;
 }
+
 
 
 
@@ -1238,11 +1232,11 @@ margin: 10px;
     gap: 0px;
   }
 
+
   .your_session_has_tim3_regular,
   .your_session_has_tim3_promo {
-    width: 190px;
+    width: 170px;
   }
-
   .sites_list {
     position: relative;
   }
@@ -1396,7 +1390,7 @@ margin: 10px;
 
   .frame_wrapper {
     padding: 20px;
-    width: 70vw;
+    width: 85vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1572,7 +1566,7 @@ margin: 10px;
 
   .frame_wrapper {
     padding: 20px;
-    width: 70vw;
+    width: 85vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1743,9 +1737,10 @@ margin: 10px;
   }
 
 
+
   .frame_wrapper {
     padding: 20px;
-    width: 70vw;
+    width: 250px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1918,10 +1913,9 @@ margin: 10px;
   }
 
 
-
   .frame_wrapper {
     padding: 20px;
-    width: 70vw;
+    width: 60vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1930,10 +1924,11 @@ margin: 10px;
 
   .frame_405 {
     width: max-content;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 10px;
-    grid-template-columns: repeat(1, 1fr);
   }
+
 
   .label {
     width: 100px;
@@ -2095,7 +2090,7 @@ margin: 10px;
 
   .frame_wrapper {
     padding: 20px;
-    width: 70vw;
+    width: 85vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -2104,10 +2099,11 @@ margin: 10px;
 
   .frame_405 {
     width: max-content;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 10px;
-    grid-template-columns: repeat(1, 1fr);
   }
+
 
   .label {
     width: 100px;
@@ -2271,7 +2267,7 @@ margin: 10px;
 
   .frame_wrapper {
     padding: 20px;
-    width: 70vw;
+    width: 220px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -2281,16 +2277,17 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    grid-template-columns: repeat(1, 1fr);
   }
+
 
   .label {
     width: 100px;
   }
 
   .frame_402 {
-    width: max-content;
+    width: 200px;
     justify-content: center;
     align-items: center;
     display: grid;
@@ -2301,7 +2298,7 @@ margin: 10px;
 
   .your_session_has_tim3_regular,
   .your_session_has_tim3_promo {
-    width: 250px;
+    width: 200px;
   }
 
   .sites_list {
@@ -2435,6 +2432,7 @@ margin: 10px;
     margin-top: -5px;
   }
 
+
   .pricing_tab_groups_wrapper {
     width: 100vw;
     display: flex;
@@ -2443,9 +2441,10 @@ margin: 10px;
     flex-direction: column;
   }
 
+
   .frame_wrapper {
     padding: 20px;
-    width: 70vw;
+    width: 220px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -2455,16 +2454,17 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    grid-template-columns: repeat(1, 1fr);
   }
+
 
   .label {
     width: 100px;
   }
 
   .frame_402 {
-    width: max-content;
+    width: 200px;
     justify-content: center;
     align-items: center;
     display: grid;
@@ -2472,6 +2472,7 @@ margin: 10px;
     flex-direction: column;
     gap: 0px;
   }
+
 
   .your_session_has_tim3_regular,
   .your_session_has_tim3_promo {
@@ -2617,10 +2618,9 @@ margin: 10px;
     flex-direction: column;
   }
 
-
   .frame_wrapper {
     padding: 20px;
-    width: 70vw;
+    width: 280px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -2628,19 +2628,19 @@ margin: 10px;
   }
 
   .frame_405 {
-    transform: scale(1);
     width: max-content;
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    grid-template-columns: repeat(1, 1fr);
   }
+
 
   .label {
     width: 100px;
   }
 
   .frame_402 {
-    width: max-content;
+    width: 200px;
     justify-content: center;
     align-items: center;
     display: grid;
@@ -2795,7 +2795,7 @@ margin: 10px;
 
   .frame_wrapper {
     padding: 20px;
-    width: 70vw;
+    width: 280px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -2803,19 +2803,19 @@ margin: 10px;
   }
 
   .frame_405 {
-    transform: scale(1);
     width: max-content;
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    grid-template-columns: repeat(1, 1fr);
   }
+
 
   .label {
     width: 100px;
   }
 
   .frame_402 {
-    width: max-content;
+    width: 200px;
     justify-content: center;
     align-items: center;
     display: grid;
@@ -2972,7 +2972,7 @@ margin: 10px;
 
   .frame_wrapper {
     padding: 20px;
-    width: 70vw;
+    width: 300px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -2982,10 +2982,9 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
-    gap: 20px;
     grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
-
 
   .label {
     width: 100px;
@@ -3147,9 +3146,10 @@ margin: 10px;
   }
 
 
+
   .frame_wrapper {
     padding: 20px;
-    width: 40vw;
+    width: 300px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3159,10 +3159,9 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
-    gap: 20px;
     grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
-
 
   .label {
     width: 100px;
@@ -3323,9 +3322,10 @@ margin: 10px;
     flex-direction: column;
   }
 
+
   .frame_wrapper {
     padding: 20px;
-    width: 40vw;
+    width: 300px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3335,8 +3335,10 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
-    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
     grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
 
 
@@ -3499,9 +3501,10 @@ margin: 10px;
     flex-direction: column;
   }
 
+
   .frame_wrapper {
     padding: 20px;
-    width: 40vw;
+    width: 300px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3511,9 +3514,12 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
-    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
     grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
+
 
   .label {
     width: 100px;
@@ -3667,6 +3673,7 @@ margin: 10px;
     margin-top: -5px;
   }
 
+
   .pricing_tab_groups_wrapper {
     width: 100vw;
     display: flex;
@@ -3675,9 +3682,10 @@ margin: 10px;
     flex-direction: column;
   }
 
+
   .frame_wrapper {
     padding: 20px;
-    width: 30vw;
+    width: 280px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3687,9 +3695,10 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
-    gap: 20px;
+    gap: 10px;
     grid-template-columns: repeat(3, 1fr);
   }
+
 
   .label {
     width: 100px;
@@ -3851,9 +3860,10 @@ margin: 10px;
     flex-direction: column;
   }
 
+
   .frame_wrapper {
     padding: 20px;
-    width: 30vw;
+    width: 280px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -3863,9 +3873,10 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
-    gap: 20px;
+    gap: 10px;
     grid-template-columns: repeat(3, 1fr);
   }
+
 
   .label {
     width: 100px;
@@ -4028,7 +4039,7 @@ margin: 10px;
 
   .frame_wrapper {
     padding: 20px;
-    width: 30vw;
+    width: 300px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -4038,9 +4049,10 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
-    gap: 20px;
+    gap: 10px;
     grid-template-columns: repeat(3, 1fr);
   }
+
 
   .label {
     width: 100px;
@@ -4200,9 +4212,10 @@ margin: 10px;
     flex-direction: column;
   }
 
+
   .frame_wrapper {
     padding: 20px;
-    width: 30vw;
+    width: 300px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -4212,9 +4225,10 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
-    gap: 20px;
+    gap: 10px;
     grid-template-columns: repeat(3, 1fr);
   }
+
 
   .label {
     width: 100px;
@@ -4374,10 +4388,9 @@ margin: 10px;
   }
 
 
-
   .frame_wrapper {
     padding: 20px;
-    width: 25vw;
+    width: 300px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -4387,9 +4400,10 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
-    gap: 20px;
+    gap: 10px;
     grid-template-columns: repeat(3, 1fr);
   }
+
 
   .label {
     width: 100px;
@@ -4554,7 +4568,7 @@ margin: 10px;
 
   .frame_wrapper {
     padding: 20px;
-    width: 25vw;
+    width: 300px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -4564,10 +4578,9 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
-    gap: 20px;
+    gap: 10px;
     grid-template-columns: repeat(3, 1fr);
   }
-
   .label {
     width: 100px;
   }
@@ -4733,7 +4746,7 @@ margin: 10px;
 
   .frame_wrapper {
     padding: 20px;
-    width: 25vw;
+    width: 300px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -4743,9 +4756,10 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
-    gap: 20px;
+    gap: 10px;
     grid-template-columns: repeat(3, 1fr);
   }
+
 
   .label {
     width: 100px;
@@ -4905,10 +4919,9 @@ margin: 10px;
   }
 
 
-
   .frame_wrapper {
     padding: 20px;
-    width: 25vw;
+    width: 300px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -4918,7 +4931,7 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
-    gap: 20px;
+    gap: 10px;
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -5069,7 +5082,6 @@ margin: 10px;
   .more_tag {
     margin-top: -5px;
   }
-
   .pricing_tab_groups_wrapper {
     width: 100vw;
     display: flex;
@@ -5081,7 +5093,7 @@ margin: 10px;
 
   .frame_wrapper {
     padding: 20px;
-    width: 25vw;
+    width: max-content;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -5091,9 +5103,12 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
-    gap: 20px;
+    flex-direction: column;
+    gap: 10px;
     grid-template-columns: repeat(3, 1fr);
   }
+
+
   .label {
     width: 100px;
   }
@@ -5253,7 +5268,7 @@ margin: 10px;
 
   .frame_wrapper {
     padding: 20px;
-    width: 25vw;
+    width: max-content;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -5263,7 +5278,8 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
-    gap: 20px;
+    flex-direction: column;
+    gap: 10px;
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -5431,7 +5447,7 @@ margin: 10px;
 
   .frame_wrapper {
     padding: 20px;
-    width: 25vw;
+    width: 300px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -5441,9 +5457,11 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    flex-direction: column;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
   }
+
 
   .label {
     width: 100px;
@@ -5605,7 +5623,7 @@ margin: 10px;
 
   .frame_wrapper {
     padding: 20px;
-    width: 25vw;
+    width: 300px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -5615,9 +5633,11 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    flex-direction: column;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
   }
+
 
   .label {
     width: 100px;
@@ -5776,9 +5796,10 @@ margin: 10px;
     flex-direction: column;
   }
 
+
   .frame_wrapper {
     padding: 20px;
-    width: 25vw;
+    width: 300px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -5788,9 +5809,11 @@ margin: 10px;
   .frame_405 {
     width: max-content;
     display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    flex-direction: column;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
   }
+
 
   .label {
     width: 100px;
@@ -5965,6 +5988,7 @@ margin: 10px;
     gap: 10px;
     grid-template-columns: repeat(4, 1fr);
   }
+
 
   .label {
     width: 100px;

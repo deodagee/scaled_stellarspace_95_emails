@@ -1473,8 +1473,6 @@ transition: 0.5s;
 
 }
 
-
-
 .recommended_div {
   position: relative;
   width: max-content;
@@ -1497,7 +1495,6 @@ transition: 0.5s;
   transition: 0.6s;
   box-shadow: rgb(0, 183, 122) 0px 0px 15px;
 }
-
 
 
 .your_session_has_tim3_regular {
@@ -2659,7 +2656,7 @@ transition: 0.5s;
 
   .frame_wrapper {
     padding: 20px;
-    width: 85vw;
+    width: 60vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -2857,10 +2854,9 @@ transition: 0.5s;
     flex-direction: column;
   }
 
-
   .frame_wrapper {
     padding: 20px;
-    width: 85vw;
+    width: 60vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
