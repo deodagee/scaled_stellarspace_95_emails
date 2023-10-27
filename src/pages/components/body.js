@@ -7,6 +7,7 @@ import { useSession } from "next-auth/react"
 import Loading from './loading';
 
 
+
 function Body() {
 
   const [isCssLoaded, setIsCssLoaded] = useState(false);
@@ -39,7 +40,6 @@ function Body() {
       });
     }
   }, []);
-
 
 
   const { data: session } = useSession()
