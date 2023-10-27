@@ -532,16 +532,17 @@ transition: 0.5s;
 
 @media (min-width: 200px) and (max-width: 300px) and (orientation:portrait) {
   .pricing_headers_list_wrapper { 
-    margin-bottom: 0;
+    margin-bottom: 20px;
+    width: 90vw;
   }
 
   .pricing_headers_list {
-    width: 50vw;
+    width: 90vw;
     gap: 0;
   }
 
  .pricing_headers_list p { 
-  font-size: 6px;
+  font-size: 7px;
  }
 
   .everything_wrapper { 
@@ -551,10 +552,10 @@ transition: 0.5s;
   .frame_wrapper_and_popup { 
     flex-direction: column;
   }
-  .frame_wrapper{ 
+
+  .frame_wrapper { 
     flex-direction: column;
-    margin-top: -100px;
-    transform: scale(0.7);
+        margin-top: 0px;
   }
 
   .frame_402 { 
@@ -565,16 +566,17 @@ transition: 0.5s;
 
 @media (min-width: 200px) and (max-width: 300px) and (orientation:landscape) {
   .pricing_headers_list_wrapper { 
-    margin-bottom: 0;
+    margin-bottom: 20px;
+    width: 90vw;
   }
 
   .pricing_headers_list {
-    width: 50vw;
+    width: 90vw;
     gap: 0;
   }
 
  .pricing_headers_list p { 
-  font-size: 6px;
+  font-size: 7px;
  }
 
   .everything_wrapper { 
@@ -584,10 +586,10 @@ transition: 0.5s;
   .frame_wrapper_and_popup { 
     flex-direction: column;
   }
-  .frame_wrapper{ 
+
+  .frame_wrapper { 
     flex-direction: column;
-    margin-top: -50px;
-    transform: scale(0.7);
+        margin-top: 0px;
   }
 
   .frame_402 { 
@@ -599,10 +601,10 @@ transition: 0.5s;
 
 
 
-
 @media (min-width: 300px) and (max-width: 400px) and (orientation:portrait) {
   .pricing_headers_list_wrapper { 
     margin-bottom: 20px;
+    width: 90vw;
   }
 
   .pricing_headers_list {
@@ -611,10 +613,8 @@ transition: 0.5s;
   }
 
  .pricing_headers_list p { 
-  font-size: 10px;
+  font-size: 9px;
  }
-
-
 
   .everything_wrapper { 
     width: 100vw;
@@ -639,17 +639,16 @@ transition: 0.5s;
 @media (min-width: 300px) and (max-width: 400px) and (orientation:landscape) {
   .pricing_headers_list_wrapper { 
     margin-bottom: 20px;
+    width: 90vw;
   }
 
   .pricing_headers_list {
-    width: 80vw;
+    width: 90vw;
     gap: 0;
   }
-
  .pricing_headers_list p { 
-  font-size: 8px;
+  font-size: 9px;
  }
-
 
   .everything_wrapper { 
     width: 100vw;
