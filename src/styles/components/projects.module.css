@@ -312,7 +312,7 @@
 
 
 .list2:nth-child(1) {
-    animation: ChangebgColor 3s infinite;
+    animation: ChangebgColor 5s infinite;
     animation-delay: 3s;
 
 }
@@ -330,7 +330,7 @@
 }
 
 .list2:nth-child(2) {
-    animation: ChangebgColor 3s infinite;
+    animation: ChangebgColor 5s infinite;
     animation-delay: 2s;
 
 
@@ -351,7 +351,7 @@
 
 
 .list2:nth-child(3) {
-    animation: ChangebgColor 3s infinite;
+    animation: ChangebgColor 5s infinite;
     animation-delay: 5s;
 
 
@@ -370,7 +370,7 @@
 }
 
 .list2:nth-child(4) {
-    animation: ChangebgColor 3s infinite;
+    animation: ChangebgColor 5s infinite;
     animation-delay: 1s;
 
 }
@@ -388,7 +388,7 @@
 }
 
 .list2:nth-child(5) {
-    animation: ChangebgColor 3s infinite;
+    animation: ChangebgColor 5s infinite;
     animation-delay: 4s;
 
 }
@@ -407,7 +407,7 @@
 @keyframes ChangebgColor {
 
     30% {
-        background-color: #0c1114;
+        background-color: #0c111400;
         box-shadow: rgb(214, 214, 214) 0px 0px 4px;
         border-width: 0px;
         width: 250px;
@@ -415,7 +415,7 @@
     }
 
     60% {
-        background-color: #222f36;
+        background-color: #0c1114;
         box-shadow: white 0px 0px 8px;
         border-radius: 5px;
         border-color: white;
@@ -425,7 +425,7 @@
     }
 
     90% {
-        background-color: #0c1114;
+        background-color: #ffffff00;
         box-shadow: rgb(214, 214, 214) 0px 0px 4px;
         border-width: 0px;
         width: 250px;
