@@ -13,7 +13,7 @@
 
 .projects_page_whole {
     width: 100vw;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 245, 245);
     overflow-x: hidden;
 }
 
@@ -31,7 +31,7 @@
 .section_top {
     padding-left:7vw;
     padding-bottom: 20px;
-    padding-top: 150px;
+    padding-top: 60px;
     background-image: url("/logogreythreed.jpg");
     background-position: center;
     background-size: cover;
@@ -124,7 +124,7 @@
 }
 
 .list_div {
-    margin-top: 65px;
+    margin-top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
