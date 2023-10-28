@@ -4,7 +4,13 @@ import Link from "next/link";
 import styles from "../../../styles/components/info/faq.module.css"
 
 function ApisPage() {
-
+    useEffect(() => {
+        document.body.style.overflowX = 'hidden';
+    
+        return () => {
+          document.body.style.overflowX = ''; 
+        };
+      }, []);
 
     return (
 

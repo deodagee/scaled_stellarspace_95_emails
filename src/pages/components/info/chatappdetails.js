@@ -6,7 +6,13 @@ import Image from "next/image";
 
 
 function ChatAppDetails() {
-
+    useEffect(() => {
+        document.body.style.overflowX = 'hidden';
+    
+        return () => {
+          document.body.style.overflowX = ''; 
+        };
+      }, []);
     return (
 
         <>

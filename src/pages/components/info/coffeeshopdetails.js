@@ -7,6 +7,14 @@ import Image from "next/image";
 
 function Coffeeshopdetailspage() {
 
+    useEffect(() => {
+        document.body.style.overflowX = 'hidden';
+    
+        return () => {
+          document.body.style.overflowX = ''; 
+        };
+      }, []);
+
     return (
 
         <>

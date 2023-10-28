@@ -6,6 +6,13 @@ import styles from "../../../styles/components/info/faq.module.css"
 
 function FaqPage() {
 
+    useEffect(() => {
+        document.body.style.overflowX = 'hidden';
+    
+        return () => {
+          document.body.style.overflowX = ''; 
+        };
+      }, []);
     return (
 
         <>

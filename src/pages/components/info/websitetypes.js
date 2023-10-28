@@ -4,7 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 function WebsiteTypes() {
-
+    useEffect(() => {
+        document.body.style.overflowX = 'hidden';
+    
+        return () => {
+          document.body.style.overflowX = ''; 
+        };
+      }, []);
     return (
 
         <>
