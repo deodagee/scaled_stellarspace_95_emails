@@ -6,10 +6,20 @@ import { useState } from "react";
 import { useSession } from "next-auth/react"
 import Loading from './loading';
 
-
-
 function Body() {
 
+
+  useEffect(() => {
+    // Access the body element and set overflow-x to hidden
+    document.body.style.overflowX = 'hidden';
+
+    // Clean up the effect (optional)
+    return () => {
+      document.body.style.overflowX = ''; // Reset overflow-x when the component is unmounted
+    };
+  }, []);
+
+  
   const [isCssLoaded, setIsCssLoaded] = useState(false);
   useEffect(() => {
     setTimeout(() => {
