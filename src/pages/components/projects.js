@@ -48,7 +48,7 @@ function Projects() {
     }, []);
 
     const categoriesWrapperStyles = {
-        backgroundColor: "#111a20",
+        backgroundColor: "#0b0e16",
         paddingRight: "50px",
         paddingLeft: "50px",
         width: '100vw',
