@@ -68,7 +68,7 @@ function Body() {
 
   const [promoVisible, setpromoVisible] = useState(true);
   const promoCloseButtonClick = () => {
-    setpromoVisible(false); // Set isVisible to false to hide the div
+    setpromoVisible(false);
   };
 
   const circleRef = useRef(null);

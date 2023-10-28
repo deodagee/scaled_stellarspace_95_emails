@@ -20,7 +20,6 @@ function DynamicPlusExtra() {
         <>
 
 <Head>
-    <link rel="stylesheet" href={"/styles/components/tabber.module.css"} />
   </Head>
             <div className={styles.whole}>
                 <div className={styles.parent_wrapper}>
