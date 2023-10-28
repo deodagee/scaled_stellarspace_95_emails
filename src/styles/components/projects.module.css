@@ -29,7 +29,7 @@
 */
 
 .section_top {
-    padding-left:7vw;
+    padding-left: 7vw;
     padding-bottom: 20px;
     padding-top: 60px;
     background-image: url("/logogreythreed.jpg");
@@ -39,38 +39,38 @@
     width: 100vw;
     display: flex;
     margin-bottom: 50px;
-  }
-  
-  .cocacola {
+}
+
+.cocacola {
     border-radius: 50%;
     margin-bottom: 10px;
     transition: 0.4s;
-  transform: scale(1.04);
-  box-shadow: white 0px 0px 4px;
-  }
-  
-  .section_top_list_item1 {
+    transform: scale(1.04);
+    box-shadow: white 0px 0px 4px;
+}
+
+.section_top_list_item1 {
     color: white;
     font-size: 20px;
     font-weight: 700;
     margin-top: 50px;
-  }
-  
-  .section_top_list_item1:hover {
+}
+
+.section_top_list_item1:hover {
     color: #e9e9e9;
-  }
-  
-  .top_title1 { 
+}
+
+.top_title1 {
     font-size: 20px;
     font-family: sans-serif;
-  }
-  
-  .top_title2 { 
+}
+
+.top_title2 {
     font-size: 10px;
     color: grey;
-  }
-  
-  .home_button{ 
+}
+
+.home_button {
     width: max-content;
     align-items: center;
     justify-content: center;
@@ -88,9 +88,9 @@
     border-width: 1px;
     border-color: rgb(53, 53, 53);
     transition: 0.4s;
-  }
-  
-  .home_button:hover{ 
+}
+
+.home_button:hover {
     transform: scale(1.08);
     background-color: rgb(15, 15, 20);
     text-decoration: none;
@@ -98,7 +98,7 @@
     color: rgb(222, 222, 222);
     border-color: rgb(255, 255, 255);
     box-shadow: rgb(206, 206, 206) 0px 0px 7px;
-  }
+}
 
 
 
@@ -178,12 +178,12 @@
     padding-left: 10px;
     padding-right: 10px;
     border-width: 3px;
-    width: 250px;
+    width: 180px;
     border-color: rgb(26, 31, 34);
     transition: 0.6s;
 }
 
-.title h1:hover { 
+.title h1:hover {
     background-color: rgb(39, 39, 39);
     transition: 0.6s;
     color: rgb(228, 228, 228);
@@ -280,29 +280,77 @@
 .see_more_button:hover {
     background: linear-gradient(to top, rgba(52, 52, 52, 0.62), rgba(50, 50, 50, 0.541), rgba(49, 49, 49, 0.562));
     transition: 0.4s;
-} 
-
-
-
-
+}
 
 
 .list2 {
-    background-color: #f6f6f6;
+    background-color: #111a20;
+    background-color: #13171a;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     flex-direction: column;
-    width: 300px;
-    height: 550px;
+    width: 250px;
+    height: 430px;
     box-shadow: rgb(159, 159, 159) 0px 0px 7px;
     transition: 0.4s;
-    padding: 10px;
     border-radius: 0.95rem;
     border-bottom-right-radius: 0.95rem;
     border-bottom-left-radius: 0.95rem;
 }
+
+.list2:nth-child(1) {
+    animation: ChangebgColor 7s infinite;
+    animation-delay: 3s;
+
+}
+
+.list2:nth-child(2) {
+    animation: ChangebgColor 7s infinite;
+    animation-delay: 2s;
+
+}
+
+.list2:nth-child(3) {
+    animation: ChangebgColor 7s infinite;
+    animation-delay: 5s;
+
+}
+
+.list2:nth-child(4) {
+    animation: ChangebgColor 7s infinite;
+        animation-delay: 1s;
+}
+
+.list2:nth-child(5) {
+    animation: ChangebgColor 7s infinite;
+    animation-delay: 4s;
+
+}
+
+@keyframes ChangebgColor {
+
+    30% {
+        background-color: #13171a;
+
+    }
+
+    60% {
+        background-color: #ffffff;
+
+
+    }
+
+    90% {
+        background-color: #13171a;
+
+
+    }
+}
+
 
 .list2:hover {
     border-bottom-right-radius: 0.95rem;
@@ -318,14 +366,13 @@
     align-items: center;
     justify-content: center;
     border-radius: 35px;
-    height: 250px;
-    width: 280px;
+    width: 270px;
     margin: 10px;
     padding: 0px;
 }
 
 .video_tag {
-    width: 250px;
+    width: 230px;
     border-radius: 35px;
     border-width: 3px;
     border-color: rgb(26, 31, 34);
@@ -381,14 +428,15 @@
 
     .title h1 {
         width: 160px;
-    } 
+    }
+
     .description_list_element_wrapper {
-    width: 160px;
+        width: 160px;
     }
 
     .description_list_element {
         width: 150px;
-    } 
+    }
 
 
     .list2 {
@@ -409,14 +457,15 @@
 @media (min-width: 200px) and (max-width: 250px) and (orientation: landscape) {
     .title h1 {
         width: 160px;
-    } 
+    }
+
     .description_list_element_wrapper {
-    width: 160px;
+        width: 160px;
     }
 
     .description_list_element {
         width: 150px;
-    } 
+    }
 
 
     .list2 {
@@ -437,14 +486,15 @@
 @media (min-width: 250px) and (max-width: 300px) and (orientation: portrait) {
     .title h1 {
         width: 160px;
-    } 
+    }
+
     .description_list_element_wrapper {
-    width: 160px;
+        width: 160px;
     }
 
     .description_list_element {
         width: 150px;
-    } 
+    }
 
     .list2 {
         width: 190px;
@@ -464,14 +514,15 @@
 @media (min-width: 250px) and (max-width: 300px) and (orientation: landscape) {
     .title h1 {
         width: 160px;
-    } 
+    }
+
     .description_list_element_wrapper {
-    width: 160px;
+        width: 160px;
     }
 
     .description_list_element {
         width: 150px;
-    } 
+    }
 
     .list2 {
         width: 190px;
@@ -492,14 +543,15 @@
 @media (min-width: 300px) and (max-width: 400px) and (orientation: portrait) {
     .title h1 {
         width: 200px;
-    } 
+    }
+
     .description_list_element_wrapper {
         width: 200px;
     }
 
     .description_list_element {
         width: 200px;
-    } 
+    }
 
     .list2 {
         width: 270px;
@@ -521,14 +573,15 @@
 @media (min-width: 300px) and (max-width: 400px) and (orientation: landscape) {
     .title h1 {
         width: 200px;
-    } 
+    }
+
     .description_list_element_wrapper {
         width: 200px;
     }
 
     .description_list_element {
         width: 200px;
-    } 
+    }
 
     .list2 {
         width: 270px;
@@ -551,14 +604,16 @@
 @media (min-width: 400px) and (max-width: 500px) and (orientation: portrait) {
     .title h1 {
         width: 250px;
-    } 
+    }
+
     .description_list_element_wrapper {
         width: 250px;
     }
 
     .description_list_element {
         width: 250px;
-    } 
+    }
+
     .list2 {
         width: 300px;
         height: 550px;
@@ -579,14 +634,15 @@
 @media (min-width: 400px) and (max-width: 500px) and (orientation: landscape) {
     .title h1 {
         width: 250px;
-    } 
+    }
+
     .description_list_element_wrapper {
         width: 250px;
     }
 
     .description_list_element {
         width: 250px;
-    } 
+    }
 
 
     .list2 {
@@ -610,14 +666,15 @@
 @media (min-width: 500px) and (max-width: 600px) and (orientation: portrait) {
     .title h1 {
         width: 350px;
-    } 
+    }
+
     .description_list_element_wrapper {
         width: 350px;
     }
 
     .description_list_element {
         width: 350px;
-    } 
+    }
 
     .list2 {
         width: 400px;
@@ -640,14 +697,15 @@
 @media (min-width: 500px) and (max-width: 600px) and (orientation: landscape) {
     .title h1 {
         width: 350px;
-    } 
+    }
+
     .description_list_element_wrapper {
         width: 350px;
     }
 
     .description_list_element {
         width: 350px;
-    } 
+    }
 
 
     .list2 {
@@ -671,14 +729,15 @@
 @media (min-width: 600px) and (max-width: 700px) and (orientation: portrait) {
     .title h1 {
         width: 200px;
-    } 
+    }
+
     .description_list_element_wrapper {
         width: 200px;
     }
 
     .description_list_element {
         width: 200px;
-    } 
+    }
 
 
     .list2 {
@@ -701,15 +760,16 @@
 @media (min-width: 600px) and (max-width: 700px) and (orientation: landscape) {
     .title h1 {
         width: 200px;
-    } 
+    }
+
     .description_list_element_wrapper {
         width: 200px;
     }
 
     .description_list_element {
         width: 200px;
-    } 
- 
+    }
+
     .list2 {
         width: 250px;
         height: 550px;
@@ -731,7 +791,8 @@
 @media (min-width: 700px) and (max-width: 800px) and (orientation: portrait) {
     .title h1 {
         width: 200px;
-    } 
+    }
+
     .description_list_element_wrapper {
         width: 200px;
     }
@@ -761,14 +822,15 @@
 @media (min-width: 700px) and (max-width: 800px) and (orientation: landscape) {
     .title h1 {
         width: 200px;
-    } 
+    }
+
     .description_list_element_wrapper {
         width: 200px;
     }
 
     .description_list_element {
         width: 200px;
-    } 
+    }
 
     .list2 {
         width: 250px;
@@ -793,14 +855,15 @@
 @media (min-width: 800px) and (max-width: 900px) and (orientation: portrait) {
     .title h1 {
         width: 300px;
-    } 
+    }
+
     .description_list_element_wrapper {
         width: 300px;
     }
 
     .description_list_element {
         width: 300px;
-    } 
+    }
 
     .list2 {
         width: 350px;
@@ -822,14 +885,15 @@
 @media (min-width: 800px) and (max-width: 900px) and (orientation: landscape) {
     .title h1 {
         width: 300px;
-    } 
+    }
+
     .description_list_element_wrapper {
         width: 300px;
     }
 
     .description_list_element {
         width: 300px;
-    } 
+    }
 
     .list2 {
         width: 350px;
@@ -853,14 +917,15 @@
 @media (min-width: 900px) and (max-width: 1000px) and (orientation: portrait) {
     .title h1 {
         width: 300px;
-    } 
+    }
+
     .description_list_element_wrapper {
         width: 300px;
     }
 
     .description_list_element {
         width: 300px;
-    } 
+    }
 
     .list2 {
         width: 350px;
@@ -882,14 +947,15 @@
 @media (min-width: 900px) and (max-width: 1000px) and (orientation: landscape) {
     .title h1 {
         width: 300px;
-    } 
+    }
+
     .description_list_element_wrapper {
         width: 300px;
     }
 
     .description_list_element {
         width: 300px;
-    } 
+    }
 
 
     .list2 {
@@ -912,29 +978,15 @@
 
 
 
-@media (min-width: 1000px) and (max-width: 1100px) and (orientation: portrait) {
+@media (min-width: 1000px) and (max-width: 1100px) and (orientation: portrait) {}
+
+@media (min-width: 1000px) and (max-width: 1100px) and (orientation: landscape) {}
 
 
-}
+@media (min-width: 1200px) and (max-width: 1300px) and (orientation: portrait) {}
 
-@media (min-width: 1000px) and (max-width: 1100px) and (orientation: landscape) {
+@media (min-width: 1200px) and (max-width: 1300px) and (orientation: landscape) {}
 
+@media (min-width: 1300px) and (max-width: 1400px) and (orientation: portrait) {}
 
-}
-
-
-@media (min-width: 1200px) and (max-width: 1300px) and (orientation: portrait) {
-
-}
-
-@media (min-width: 1200px) and (max-width: 1300px) and (orientation: landscape) {
-
-}
-
-@media (min-width: 1300px) and (max-width: 1400px) and (orientation: portrait) {
-
-}
-
-@media (min-width: 1300px) and (max-width: 1400px) and (orientation: landscape) {
-
-}
+@media (min-width: 1300px) and (max-width: 1400px) and (orientation: landscape) {}
