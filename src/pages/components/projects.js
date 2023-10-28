@@ -48,10 +48,14 @@ function Projects() {
     }, []);
 
     const categoriesWrapperStyles = {
+        borderWidth:"1px",
+        borderColor: "whitesmoke",
         backgroundColor: "#0b0e16",
-        paddingRight: "50px",
+        background: "linear-gradient(to bottom, #0b1916, #0b1916dd, #0b191680, )", 
         paddingLeft: "50px",
-        width: '100vw',
+        marginLeft: "0px",
+        width: '97vw',
+        borderRadius: "10px",
         overflowX: 'auto',
         overflowY: 'hidden',
         gridTemplateRows: 'repeat(1, 1fr)',
