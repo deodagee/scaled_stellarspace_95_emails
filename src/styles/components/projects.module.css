@@ -284,8 +284,7 @@
 
 
 .list2 {
-    background-color: #0b0e16;
-    background-color: #0d0d0d;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -302,17 +301,12 @@
     border-bottom-left-radius: 0.95rem;
     border-width: 0px;
     transition: 0.1s;
+    border-width: 0px;
+    border-color: rgba(245, 245, 220, 0);
+
 }
 
-.list2:hover { 
-    animation : none;
-}
-
-.list2::after { 
-    animation: none;
-}
-
-.list2::after { 
+.list2:hover {
     animation: none;
 }
 
@@ -324,13 +318,14 @@
 }
 
 .list2:nth-child(1):hover {
-    background-color: white;
     border-bottom-right-radius: 0.95rem;
     border-bottom-left-radius: 80px;
     transition: 0.4s;
     box-shadow: rgba(224, 224, 224, 0.54) 0px 0px 5px;
-        transition: 0.1s;
-        animation: none;
+    transition: 0.1s;
+    animation: none;
+    border-width: 0px;
+    border-color: rgba(245, 245, 220, 0);
 
 }
 
@@ -338,15 +333,19 @@
     animation: ChangebgColor 3s infinite;
     animation-delay: 2s;
 
+
 }
+
 .list2:nth-child(2):hover {
-    background-color: white;
     border-bottom-right-radius: 0.95rem;
     border-bottom-left-radius: 80px;
     transition: 0.4s;
     box-shadow: rgba(224, 224, 224, 0.54) 0px 0px 5px;
-        transition: 0.1s;
-        animation: none;
+    transition: 0.1s;
+    animation: none;
+    border-width: 0px;
+    border-color: rgba(245, 245, 220, 0);
+
 }
 
 
@@ -355,32 +354,37 @@
     animation: ChangebgColor 3s infinite;
     animation-delay: 5s;
 
+
 }
 
 .list2:nth-child(3):hover {
-    background-color: white;
     border-bottom-right-radius: 0.95rem;
     border-bottom-left-radius: 80px;
     transition: 0.4s;
     box-shadow: rgba(224, 224, 224, 0.54) 0px 0px 5px;
-        transition: 0.1s;
-        animation: none;
+    transition: 0.1s;
+    animation: none;
+    border-width: 0px;
+    border-color: rgba(245, 245, 220, 0);
 
 }
 
 .list2:nth-child(4) {
     animation: ChangebgColor 3s infinite;
-        animation-delay: 1s;
+    animation-delay: 1s;
+
 }
 
 .list2:nth-child(4):hover {
-    background-color: white;
     border-bottom-right-radius: 0.95rem;
     border-bottom-left-radius: 80px;
     transition: 0.4s;
     box-shadow: rgba(224, 224, 224, 0.54) 0px 0px 5px;
-        transition: 0.1s;
-        animation: none;
+    transition: 0.1s;
+    animation: none;
+    border-width: 0px;
+    border-color: rgba(245, 245, 220, 0);
+
 }
 
 .list2:nth-child(5) {
@@ -390,35 +394,41 @@
 }
 
 .list2:nth-child(5):hover {
-    background-color: white;
     border-bottom-right-radius: 0.95rem;
     border-bottom-left-radius: 80px;
     transition: 0.4s;
     box-shadow: rgba(224, 224, 224, 0.54) 0px 0px 5px;
-        transition: 0.1s;
-        animation: none;
+    transition: 0.1s;
+    animation: none;
+    border-width: 0px;
+    border-color: rgba(245, 245, 220, 0);
 }
+
 @keyframes ChangebgColor {
 
     30% {
         background-color: #0c1114;
-        box-shadow: rgb(214, 214, 214) 0px 0px 4px ;
+        box-shadow: rgb(214, 214, 214) 0px 0px 4px;
         border-width: 0px;
+        width: 250px;
 
     }
 
     60% {
-        background-color:#222f36;
-        box-shadow: white 0px 0px 8px ;
+        background-color: #222f36;
+        box-shadow: white 0px 0px 8px;
         border-radius: 5px;
         border-color: white;
         border-width: 1px;
+        width: 252px;
+
     }
 
     90% {
         background-color: #0c1114;
-        box-shadow: rgb(214, 214, 214) 0px 0px 4px ;
+        box-shadow: rgb(214, 214, 214) 0px 0px 4px;
         border-width: 0px;
+        width: 250px;
 
     }
 }
@@ -455,7 +465,7 @@
 .arrow {
     margin: 10px;
     transition: 0.5s;
-    transform: rotate(-90deg);
+    transform: rotate(0deg);
 }
 
 .arrow:hover {
@@ -464,6 +474,8 @@
 }
 
 .view_link_header {
+    background-color: #0b191680;
+
     background-color: #00be98;
     color: #ffffff;
     box-shadow: white 0px 0px 6px;
