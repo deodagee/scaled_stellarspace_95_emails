@@ -50,10 +50,10 @@ function Projects() {
     const categoriesWrapperStyles = {
         borderWidth:"1px",
         borderColor: "whitesmoke",
-        backgroundColor: "#0b0e16",
-        backgroundImage: "url('bgwhole12.jpg')",
+        backgroundImage: "url('bgwhole15.jpg')",
         backgroundPosition: "center", 
         backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
         background: "linear-gradient(to bottom, #0b1916, #0b1916dd, #0b191680, )", 
         paddingLeft: "50px",
         marginLeft: "0px",
