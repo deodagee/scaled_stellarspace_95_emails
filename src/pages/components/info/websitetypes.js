@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../../../styles/components/websitetypes.module.css"
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react";
 
 function WebsiteTypes() {
     useEffect(() => {

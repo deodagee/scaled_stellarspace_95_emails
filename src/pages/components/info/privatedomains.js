@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@chakra-ui/react";
 import styles from "../../../styles/components/info/faq.module.css"
+import { useEffect } from "react";
 
 function ApisPage() {
     useEffect(() => {

@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import styles from "../../../styles/components/info/chatappdetails.module.css"
 import Image from "next/image";
+import { useEffect } from "react";
 
 
 
