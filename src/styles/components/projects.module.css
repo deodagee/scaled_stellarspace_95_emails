@@ -100,12 +100,32 @@
     box-shadow: rgb(206, 206, 206) 0px 0px 7px;
 }
 
+.scroll_id {
+    width: 100vw;
+    display: flex;
+    align-items: space-evenly;
+    padding-left: 50px;
+        background-color: black;
 
+}
 
-/*  end of edit 
-*/
+.scroll_id h1 {
+    align-self: flex-start;
+    color: white;
+    font-size: 12px;
+    color: whitesmoke;
+    font-weight: 700;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right:10px;
+    transition: 0.5s;
+}
 
-
+.scroll_id h1:hover {
+    color: orange;
+    transition: 0.5s;
+    cursor: pointer;
+}
 
 
 .logored {
@@ -448,7 +468,7 @@
 .video_tag {
     width: 200px;
     height: auto;
-    border-radius:8px;
+    border-radius: 8px;
     border-width: 3px;
     border-color: rgb(26, 31, 34);
     box-shadow: rgb(255, 255, 255) 0px 0px 7px;
@@ -515,19 +535,6 @@
         width: 150px;
     }
 
-
-    .list2 {
-        width: 190px;
-        height: 400px;
-    }
-
-    .video_list_element {
-        width: 165px;
-    }
-
-    .video_tag {
-        width: 120px;
-    }
 }
 
 @media (min-width: 200px) and (max-width: 250px) and (orientation: landscape) {
@@ -541,20 +548,6 @@
 
     .description_list_element {
         width: 150px;
-    }
-
-
-    .list2 {
-        width: 190px;
-        height: 400px;
-    }
-
-    .video_list_element {
-        width: 165px;
-    }
-
-    .video_tag {
-        width: 120px;
     }
 }
 
@@ -571,18 +564,6 @@
         width: 150px;
     }
 
-    .list2 {
-        width: 190px;
-        height: 400px;
-    }
-
-    .video_list_element {
-        width: 165px;
-    }
-
-    .video_tag {
-        width: 120px;
-    }
 }
 
 @media (min-width: 250px) and (max-width: 300px) and (orientation: landscape) {
@@ -598,19 +579,6 @@
         width: 150px;
     }
 
-    .list2 {
-        width: 190px;
-        height: 400px;
-    }
-
-    .video_list_element {
-        width: 165px;
-
-    }
-
-    .video_tag {
-        width: 120px;
-    }
 }
 
 
@@ -627,21 +595,6 @@
         width: 200px;
     }
 
-    .list2 {
-        width: 270px;
-        height: 450px;
-    }
-
-    .video_list_element {
-        margin-top: 50px;
-        margin-bottom: 20px;
-        width: 200px;
-
-    }
-
-    .video_tag {
-        width: 200px;
-    }
 }
 
 @media (min-width: 300px) and (max-width: 400px) and (orientation: landscape) {
@@ -657,20 +610,6 @@
         width: 200px;
     }
 
-    .list2 {
-        width: 270px;
-        height: 450px;
-    }
-
-    .video_list_element {
-        margin-top: 50px;
-        margin-bottom: 20px;
-        width: 200px;
-    }
-
-    .video_tag {
-        width: 200px;
-    }
 }
 
 
@@ -687,20 +626,6 @@
         width: 250px;
     }
 
-    .list2 {
-        width: 300px;
-        height: 550px;
-    }
-
-    .video_list_element {
-        margin-top: 30px;
-        margin-bottom: 20px;
-        width: 250px;
-    }
-
-    .video_tag {
-        width: 250px;
-    }
 }
 
 @media (min-width: 400px) and (max-width: 500px) and (orientation: landscape) {
@@ -713,22 +638,6 @@
     }
 
     .description_list_element {
-        width: 250px;
-    }
-
-
-    .list2 {
-        width: 300px;
-        height: 550px;
-    }
-
-    .video_list_element {
-        margin-top: 30px;
-        margin-bottom: 20px;
-        width: 250px;
-    }
-
-    .video_tag {
         width: 250px;
     }
 }
@@ -746,22 +655,6 @@
     .description_list_element {
         width: 250px;
     }
-
-
-    .list2 {
-        width: 300px;
-        height: 550px;
-    }
-
-    .video_list_element {
-        margin-top: 30px;
-        margin-bottom: 20px;
-        width: 250px;
-    }
-
-    .video_tag {
-        width: 250px;
-    }
 }
 
 
@@ -775,22 +668,6 @@
     }
 
     .description_list_element {
-        width: 250px;
-    }
-
-
-    .list2 {
-        width: 300px;
-        height: 550px;
-    }
-
-    .video_list_element {
-        margin-top: 30px;
-        margin-bottom: 20px;
-        width: 250px;
-    }
-
-    .video_tag {
         width: 250px;
     }
 }
@@ -809,21 +686,6 @@
         width: 250px;
     }
 
-
-    .list2 {
-        width: 300px;
-        height: 550px;
-    }
-
-    .video_list_element {
-        margin-top: 30px;
-        margin-bottom: 20px;
-        width: 250px;
-    }
-
-    .video_tag {
-        width: 250px;
-    }
 }
 
 @media (min-width: 600px) and (max-width: 700px) and (orientation: landscape) {
@@ -839,21 +701,6 @@
         width: 250px;
     }
 
-
-    .list2 {
-        width: 300px;
-        height: 550px;
-    }
-
-    .video_list_element {
-        margin-top: 30px;
-        margin-bottom: 20px;
-        width: 250px;
-    }
-
-    .video_tag {
-        width: 250px;
-    }
 }
 
 
@@ -871,21 +718,6 @@
     }
 
 
-    .list2 {
-        width: 300px;
-        height: 550px;
-    }
-
-    .video_list_element {
-        margin-top: 30px;
-        margin-bottom: 20px;
-        width: 250px;
-    }
-
-    .video_tag {
-        width: 250px;
-    }
-
 }
 
 @media (min-width: 700px) and (max-width: 800px) and (orientation: landscape) {
@@ -901,21 +733,6 @@
         width: 250px;
     }
 
-
-    .list2 {
-        width: 300px;
-        height: 550px;
-    }
-
-    .video_list_element {
-        margin-top: 30px;
-        margin-bottom: 20px;
-        width: 250px;
-    }
-
-    .video_tag {
-        width: 250px;
-    }
 }
 
 
@@ -932,22 +749,6 @@
     .description_list_element {
         width: 250px;
     }
-
-
-    .list2 {
-        width: 300px;
-        height: 550px;
-    }
-
-    .video_list_element {
-        margin-top: 30px;
-        margin-bottom: 20px;
-        width: 250px;
-    }
-
-    .video_tag {
-        width: 250px;
-    }
 }
 
 @media (min-width: 800px) and (max-width: 900px) and (orientation: landscape) {
@@ -960,22 +761,6 @@
     }
 
     .description_list_element {
-        width: 250px;
-    }
-
-
-    .list2 {
-        width: 300px;
-        height: 550px;
-    }
-
-    .video_list_element {
-        margin-top: 30px;
-        margin-bottom: 20px;
-        width: 250px;
-    }
-
-    .video_tag {
         width: 250px;
     }
 }
@@ -995,21 +780,6 @@
         width: 250px;
     }
 
-
-    .list2 {
-        width: 300px;
-        height: 550px;
-    }
-
-    .video_list_element {
-        margin-top: 30px;
-        margin-bottom: 20px;
-        width: 250px;
-    }
-
-    .video_tag {
-        width: 250px;
-    }
 }
 
 @media (min-width: 900px) and (max-width: 1000px) and (orientation: landscape) {
@@ -1022,22 +792,6 @@
     }
 
     .description_list_element {
-        width: 250px;
-    }
-
-
-    .list2 {
-        width: 300px;
-        height: 550px;
-    }
-
-    .video_list_element {
-        margin-top: 30px;
-        margin-bottom: 20px;
-        width: 250px;
-    }
-
-    .video_tag {
         width: 250px;
     }
 
