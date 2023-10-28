@@ -10,16 +10,14 @@ function Body() {
 
 
   useEffect(() => {
-    // Access the body element and set overflow-x to hidden
     document.body.style.overflowX = 'hidden';
 
-    // Clean up the effect (optional)
     return () => {
-      document.body.style.overflowX = ''; // Reset overflow-x when the component is unmounted
+      document.body.style.overflowX = ''; 
     };
   }, []);
 
-  
+
   const [isCssLoaded, setIsCssLoaded] = useState(false);
   useEffect(() => {
     setTimeout(() => {

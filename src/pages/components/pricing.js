@@ -9,7 +9,15 @@ import Head from 'next/head';
 
 function Pricing() {
 
+  useEffect(() => {
+    document.body.style.overflowX = 'hidden';
 
+    return () => {
+      document.body.style.overflowX = ''; 
+    };
+  }, []);
+
+  
   const videoRef = useRef(null);
 
   const [videoLoaded, setVideoLoaded] = useState(false);

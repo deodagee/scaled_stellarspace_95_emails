@@ -1,13 +1,20 @@
-import React, { useEffect, useRef } from "react";
+import React, { useSession, useEffect, useRef } from "react";
 import styles from "../../styles/components/projects.module.css"
 import Link from "next/link";
 import { useState } from "react";
-import { useSession } from "next-auth/react";
 import Image from "next/image"
 import Loading from './loading';
 
 
 function Projects() {
+
+    useEffect(() => {
+        document.body.style.overflowX = 'hidden';
+    
+        return () => {
+          document.body.style.overflowX = ''; 
+        };
+      }, []);
 
     const [isCssLoaded, setIsCssLoaded] = useState(false);
     useEffect(() => {
