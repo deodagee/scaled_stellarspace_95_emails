@@ -10,11 +10,11 @@ function Projects() {
 
     useEffect(() => {
         document.body.style.overflowX = 'hidden';
-    
+
         return () => {
-          document.body.style.overflowX = ''; 
+            document.body.style.overflowX = '';
         };
-      }, []);
+    }, []);
 
     const [isCssLoaded, setIsCssLoaded] = useState(false);
     useEffect(() => {
@@ -48,17 +48,18 @@ function Projects() {
     }, []);
 
     const categoriesWrapperStyles = {
-        borderWidth:"1px",
-        borderColor: "whitesmoke",
+        borderWidth: "2px",
+        borderColor: "black",
+        boxShadow: "white 0px 0px 3px",
         backgroundImage: "url('bgwhole15.jpg')",
-        backgroundPosition: "center", 
+        backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        background: "linear-gradient(to bottom, #0b1916, #0b1916dd, #0b191680, )", 
+        background: "linear-gradient(to bottom, #0b1916, #0b1916dd, #0b191680, )",
         paddingLeft: "50px",
-        marginLeft: "0px",
-        width: '95vw',
-        borderRadius: "10px",
+        marginLeft: "50px",
+        width: '100vw',
+        borderRadius: "7px",
         overflowX: 'auto',
         overflowY: 'hidden',
         gridTemplateRows: 'repeat(1, 1fr)',
@@ -72,7 +73,7 @@ function Projects() {
             width: '0', // Safari and Chrome
         }
     };
-    
+
 
 
     return (
@@ -117,7 +118,9 @@ function Projects() {
                                     </Link>
                                 </li>
                             </ol>
-
+                            <div className={styles.scroll_id}>
+                                <h1>Scroll To View More</h1>
+                            </div>
 
                             <div style={categoriesWrapperStyles}>
                                 <ol className={styles.list2}>
