@@ -57,7 +57,7 @@ function Projects() {
         background: "linear-gradient(to bottom, #0b1916, #0b1916dd, #0b191680, )", 
         paddingLeft: "50px",
         marginLeft: "0px",
-        width: '97vw',
+        width: '95vw',
         borderRadius: "10px",
         overflowX: 'auto',
         overflowY: 'hidden',
