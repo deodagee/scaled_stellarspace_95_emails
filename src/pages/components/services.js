@@ -10,6 +10,15 @@ import Loading from './loading';
 
 
 function Services() {
+    
+    useEffect(() => {
+        document.body.style.overflowX = 'hidden';
+
+        return () => {
+            document.body.style.overflowX = '';
+        };
+    }, []);
+    
     const [isCssLoaded, setIsCssLoaded] = useState(false);
     useEffect(() => {
         setTimeout(() => {
