@@ -956,6 +956,7 @@ box-shadow: white 0px 0px 4px;
   padding: 10px;
   font-size: 7px;
   width: 200px;
+  color: rgb(31, 31, 31);
 }
 
 .sites_list {
@@ -1644,7 +1645,7 @@ margin: 10px;
 
   .your_session_has_tim3_regular,
   .your_session_has_tim3_promo {
-    width: 250px;
+    width: 200px;
   }
 
   .sites_list {
@@ -1827,7 +1828,7 @@ margin: 10px;
 
   .your_session_has_tim3_regular,
   .your_session_has_tim3_promo {
-    width: 250px;
+    width: 200px;
   }
 
   .sites_list {
@@ -2012,7 +2013,7 @@ margin: 10px;
 
   .your_session_has_tim3_regular,
   .your_session_has_tim3_promo {
-    width: 250px;
+    width: 200px;
   }
 
   .sites_list {
@@ -2196,7 +2197,7 @@ margin: 10px;
 
   .your_session_has_tim3_regular,
   .your_session_has_tim3_promo {
-    width: 250px;
+    width: 200px;
   }
 
   .sites_list {
