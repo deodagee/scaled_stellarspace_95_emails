@@ -5,20 +5,24 @@ import { useState } from "react";
 import Link from "next/link";
 import Head from 'next/head';
 import Loading from './loading';
+import Footer from "../../pages/components/footer"
+
 
 
 
 
 function Services() {
-    
+
     useEffect(() => {
         document.body.style.overflowX = 'hidden';
-
-        return () => {
-            document.body.style.overflowX = '';
-        };
-    }, []);
     
+        return () => {
+          document.body.style.overflowX = 'hidden'; 
+        };
+      }, []);
+
+      
+      
     const [isCssLoaded, setIsCssLoaded] = useState(false);
     useEffect(() => {
         setTimeout(() => {
@@ -940,6 +944,7 @@ function Services() {
                                 </span>
                             </li>
                         </ol>
+                        <Footer></Footer>
                     </div>
                 </div>
             )}
