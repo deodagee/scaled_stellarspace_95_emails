@@ -43,7 +43,7 @@ function Threedrenderspage() {
                         </li>
                         <li className={styles.section_top_list_item3}>
                             <span>
-                                <h2 className={styles.top_title3}>As A Services
+                                <h2 className={styles.top_title3}>As A Service
                                 </h2>
                             </span>
                             <span>
