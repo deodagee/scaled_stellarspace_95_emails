@@ -31,6 +31,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: fixed;
     scroll-behavior: smooth;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -316,7 +317,7 @@
     border-left: none;
     border-right: none;
     border-width: 5px;
-    background-color: rgb(19, 25, 35);
+    background-color: rgb(237, 237, 237);
     display: flex;
     flex-direction: row;
     padding: 10px;
@@ -378,7 +379,7 @@
     display: flex;
     font-size: 15px;
     font-family: Teko;
-    color: rgb(222, 222, 222);
+    color: rgb(39, 39, 39);
     padding: 2px;
     padding-left: 10px;
     padding-right: 10px;
@@ -412,7 +413,7 @@
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 500;
-    color: rgb(239, 239, 239);
+    color: rgb(36, 36, 36);
     border-radius: 0.45rem;
     padding: 20px;
     border-width: 1px;
