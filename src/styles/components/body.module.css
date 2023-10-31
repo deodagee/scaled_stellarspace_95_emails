@@ -524,6 +524,16 @@
 }
 
 
+.pricing_headers_list { 
+  width: 95vw;
+  gap: 5px;
+}
+
+.pricing_headers_list p {
+  font-size: 9px;
+}
+
+
 .top_main_icons_target {
   height: 50px;
   width: 50px;
@@ -1223,7 +1233,7 @@ transition: 0.5s;
 
 
 .pricing_headers_list_wrapper {
-  width: 90vw;
+  width: 100vw;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -1731,6 +1741,17 @@ transition: 0.5s;
   }
 
 
+  
+  .pricing_headers_list { 
+    width: 95vw;
+    gap: 5px;
+  }
+
+  .pricing_headers_list p {
+    font-size: 9px;
+  }
+
+
 
 
   .offered_item {
@@ -1941,6 +1962,17 @@ transition: 0.5s;
     grid-template-columns: repeat(1, 1fr);
   }
 
+  
+  .pricing_headers_list { 
+    width: 95vw;
+    gap: 5px;
+  }
+
+  .pricing_headers_list p {
+    font-size: 9px;
+  }
+
+
 
 
   .offered_item {
@@ -2146,6 +2178,16 @@ transition: 0.5s;
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .pricing_headers_list { 
+    width: 95vw;
+    gap: 5px;
+  }
+
+  .pricing_headers_list p {
+    font-size: 9px;
+  }
+
+
 
   .offered_item {
     flex-direction: column;
@@ -2349,6 +2391,17 @@ transition: 0.5s;
     column-gap: 60px;
     grid-auto-flow: dense;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+
+
+  .pricing_headers_list { 
+    width: 95vw;
+    gap: 5px;
+  }
+
+  .pricing_headers_list p {
+    font-size: 9px;
   }
 
 
