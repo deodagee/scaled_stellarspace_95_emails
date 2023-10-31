@@ -1249,7 +1249,7 @@ transition: 0.5s;
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  gap: 10px;
+  gap: 5px;
   display: flex;
   flex-direction: row;
   align-items: center;
