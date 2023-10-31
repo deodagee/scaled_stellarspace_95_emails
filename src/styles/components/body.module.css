@@ -315,7 +315,7 @@
   border-right: none;
   border-color: rgb(255, 255, 255);
   box-shadow: rgb(0, 0, 0) 0px 0px 5px;
-  background-image: url("/bgwhole20.jpg");
+  background-image: url("/roomfull.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -990,7 +990,7 @@ transition: 0.5s;
   border-color: rgba(191, 162, 30, 0.719);
   box-shadow: rgb(165, 165, 165) 0px 0px 10px;
   border-radius: 0.55rem;
-  background-image: url("/bgwhole2.jpg");
+  background-image: url("/bgwhole3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
