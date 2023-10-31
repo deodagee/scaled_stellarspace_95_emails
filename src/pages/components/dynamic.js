@@ -204,7 +204,8 @@ function Dynamic() {
                       />
                     </svg>
                   </span>
-                  <div className={styles.your_session_has_tim5}>450</div>
+                  <Link href={'/contact'}>
+                  <div className={styles.your_session_has_tim5}>450</div></Link>
                   </li>
                 </li>
                 </button>

@@ -192,7 +192,8 @@ function DynamicPlusExtra() {
                       />
                     </svg>
                   </span>
-                  <div className={styles.your_session_has_tim5}>300</div>
+                  <Link href={'/contact'}>
+                  <div className={styles.your_session_has_tim5}>600</div> </Link>
                   </li>
                 </li>
                 </button>
