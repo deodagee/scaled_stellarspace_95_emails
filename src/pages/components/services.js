@@ -5,7 +5,6 @@ import { useState } from "react";
 import Link from "next/link";
 import Head from 'next/head';
 import Loading from './loading';
-import Footer from "../../pages/components/footer"
 
 
 
@@ -944,7 +943,6 @@ function Services() {
                                 </span>
                             </li>
                         </ol>
-                        <Footer></Footer>
                     </div>
                 </div>
             )}
