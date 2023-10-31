@@ -41,71 +41,54 @@
 
 }
 
-
-
-.promo_wrapper {
-  width: 100vw;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-
 .promo_message_first_body {
-  position: absolute;
+  margin-top: 60vh;
+  position: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-height: 230px;
-  max-width: 520px;
-  margin: 20px;
+  height: 230px;
+  width: 520px;
   border-radius: 0.20rem;
-  background-color: rgba(29, 29, 29, 0.776);
+  background-color: rgba(220, 220, 220, 0.776);
   border-width: 1px;
   border-color: rgb(255, 255, 255);
   padding: 20px;
   z-index: 90;
   gap: 10px;
   animation: changeBoxshadow 5s infinite;
-  margin-top: 500px;
 
 }
 
+@keyframes changeBoxshadow {
+  30% {
+    box-shadow: rgb(255, 255, 255) 0px 4px 8px;
+    height: 230px;
+    width: 520px;
+    border-color: rgb(255, 255, 255);
 
-.close_button {
-  width: 90px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 8px;
-  justify-content: center;
-  margin-top: 10px;
-  border-radius: 0.45rem;
-  box-shadow: white 0px 0px 7px;
-  padding: 5px;
-  padding-bottom: 7px;
-  transition: 0.5s;
-  color: white;
-  border-color: whitesmoke;
-  border-width: 1px;
-  animation: Changecolor 20s infinite;
-  background-color: black;
 
+  }
+
+  60% {
+    box-shadow: rgb(105, 105, 105) 0px 4px 12px;
+    height: 235px;
+    width: 525px;
+    border-color: rgb(195, 107, 0);
+
+
+  }
+
+  90% {
+    box-shadow: rgb(255, 255, 255) 0px 4px 98px;
+    height: 245px;
+    width: 545px;
+    border-color: rgb(255, 255, 255);
+
+
+  }
 }
-
-.close_button:hover {
-  background-color: rgba(255, 255, 255, 0.66);
-  color: rgb(23, 23, 23);
-  transition: 0.5s;
-  transform: scale(1.05);
-  border-width: 0;
-}
-
-.close_button_image {
-  width: 10px;
-  height: 10px;
-}
-
 
 .promo_message_first_body h1 {
   display: flex;
@@ -117,11 +100,13 @@
   font-family: sans-serif;
   padding: 10px;
   box-shadow: white 0px 0px 7px;
+  border-color: rgb(184, 184, 184);
   border-width: 1px;
   margin: 0;
   border-radius: 15px;
   height: 150px;
-  animation: Changebgcolor 30s infinite, Changebordercolor 10s infinite;
+  width: 400px;
+  animation: Changebgcolor 30s infinite;
 
 }
 
@@ -134,7 +119,7 @@
 
   60% {
     background-color: rgba(18, 24, 33, 0);
-    color: rgb(237, 237, 237);
+    color: rgb(19, 19, 19);
 
   }
 
@@ -145,31 +130,56 @@
   }
 }
 
+.close_button {
+  width: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 10px;
+  border-radius: 0.45rem;
+  box-shadow: white 0px 0px 7px;
+  padding: 5px;
+  transition: 0.5s;
+  color: white;
+  border-color: whitesmoke;
+  border-width: 1px;
+  animation: Changecolor 20s infinite;
+}
 
-
-@keyframes Changebordercolor {
-  0% {
-    border-color: rgb(0, 0, 0);
+@keyframes Changecolor {
+  30% {
+    background-color: rgba(0, 0, 0, 0.84);
+    color: white;
 
 
   }
 
-  50% {
-    border-color: rgb(80, 80, 80);
+  60% {
+    background-color: rgba(48, 48, 48, 0.909);
+    color: rgb(174, 174, 174);
 
 
   }
 
-  75% {
-    border-color: rgb(150, 150, 150);
+  90% {
+    background-color: rgba(0, 0, 0, 0.84);
+    color: white;
 
-  }
-
-  100% {
-    border-color: rgb(236, 236, 236);
   }
 }
 
+.close_button_image {
+  width: 10px;
+  height: 10px;
+}
+
+.close_button:hover {
+  background-color: black;
+  transition: 0.5s;
+  transform: scale(1.05);
+}
 
 .promo_code {
   color: rgb(237, 197, 52);
@@ -199,7 +209,7 @@
   box-shadow: white 0px 0px 1px;
   border-width: 2px;
   border-color: rgb(204, 204, 204);
-  animation: changeBorderColor1 3s infinite, changeBoxShadow 3s infinite, changeBgimage 12s infinite;
+  animation: changeBorderColor 3s infinite, changeBoxShadow 3s infinite, changeBgimage 12s infinite;
 }
 
 
@@ -209,7 +219,7 @@
 
 }
 
-@keyframes changeBorderColor1 {
+@keyframes changeBorderColor {
   30% {
     border-color: rgb(255, 179, 0);
     /* Initial border color at the start of the animation */
