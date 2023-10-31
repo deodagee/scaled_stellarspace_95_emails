@@ -15,6 +15,14 @@ const handleImageLoad = () => {
     setImageLoaded(true);
 };
 
+const [isCssLoaded, setIsCssLoaded] = useState(false);
+useEffect(() => {
+  setTimeout(() => {
+    setIsCssLoaded(true);
+  }, 2000);
+}, []);
+
+
   return (
 
 
