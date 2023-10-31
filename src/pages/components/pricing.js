@@ -13,7 +13,7 @@ function Pricing() {
     document.body.style.overflowX = 'hidden';
 
     return () => {
-      document.body.style.overflowX = ''; 
+      document.body.style.overflowX = 'hidden'; 
     };
   }, []);
 
@@ -577,10 +577,12 @@ function Pricing() {
                                 </div>
                                 <div className={styles.your_session_has_tim5}>300</div>
                               </div>
+                              <Link href={"/static"}>
                               <div className={styles.component_6}>
-                                <button className={styles.label}> <Link href={"/static"}>Get Started </Link>
+                                <button className={styles.label}> Get Started 
                                   <p className={styles.label_header}>Click For More Details</p> </button>
                               </div>
+                              </Link>
                             </div>
 
                           </div>
@@ -685,12 +687,13 @@ function Pricing() {
                               </div>
                               <div className={styles.your_session_has_tim5}>450</div>
                             </div>
-
+                            <Link href={"/dynamic"}>
                             <div className={styles.dynamic_get_started}>
                               <div className={styles.component_6}>
-                                <button className={styles.label}> <Link href={"/dynamic"}>Get Started</Link> <p className={styles.label_header}>Click For More Details</p> </button>
+                                <button className={styles.label}>Get Started<p className={styles.label_header}>Click For More Details</p> </button>
                               </div>
                             </div>
+                            </Link> 
                           </div>
                         </div>
 
@@ -794,11 +797,13 @@ function Pricing() {
                               </div>
                               <div className={styles.your_session_has_tim5}>550</div>
                             </div>
+                            <Link href={"/dynamicplus"}>
                             <div className={styles.dynamic_get_started}>
                               <div className={styles.component_6}>
-                                <button className={styles.label}> <Link href={"/dynamicplus"}>Get Started</Link><p className={styles.label_header}>Click For More Details</p>  </button>
+                                <button className={styles.label}> Get Started<p className={styles.label_header}>Click For More Details</p>  </button>
                               </div>
                             </div>
+                            </Link>
                           </div>
 
                         </div>
@@ -901,9 +906,10 @@ function Pricing() {
                               </div>
                               <div className={styles.your_session_has_tim5}>600</div>
                             </div>
+                            <Link href={"/dynamicplusextra"}>
                             <div className={styles.component_6}>
-                              <button className={styles.label}> <Link href={"/dynamicplusextra"}>Get Started</Link><p className={styles.label_header}>Click For More Details</p>  </button>
-                            </div>
+                              <button className={styles.label}> Get Started<p className={styles.label_header}>Click For More Details</p>  </button>
+                            </div></Link>
                           </div>
                         </div>
 
@@ -992,10 +998,12 @@ function Pricing() {
                               </div>
                               <div className={styles.your_session_has_tim5}>Quote</div>
                             </div>
+                            <Link href={"/entreprise"}>
                             <div className={styles.component_6}>
                               <button>
-                                <div className={styles.label}> <Link href={"/entreprise"}>Get Started</Link> </div><p className={styles.label_header}>Click For More Details</p> </button>
+                                <div className={styles.label}> Get Started </div><p className={styles.label_header}>Click For More Details</p> </button>
                             </div>
+                            </Link>
                           </div>
                         </div>
 
@@ -1114,10 +1122,13 @@ function Pricing() {
                                 </div>
                                 <div className={styles.your_session_has_tim5}>500</div>
                               </div>
+                              <Link href={"/static"}>
                               <div className={styles.component_6}>
-                                <button className={styles.label}> <Link href={"/static"}>Get Started </Link> <p className={styles.label_header}>Click For More Details</p> </button>
+                                <button className={styles.label}> Get Started  <p className={styles.label_header}>Click For More Details</p> </button>
                               </div>
+                              </Link>
                             </div>
+                            
 
                           </div>
                         </div>
@@ -1221,12 +1232,13 @@ function Pricing() {
                               </div>
                               <div className={styles.your_session_has_tim5}>750</div>
                             </div>
-
+                            <Link href={"/dynamic"}>
                             <div className={styles.dynamic_get_started}>
                               <div className={styles.component_6}>
-                                <button className={styles.label}> <Link href={"/dynamic"}>Get Started</Link><p className={styles.label_header}>Click For More Details</p>  </button>
+                                <button className={styles.label}>Get Started<p className={styles.label_header}>Click For More Details</p>  </button>
                               </div>
                             </div>
+                            </Link>
                           </div>
 
                         </div>
@@ -1331,11 +1343,13 @@ function Pricing() {
                               </div>
                               <div className={styles.your_session_has_tim5}>917</div>
                             </div>
+                            <Link href={"/dynamicplus"}>
                             <div className={styles.dynamic_get_started}>
                               <div className={styles.component_6}>
-                                <button className={styles.label}> <Link href={"/dynamicplus"}>Get Started</Link><p className={styles.label_header}>Click For More Details</p>  </button>
+                                <button className={styles.label}>Get Started<p className={styles.label_header}>Click For More Details</p>  </button>
                               </div>
                             </div>
+                            </Link>
                           </div>
 
                         </div>
@@ -1437,9 +1451,11 @@ function Pricing() {
                               </div>
                               <div className={styles.your_session_has_tim5}>1,000</div>
                             </div>
+                            <Link href={"/dynamicplusextra"}>
                             <div className={styles.component_6}>
-                              <button className={styles.label}> <Link href={"/dynamicplusextra"}>Get Started</Link><p className={styles.label_header}>Click For More Details</p>  </button>
+                              <button className={styles.label}> Get Started<p className={styles.label_header}>Click For More Details</p>  </button>
                             </div>
+                            </Link>
                           </div>
                         </div>
 
@@ -1527,10 +1543,12 @@ function Pricing() {
                               </div>
                               <div className={styles.your_session_has_tim5}>Quote</div>
                             </div>
+                            <Link href={"/entreprise"}>
                             <div className={styles.component_6}>
                               <button>
-                                <div className={styles.label}> <Link href={"/entreprise"}>Get Started</Link> <p className={styles.label_header}>Click For More Details</p> </div></button>
+                                <div className={styles.label}> Get Started<p className={styles.label_header}>Click For More Details</p> </div></button>
                             </div>
+                            </Link> 
                           </div>
                         </div>
                       </div>
