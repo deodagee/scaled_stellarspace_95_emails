@@ -51,7 +51,7 @@ function Projects() {
         borderWidth: "2px",
         borderColor: "#00ffe5",
         boxShadow: "white 0px 0px 3px",
-        backgroundImage: "url('forbg.png')",
+        backgroundImage: "url('bgwhole16.jpg')",
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
