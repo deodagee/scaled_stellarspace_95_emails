@@ -1233,15 +1233,16 @@ transition: 0.5s;
 
 
 .pricing_headers_list_wrapper {
-  width: 95vw;
+  width: 100vw;
   align-items: center;
   justify-content: center;
+  align-self: center;
   display: flex;
 }
 
 .pricing_headers_list {
   margin-top: 20px;
-  width: max-content;
+  width: 95vw;
   background-color: rgb(20, 32, 39);
   box-shadow: rgb(255, 255, 255) 0px 0px 7px;
   border-radius: 0.90rem;
