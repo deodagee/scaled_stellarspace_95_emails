@@ -25,6 +25,7 @@
 
 
 .pricing_page {
+  overflow-x: hidden;
   width: 100vw;
   height: max-content;
   display: flex;
@@ -1093,6 +1094,17 @@ box-shadow: white 0px 0px 4px;
     gap: 0;
   }
 
+  
+  .pricing_headers_list { 
+    width: 95vw;
+    gap: 5px;
+  }
+
+  .pricing_headers_list p {
+    font-size: 9px;
+  }
+
+
   .top_main_header_group {
     align-items: center;
     justify-content: center;
@@ -1174,6 +1186,15 @@ margin: 10px;
 
   .pricing_headers_list p {
     font-size: 8px;
+  }
+
+  .pricing_headers_list { 
+    width: 95vw;
+    gap: 5px;
+  }
+
+  .pricing_headers_list p {
+    font-size: 9px;
   }
 
   .compare {
@@ -1271,6 +1292,15 @@ margin: 10px;
     gap: 0;
   }
 
+  .pricing_headers_list { 
+    width: 95vw;
+    gap: 5px;
+  }
+
+  .pricing_headers_list p {
+    font-size: 9px;
+  }
+
 
 
   .top_main_header_group {
@@ -1366,6 +1396,15 @@ margin: 10px;
     font-size: 8px;
   }
 
+  .pricing_headers_list { 
+    width: 95vw;
+    gap: 5px;
+  }
+
+  .pricing_headers_list p {
+    font-size: 9px;
+  }
+
   .compare {
     margin-top: 50px;
     transform: scale(0.7);
@@ -1457,6 +1496,15 @@ margin: 10px;
 
   .pricing_headers_list {
     gap: 0;
+  }
+
+  .pricing_headers_list { 
+    width: 95vw;
+    gap: 5px;
+  }
+
+  .pricing_headers_list p {
+    font-size: 9px;
   }
 
   .top_main_header_group {
@@ -1635,6 +1683,15 @@ margin: 10px;
     gap: 0;
   }
 
+  .pricing_headers_list { 
+    width: 95vw;
+    gap: 5px;
+  }
+
+  .pricing_headers_list p {
+    font-size: 9px;
+  }
+
 
 
   .top_main_header_group {
@@ -1806,6 +1863,15 @@ margin: 10px;
     gap: 0;
   }
 
+
+  .pricing_headers_list { 
+    width: 95vw;
+    gap: 5px;
+  }
+
+  .pricing_headers_list p {
+    font-size: 9px;
+  }
 
 
   .top_main_header_group {
@@ -1981,6 +2047,15 @@ margin: 10px;
     gap: 0;
   }
 
+
+  .pricing_headers_list { 
+    width: 95vw;
+    gap: 5px;
+  }
+
+  .pricing_headers_list p {
+    font-size: 9px;
+  }
 
 
   .top_main_header_group {
