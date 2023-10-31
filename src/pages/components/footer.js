@@ -40,9 +40,11 @@ const handleImageLoad = () => {
                     onLoad={handleImageLoad}
                   />
                   <p className={styles.astrumBottomName}>Astrum Stellar</p>
+                  <Link href={"/contact"}>
                   <button className={styles.contactButton}>
                     <p className={styles.contactParagraph}>Contact</p>
                   </button>
+                  </Link>
                 </div>
               </li>
             </ul>
