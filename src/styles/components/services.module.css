@@ -434,6 +434,12 @@
     flex-direction: column;
     padding: 10px;
     background-color: rgb(19, 19, 19);
+    transition: 0.4s;
+}
+
+.list3:hover { 
+    transform: scale(1.02);
+    transition: 0.4s;
 }
 
 .title {
