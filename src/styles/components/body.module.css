@@ -325,22 +325,22 @@
 @keyframes changebgofficial {
 
   0%,
-  100% {
+  20% {
     background-image: url("/been.png");
   }
 
-  20% {
+  40% {
     background-image: url("/k4.jpg");
   }
 
-  40% {
+  60% {
     background-image: url("/chatappgoogledesign3.png");
   }
   
-  60% {
+  80% {
     background-image: url("/coffeepls.png");
   }
-  80% {
+  100% {
     background-image: url("/willcalls2.png");
   }
 }
