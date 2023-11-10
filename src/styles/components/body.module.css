@@ -329,16 +329,19 @@
     background-image: url("/logoset2.png");
   }
 
-  25% {
+  20% {
     background-image: url("/k4.png");
   }
 
-  50% {
+  40% {
     background-image: url("/chatappgoogledesign3.png");
   }
   
-  75% {
+  60% {
     background-image: url("/coffeepls.png");
+  }
+  80% {
+    background-image: url("/willcalls2.png");
   }
 }
 
