@@ -315,11 +315,31 @@
   border-right: none;
   border-color: rgb(255, 255, 255);
   box-shadow: rgb(0, 0, 0) 0px 0px 5px;
-  background-image: url("/logoset2.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 5px;
+  animation: changebgofficial 15s infinite;
+}
+
+@keyframes changebgofficial {
+
+  0%,
+  100% {
+    background-image: url("/logoset2.png");
+  }
+
+  25% {
+    background-image: url("/k4.png");
+  }
+
+  50% {
+    background-image: url("/chatappgoogledesign3.png");
+  }
+  
+  75% {
+    background-image: url("/coffeepls.png");
+  }
 }
 
 
