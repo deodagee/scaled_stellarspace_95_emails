@@ -326,22 +326,22 @@
 
   0%,
   20% {
-    background-image: url("/been.png");
+    background-image: url("/k4.jpg ");
   }
 
   40% {
-    background-image: url("/k4.jpg");
+    background-image: url("/chatappgoogledesign3.png");
   }
 
   60% {
-    background-image: url("/chatappgoogledesign3.png");
+    background-image: url("/coffeepls.png");
   }
   
   80% {
-    background-image: url("/coffeepls.png");
+    background-image: url("/willcalls2.png");
   }
   100% {
-    background-image: url("/willcalls2.png");
+    background-image: url("/been.png");
   }
 }
 
