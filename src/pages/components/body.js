@@ -126,7 +126,7 @@ function Body() {
 
                 <ul className={styles.promo_message_first_body} style={{ display: promoVisible ? 'inline-flex' : 'none' }}>
                   <li>
-                  <h1>I am currently expirementing with Cloudflare and Vercel&apos;s CDN configurations. Some Videos or Images may take their time loading because of the file size. If you want to report an issue, please go to the contact page and fill me in. I&apos;ll be glad to assist or review the matter.</h1>
+                  <h1>Welcome! Browse or hit me up I got a lot going on so please make sure you get to me. Email is the fastest way to get a reply. Email: astrumstellar@gmail.com </h1>
                   </li>
                   <li>
                   <button className={styles.close_button} onClick={promoCloseButtonClick}><div>
@@ -164,7 +164,6 @@ function Body() {
                         <p>deo_singiza@hotmail.com </p>
                         <p>astrumstellar@gmail.com </p>
                         <p>astrular@astrumstellar.com </p>
-                        <p className={styles.phone_number}>(519)-965-9128</p>
                       </span>
                     </li>
                   </ul>
