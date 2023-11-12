@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import styles from "../../styles/components/projects.module.css"
 import Link from "next/link";
 import { useState } from "react";
