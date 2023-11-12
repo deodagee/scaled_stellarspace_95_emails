@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useSession, useEffect, useRef } from "react";
 import styles from "../../styles/components/projects.module.css"
 import Link from "next/link";
 import { useState } from "react";
@@ -216,36 +216,31 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.title}>
                                         <h1>
-                                            Category: Logos
+                                            Category: Branding
                                         </h1>
                                     </li>
 
-
                                     <span className={styles.description_list_element_wrapper}>
-                                        <li className={styles.description_list_element}>
-
-                                            <p>Logo Design</p>
-                                        </li>
-
 
                                         <li className={styles.description_list_element}>
 
-                                            <p>Client: <span className={styles.description_list_element_right_side}> WILL CALLS</span></p>
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
                                         </li>
                                     </span>
-                                    <li>
-                                        <span><Image
-                                            className={styles.projectimages}
-                                            alt=""
-                                            width={100}
-                                            height={100}
-                                            src={"/willcalls2.png"}></Image></span>
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/logogreytonetriple.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
                                     </li>
                                     <li>
                                         <Link
                                             className={styles.view_link}
                                             href={'/'}>
-                                            <h1 className={styles.view_link_header}>View Details</h1>
+                                            <h1 className={styles.view_link_header}>Details Coming Soon</h1>
                                         </Link>
                                     </li>
                                     <li>
@@ -313,23 +308,14 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.title}>
                                         <h1>
-                                            Category: 3D Renders
+                                            Category: Press Kit
                                         </h1>
                                     </li>
 
                                     <span className={styles.description_list_element_wrapper}>
+                                        <li className={styles.description_list_element}>
 
-                                        <li className={styles.description_list_element}>
-                                            <p>Product Modeling</p>
-                                        </li>
-                                        <li className={styles.description_list_element}>
-                                            <p>Link: <Link className={styles.description_list_element_right_side} href={"/projects"}> Not Availabe Yet</Link></p>
-                                        </li>
-                                        <li className={styles.description_list_element}>
-                                            <p>Status:<span className={styles.description_list_element_right_side}> Upcoming</span></p>
-                                        </li>
-                                        <li className={styles.description_list_element}>
-                                            <p>Client: <span className={styles.description_list_element_right_side}> Public</span></p>
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
                                         </li>
                                     </span>
 
@@ -363,7 +349,7 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.title}>
                                         <h1>
-                                            Category: N/A
+                                        Category: N/A
                                         </h1>
                                     </li>
 
@@ -404,7 +390,7 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.title}>
                                         <h1>
-                                            Category: N/A
+                                        Category: N/A
                                         </h1>
                                     </li>
 
@@ -445,7 +431,7 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.title}>
                                         <h1>
-                                            Category: N/A
+                                        Category: N/A
                                         </h1>
                                     </li>
 
@@ -486,7 +472,7 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.title}>
                                         <h1>
-                                            Category: N/A
+                                        Category: N/A
                                         </h1>
                                     </li>
 
@@ -527,7 +513,7 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.title}>
                                         <h1>
-                                            Category: N/A
+                                        Category: N/A
                                         </h1>
                                     </li>
 
@@ -568,7 +554,7 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.title}>
                                         <h1>
-                                            Category: N/A
+                                        Category: N/A
                                         </h1>
                                     </li>
 
@@ -609,7 +595,7 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.title}>
                                         <h1>
-                                            Category: N/A
+                                        Category: N/A
                                         </h1>
                                     </li>
 
@@ -650,7 +636,7 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.title}>
                                         <h1>
-                                            Category: N/A
+                                        Category: N/A
                                         </h1>
                                     </li>
 
@@ -691,7 +677,7 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.title}>
                                         <h1>
-                                            Category: N/A
+                                        Category: N/A
                                         </h1>
                                     </li>
 
@@ -732,7 +718,7 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.title}>
                                         <h1>
-                                            Category: N/A
+                                        Category: N/A
                                         </h1>
                                     </li>
 
@@ -768,7 +754,7 @@ function Projects() {
                                             src={"/forwardarrow.png"}></Image></span>
                                     </li>
                                 </ol>
-
+                                
                             </div>
                         </div>
                     </div>
