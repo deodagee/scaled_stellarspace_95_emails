@@ -325,10 +325,7 @@ function Projects() {
                                             <p>Link: <Link className={styles.description_list_element_right_side} href={"/projects"}> Not Availabe Yet</Link></p>
                                         </li>
                                         <li className={styles.description_list_element}>
-                                            <p>Status:<span className={styles.description_list_element_right_side}> Upcoming</span></p>
-                                        </li>
-                                        <li className={styles.description_list_element}>
-                                            <p>Client: <span className={styles.description_list_element_right_side}> Public</span></p>
+                                            <p>Client: <span className={styles.description_list_element_right_side}> Kontrol 360</span></p>
                                         </li>
                                     </span>
 
@@ -362,7 +359,7 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.category}>
                                         <h1>
-                                            Category: N/A
+                                            Category: UI
                                         </h1>
                                     </li>
 
@@ -373,15 +370,12 @@ function Projects() {
                                         </li>
                                     </span>
 
-                                    <li className={styles.video_list_element}>
-                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
-                                            className={styles.video_tag}>
-                                            <source
-                                                src={'/logopaperwhite.mp4'}
-                                                type={"video/mp4"}>
-                                            </source>
-                                        </video>
-                                    </li>
+                                    <span><Image
+                                            className={styles.projectimages}
+                                            alt=""
+                                            width={100}
+                                            height={100}
+                                            src={"/hardquiz.png"}></Image></span>
                                     <li>
                                         <Link
                                             className={styles.view_link}
