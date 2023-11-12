@@ -1,9 +1,9 @@
-import { useEffect, useRef } from "react";
 import styles from "../../styles/components/projects.module.css"
 import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image"
 import Loading from './loading';
+import { useEffect, useRef } from "react";
 
 
 function Projects() {
