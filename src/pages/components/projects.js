@@ -359,23 +359,31 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.category}>
                                         <h1>
-                                            Category: UI
+                                            Category: UI / UX
                                         </h1>
                                     </li>
 
                                     <span className={styles.description_list_element_wrapper}>
                                         <li className={styles.description_list_element}>
 
+                                            <p>Mobile & Desktop Design</p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+
                                             <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+
+                                            <p>Client:<span className={styles.description_list_element_right_side}> Sharp Quiz</span></p>
                                         </li>
                                     </span>
 
                                     <span><Image
-                                            className={styles.projectimages}
-                                            alt=""
-                                            width={100}
-                                            height={100}
-                                            src={"/hardquiz.png"}></Image></span>
+                                        className={styles.projectimages}
+                                        alt=""
+                                        width={100}
+                                        height={100}
+                                        src={"/hardquiz.png"}></Image></span>
                                     <li>
                                         <Link
                                             className={styles.view_link}
