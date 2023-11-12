@@ -319,7 +319,7 @@ function Projects() {
                                     <span className={styles.description_list_element_wrapper}>
 
                                         <li className={styles.description_list_element}>
-                                            <p>Product Modeling</p>
+                                            <p>Logo Design</p>
                                         </li>
                                         <li className={styles.description_list_element}>
                                             <p>Link: <Link className={styles.description_list_element_right_side} href={"/projects"}> Not Availabe Yet</Link></p>
@@ -329,14 +329,13 @@ function Projects() {
                                         </li>
                                     </span>
 
-                                    <li className={styles.video_list_element}>
-                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
-                                            className={styles.video_tag}>
-                                            <source
-                                                src={'/logopaperwhite.mp4'}
-                                                type={"video/mp4"}>
-                                            </source>
-                                        </video>
+                                    <li>
+                                        <span><Image
+                                            className={styles.projectimages}
+                                            alt=""
+                                            width={100}
+                                            height={100}
+                                            src={"/kd42.jpg"}></Image></span>
                                     </li>
                                     <li>
                                         <Link
@@ -388,7 +387,7 @@ function Projects() {
                                         <Link
                                             className={styles.view_link}
                                             href={'/'}>
-                                            <h1 className={styles.view_link_header}>N/A</h1>
+                                            <h1 className={styles.view_link_header}>Details Coming Soon</h1>
                                         </Link>
                                     </li>
                                     <li>
