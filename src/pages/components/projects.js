@@ -50,7 +50,7 @@ function Projects() {
         borderWidth: "2px",
         borderColor: "#00ffe5",
         boxShadow: "white 0px 0px 3px",
-        backgroundImage: "url('bgwhole16.jpg')",
+        backgroundImage: "url('blenderhardsurface.jpg')",
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -123,7 +123,7 @@ function Projects() {
 
                             <div style={categoriesWrapperStyles}>
                                 <ol className={styles.list2}>
-                                    <li className={styles.title}>
+                                    <li className={styles.category}>
                                         <h1>
                                             Category: Ui/Ux
                                         </h1>
@@ -168,7 +168,7 @@ function Projects() {
                                 </ol>
 
                                 <ol className={styles.list2}>
-                                    <li className={styles.title}>
+                                    <li className={styles.category}>
                                         <h1>
                                             Category: Ui/Ux
                                         </h1>
@@ -213,7 +213,7 @@ function Projects() {
                                 </ol>
 
                                 <ol className={styles.list2}>
-                                    <li className={styles.title}>
+                                    <li className={styles.category}>
                                         <h1>
                                             Category: Logos
                                         </h1>
@@ -260,7 +260,7 @@ function Projects() {
 
 
                                 <ol className={styles.list2}>
-                                    <li className={styles.title}>
+                                    <li className={styles.category}>
                                         <h1>
                                             Category: 3D Animation
                                         </h1>
@@ -310,7 +310,7 @@ function Projects() {
 
 
                                 <ol className={styles.list2}>
-                                    <li className={styles.title}>
+                                    <li className={styles.category}>
                                         <h1>
                                             Category: 3D Renders
                                         </h1>
@@ -360,7 +360,7 @@ function Projects() {
 
 
                                 <ol className={styles.list2}>
-                                    <li className={styles.title}>
+                                    <li className={styles.category}>
                                         <h1>
                                             Category: N/A
                                         </h1>
@@ -401,7 +401,7 @@ function Projects() {
 
 
                                 <ol className={styles.list2}>
-                                    <li className={styles.title}>
+                                    <li className={styles.category}>
                                         <h1>
                                             Category: N/A
                                         </h1>
@@ -442,7 +442,7 @@ function Projects() {
 
 
                                 <ol className={styles.list2}>
-                                    <li className={styles.title}>
+                                    <li className={styles.category}>
                                         <h1>
                                             Category: N/A
                                         </h1>
@@ -483,7 +483,7 @@ function Projects() {
 
 
                                 <ol className={styles.list2}>
-                                    <li className={styles.title}>
+                                    <li className={styles.category}>
                                         <h1>
                                             Category: N/A
                                         </h1>
@@ -524,7 +524,7 @@ function Projects() {
 
 
                                 <ol className={styles.list2}>
-                                    <li className={styles.title}>
+                                    <li className={styles.category}>
                                         <h1>
                                             Category: N/A
                                         </h1>
@@ -565,7 +565,7 @@ function Projects() {
 
 
                                 <ol className={styles.list2}>
-                                    <li className={styles.title}>
+                                    <li className={styles.category}>
                                         <h1>
                                             Category: N/A
                                         </h1>
@@ -606,7 +606,7 @@ function Projects() {
 
 
                                 <ol className={styles.list2}>
-                                    <li className={styles.title}>
+                                    <li className={styles.category}>
                                         <h1>
                                             Category: N/A
                                         </h1>
@@ -647,7 +647,7 @@ function Projects() {
 
 
                                 <ol className={styles.list2}>
-                                    <li className={styles.title}>
+                                    <li className={styles.category}>
                                         <h1>
                                             Category: N/A
                                         </h1>
@@ -688,7 +688,7 @@ function Projects() {
 
 
                                 <ol className={styles.list2}>
-                                    <li className={styles.title}>
+                                    <li className={styles.category}>
                                         <h1>
                                             Category: N/A
                                         </h1>
@@ -729,7 +729,7 @@ function Projects() {
 
 
                                 <ol className={styles.list2}>
-                                    <li className={styles.title}>
+                                    <li className={styles.category}>
                                         <h1>
                                             Category: N/A
                                         </h1>
