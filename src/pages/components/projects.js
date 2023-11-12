@@ -1,4 +1,4 @@
-import styles from "../../styles/projects.module.css"
+import styles from "../../styles/components/projects.module.css"
 import Link from "next/link";
 import Image from "next/image"
 import Loading from './loading';
