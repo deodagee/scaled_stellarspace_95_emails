@@ -1,13 +1,19 @@
-import React, { useEffect, useRef } from "react";
-import styles from "../../styles/components/projects.module.css"
+import styles from "../../styles/projects.module.css"
 import Link from "next/link";
-import { useState } from "react";
-import { useSession } from "next-auth/react";
 import Image from "next/image"
 import Loading from './loading';
+import { useEffect, useRef, useState } from "react";
 
 
 function Projects() {
+
+    useEffect(() => {
+        document.body.style.overflowX = 'hidden';
+
+        return () => {
+            document.body.style.overflowX = '';
+        };
+    }, []);
 
     const [isCssLoaded, setIsCssLoaded] = useState(false);
     useEffect(() => {
@@ -41,9 +47,18 @@ function Projects() {
     }, []);
 
     const categoriesWrapperStyles = {
-        paddingRight: "50px",
-        paddingLeft: "50px",
+        borderWidth: "2px",
+        borderColor: "#00ffe5",
+        boxShadow: "white 0px 0px 3px",
+        backgroundImage: "url('bgwhole16.jpg')",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        background: "linear-gradient(to bottom, #0b1916, #0b1916dd, #0b191680, )",
+        paddingLeft: "0",
+        marginLeft: "25px",
         width: '100vw',
+        borderRadius: "7px",
         overflowX: 'auto',
         overflowY: 'hidden',
         gridTemplateRows: 'repeat(1, 1fr)',
@@ -57,7 +72,7 @@ function Projects() {
             width: '0', // Safari and Chrome
         }
     };
-    
+
 
 
     return (
@@ -102,7 +117,9 @@ function Projects() {
                                     </Link>
                                 </li>
                             </ol>
-
+                            <div className={styles.scroll_id}>
+                                <h1>Scroll To View More</h1>
+                            </div>
 
                             <div style={categoriesWrapperStyles}>
                                 <ol className={styles.list2}>
@@ -198,31 +215,36 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.title}>
                                         <h1>
-                                            Category: Branding
+                                            Category: Logos
                                         </h1>
                                     </li>
 
+
                                     <span className={styles.description_list_element_wrapper}>
+                                        <li className={styles.description_list_element}>
+
+                                            <p>Logo Design</p>
+                                        </li>
+
 
                                         <li className={styles.description_list_element}>
 
-                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
+                                            <p>Client: <span className={styles.description_list_element_right_side}> WILL CALLS</span></p>
                                         </li>
                                     </span>
-                                    <li className={styles.video_list_element}>
-                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
-                                            className={styles.video_tag}>
-                                            <source
-                                                src={'/logogreytonetriple.mp4'}
-                                                type={"video/mp4"}>
-                                            </source>
-                                        </video>
+                                    <li>
+                                        <span><Image
+                                            className={styles.projectimages}
+                                            alt=""
+                                            width={100}
+                                            height={100}
+                                            src={"/willcalls2.png"}></Image></span>
                                     </li>
                                     <li>
                                         <Link
                                             className={styles.view_link}
                                             href={'/'}>
-                                            <h1 className={styles.view_link_header}>Details Coming Soon</h1>
+                                            <h1 className={styles.view_link_header}>View Details</h1>
                                         </Link>
                                     </li>
                                     <li>
@@ -290,14 +312,23 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.title}>
                                         <h1>
-                                            Category: Press Kit
+                                            Category: 3D Renders
                                         </h1>
                                     </li>
 
                                     <span className={styles.description_list_element_wrapper}>
-                                        <li className={styles.description_list_element}>
 
-                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
+                                        <li className={styles.description_list_element}>
+                                            <p>Product Modeling</p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Link: <Link className={styles.description_list_element_right_side} href={"/projects"}> Not Availabe Yet</Link></p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Upcoming</span></p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Client: <span className={styles.description_list_element_right_side}> Public</span></p>
                                         </li>
                                     </span>
 
@@ -326,6 +357,417 @@ function Projects() {
                                             src={"/forwardarrow.png"}></Image></span>
                                     </li>
                                 </ol>
+
+
+                                <ol className={styles.list2}>
+                                    <li className={styles.title}>
+                                        <h1>
+                                            Category: N/A
+                                        </h1>
+                                    </li>
+
+                                    <span className={styles.description_list_element_wrapper}>
+                                        <li className={styles.description_list_element}>
+
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
+                                        </li>
+                                    </span>
+
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/logopaperwhite.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/'}>
+                                            <h1 className={styles.view_link_header}>N/A</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
+
+
+                                <ol className={styles.list2}>
+                                    <li className={styles.title}>
+                                        <h1>
+                                            Category: N/A
+                                        </h1>
+                                    </li>
+
+                                    <span className={styles.description_list_element_wrapper}>
+                                        <li className={styles.description_list_element}>
+
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
+                                        </li>
+                                    </span>
+
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/logopaperwhite.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/'}>
+                                            <h1 className={styles.view_link_header}>N/A</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
+
+
+                                <ol className={styles.list2}>
+                                    <li className={styles.title}>
+                                        <h1>
+                                            Category: N/A
+                                        </h1>
+                                    </li>
+
+                                    <span className={styles.description_list_element_wrapper}>
+                                        <li className={styles.description_list_element}>
+
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
+                                        </li>
+                                    </span>
+
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/logopaperwhite.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/'}>
+                                            <h1 className={styles.view_link_header}>N/A</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
+
+
+                                <ol className={styles.list2}>
+                                    <li className={styles.title}>
+                                        <h1>
+                                            Category: N/A
+                                        </h1>
+                                    </li>
+
+                                    <span className={styles.description_list_element_wrapper}>
+                                        <li className={styles.description_list_element}>
+
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
+                                        </li>
+                                    </span>
+
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/logopaperwhite.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/'}>
+                                            <h1 className={styles.view_link_header}>N/A</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
+
+
+                                <ol className={styles.list2}>
+                                    <li className={styles.title}>
+                                        <h1>
+                                            Category: N/A
+                                        </h1>
+                                    </li>
+
+                                    <span className={styles.description_list_element_wrapper}>
+                                        <li className={styles.description_list_element}>
+
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
+                                        </li>
+                                    </span>
+
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/logopaperwhite.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/'}>
+                                            <h1 className={styles.view_link_header}>N/A</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
+
+
+                                <ol className={styles.list2}>
+                                    <li className={styles.title}>
+                                        <h1>
+                                            Category: N/A
+                                        </h1>
+                                    </li>
+
+                                    <span className={styles.description_list_element_wrapper}>
+                                        <li className={styles.description_list_element}>
+
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
+                                        </li>
+                                    </span>
+
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/logopaperwhite.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/'}>
+                                            <h1 className={styles.view_link_header}>N/A</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
+
+
+                                <ol className={styles.list2}>
+                                    <li className={styles.title}>
+                                        <h1>
+                                            Category: N/A
+                                        </h1>
+                                    </li>
+
+                                    <span className={styles.description_list_element_wrapper}>
+                                        <li className={styles.description_list_element}>
+
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
+                                        </li>
+                                    </span>
+
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/logopaperwhite.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/'}>
+                                            <h1 className={styles.view_link_header}>N/A</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
+
+
+                                <ol className={styles.list2}>
+                                    <li className={styles.title}>
+                                        <h1>
+                                            Category: N/A
+                                        </h1>
+                                    </li>
+
+                                    <span className={styles.description_list_element_wrapper}>
+                                        <li className={styles.description_list_element}>
+
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
+                                        </li>
+                                    </span>
+
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/logopaperwhite.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/'}>
+                                            <h1 className={styles.view_link_header}>N/A</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
+
+
+                                <ol className={styles.list2}>
+                                    <li className={styles.title}>
+                                        <h1>
+                                            Category: N/A
+                                        </h1>
+                                    </li>
+
+                                    <span className={styles.description_list_element_wrapper}>
+                                        <li className={styles.description_list_element}>
+
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
+                                        </li>
+                                    </span>
+
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/logopaperwhite.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/'}>
+                                            <h1 className={styles.view_link_header}>N/A</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
+
+
+                                <ol className={styles.list2}>
+                                    <li className={styles.title}>
+                                        <h1>
+                                            Category: N/A
+                                        </h1>
+                                    </li>
+
+                                    <span className={styles.description_list_element_wrapper}>
+                                        <li className={styles.description_list_element}>
+
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
+                                        </li>
+                                    </span>
+
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/logopaperwhite.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/'}>
+                                            <h1 className={styles.view_link_header}>N/A</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
+
                             </div>
                         </div>
                     </div>
