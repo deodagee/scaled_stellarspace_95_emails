@@ -27,9 +27,37 @@ yarn-error.log*
 # local env files
 .env*.local
 
-# vercel
-.vercel
+
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# videos (heavy files) 
+/public/stitchvideo4.mp4 
+/public/bottleblender.mp4 
+/public/boxbuild.mp4 
+/public/chatapp.mp4 
+/public/countach.mp4 
+/public/headphones.mp4 
+/public/logobox.mp4 
+/public/logogreytonetriple.mp4 
+/public/logopaperwhite.mp4 
+/public/logowhite.mp4 
+/public/signbricks.mp4
+/public
+public/
+public/stitchvideo4.mp4 
+public/bottleblender.mp4 
+public/boxbuild.mp4 
+public/chatapp.mp4 
+public/countach.mp4 
+public/headphones.mp4 
+public/logobox.mp4 
+public/logogreytonetriple.mp4 
+public/logopaperwhite.mp4 
+public/logowhite.mp4 
+public/signbricks.mp4
+
+/public/*.mp4
