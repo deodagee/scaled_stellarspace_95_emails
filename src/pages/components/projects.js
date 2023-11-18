@@ -404,7 +404,7 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.category}>
                                         <h1>
-                                            Category:Product Modeling
+                                            Category: Product Modeling
                                         </h1>
                                     </li>
 
@@ -443,7 +443,7 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.category}>
                                         <h1>
-                                        Category:Product Modeling 
+                                        Category: Product Modeling 
                                         </h1>
                                     </li>
 
@@ -465,7 +465,7 @@ function Projects() {
                                         <Link
                                             className={styles.view_link}
                                             href={'/info/oreodeomain'}>
-                                            <h1 className={styles.view_link_header}>N/A</h1>
+                                            <h1 className={styles.view_link_header}>View Gallery</h1>
                                         </Link>
                                     </li>
                                     <li>
