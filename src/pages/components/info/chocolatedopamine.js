@@ -84,7 +84,7 @@ function ChocolateDopamine () {
                             </li>
                             <li className={styles.title}>
                                 <h1>
-                                Chocolate Dopamine | Nothing Better | Have It For Breakfast | Have It For Dinner | And In Your Coffe 
+                                Chocolate Dopamine | Nothing Better | Have It For Breakfast | Have It For Dinner | And In Your Coffee 
                                 </h1>
                                 <Image
                                     className={styles.mid_page_image}
