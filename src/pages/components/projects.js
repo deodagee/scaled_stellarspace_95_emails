@@ -404,7 +404,7 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.category}>
                                         <h1>
-                                            Category: 3D Designs | Product Modeling
+                                            Category:Product Modeling
                                         </h1>
                                     </li>
 
@@ -443,7 +443,7 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.category}>
                                         <h1>
-                                        Category: 3D Designs | Product Modeling 
+                                        Category:Product Modeling 
                                         </h1>
                                     </li>
 
