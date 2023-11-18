@@ -84,7 +84,7 @@ function OreoDeo () {
                             </li>
                             <li className={styles.title}>
                                 <h1>
-                                Oreo Cookie Scene | Nothing Better | Have It For Breakfast | Have It For Dinner | And In Your Coffe 
+                                Oreo Cookie Scene | Dirty Good | Milk Dip | 1080 & HD
                                 </h1>
                                 <Image
                                     className={styles.mid_page_image}
