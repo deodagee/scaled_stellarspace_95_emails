@@ -111,7 +111,7 @@ function ChocolateDopamine () {
                                     alt="cofeeshopimages"
                                     width={300}
                                     height={300}
-                                    src={"/chocolatedopaminev4.jpg"}
+                                    src={"/chocolatedopaminev9.jpg"}
                                     className={styles.iphoneimages}>
                                     </Image>
                                 </div>
