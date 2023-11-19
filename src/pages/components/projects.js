@@ -455,7 +455,7 @@ function Projects() {
                                     </span>
                                     <li>
                                         <span><Image
-                                            className={styles.projectimagesoreodeo}
+                                            className={styles.projectimages}
                                             alt=""
                                             width={100}
                                             height={100}
