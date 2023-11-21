@@ -23,7 +23,6 @@ function Projects() {
     }, []);
 
 
-    const videoRef = useRef(null);
 
     const [videoLoaded, setvideoLoaded] = useState(false);
     const handleVideoLoad = () => {
@@ -34,6 +33,8 @@ function Projects() {
     const handleImageLoad = () => {
         setImageLoaded(true);
     };
+
+    const videoRef = useRef(null);
 
     useEffect(() => {
         const video = videoRef.current;
@@ -411,17 +412,20 @@ function Projects() {
                                     <span className={styles.description_list_element_wrapper}>
                                         <li className={styles.description_list_element}>
 
-                                            <p>Status:<span className={styles.description_list_element_right_side}>Viewable</span></p>
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Viewable</span></p>
                                         </li>
                                     </span>
-                                    <li>
-                                        <span><Image
-                                            className={styles.projectimages}
-                                            alt=""
-                                            width={100}
-                                            height={100}
-                                            src={"/chocolatedopaminev4.jpg"}></Image></span>
+
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/chocolatedopaminereel.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
                                     </li>
+
                                     <li>
                                         <Link
                                             className={styles.view_link}
@@ -429,6 +433,7 @@ function Projects() {
                                             <h1 className={styles.view_link_header}>View gallery</h1>
                                         </Link>
                                     </li>
+
                                     <li>
                                         <span><Image
                                             className={styles.arrow}
@@ -438,7 +443,6 @@ function Projects() {
                                             src={"/forwardarrow.png"}></Image></span>
                                     </li>
                                 </ol>
-
 
                                 <ol className={styles.list2}>
                                     <li className={styles.category}>
@@ -450,7 +454,7 @@ function Projects() {
                                     <span className={styles.description_list_element_wrapper}>
                                         <li className={styles.description_list_element}>
 
-                                        <p>Status:<span className={styles.description_list_element_right_side}>Viewable</span></p>
+                                        <p>Status:<span className={styles.description_list_element_right_side}> Viewable</span></p>
                                         </li>
                                     </span>
                                     <li>
@@ -482,14 +486,14 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.category}>
                                         <h1>
-                                            Category: N/A
+                                            Category: 3D Infographic
                                         </h1>
                                     </li>
 
                                     <span className={styles.description_list_element_wrapper}>
                                         <li className={styles.description_list_element}>
 
-                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Viewable</span></p>
                                         </li>
                                     </span>
 
@@ -497,7 +501,7 @@ function Projects() {
                                         <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
                                             className={styles.video_tag}>
                                             <source
-                                                src={'/logopaperwhite.mp4'}
+                                                src={'/graphlines.mp4'}
                                                 type={"video/mp4"}>
                                             </source>
                                         </video>
@@ -505,8 +509,8 @@ function Projects() {
                                     <li>
                                         <Link
                                             className={styles.view_link}
-                                            href={'/'}>
-                                            <h1 className={styles.view_link_header}>N/A</h1>
+                                            href={'/info/graphlines'}>
+                                            <h1 className={styles.view_link_header}>View Gallery</h1>
                                         </Link>
                                     </li>
                                     <li>
