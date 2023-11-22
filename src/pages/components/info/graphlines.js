@@ -1,12 +1,31 @@
 import React from "react";
 import Link from "next/link";
-import styles from "../../../styles/components/info/chocolatedopamine.module.css"
+import styles from "../../../styles/components/info/graphlines.module.css"
 import Image from "next/image";
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 
 
 
-function ChocolateDopamine () {
+
+function OreoDeo () {
+
+    const [videoLoaded, setvideoLoaded] = useState(false);
+    const handleVideoLoad = () => {
+        setvideoLoaded(true);
+    };
+
+    const videoRef = useRef(null);
+
+    useEffect(() => {
+        const video = videoRef.current;
+
+        if (video) {
+            video.play().catch(error => {
+                // Handle autoplay error (e.g., user interaction required)
+                console.error('Autoplay error:', error);
+            });
+        }
+    }, []);
 
     useEffect(() => {
         document.body.style.overflowX = 'hidden';
@@ -17,11 +36,9 @@ function ChocolateDopamine () {
       }, []);
 
     return (
-
         <>
             <div className={styles.projects_page_whole}>
                 <div className={styles.projects_page_wrapper}>
-
 
                     <div className={styles.list_div}>
                         <ol className={styles.title_and_title_description}>
@@ -31,7 +48,7 @@ function ChocolateDopamine () {
                                 width={100}
                                 height={100}
                                 src={"/logored.png"}></Image>
-                            <li className={styles.title1}><p><h1>3D Animation<span className={styles.title_brother}>Render</span></h1></p></li>
+                            <li className={styles.title1}><p><h1>3D Animation<span className={styles.title_brother}> Infographic Modeling</span></h1></p></li>
                             <li className={styles.description_list_element}>
                                 <p>
                                     Details
@@ -44,8 +61,6 @@ function ChocolateDopamine () {
                             </li>
                         </ol>
                     </div>
-
-
 
                     <div className={styles.categories_wrapper}>
                         <ol className={styles.list2}>
@@ -84,14 +99,14 @@ function ChocolateDopamine () {
                             </li>
                             <li className={styles.title}>
                                 <h1>
-                                Chocolate Dopamine | Nothing Better | Have It For Breakfast | Have It For Dinner | And In Your Coffee 
+                                Oreo Cookie Scene | Blast to the Past | Curb the Need 
                                 </h1>
                                 <Image
                                     className={styles.mid_page_image}
                                     alt="cofeeshopimages"
                                     height={1000}
                                     width={1000}
-                                    src={"/chocolatedopaminev4.jpg"}>
+                                    src={"/graphlinesv1.png"}>
 
                                 </Image>
                             </li>
@@ -102,7 +117,7 @@ function ChocolateDopamine () {
                                     alt="cofeeshopimages"
                                     width={300}
                                     height={300}
-                                    src={"/chocolatedopaminev3.jpg"}
+                                    src={"/graphlinesv2.png"}
                                     className={styles.iphoneimages}>
                                     </Image>
                                 </div>
@@ -111,7 +126,7 @@ function ChocolateDopamine () {
                                     alt="cofeeshopimages"
                                     width={300}
                                     height={300}
-                                    src={"/chocolatedopaminev9.jpg"}
+                                    src={"/graphlinesv3.png"}
                                     className={styles.iphoneimages}>
                                     </Image>
                                 </div>
@@ -120,25 +135,29 @@ function ChocolateDopamine () {
                                     alt="cofeeshopimages"
                                     width={300}
                                     height={300}
-                                    src={"/chocolatedopaminev5.jpg"}
+                                    src={"/graphlinesv4.png"}
                                     className={styles.iphoneimages}>
                                     </Image>
                                 </div>
-                                <div>
-                                    <Image
-                                    alt="cofeeshopimages"
-                                    width={300}
-                                    height={300}
-                                    src={"/chocolatedopaminev6.jpg"}
-                                    className={styles.iphoneimages}>
-                                    </Image>
-                                </div>
+                            
                             </li>
-
                         </ol>
+                        
                     </div>
-                    <div>
 
+                    <div className={styles.videosection}>
+                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/graphlines.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
+                                    </li>
+                                    </div>
+
+                    <div>
                         <ol className={styles.blog_part}>
                             <li className={styles.blog_part_title}>
                                 <h1>Site Info</h1>
@@ -147,7 +166,7 @@ function ChocolateDopamine () {
                                 <h2>Details</h2>
                             </li>
                             <li className={styles.blog_part_paragraph}>
-                                <p>Product Modeling | Shop Sweets | 3D</p>
+                                <p>Infographics Modeling | Vectors | 3D</p>
                             </li>
                         </ol>
                         <ol className={styles.blog_part}>
@@ -155,7 +174,8 @@ function ChocolateDopamine () {
                                 <h1>Cycles Render Engine</h1>
                             </li>
                             <li className={styles.blog_part_title2}>
-                                <h2>Frame Count</h2>
+                                <h2><span> <p>Frame Count :</p><p>120</p></span></h2>
+                                
                             </li>
                             <li className={styles.blog_part_paragraph}>
                                 <p>Frame Count is directly related to the price you will be paying for 3D renders. Ech frame comes at it&apos;s own<span className={styles.darkened}>price</span>.</p>
@@ -178,4 +198,4 @@ function ChocolateDopamine () {
     )
 }
 
-export default ChocolateDopamine;
+export default OreoDeo;

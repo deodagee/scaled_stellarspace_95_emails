@@ -1,12 +1,12 @@
 import React from "react";
 import Link from "next/link";
-import styles from "../../../styles/components/info/chocolatedopamine.module.css"
+import styles from "../../../styles/components/info/oreos.module.css"
 import Image from "next/image";
 import { useEffect } from "react";
 
 
 
-function ChocolateDopamine () {
+function OreoDeo () {
 
     useEffect(() => {
         document.body.style.overflowX = 'hidden';
@@ -17,11 +17,9 @@ function ChocolateDopamine () {
       }, []);
 
     return (
-
         <>
             <div className={styles.projects_page_whole}>
                 <div className={styles.projects_page_wrapper}>
-
 
                     <div className={styles.list_div}>
                         <ol className={styles.title_and_title_description}>
@@ -31,7 +29,7 @@ function ChocolateDopamine () {
                                 width={100}
                                 height={100}
                                 src={"/logored.png"}></Image>
-                            <li className={styles.title1}><p><h1>3D Animation<span className={styles.title_brother}>Render</span></h1></p></li>
+                            <li className={styles.title1}><p><h1>3D Animation<span className={styles.title_brother}>Product Modeling</span></h1></p></li>
                             <li className={styles.description_list_element}>
                                 <p>
                                     Details
@@ -44,8 +42,6 @@ function ChocolateDopamine () {
                             </li>
                         </ol>
                     </div>
-
-
 
                     <div className={styles.categories_wrapper}>
                         <ol className={styles.list2}>
@@ -84,14 +80,14 @@ function ChocolateDopamine () {
                             </li>
                             <li className={styles.title}>
                                 <h1>
-                                Chocolate Dopamine | Nothing Better | Have It For Breakfast | Have It For Dinner | And In Your Coffee 
+                                Oreo Cookie Scene | Blast to the Past | Curb the Need 
                                 </h1>
                                 <Image
                                     className={styles.mid_page_image}
                                     alt="cofeeshopimages"
                                     height={1000}
                                     width={1000}
-                                    src={"/chocolatedopaminev4.jpg"}>
+                                    src={"/oreodeov1.jpg"}>
 
                                 </Image>
                             </li>
@@ -102,7 +98,7 @@ function ChocolateDopamine () {
                                     alt="cofeeshopimages"
                                     width={300}
                                     height={300}
-                                    src={"/chocolatedopaminev3.jpg"}
+                                    src={"/oreodeov2.jpg"}
                                     className={styles.iphoneimages}>
                                     </Image>
                                 </div>
@@ -111,7 +107,7 @@ function ChocolateDopamine () {
                                     alt="cofeeshopimages"
                                     width={300}
                                     height={300}
-                                    src={"/chocolatedopaminev9.jpg"}
+                                    src={"/oreodeov3.jpg"}
                                     className={styles.iphoneimages}>
                                     </Image>
                                 </div>
@@ -120,19 +116,11 @@ function ChocolateDopamine () {
                                     alt="cofeeshopimages"
                                     width={300}
                                     height={300}
-                                    src={"/chocolatedopaminev5.jpg"}
+                                    src={"/oreodeov.jpg"}
                                     className={styles.iphoneimages}>
                                     </Image>
                                 </div>
-                                <div>
-                                    <Image
-                                    alt="cofeeshopimages"
-                                    width={300}
-                                    height={300}
-                                    src={"/chocolatedopaminev6.jpg"}
-                                    className={styles.iphoneimages}>
-                                    </Image>
-                                </div>
+                            
                             </li>
 
                         </ol>
@@ -147,7 +135,7 @@ function ChocolateDopamine () {
                                 <h2>Details</h2>
                             </li>
                             <li className={styles.blog_part_paragraph}>
-                                <p>Product Modeling | Shop Sweets | 3D</p>
+                                <p>Product Modeling | Oreos | 3D</p>
                             </li>
                         </ol>
                         <ol className={styles.blog_part}>
@@ -178,4 +166,4 @@ function ChocolateDopamine () {
     )
 }
 
-export default ChocolateDopamine;
+export default OreoDeo;
