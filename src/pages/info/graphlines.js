@@ -1,11 +1,11 @@
 import { Inter } from 'next/font/google'
 import Header from '../components/header'
-import Graphlines from "../components/info/graphlines"
+import GraphLines from "../components/info/graphlines"
 import Footer from "../components/footer"
 import styles from "../../styles/components/info/graphlines.module.css"
 const inter = Inter({ subsets: ['latin'] })
 
-function GraphlinesMain() {
+function GraphLinesMain() {
   return (
     <>
     <div className={styles.front_end_apis_page}>
@@ -14,7 +14,7 @@ function GraphlinesMain() {
       <Header></Header>
       </div>
       <div className={styles.front_end_apis_page_body}>
-      <Graphlines></Graphlines>
+      <GraphLines></GraphLines>
       </div>
       <div className={styles.front_end_apis_page_footer}>
       <Footer></Footer>
@@ -25,7 +25,7 @@ function GraphlinesMain() {
   )
 }
 
-export default GraphlinesMain;
+export default GraphLinesMain;
 
 
 
