@@ -496,18 +496,6 @@
     justify-content: center;
 }
 
-.projectimagesoreodeo {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    border-width: 3px;
-    border-color: rgb(26, 31, 34);
-    box-shadow: rgb(255, 255, 255) 0px 0px 7px;
-    transition: 0.5s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .video_tag {
     width: 200px;
