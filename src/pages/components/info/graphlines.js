@@ -106,7 +106,7 @@ function OreoDeo () {
                                     alt="cofeeshopimages"
                                     height={1000}
                                     width={1000}
-                                    src={"/graphlinesv1.png"}>
+                                    src={"/graphlinesv1.jpg"}>
 
                                 </Image>
                             </li>
@@ -117,7 +117,7 @@ function OreoDeo () {
                                     alt="cofeeshopimages"
                                     width={300}
                                     height={300}
-                                    src={"/graphlinesv2.png"}
+                                    src={"/graphlinesv2.jpg"}
                                     className={styles.iphoneimages}>
                                     </Image>
                                 </div>
@@ -126,7 +126,7 @@ function OreoDeo () {
                                     alt="cofeeshopimages"
                                     width={300}
                                     height={300}
-                                    src={"/graphlinesv3.png"}
+                                    src={"/graphlinesv3.jpg"}
                                     className={styles.iphoneimages}>
                                     </Image>
                                 </div>
@@ -135,7 +135,7 @@ function OreoDeo () {
                                     alt="cofeeshopimages"
                                     width={300}
                                     height={300}
-                                    src={"/graphlinesv4.png"}
+                                    src={"/graphlinesv4.jpg"}
                                     className={styles.iphoneimages}>
                                     </Image>
                                 </div>
