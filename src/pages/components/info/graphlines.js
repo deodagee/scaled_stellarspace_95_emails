@@ -103,7 +103,7 @@ function OreoDeo () {
                                 </h1>
                                 <Image
                                     className={styles.mid_page_image}
-                                    alt="cofeeshopimages"
+                                    alt="graphlines"
                                     height={1000}
                                     width={1000}
                                     src={"/graphlinesv1.jpg"}>
@@ -114,7 +114,7 @@ function OreoDeo () {
                             <li className={styles.iphoneimages_list_item}>
                             <div>
                                     <Image
-                                    alt="cofeeshopimages"
+                                    alt="graphlines"
                                     width={300}
                                     height={300}
                                     src={"/graphlinesv2.jpg"}
@@ -123,7 +123,7 @@ function OreoDeo () {
                                 </div>
                                 <div>
                                     <Image
-                                    alt="cofeeshopimages"
+                                    alt="graphlines"
                                     width={300}
                                     height={300}
                                     src={"/graphlinesv3.jpg"}
@@ -132,7 +132,7 @@ function OreoDeo () {
                                 </div>
                                 <div>
                                     <Image
-                                    alt="cofeeshopimages"
+                                    alt="graphlines"
                                     width={300}
                                     height={300}
                                     src={"/graphlinesv4.jpg"}
