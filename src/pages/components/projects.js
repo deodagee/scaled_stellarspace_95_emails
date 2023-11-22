@@ -237,9 +237,9 @@ function Projects() {
                                         <span><Image
                                             className={styles.projectimages}
                                             alt=""
-                                            width={100}
-                                            height={100}
-                                            src={"/willcalls2.png"}></Image></span>
+                                            width={75}
+                                            height={75}
+                                            src={"/willcalls2.jpg"}></Image></span>
                                     </li>
                                     <li>
                                         <Link
@@ -334,8 +334,8 @@ function Projects() {
                                         <span><Image
                                             className={styles.projectimages}
                                             alt=""
-                                            width={100}
-                                            height={100}
+                                            width={75}
+                                            height={75}
                                             src={"/kd42.jpg"}></Image></span>
                                     </li>
                                     <li>
@@ -381,9 +381,9 @@ function Projects() {
                                     <span><Image
                                         className={styles.projectimages}
                                         alt=""
-                                        width={100}
-                                        height={100}
-                                        src={"/hardquiz.png"}></Image></span>
+                                        width={75}
+                                        height={75}
+                                        src={"/hardquiz.jpg"}></Image></span>
                                     <li>
                                         <Link
                                             className={styles.view_link}
@@ -461,8 +461,8 @@ function Projects() {
                                         <span><Image
                                             className={styles.projectimages}
                                             alt=""
-                                            width={100}
-                                            height={100}
+                                            width={75}
+                                            height={75}
                                             src={"/oreodeov1.jpg"}></Image></span>
                                     </li>
                                     <li>
