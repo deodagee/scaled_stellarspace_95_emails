@@ -135,7 +135,7 @@ function OreoDeo () {
                                     alt="graphlines"
                                     width={300}
                                     height={300}
-                                    src={"/graphlinesv4.jpg"}
+                                    src={"/graphlinesv4.png"}
                                     className={styles.iphoneimages}>
                                     </Image>
                                 </div>
