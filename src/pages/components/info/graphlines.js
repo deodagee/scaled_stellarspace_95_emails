@@ -7,7 +7,7 @@ import { useEffect, useRef, useState } from "react";
 
 
 
-function OreoDeo () {
+function GraphLines () {
 
     const [videoLoaded, setvideoLoaded] = useState(false);
     const handleVideoLoad = () => {
@@ -99,7 +99,7 @@ function OreoDeo () {
                             </li>
                             <li className={styles.title}>
                                 <h1>
-                                Oreo Cookie Scene | Blast to the Past | Curb the Need 
+                                Geometry Nodes | Cycles | Timeline
                                 </h1>
                                 <Image
                                     className={styles.mid_page_image}
@@ -135,7 +135,7 @@ function OreoDeo () {
                                     alt="graphlines"
                                     width={300}
                                     height={300}
-                                    src={"/graphlinesv4.png"}
+                                    src={"/graphlinesv4.jpg"}
                                     className={styles.iphoneimages}>
                                     </Image>
                                 </div>
@@ -201,4 +201,4 @@ function OreoDeo () {
     )
 }
 
-export default OreoDeo;
+export default GraphLines;
