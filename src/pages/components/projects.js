@@ -306,14 +306,14 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.category}>
                                         <h1>
-                                        Category: Product Modeling 
+                                            Category: Product Modeling
                                         </h1>
                                     </li>
 
                                     <span className={styles.description_list_element_wrapper}>
                                         <li className={styles.description_list_element}>
 
-                                        <p>Status:<span className={styles.description_list_element_right_side}> Viewable</span></p>
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Viewable</span></p>
                                         </li>
                                     </span>
                                     <li>
@@ -431,10 +431,15 @@ function Projects() {
                                         </h1>
                                     </li>
 
+
                                     <span className={styles.description_list_element_wrapper}>
                                         <li className={styles.description_list_element}>
 
                                             <p>Status:<span className={styles.description_list_element_right_side}> Viewable </span></p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+
+                                            <p>Client: <span className={styles.description_list_element_right_side}> </span> Checkmate Collision</p>
                                         </li>
                                     </span>
 
