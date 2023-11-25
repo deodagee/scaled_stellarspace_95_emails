@@ -496,7 +496,7 @@ function Projects() {
                                     <li>
                                         <Link
                                             className={styles.view_link}
-                                            href={'/'}>
+                                            href={'/info/willcalls'}>
                                             <h1 className={styles.view_link_header}>Details Coming Soon</h1>
                                         </Link>
                                     </li>
