@@ -1,12 +1,12 @@
 import React from "react";
 import Link from "next/link";
-import styles from "../../../styles/components/info/oreos.module.css"
+import styles from "../../../styles/components/info/chocolatedopamine.module.css"
 import Image from "next/image";
 import { useEffect } from "react";
 
 
 
-function OreoDeo () {
+function ChocolateDopamine () {
 
     useEffect(() => {
         document.body.style.overflowX = 'hidden';
@@ -17,9 +17,11 @@ function OreoDeo () {
       }, []);
 
     return (
+
         <>
             <div className={styles.projects_page_whole}>
                 <div className={styles.projects_page_wrapper}>
+
 
                     <div className={styles.list_div}>
                         <ol className={styles.title_and_title_description}>
@@ -29,7 +31,7 @@ function OreoDeo () {
                                 width={100}
                                 height={100}
                                 src={"/logored.png"}></Image>
-                            <li className={styles.title1}><p><h1>3D Animation<span className={styles.title_brother}>Product Modeling</span></h1></p></li>
+                            <li className={styles.title1}><p><h1>3D Animation<span className={styles.title_brother}>Render</span></h1></p></li>
                             <li className={styles.description_list_element}>
                                 <p>
                                     Details
@@ -42,6 +44,8 @@ function OreoDeo () {
                             </li>
                         </ol>
                     </div>
+
+
 
                     <div className={styles.categories_wrapper}>
                         <ol className={styles.list2}>
@@ -80,14 +84,14 @@ function OreoDeo () {
                             </li>
                             <li className={styles.title}>
                                 <h1>
-                                Oreo Cookie Scene | Blast to the Past | Curb the Need 
+                                Chocolate Dopamine | Nothing Better | Have It For Breakfast | Have It For Dinner | And In Your Coffee 
                                 </h1>
                                 <Image
                                     className={styles.mid_page_image}
                                     alt="cofeeshopimages"
                                     height={1000}
                                     width={1000}
-                                    src={"/oreodeov1.jpg"}>
+                                    src={"/chocolatedopaminev4.jpg"}>
 
                                 </Image>
                             </li>
@@ -98,7 +102,7 @@ function OreoDeo () {
                                     alt="cofeeshopimages"
                                     width={300}
                                     height={300}
-                                    src={"/oreodeov2.jpg"}
+                                    src={"/chocolatedopaminev3.jpg"}
                                     className={styles.iphoneimages}>
                                     </Image>
                                 </div>
@@ -107,7 +111,7 @@ function OreoDeo () {
                                     alt="cofeeshopimages"
                                     width={300}
                                     height={300}
-                                    src={"/oreodeov3.jpg"}
+                                    src={"/chocolatedopaminev9.jpg"}
                                     className={styles.iphoneimages}>
                                     </Image>
                                 </div>
@@ -116,11 +120,19 @@ function OreoDeo () {
                                     alt="cofeeshopimages"
                                     width={300}
                                     height={300}
-                                    src={"/oreodeov.jpg"}
+                                    src={"/chocolatedopaminev5.jpg"}
                                     className={styles.iphoneimages}>
                                     </Image>
                                 </div>
-                            
+                                <div>
+                                    <Image
+                                    alt="cofeeshopimages"
+                                    width={300}
+                                    height={300}
+                                    src={"/chocolatedopaminev6.jpg"}
+                                    className={styles.iphoneimages}>
+                                    </Image>
+                                </div>
                             </li>
 
                         </ol>
@@ -135,7 +147,7 @@ function OreoDeo () {
                                 <h2>Details</h2>
                             </li>
                             <li className={styles.blog_part_paragraph}>
-                                <p>Product Modeling | Oreos | 3D</p>
+                                <p>Product Modeling | Shop Sweets | 3D</p>
                             </li>
                         </ol>
                         <ol className={styles.blog_part}>
@@ -166,4 +178,4 @@ function OreoDeo () {
     )
 }
 
-export default OreoDeo;
+export default ChocolateDopamine;

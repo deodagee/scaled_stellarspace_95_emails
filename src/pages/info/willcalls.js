@@ -1,12 +1,31 @@
 import React from "react";
 import Link from "next/link";
-import styles from "../../../styles/components/info/oreos.module.css"
+import styles from "../../../styles/components/info/willcalls.module.css"
 import Image from "next/image";
-import { useEffect } from "react";
+import { useEffect, useRef, useState } from "react";
 
 
 
-function OreoDeo () {
+
+function WillCalls () {
+
+    const [videoLoaded, setvideoLoaded] = useState(false);
+    const handleVideoLoad = () => {
+        setvideoLoaded(true);
+    };
+
+    const videoRef = useRef(null);
+
+    useEffect(() => {
+        const video = videoRef.current;
+
+        if (video) {
+            video.play().catch(error => {
+                // Handle autoplay error (e.g., user interaction required)
+                console.error('Autoplay error:', error);
+            });
+        }
+    }, []);
 
     useEffect(() => {
         document.body.style.overflowX = 'hidden';
@@ -29,7 +48,7 @@ function OreoDeo () {
                                 width={100}
                                 height={100}
                                 src={"/logored.png"}></Image>
-                            <li className={styles.title1}><p><h1>3D Animation<span className={styles.title_brother}>Product Modeling</span></h1></p></li>
+                            <li className={styles.title1}><p><h1>Product Modeling<span className={styles.title_brother}> Logo Designing </span></h1></p></li>
                             <li className={styles.description_list_element}>
                                 <p>
                                     Details
@@ -64,7 +83,7 @@ function OreoDeo () {
                                         width={100}
                                         height={100}
                                     ></Image>
-                                    <h2>Render Engine</h2>
+                                    <h2>Photoshop & Illustrator</h2>
                                 </span>
                                 <span>
                                     <Image
@@ -80,53 +99,25 @@ function OreoDeo () {
                             </li>
                             <li className={styles.title}>
                                 <h1>
-                                Oreo Cookie Scene | Blast to the Past | Curb the Need 
+                                Original Designs | Copyright 
                                 </h1>
                                 <Image
                                     className={styles.mid_page_image}
-                                    alt="cofeeshopimages"
+                                    alt="willcalls"
                                     height={1000}
                                     width={1000}
-                                    src={"/oreodeov1.jpg"}>
+                                    src={"/willcalls2.jpg"}>
 
                                 </Image>
                             </li>
-
-                            <li className={styles.iphoneimages_list_item}>
-                            <div>
-                                    <Image
-                                    alt="cofeeshopimages"
-                                    width={300}
-                                    height={300}
-                                    src={"/oreodeov2.jpg"}
-                                    className={styles.iphoneimages}>
-                                    </Image>
-                                </div>
-                                <div>
-                                    <Image
-                                    alt="cofeeshopimages"
-                                    width={300}
-                                    height={300}
-                                    src={"/oreodeov3.jpg"}
-                                    className={styles.iphoneimages}>
-                                    </Image>
-                                </div>
-                                <div>
-                                    <Image
-                                    alt="cofeeshopimages"
-                                    width={300}
-                                    height={300}
-                                    src={"/oreodeov.jpg"}
-                                    className={styles.iphoneimages}>
-                                    </Image>
-                                </div>
-                            
-                            </li>
-
                         </ol>
+                        
                     </div>
-                    <div>
 
+
+
+
+                    <div>
                         <ol className={styles.blog_part}>
                             <li className={styles.blog_part_title}>
                                 <h1>Site Info</h1>
@@ -135,18 +126,15 @@ function OreoDeo () {
                                 <h2>Details</h2>
                             </li>
                             <li className={styles.blog_part_paragraph}>
-                                <p>Product Modeling | Oreos | 3D</p>
+                                <p>Logo Designing | Branding</p>
                             </li>
                         </ol>
                         <ol className={styles.blog_part}>
-                            <li className={styles.blog_part_title}>
-                                <h1>Cycles Render Engine</h1>
-                            </li>
-                            <li className={styles.blog_part_title2}>
-                                <h2>Frame Count</h2>
+                            <li className={styles.blog_part_paragraph}>
+                                <p>2023-10-21</p>
                             </li>
                             <li className={styles.blog_part_paragraph}>
-                                <p>Frame Count is directly related to the price you will be paying for 3D renders. Each frame comes at it&apos;s own<span className={styles.darkened}>price</span>.</p>
+                                <p>Project<span className={styles.darkened}>closed</span></p>
                             </li>
                             
                         </ol>
@@ -166,4 +154,4 @@ function OreoDeo () {
     )
 }
 
-export default OreoDeo;
+export default WillCalls;
