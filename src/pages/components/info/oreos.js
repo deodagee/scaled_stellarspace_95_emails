@@ -146,7 +146,7 @@ function OreoDeo () {
                                 <h2>Frame Count</h2>
                             </li>
                             <li className={styles.blog_part_paragraph}>
-                                <p>Frame Count is directly related to the price you will be paying for 3D renders. Ech frame comes at it&apos;s own<span className={styles.darkened}>price</span>.</p>
+                                <p>Frame Count is directly related to the price you will be paying for 3D renders. Each frame comes at it&apos;s own<span className={styles.darkened}>price</span>.</p>
                             </li>
                             
                         </ol>
