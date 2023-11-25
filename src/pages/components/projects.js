@@ -468,7 +468,7 @@ function Projects() {
                                     <li>
                                         <Link
                                             className={styles.view_link}
-                                            href={'/info/oreodeomain'}>
+                                            href={'/info/oreos'}>
                                             <h1 className={styles.view_link_header}>View Gallery</h1>
                                         </Link>
                                     </li>
