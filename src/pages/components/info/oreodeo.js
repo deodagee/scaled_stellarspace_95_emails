@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import styles from "../../../styles/components/info/oreodeo.module.css"
+import styles from "../../../styles/components/info/oreos.module.css"
 import Image from "next/image";
 import { useEffect } from "react";
 
@@ -17,11 +17,9 @@ function OreoDeo () {
       }, []);
 
     return (
-
         <>
             <div className={styles.projects_page_whole}>
                 <div className={styles.projects_page_wrapper}>
-
 
                     <div className={styles.list_div}>
                         <ol className={styles.title_and_title_description}>
@@ -44,8 +42,6 @@ function OreoDeo () {
                             </li>
                         </ol>
                     </div>
-
-
 
                     <div className={styles.categories_wrapper}>
                         <ol className={styles.list2}>
@@ -150,7 +146,7 @@ function OreoDeo () {
                                 <h2>Frame Count</h2>
                             </li>
                             <li className={styles.blog_part_paragraph}>
-                                <p>Frame Count is directly related to the price you will be paying for 3D renders. Ech frame comes at it&apos;s own<span className={styles.darkened}>price</span>.</p>
+                                <p>Frame Count is directly related to the price you will be paying for 3D renders. Each frame comes at it&apos;s own<span className={styles.darkened}>price</span>.</p>
                             </li>
                             
                         </ol>
