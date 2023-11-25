@@ -34,7 +34,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background-image: url("/vfk5.png");
+    background-image: url("/vfk1.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -274,12 +274,12 @@
     margin: 20px;
     gap: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .vfkimages { 
-    max-width: 300px;
-    min-width: 200px;
+    max-width: max-content;
+    min-width: 100px;
 }
 
 .videosection { 
