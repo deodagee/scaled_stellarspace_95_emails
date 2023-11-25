@@ -49,7 +49,7 @@ function Projects() {
 
     const categoriesWrapperStyles = {
         borderWidth: "2px",
-        borderColor: "#00ffe5",
+        borderColor: "white",
         boxShadow: "white 0px 0px 3px",
         backgroundImage: "url('blenderhardsurface.jpg')",
         backgroundPosition: "center",
@@ -62,7 +62,7 @@ function Projects() {
         borderRadius: "7px",
         overflowX: 'auto',
         overflowY: 'hidden',
-        gridTemplateRows: 'repeat(1, 1fr)',
+        gridTemplateRows: 'repeat(3, 1fr)',
         display: 'flex',
         flexDirection: 'row',
         gap: '20px',
