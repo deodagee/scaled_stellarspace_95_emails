@@ -527,14 +527,14 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.category}>
                                         <h1>
-                                            Category: N/A
+                                            Category: Product Modeling
                                         </h1>
                                     </li>
 
                                     <span className={styles.description_list_element_wrapper}>
                                         <li className={styles.description_list_element}>
 
-                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
+                                            <p>Status:<span className={styles.description_list_element_right_side}>Viewable</span></p>
                                         </li>
                                     </span>
 
@@ -542,7 +542,7 @@ function Projects() {
                                         <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
                                             className={styles.video_tag}>
                                             <source
-                                                src={'/logopaperwhite.mp4'}
+                                                src={'/vfk1.mp4'}
                                                 type={"video/mp4"}>
                                             </source>
                                         </video>
@@ -550,8 +550,8 @@ function Projects() {
                                     <li>
                                         <Link
                                             className={styles.view_link}
-                                            href={'/'}>
-                                            <h1 className={styles.view_link_header}>N/A</h1>
+                                            href={'/info/phonecasesforvfk'}>
+                                            <h1 className={styles.view_link_header}>View Gallery</h1>
                                         </Link>
                                     </li>
                                     <li>
