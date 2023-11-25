@@ -168,6 +168,8 @@ function Projects() {
                                     </li>
                                 </ol>
 
+
+
                                 <ol className={styles.list2}>
                                     <li className={styles.category}>
                                         <h1>
@@ -212,149 +214,6 @@ function Projects() {
                                             src={"/forwardarrow.png"}></Image></span>
                                     </li>
                                 </ol>
-
-                                <ol className={styles.list2}>
-                                    <li className={styles.category}>
-                                        <h1>
-                                            Category: Logos
-                                        </h1>
-                                    </li>
-
-
-                                    <span className={styles.description_list_element_wrapper}>
-                                        <li className={styles.description_list_element}>
-
-                                            <p>Logo Design</p>
-                                        </li>
-
-
-                                        <li className={styles.description_list_element}>
-
-                                            <p>Client: <span className={styles.description_list_element_right_side}> WILL CALLS</span></p>
-                                        </li>
-                                    </span>
-                                    <li>
-                                        <span><Image
-                                            className={styles.projectimages}
-                                            alt=""
-                                            width={75}
-                                            height={75}
-                                            src={"/willcalls2.jpg"}></Image></span>
-                                    </li>
-                                    <li>
-                                        <Link
-                                            className={styles.view_link}
-                                            href={'/'}>
-                                            <h1 className={styles.view_link_header}>Details Coming Soon</h1>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <span><Image
-                                            className={styles.arrow}
-                                            alt=""
-                                            width={15}
-                                            height={15}
-                                            src={"/forwardarrow.png"}></Image></span>
-                                    </li>
-                                </ol>
-
-
-
-                                <ol className={styles.list2}>
-                                    <li className={styles.category}>
-                                        <h1>
-                                            Category: 3D Animation
-                                        </h1>
-                                    </li>
-
-                                    <span className={styles.description_list_element_wrapper}>
-
-                                        <li className={styles.description_list_element}>
-                                            <p>Product Modeling</p>
-                                        </li>
-                                        <li className={styles.description_list_element}>
-                                            <p>Link: <Link className={styles.description_list_element_right_side} href={"/projects"}> Not Availabe Yet</Link></p>
-                                        </li>
-                                        <li className={styles.description_list_element}>
-                                            <p>Status:<span className={styles.description_list_element_right_side}> Upcoming</span></p>
-                                        </li>
-                                        <li className={styles.description_list_element}>
-                                            <p>Client: <span className={styles.description_list_element_right_side}> Public</span></p>
-                                        </li>
-                                    </span>
-                                    <li className={styles.video_list_element}>
-                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
-                                            className={styles.video_tag}>
-                                            <source
-                                                src={'/bottleblender.mp4'}
-                                                type={"video/mp4"}>
-                                            </source>
-                                        </video>
-                                    </li>
-                                    <li>
-                                        <Link
-                                            className={styles.view_link}
-                                            href={'/'}>
-                                            <h1 className={styles.view_link_header}>Details Coming Soon</h1>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <span><Image
-                                            className={styles.arrow}
-                                            alt=""
-                                            width={15}
-                                            height={15}
-                                            src={"/forwardarrow.png"}></Image></span>
-                                    </li>
-                                </ol>
-
-
-
-                                <ol className={styles.list2}>
-                                    <li className={styles.category}>
-                                        <h1>
-                                            Category: 3D Renders
-                                        </h1>
-                                    </li>
-
-                                    <span className={styles.description_list_element_wrapper}>
-
-                                        <li className={styles.description_list_element}>
-                                            <p>Logo Design</p>
-                                        </li>
-                                        <li className={styles.description_list_element}>
-                                            <p>Link: <Link className={styles.description_list_element_right_side} href={"/projects"}> Not Availabe Yet</Link></p>
-                                        </li>
-                                        <li className={styles.description_list_element}>
-                                            <p>Client: <span className={styles.description_list_element_right_side}> Kontrol 360</span></p>
-                                        </li>
-                                    </span>
-
-                                    <li>
-                                        <span><Image
-                                            className={styles.projectimages}
-                                            alt=""
-                                            width={75}
-                                            height={75}
-                                            src={"/kd42.jpg"}></Image></span>
-                                    </li>
-                                    <li>
-                                        <Link
-                                            className={styles.view_link}
-                                            href={'/'}>
-                                            <h1 className={styles.view_link_header}>Details Coming Soon</h1>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <span><Image
-                                            className={styles.arrow}
-                                            alt=""
-                                            width={15}
-                                            height={15}
-                                            src={"/forwardarrow.png"}></Image></span>
-                                    </li>
-                                </ol>
-
 
                                 <ol className={styles.list2}>
                                     <li className={styles.category}>
@@ -563,6 +422,151 @@ function Projects() {
                                             src={"/forwardarrow.png"}></Image></span>
                                     </li>
                                 </ol>
+
+                                <ol className={styles.list2}>
+                                    <li className={styles.category}>
+                                        <h1>
+                                            Category: Logos
+                                        </h1>
+                                    </li>
+
+
+                                    <span className={styles.description_list_element_wrapper}>
+                                        <li className={styles.description_list_element}>
+
+                                            <p>Logo Design</p>
+                                        </li>
+
+
+                                        <li className={styles.description_list_element}>
+
+                                            <p>Client: <span className={styles.description_list_element_right_side}> WILL CALLS</span></p>
+                                        </li>
+                                    </span>
+                                    <li>
+                                        <span><Image
+                                            className={styles.projectimages}
+                                            alt=""
+                                            width={75}
+                                            height={75}
+                                            src={"/willcalls2.jpg"}></Image></span>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/'}>
+                                            <h1 className={styles.view_link_header}>Details Coming Soon</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
+
+
+
+                                <ol className={styles.list2}>
+                                    <li className={styles.category}>
+                                        <h1>
+                                            Category: 3D Animation
+                                        </h1>
+                                    </li>
+
+                                    <span className={styles.description_list_element_wrapper}>
+
+                                        <li className={styles.description_list_element}>
+                                            <p>Product Modeling</p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Link: <Link className={styles.description_list_element_right_side} href={"/projects"}> Not Availabe Yet</Link></p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Upcoming</span></p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Client: <span className={styles.description_list_element_right_side}> Public</span></p>
+                                        </li>
+                                    </span>
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/bottleblender.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/'}>
+                                            <h1 className={styles.view_link_header}>Details Coming Soon</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
+
+
+
+                                <ol className={styles.list2}>
+                                    <li className={styles.category}>
+                                        <h1>
+                                            Category: 3D Renders
+                                        </h1>
+                                    </li>
+
+                                    <span className={styles.description_list_element_wrapper}>
+
+                                        <li className={styles.description_list_element}>
+                                            <p>Logo Design</p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Link: <Link className={styles.description_list_element_right_side} href={"/projects"}> Not Availabe Yet</Link></p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Client: <span className={styles.description_list_element_right_side}> Kontrol 360</span></p>
+                                        </li>
+                                    </span>
+
+                                    <li>
+                                        <span><Image
+                                            className={styles.projectimages}
+                                            alt=""
+                                            width={75}
+                                            height={75}
+                                            src={"/kd42.jpg"}></Image></span>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/'}>
+                                            <h1 className={styles.view_link_header}>Details Coming Soon</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
+
+
+
 
 
                                 <ol className={styles.list2}>
