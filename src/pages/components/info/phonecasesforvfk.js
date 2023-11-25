@@ -1,13 +1,13 @@
 import React from "react";
 import Link from "next/link";
-import styles from "../../../styles/components/info/graphlines.module.css"
+import styles from "../../../styles/components/info/phonecasesforvfk.module.css"
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 
 
 
-function GraphLines () {
+function PhoneCases () {
 
     const [videoLoaded, setvideoLoaded] = useState(false);
     const handleVideoLoad = () => {
@@ -48,7 +48,7 @@ function GraphLines () {
                                 width={100}
                                 height={100}
                                 src={"/logored.png"}></Image>
-                            <li className={styles.title1}><p><h1>3D Animation<span className={styles.title_brother}> Infographic Modeling</span></h1></p></li>
+                            <li className={styles.title1}><p><h1>Product Modeling<span className={styles.title_brother}> Hard Surface Modeling </span></h1></p></li>
                             <li className={styles.description_list_element}>
                                 <p>
                                     Details
@@ -99,58 +99,58 @@ function GraphLines () {
                             </li>
                             <li className={styles.title}>
                                 <h1>
-                                Geometry Nodes | Cycles | Timeline
+                                Geometry Nodes | Cycles | Client request
                                 </h1>
                                 <Image
                                     className={styles.mid_page_image}
-                                    alt="graphlines"
+                                    alt="vfk"
                                     height={1000}
                                     width={1000}
-                                    src={"/graphlinesv1.jpg"}>
+                                    src={"/vfk2.png"}>
 
                                 </Image>
-                            </li>
-
-                            <li className={styles.iphoneimages_list_item}>
-                            <div>
-                                    <Image
-                                    alt="graphlines"
-                                    width={300}
-                                    height={300}
-                                    src={"/graphlinesv2.jpg"}
-                                    className={styles.iphoneimages}>
-                                    </Image>
-                                </div>
-                                <div>
-                                    <Image
-                                    alt="graphlines"
-                                    width={300}
-                                    height={300}
-                                    src={"/graphlinesv3.jpg"}
-                                    className={styles.iphoneimages}>
-                                    </Image>
-                                </div>
-                                <div>
-                                    <Image
-                                    alt="graphlines"
-                                    width={300}
-                                    height={300}
-                                    src={"/graphlinesv4.jpg"}
-                                    className={styles.iphoneimages}>
-                                    </Image>
-                                </div>
-                            
                             </li>
                         </ol>
                         
                     </div>
+
+                    <li className={styles.vfkimages_list_item}>
+                            <div>
+                                    <Image
+                                    alt="vfk"
+                                    width={500}
+                                    height={500}
+                                    src={"/vfk3.png"}
+                                    className={styles.vfkimages}>
+                                    </Image>
+                                </div>
+                                <div>
+                                    <Image
+                                    alt="vfk"
+                                    width={500}
+                                    height={500}
+                                    src={"/vfk4.jpg"}
+                                    className={styles.vfkimages}>
+                                    </Image>
+                                </div>
+                                <div>
+                                    <Image
+                                    alt="vfk"
+                                    width={500}
+                                    height={500}
+                                    src={"/vfk5.jpg"}
+                                    className={styles.vfkimages}>
+                                    </Image>
+                                </div>
+                            
+                            </li>
 
                     <div className={styles.videosection}>
                     <li className={styles.video_list_element}>
                                         <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
                                             className={styles.video_tag}>
                                             <source
-                                                src={'/graphlines.mp4'}
+                                                src={'/vfkvideo.mp4'}
                                                 type={"video/mp4"}>
                                             </source>
                                         </video>
@@ -166,7 +166,7 @@ function GraphLines () {
                                 <h2>Details</h2>
                             </li>
                             <li className={styles.blog_part_paragraph}>
-                                <p>Infographics Modeling | Vectors | 3D</p>
+                                <p>Product Modeling | Vectors | 3D</p>
                             </li>
                         </ol>
                         <ol className={styles.blog_part}>
@@ -174,14 +174,14 @@ function GraphLines () {
                                 <h1>Cycles Render Engine</h1>
                             </li>
                             <li className={styles.blog_part_title2}>
-                                <h2><span> <p>Frame Count :</p><p>120</p></span></h2>
+                                <h2><span> <p>Frame Count :</p><p>5</p></span></h2>
                                 
                             </li>
                             <li className={styles.blog_part_paragraph}>
-                                <p>Frame Count is directly related to the price you will be paying for 3D renders. Each frame comes at it&apos;s own<span className={styles.darkened}>price</span>.</p>
+                                <p>2023-11-25</p>
                             </li>
                             <li className={styles.blog_part_paragraph}>
-                                <p>This project costs 145 <span className={styles.darkened}>frames</span></p>
+                                <p>Project<span className={styles.darkened}>closed</span></p>
                             </li>
                             
                         </ol>
@@ -201,4 +201,4 @@ function GraphLines () {
     )
 }
 
-export default GraphLines;
+export default PhoneCases;
