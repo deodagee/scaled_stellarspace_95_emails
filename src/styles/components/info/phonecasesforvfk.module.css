@@ -268,37 +268,28 @@
 }
 
 .vfkimages_list_item { 
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
     margin: 20px;
     gap: 10px;
     display: flex;
     flex-direction: column;
-}
-
-.vfkimages { 
-    max-width: max-content;
-    min-width: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 .videosection { 
+    width: 100vw;
     align-items: center;
     justify-content: center;
     display: flex;
-    background-color: white;
 }
 
 .video_tag { 
-    height: 300px;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    padding: 10px;
-    background-color: white;
+    max-width: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-color: rgb(106, 106, 106);
 }
-
-
 
 .bottom_link_list_element {
     display: flex;
