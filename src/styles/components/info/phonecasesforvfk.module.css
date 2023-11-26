@@ -276,6 +276,9 @@
     justify-content: center;
 }
 
+.vfkimages { 
+    max-width: 200px;
+}
 .videosection { 
     width: 100vw;
     align-items: center;
