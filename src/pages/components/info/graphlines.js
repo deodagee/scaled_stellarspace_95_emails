@@ -178,7 +178,7 @@ function GraphLines () {
                                 
                             </li>
                             <li className={styles.blog_part_paragraph}>
-                                <p>Frame Count is directly related to the price you will be paying for 3D renders. Ech frame comes at it&apos;s own<span className={styles.darkened}>price</span>.</p>
+                                <p>Frame Count is directly related to the price you will be paying for 3D renders. Each frame comes at it&apos;s own<span className={styles.darkened}>price</span>.</p>
                             </li>
                             <li className={styles.blog_part_paragraph}>
                                 <p>This project costs 145 <span className={styles.darkened}>frames</span></p>
