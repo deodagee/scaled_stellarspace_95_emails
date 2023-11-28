@@ -89,7 +89,7 @@ function ChatAppDetails() {
                                     alt="uidesign"
                                     height={1000}
                                     width={1000}
-                                    src={"/chatappgoogledesign3.png"}>
+                                    src={"/chatappgoogledesign3.jpg"}>
 
                                 </Image>
                             </li>
