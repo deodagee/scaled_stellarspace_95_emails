@@ -34,7 +34,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background-image: url("/graphlinesv2.png");
+    background-image: url("/vercelbg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -267,11 +267,19 @@
 
 }
 
-.iphoneimages_list_item { 
+.vfkimages_list_item { 
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
     margin: 20px;
     gap: 10px;
     display: flex;
     flex-direction: column;
+}
+
+.vfkimages { 
+    max-width: max-content;
+    min-width: 100px;
 }
 
 .videosection { 
