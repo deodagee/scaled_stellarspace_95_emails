@@ -215,6 +215,53 @@ function Projects() {
                                     </li>
                                 </ol>
 
+                                
+                                <ol className={styles.list2}>
+                                    <li className={styles.category}>
+                                        <h1>
+                                            Category: 3D Renders
+                                        </h1>
+                                    </li>
+
+                                    <span className={styles.description_list_element_wrapper}>
+
+                                        <li className={styles.description_list_element}>
+                                            <p> 3D Model Request</p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+
+                                            <p>Status:<span className={styles.description_list_element_right_side}> Viewable </span></p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Client: <span className={styles.description_list_element_right_side}> From Freelancer.com</span></p>
+                                        </li>
+                                    </span>
+
+                                    <li>
+                                        <span><Image
+                                            className={styles.projectimages}
+                                            alt=""
+                                            width={200}
+                                            height={200}
+                                            src={"/goldbanyan1.jpg"}></Image></span>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/info/banyantree'}>
+                                            <h1 className={styles.view_link_header}>View Project</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
+
 
                                 <ol className={styles.list2}>
                                     <li className={styles.category}>
@@ -260,6 +307,8 @@ function Projects() {
                                             src={"/forwardarrow.png"}></Image></span>
                                     </li>
                                 </ol>
+
+                                
 
                                 <ol className={styles.list2}>
                                     <li className={styles.category}>
