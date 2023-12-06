@@ -112,8 +112,20 @@ function Allstars () {
                             </li>
                         </ol>
                         
+                        
                     </div>
-
+                    <li className={styles.sideimage}>
+                            <div>
+                            <Image
+                                    className={styles.side_img}
+                                    alt="allstars"
+                                    height={500}
+                                    width={500}
+                                    src={"/allstars2.jpg"}>
+                                </Image>
+                                </div>
+                            
+                            </li>
 
 
 
