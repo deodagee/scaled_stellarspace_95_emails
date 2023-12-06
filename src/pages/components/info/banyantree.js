@@ -202,7 +202,7 @@ function BanyanTree () {
                         </ol>
                         <ol className={styles.blog_part}>
                             <li className={styles.blog_part_paragraph}>
-                                <p>2023-10-18</p>
+                                <p>2023-11-15</p>
                             </li>
                             <li className={styles.blog_part_paragraph}>
                                 <p>Project<span className={styles.darkened}>closed</span></p>
