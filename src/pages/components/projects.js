@@ -146,7 +146,7 @@ function Projects() {
                                         <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
                                             className={styles.video_tag}>
                                             <source
-                                                src={'/chatapp.mp4'}
+                                                src={'/chatapp480p.mp4'}
                                                 type={"video/mp4"}>
                                             </source>
                                         </video>
@@ -193,7 +193,7 @@ function Projects() {
                                         <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
                                             className={styles.video_tag}>
                                             <source
-                                                src={'/coffeepls.mp4'}
+                                                src={'/coffeepls480p.mp4'}
                                                 type={"video/mp4"}>
                                             </source>
                                         </video>
@@ -279,7 +279,7 @@ function Projects() {
                                         <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
                                             className={styles.video_tag}>
                                             <source
-                                                src={'/chocolatedopaminereel.mp4'}
+                                                src={'/chocolatedopaminereel480p.mp4'}
                                                 type={"video/mp4"}>
                                             </source>
                                         </video>
@@ -360,7 +360,7 @@ function Projects() {
                                         <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
                                             className={styles.video_tag}>
                                             <source
-                                                src={'/graphlines.mp4'}
+                                                src={'/graphlines480p.mp4'}
                                                 type={"video/mp4"}>
                                             </source>
                                         </video>
@@ -401,7 +401,7 @@ function Projects() {
                                         <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
                                             className={styles.video_tag}>
                                             <source
-                                                src={'/vfk1.mp4'}
+                                                src={'/vfkvideo480p.mp4'}
                                                 type={"video/mp4"}>
                                             </source>
                                         </video>
@@ -543,7 +543,7 @@ function Projects() {
                                         <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
                                             className={styles.video_tag}>
                                             <source
-                                                src={'/bottleblender.mp4'}
+                                                src={'/bottleblender480p.mp4'}
                                                 type={"video/mp4"}>
                                             </source>
                                         </video>
