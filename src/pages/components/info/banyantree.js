@@ -48,7 +48,7 @@ function BanyanTree () {
                                 width={100}
                                 height={100}
                                 src={"/logored.png"}></Image>
-                            <li className={styles.title1}><p><h1>Product Modeling<span className={styles.title_brother}> Logo Designing </span></h1></p></li>
+                            <li className={styles.title1}><p><h1>3D Modeling<span className={styles.title_brother}> Rendering </span></h1></p></li>
                             <li className={styles.description_list_element}>
                                 <p>
                                     Details
