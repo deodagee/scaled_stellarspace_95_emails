@@ -719,7 +719,7 @@ function Services() {
                                         width={30}
                                         height={25}></Image>
                                 </span>
-                                <span className={styles.list4_title}><h1><Link href={"/branding_service"}>Branding and Business</Link></h1></span>
+                                <span className={styles.list4_title}><h1>Branding and Business</h1></span>
                                 <span>
                                     <Image
                                         className={styles.branding_logo}
@@ -737,15 +737,12 @@ function Services() {
                                     </span>
                                     <span className={styles.arrow_and_link}><span
                                         className={styles.link}
-                                    ><Link
-                                        href={'/branding'}
-                                    ><p className={styles.see_more_link}>See More</p></Link></span><span><Link
-                                        href={'/branding'}><Image
+                                    ><p className={styles.see_more_link}>See More</p></span><span><Image
                                             className={styles.arrow2}
                                             alt=""
                                             width={15}
                                             height={15}
-                                            src={"/forwardarrow.png"}></Image></Link></span> </span>
+                                            src={"/forwardarrow.png"}></Image></span> </span>
                                 </span>
 
                             </li>
@@ -758,7 +755,7 @@ function Services() {
                                     height={25}></Image>
                             </span>
                                 <span className={styles.list4_title}>
-                                    <h1><Link href={"/front_end_back_end_service"}>Front End/Back End Dev</Link></h1></span>
+                                    <h1>Front End/Back End Dev</h1></span>
                                 <span>
                                     <Image
                                         className={styles.front_end_logo}
@@ -775,15 +772,12 @@ function Services() {
                                     </span>
                                     <span className={styles.arrow_and_link}><span
                                         className={styles.link}
-                                    ><Link
-                                        href={'/branding'}
-                                    ><p className={styles.see_more_link}>See More</p></Link></span><span><Link
-                                        href={'/branding'}><Image
+                                    ><p className={styles.see_more_link}>See More</p></span><span><Image
                                             className={styles.arrow2}
                                             alt=""
                                             width={15}
                                             height={15}
-                                            src={"/forwardarrow.png"}></Image></Link></span> </span>
+                                            src={"/forwardarrow.png"}></Image></span> </span>
                                 </span>
 
 
@@ -796,7 +790,7 @@ function Services() {
                                     width={30}
                                     height={25}></Image>
                             </span>
-                                <span className={styles.list4_title}><h1><Link href={'/ui_ux_service'}>Ui/Ux (User Interface/Experience)</Link></h1></span>
+                                <span className={styles.list4_title}><h1>Ui/Ux (User Interface/Experience)</h1></span>
                                 <span>
                                     <Image
                                         className={styles.uiux}
@@ -813,15 +807,12 @@ function Services() {
                                     </span>
                                     <span className={styles.arrow_and_link}><span
                                         className={styles.link}
-                                    ><Link
-                                        href={'/branding'}
-                                    ><p className={styles.see_more_link}>See More</p></Link></span><span><Link
-                                        href={'/branding'}><Image
+                                    ><p className={styles.see_more_link}>See More</p></span><span><Image
                                             className={styles.arrow2}
                                             alt=""
                                             width={15}
                                             height={15}
-                                            src={"/forwardarrow.png"}></Image></Link></span> </span>
+                                            src={"/forwardarrow.png"}></Image></span> </span>
                                 </span>
 
 
@@ -834,7 +825,7 @@ function Services() {
                                     width={30}
                                     height={25}></Image>
                             </span>
-                                <span className={styles.list4_title}><h1><Link href={"/modeling_service"}>Advanced 3D modeling</Link></h1></span>
+                                <span className={styles.list4_title}><h1>Advanced 3D modeling</h1></span>
                                 <span>
                                     <Image
                                         className={styles.modeling_logo}
@@ -851,15 +842,12 @@ function Services() {
                                     </span>
                                     <span className={styles.arrow_and_link}><span
                                         className={styles.link}
-                                    ><Link
-                                        href={'/branding'}
-                                    ><p className={styles.see_more_link}>See More</p></Link></span><span><Link
-                                        href={'/branding'}><Image
+                                    ><p className={styles.see_more_link}>See More</p></span><span><Image
                                             className={styles.arrow2}
                                             alt=""
                                             width={15}
                                             height={15}
-                                            src={"/forwardarrow.png"}></Image></Link></span> </span>
+                                            src={"/forwardarrow.png"}></Image></span> </span>
                                 </span>
 
 
@@ -872,7 +860,7 @@ function Services() {
                                     width={30}
                                     height={25}></Image>
                             </span>
-                                <span className={styles.list4_title}><h1><Link href={"/audio_service"}>Audio | Coprights | Mixing | Mastering</Link></h1></span>
+                                <span className={styles.list4_title}><h1>Audio | Coprights | Mixing | Mastering</h1></span>
                                 <span>
                                     <Image
                                         className={styles.audio_logo}
@@ -888,20 +876,17 @@ function Services() {
                                             Composing is the creative process of crafting original music or soundtracks for various media, enhancing storytelling through melodies and arrangements.
                                             Mixing is the technical and artistic blending of audio tracks to create a polished and balanced sound.
                                             Mastering is the final step in audio production, optimizing sound quality and ensuring consistency for distribution on different platforms.
-                                            Note: You can negotiate copyright credits with me on any project, I aim to be fair, not to take your credits. This is a privilege I offer all my clients, you are free to choose to take all credits under your name for a higher fee, or choose to split royalties with me. Prices disclosed at the <Link href={"/audiopricing.js"}>Audio Pricing</Link> Page.
+                                            Note: You can negotiate copyright credits with me on any project, I aim to be fair, not to take your credits. This is a privilege I offer all my clients, you are free to choose to take all credits under your name for a higher fee, or choose to split royalties with me. Prices disclosed at the Audio Pricing Page.
                                         </p>
                                     </span>
                                     <span className={styles.arrow_and_link}><span
                                         className={styles.link}
-                                    ><Link
-                                        href={'/branding'}
-                                    ><p className={styles.see_more_link}>See More</p></Link></span><span><Link
-                                        href={'/branding'}><Image
+                                    ><p className={styles.see_more_link}>See More</p></span><span><Image
                                             className={styles.arrow2}
                                             alt=""
                                             width={15}
                                             height={15}
-                                            src={"/forwardarrow.png"}></Image></Link></span> </span>
+                                            src={"/forwardarrow.png"}></Image></span> </span>
                                 </span>
 
 
@@ -915,7 +900,7 @@ function Services() {
                                     width={30}
                                     height={25}></Image>
                             </span>
-                                <span className={styles.list4_title}><h1><Link href={"/video_editing_service"}>Video Compositing | Editing</Link></h1></span>
+                                <span className={styles.list4_title}><h1>Video Compositing | Editing</h1></span>
                                 <span>
                                     <Image
                                         className={styles.sony_alpha_logo}
@@ -931,15 +916,12 @@ function Services() {
                                     </span>
                                     <span className={styles.arrow_and_link}><span
                                         className={styles.link}
-                                    ><Link
-                                        href={'/branding'}
-                                    ><p className={styles.see_more_link}>See More</p></Link></span><span><Link
-                                        href={'/branding'}><Image
+                                    ><p className={styles.see_more_link}>See More</p></span><span><Image
                                             className={styles.arrow2}
                                             alt=""
                                             width={15}
                                             height={15}
-                                            src={"/forwardarrow.png"}></Image></Link></span> </span>
+                                            src={"/forwardarrow.png"}></Image></span> </span>
                                 </span>
                             </li>
                         </ol>
