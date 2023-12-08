@@ -118,8 +118,9 @@ function Projects() {
                                     </Link>
                                 </li>
                             </ol>
-                            <div className={styles.scroll_id}>
-                                <h1>Scroll To View More</h1>
+                            <div style={{ width: 198.94, height: 25.34, paddingLeft: 8, paddingRight: 8, paddingTop: 4, paddingBottom: 4, background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.05) 100%)', boxShadow: '0px 30px 60px rgba(0, 0, 0, 0.50)', borderRadius: 8, border: '1px white solid', position:'relative', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex' }}>
+
+                                <div style={{ position:'center', display:'inline-flex', alignItems:'center', justifyContent:'center',  fontSize: 10, fontFamily: 'arial', fontWeight: '300', color:'white', wordWrap: 'break-word' }}>Scroll To The Right To View More</div>
                             </div>
 
                             <div style={categoriesWrapperStyles}>
@@ -215,7 +216,7 @@ function Projects() {
                                     </li>
                                 </ol>
 
-                                
+
                                 <ol className={styles.list2}>
                                     <li className={styles.category}>
                                         <h1>
@@ -308,7 +309,7 @@ function Projects() {
                                     </li>
                                 </ol>
 
-                                
+
 
                                 <ol className={styles.list2}>
                                     <li className={styles.category}>
