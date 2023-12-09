@@ -220,6 +220,51 @@ function Projects() {
                                 <ol className={styles.list2}>
                                     <li className={styles.category}>
                                         <h1>
+                                            Category: Ui/Ux
+                                        </h1>
+                                    </li>
+
+                                    <span className={styles.description_list_element_wrapper}>
+                                        <li className={styles.description_list_element}>
+                                            <p>Figma Templates</p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Link: <Link className={styles.description_list_element_right_side} href={"https://www.figma.com/community/file/1315109983225451896/dashboard-design-free-to-use-https-astrumstellar-com"}>Figma Template By Deo Singiza</Link></p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Client: <span className={styles.description_list_element_right_side}>Public</span></p>
+                                        </li>
+                                    </span>
+
+                                    <li>
+                                        <span><Image
+                                            className={styles.projectimages}
+                                            alt=""
+                                            width={300}
+                                            height={300}
+                                            src={"/figmadashboard.png"}></Image></span>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/info/figmadashboardui'}>
+                                            <h1 className={styles.view_link_header}>View Ui Details</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
+
+
+                                <ol className={styles.list2}>
+                                    <li className={styles.category}>
+                                        <h1>
                                             Category: 3D Renders
                                         </h1>
                                     </li>
@@ -711,46 +756,6 @@ function Projects() {
 
 
 
-
-                                <ol className={styles.list2}>
-                                    <li className={styles.category}>
-                                        <h1>
-                                            Category: N/A
-                                        </h1>
-                                    </li>
-
-                                    <span className={styles.description_list_element_wrapper}>
-                                        <li className={styles.description_list_element}>
-
-                                            <p>Status:<span className={styles.description_list_element_right_side}> Not Availabe Yet</span></p>
-                                        </li>
-                                    </span>
-
-                                    <li className={styles.video_list_element}>
-                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
-                                            className={styles.video_tag}>
-                                            <source
-                                                src={'/logopaperwhite.mp4'}
-                                                type={"video/mp4"}>
-                                            </source>
-                                        </video>
-                                    </li>
-                                    <li>
-                                        <Link
-                                            className={styles.view_link}
-                                            href={'/'}>
-                                            <h1 className={styles.view_link_header}>N/A</h1>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <span><Image
-                                            className={styles.arrow}
-                                            alt=""
-                                            width={15}
-                                            height={15}
-                                            src={"/forwardarrow.png"}></Image></span>
-                                    </li>
-                                </ol>
 
 
                                 <ol className={styles.list2}>
