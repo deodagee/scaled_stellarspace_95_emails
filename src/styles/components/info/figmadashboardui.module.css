@@ -258,13 +258,18 @@
 .mid_page_image {
     margin: 5px;
     position: relative;
-    width: 70vw;
+    width: 30vw;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 0.96rem;
     box-shadow: rgb(53, 53, 53) 0px 0px 3px;
+    transition: 0.3s;
+}
 
+.mid_page_image:hover {
+width: 31vw;
+transition: 0.3s;
 }
 
 .sideimage { 
