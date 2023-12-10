@@ -261,6 +261,48 @@ function Projects() {
                                     </li>
                                 </ol>
 
+                                <ol className={styles.list2}>
+                                    <li className={styles.category}>
+                                        <h1>
+                                            Category: 3D Renders
+                                        </h1>
+                                    </li>
+
+                                    <span className={styles.description_list_element_wrapper}>
+                                        <li className={styles.description_list_element}>
+                                            <p>Perfume Bottle Design For Aura</p>
+                                        </li>
+                                        <li className={styles.description_list_element}>
+                                            <p>Client: <span className={styles.description_list_element_right_side}>Aura</span></p>
+                                        </li>
+                                    </span>
+
+                                    <li className={styles.video_list_element}>
+                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
+                                            className={styles.video_tag}>
+                                            <source
+                                                src={'/perfumeforaura.mp4'}
+                                                type={"video/mp4"}>
+                                            </source>
+                                        </video>
+                                    </li>
+                                    <li>
+                                        <Link
+                                            className={styles.view_link}
+                                            href={'/info/perfumeforaura'}>
+                                            <h1 className={styles.view_link_header}>View Project</h1>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <span><Image
+                                            className={styles.arrow}
+                                            alt=""
+                                            width={15}
+                                            height={15}
+                                            src={"/forwardarrow.png"}></Image></span>
+                                    </li>
+                                </ol>
+
 
                                 <ol className={styles.list2}>
                                     <li className={styles.category}>
