@@ -104,8 +104,8 @@ function FigmaDashboardUi () {
                                 <Image
                                     className={styles.mid_page_image}
                                     alt="figmadashboardui"
-                                    height={1000}
-                                    width={1000}
+                                    height={600}
+                                    width={600}
                                     src={"/figmadashboard.png"}>
 
                                 </Image>
