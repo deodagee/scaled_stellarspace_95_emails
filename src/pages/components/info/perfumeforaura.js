@@ -1,161 +1,426 @@
-import React from "react";
-import Link from "next/link";
-import styles from "../../../styles/components/info/perfumeforaura.module.css"
-import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
-import PerfumeForAuraPage from "../../info/perfumeforaura";
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 
 
-
-function PerfumeForAura() {
-
-    
-    const [videoLoaded, setvideoLoaded] = useState(false);
-    const handleVideoLoad = () => {
-        setvideoLoaded(true);
-    };
-
-
-    const videoRef = useRef(null);
-
-    useEffect(() => {
-        const video = videoRef.current;
-
-        if (video) {
-            video.play().catch(error => {
-                // Handle autoplay error (e.g., user interaction required)
-                console.error('Autoplay error:', error);
-            });
-        }
-    }, []);
-
-
-    useEffect(() => {
-        document.body.style.overflowX = 'hidden';
-    
-        return () => {
-          document.body.style.overflowX = ''; 
-        };
-      }, []);
-    return (
-
-        <>
-            <div className={styles.projects_page_whole}>
-                <div className={styles.projects_page_wrapper}>
-
-
-                    <div className={styles.list_div}>
-                        <ol className={styles.title_and_title_description}>
-                            <Image
-                                className={styles.logored}
-                                alt=""
-                                width={100}
-                                height={100}
-                                src={"/logored.png"}></Image>
-                            <li className={styles.title1}><p><h1>Pays De Poésie Parfumée<span className={styles.title_brother}> 3D Render</span></h1></p></li>
-                            <li className={styles.description_list_element}>
-                                <p>
-                                    Details And Specs
-                                </p>
-                            </li>
-
-                            <li className={styles.buttons_list_element}>
-                                <button className={styles.contact_button}><Link href={"/contact"}>Contact Page</Link></button>
-                                <button className={styles.see_more_button}><Link href={"/"}>Home Page</Link></button>
-                            </li>
-                        </ol>
-                    </div>
-
-
-
-                    <div className={styles.categories_wrapper}>
-                        <ol className={styles.list2}>
-                            <li className={styles.titles_group}>
-                                <span>
-                                    <Image
-                                        className={styles.chevron}
-                                        alt="chevron"
-                                        src={'/chevron.png'}
-                                        width={100}
-                                        height={100}
-                                    ></Image>
-                                    <h1>Site Info</h1>
-                                </span>
-                                <span>
-                                    <Image
-                                        className={styles.chevron}
-                                        alt="chevron"
-                                        src={'/chevron.png'}
-                                        width={100}
-                                        height={100}
-                                    ></Image>
-                                    <h2>Developer Info</h2>
-                                </span>
-                                <span>
-                                    <Image
-                                        className={styles.chevron}
-                                        alt="chevron"
-                                        src={'/chevron.png'}
-                                        width={100}
-                                        height={100}
-                                    ></Image>
-                                    <p>Github</p>
-                                </span>
-
-                            </li>
-                            <li className={styles.title}>
-                                <h1>
-                                    Real Time Chat App | Login Features | Add A Friend | Decline And Accept Requests | Chat Live
-                                </h1>
-                                <li className={styles.video_list_element}>
-                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
-                                            className={styles.video_tag}>
-                                            <source
-                                                src={'/perfumeforaura.mp4'}
-                                                type={"video/mp4"}>
-                                            </source>
-                                        </video>
-                                    </li>
-                                    <li className={styles.video_list_element}>
-                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
-                                            className={styles.video_tag}>
-                                            <source
-                                                src={'/perfume2stills.mp4'}
-                                                type={"video/mp4"}>
-                                            </source>
-                                        </video>
-                                    </li>
-                                    <li className={styles.video_list_element}>
-                                        <video ref={videoRef} autoPlay loop muted playsInline onLoad={handleVideoLoad}
-                                            className={styles.video_tag}>
-                                            <source
-                                                src={'/perfumeprocess480p.mp4'}
-                                                type={"video/mp4"}>
-                                            </source>
-                                        </video>
-                                    </li>
-                            </li>
-                            
-
-                        </ol>
-                        
-                    </div>
-
-
-
-                    <li className={styles.bottom_link_list_element}>
-                        <Link
-                            className={styles.bottom_link}
-                            href={"https://www.cycles-renderer.org/"}>
-                            <p>Made With The Cycles Render Engine</p>
-
-                        </Link>
-                    </li>
-                </div>
-            </div>
-
-        </>
-    )
+.projects_page_whole ol {
+    list-style: none;
 }
 
-export default PerfumeForAura;
+.projects_page_whole {
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    background-color: rgb(20, 20, 20);
+
+}
+
+.projects_page_wrapper {
+    margin: 0;
+    box-sizing: content-box;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.list_div {
+    margin-top: 100px;
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-image: url("/logogreythreed.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.title_and_title_description {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.logored {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: white 0px 0px 4px;
+    transition: 0.5s;
+    margin-bottom: 10px;
+    transform: scale(0.7);
+}
+
+.logored:hover {
+    transition: 0.5s;
+    transform: scale(0.75);
+}
+
+
+.title1 {
+    display: flex;
+    flex-direction: row;
+    color: rgb(226, 226, 226);
+    font-size: 20px;
+    font-family: Teko, sans-serif;
+    font-weight: 900;
+}
+
+.title_brother {
+    color: orange;
+}
+
+
+.description_list_element {
+    text-align: center;
+    width: 160px;
+    font-size: 9px;
+    color: rgb(0, 225, 192);
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.buttons_list_element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    grid-auto-flow: dense;
+    margin: 20px;
+}
+
+
+
+.contact_button {
+    background-color: rgb(90, 96, 255);
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0.15rem;
+    box-shadow: white 0px 0px 2px;
+    color: white;
+    transition: 0.4s;
+}
+
+.contact_button:hover {
+    transition: 0.4s;
+    background-color: rgba(90, 96, 255, 0.714);
+}
+
+
+
+.see_more_button {
+    background: linear-gradient(to top, rgb(52, 52, 52), rgb(50, 50, 50), rgb(49, 49, 49));
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0.15rem;
+    box-shadow: white 0px 0px 2px;
+    color: white;
+    transition: 0.4s;
+}
+
+.see_more_button:hover {
+    background: linear-gradient(to top, rgba(52, 52, 52, 0.62), rgba(50, 50, 50, 0.541), rgba(49, 49, 49, 0.562));
+    transition: 0.4s;
+}
+
+
+.categories_wrapper {
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: dense;
+    gap: 10px;
+    margin: 0;
+}
+
+.list2 {
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    height: max-content;
+    box-shadow: rgba(253, 253, 253, 0.174) 0px 0px 4px;
+    transition: 0.4s;
+    width: 100vw;
+    padding: 50px;
+}
+
+.list2:hover {
+    background-color: rgba(54, 54, 54, 0);
+    transition: 0.4s;
+    box-shadow: rgba(224, 224, 224, 0.54) 0px 0px 5px;
+}
+
+.titles_group {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.titles_group span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.chevron {
+    display: flex;
+    margin: 5px;
+    width: 5px;
+    height: 8px;
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+.titles_group h1 {
+    font-family: 'Bruno Ace SC', sans-serif;
+    color: rgb(0, 206, 141);
+    transition: 0.5s;
+    width: 150px;
+}
+
+.titles_group h2 {
+    font-family: 'Bruno Ace SC', sans-serif;
+    color: rgb(79, 79, 79);
+    transition: 0.5s;
+    width: 150px;
+}
+
+.titles_group p {
+    font-family: 'Bruno Ace SC', sans-serif;
+    color: rgb(128, 128, 128);
+    transition: 0.5s;
+    width: 150px;
+}
+
+.titles_group h1:hover,
+.titles_group h2:hover,
+.titles_group p:hover {
+    color: white;
+    transition: 0.5s;
+
+}
+
+
+.title {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 100vw;
+}
+
+.title h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    background-color: rgb(22, 32, 45);
+    font-size: 10px;
+    width: 70vw;
+    padding: 5px;
+    color: rgb(230, 230, 230);
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0.55rem;
+
+}
+
+.video_list_element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    margin: 10px;
+    padding: 0px;
+}
+
+.mid_page_image {
+    margin: 5px;
+    position: relative;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.96rem;
+    box-shadow: rgb(53, 53, 53) 0px 0px 3px;
+
+}
+
+.sideimages_list_item { 
+    margin: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.perfumeimage { 
+    width: 200px;
+}
+
+.bottom_link_list_element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.bottom_link {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    background-color: rgba(225, 146, 0, 0.851);
+    display: flex;
+    gap: 5px;
+    padding: 20px;
+    white-space: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    transition: 0.5s;
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+}
+
+.bottom_link:hover {
+    background-color: rgb(255, 166, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    transition: 0.5s;
+    box-shadow: white 0px 0px 4px;
+}
+
+
+.blog_part { 
+    background-color: rgb(238, 238, 238);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    grid-area: 5px;
+}
+
+.blog_part_title { 
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: 'Bruno Ace SC', sans-serif;
+    font-size: 20px;
+    color: rgb(15, 15, 15);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+.blog_part_title2 { 
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: 'Bruno Ace SC', sans-serif;
+    font-size: 13px;
+    color: rgb(225, 157, 0);
+    margin-left: 20px;
+}
+
+.blog_part_paragraph { 
+    display: flex;
+    align-items: center;
+    justify-content: start;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #5d4a00 ;
+    margin-left: 20px;
+    margin: 30px;
+    margin-top: 5px;
+    text-align: left;
+
+}
+
+.darkened { 
+    background-color: rgb(198, 198, 198) ;
+    padding: 1px;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 0.45rem;
+    color: rgb(12, 12, 12);
+    margin-left: 2px;
+    margin-right: 2px;
+}
+@media (min-width: 200px) and (max-width: 700px) and (orientation: portrait) {
+    .list2 {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .blog_part_title { 
+        font-size: 20px;
+
+    }
+
+    .blog_part_title2 { 
+    font-size: 15px;
+    } 
+    .blog_part_paragraph { 
+        font-size: 10px;
+    }
+
+    .darkened { 
+        white-space: nowrap;
+        font-size: 9px;
+
+
+    } 
+}
+
+
+@media (min-width: 200px) and (max-width: 800px) and (orientation: landscape) {
+    .list2 {
+        flex-direction: column;
+        gap: 0;
+
+    }
+
+    .blog_part_paragraph { 
+        font-size: 9px;
+
+    }
+
+    .darkened { 
+        font-size: 8px;
+
+
+    } 
+}
